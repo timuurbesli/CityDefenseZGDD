@@ -43,9 +43,12 @@ jobs:
     - name: Create custom CSS styling
       run: |
         cat > custom-styles.css << 'EOF'
+        /* Import Lexend font from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
+        
         /* Custom CSS for Game Design Document */
         body {
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-family: 'Lexend', 'Segoe UI', system-ui, -apple-system, sans-serif;
           line-height: 1.6;
           max-width: 800px;
           margin: 0 auto;
@@ -260,7 +263,7 @@ jobs:
             --highlight-style=pygments \
             --reference-links \
             --wrap=auto \
-            --variable mainfont="Calibri" \
+            --variable mainfont="Lexend" \
             --variable fontsize=11pt
         }
         
@@ -288,7 +291,7 @@ jobs:
           - bottom=1in
           - left=1.2in
           - right=1in
-        fontfamily: charter
+        fontfamily: lexend
         fontsize: 11pt
         linestretch: 1.2
         numbersections: true

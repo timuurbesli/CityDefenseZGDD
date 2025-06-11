@@ -376,7 +376,7 @@ A complex resource management system where players must balance immediate base n
 - **Resource Allocation:** Forces meaningful choices about expedition investment
 - **Narrative Immersion:** Dialogue system creates personality and world-building
 - **Loss Aversion:** Permanent NPC death creates genuine tension and stakes
-
+ 
 **Strategic Boost Management System:**
 A multi-layered tactical system that combines real-time collection pressure with strategic deployment decisions, creating constant tactical engagement during combat phases:
 
