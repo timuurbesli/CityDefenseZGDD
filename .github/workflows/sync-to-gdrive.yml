@@ -27,19 +27,22 @@ jobs:
 
     - name: Install Lexend font
       run: |
-        # Create fonts directory
-        mkdir -p ~/.fonts
+        # Create system font directory
+        sudo mkdir -p /usr/share/fonts/truetype/lexend
         
-        # Download Lexend fonts using curl
-        curl -L "https://github.com/googlefonts/lexend/raw/main/fonts/ttf/Lexend-Regular.ttf" -o ~/.fonts/Lexend-Regular.ttf
-        curl -L "https://github.com/googlefonts/lexend/raw/main/fonts/ttf/Lexend-Medium.ttf" -o ~/.fonts/Lexend-Medium.ttf
-        curl -L "https://github.com/googlefonts/lexend/raw/main/fonts/ttf/Lexend-Bold.ttf" -o ~/.fonts/Lexend-Bold.ttf
+        # Download and install fonts with proper permissions
+        sudo curl -L "https://github.com/googlefonts/lexend/raw/main/fonts/ttf/Lexend-Regular.ttf" -o /usr/share/fonts/truetype/lexend/Lexend-Regular.ttf
+        sudo curl -L "https://github.com/googlefonts/lexend/raw/main/fonts/ttf/Lexend-Medium.ttf" -o /usr/share/fonts/truetype/lexend/Lexend-Medium.ttf
+        sudo curl -L "https://github.com/googlefonts/lexend/raw/main/fonts/ttf/Lexend-Bold.ttf" -o /usr/share/fonts/truetype/lexend/Lexend-Bold.ttf
         
-        # Rebuild font cache
-        fc-cache -f -v
+        # Set proper permissions
+        sudo chmod 644 /usr/share/fonts/truetype/lexend/*.ttf
+        
+        # Rebuild font cache with sudo
+        sudo fc-cache -f -v
         
         # List installed fonts to verify
-        fc-list | grep -i lexend
+        fc-list | grep -i lexend || true  # Continue even if grep finds nothing
         
     - name: Install dependencies
       run: |
