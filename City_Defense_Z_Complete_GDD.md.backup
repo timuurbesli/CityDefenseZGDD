@@ -28,7 +28,6 @@
 ### 1.2 Target Audience
 
 **Primary Audience:** Strategy and tower defense enthusiasts aged 18-35
-
 - Players who enjoy games like Bloons TD, Plants vs. Zombies, Age of War
 
 - Fans of merge mechanics from games like Merge Dragons, Triple Town
@@ -36,7 +35,6 @@
 - Rogue-lite enthusiasts who appreciate Risk of Rain, FTL, Dead Cells
 
 **Secondary Audience:** Casual mobile gamers seeking deeper strategic gameplay
-
 - Players transitioning from simple merge games to more complex strategy
 
 - Zombie apocalypse theme enthusiasts
@@ -44,7 +42,6 @@
 - Players seeking games with meaningful progression systems
 
 **Platform Considerations:** 
-
 - **Primary Platform:** PC (Steam)
 
 - **Secondary Platform:** Mobile (iOS/Android) - with adapted touch controls
@@ -54,7 +51,6 @@
 ### 1.3 Platform & Technical Requirements
 
 **Minimum System Requirements (PC):**
-
 - OS: Windows 10 64-bit / macOS 10.14 / Ubuntu 18.04
 
 - Processor: Intel i3-6100 / AMD FX-6300 equivalent
@@ -68,7 +64,6 @@
 - Network: Internet connection for cloud saves (optional)
 
 **Recommended System Requirements (PC):**
-
 - OS: Windows 11 64-bit / macOS 12.0 / Ubuntu 20.04+
 
 - Processor: Intel i5-8400 / AMD Ryzen 5 2600 equivalent
@@ -80,7 +75,6 @@
 - Storage: 4 GB available space (SSD recommended)
 
 **Mobile Requirements:**
-
 - iOS: iPhone 8 / iOS 14.0 or later
 
 - Android: Android 8.0 (API level 26) / 3GB RAM minimum
@@ -96,7 +90,6 @@
 4. **Contextual Boost System:** Strategic consumable management with targeted AoE deployment
 
 **Core Features:**
-
 - **Card-Based Building System:** 6 unique building types with merge evolution paths
 
 - **Multi-Resource Economy:** 5 interconnected resource types (Resource, Ammunition, Research Points, Food, Population)
@@ -110,7 +103,6 @@
 - **Dynamic Combat:** 5 basic zombie types + 4 boss variants with unique mechanics
 
 **Competitive Advantages:**
-
 - Deeper strategic depth than traditional merge games
 
 - More accessible than complex 4X strategy games
@@ -122,7 +114,6 @@
 ### 1.5 Development Scope
 
 **Development Timeline & History:**
-
 - **Initial Development:** November 2023 - March 2024 (4 months)
 
   - Core card-based building system implemented
@@ -144,7 +135,6 @@
 - **Target Release:** September 2025
 
 **Current Development Status:**
-
 - **Core Systems:** ✅ Completed (first demo validated)
 
 - **Art & Audio:** 🔄 In progress (refinement phase)
@@ -156,7 +146,6 @@
 - **Testing & QA:** 📅 July-August 2025
 
 **Current Development Team:**
-
 - **Core Development Team:**
 
   - **Ercan Karadaş** - Game Developer
@@ -188,7 +177,6 @@
 **Total Team Size:** 7 members (5 full-time core + 2 part-time leadership)
 
 **Development Advantages:**
-
 - **Proven Core Mechanics:** First demo validated player interest and core gameplay loop
 
 - **Market Feedback:** Steam demo provided real player data and feedback
@@ -198,7 +186,6 @@
 - **Risk Reduction:** Returning to validated concept minimizes development risk
 
 **Strategic Advantages:**
-
 - **Established Community:** Steam demo created early adopter base
 
 - **Proven Concept:** Market validation reduces launch risk
@@ -216,7 +203,6 @@
 **City Defense Z** represents a bold fusion of strategic genres, combining the addictive merge mechanics of puzzle games with the tactical depth of tower defense and the progression satisfaction of rogue-lite games. Our vision is to create a game that offers both immediate tactical gratification and long-term strategic planning.
 
 **Design Philosophy:**
-
 - **"Easy to Learn, Hard to Master":** Simple card placement mechanics that evolve into complex strategic decisions
 
 - **"Every Decision Matters":** From building placement to resource allocation, each choice impacts survival
@@ -236,7 +222,6 @@ Players should feel the tension of resource scarcity, the satisfaction of succes
 **Key Inspirations:**
 
 **Tower Defense Foundation:**
-
 - **Plants vs. Zombies** - Accessible tower defense with personality and theme
 
 - **Bloons TD 6** - Deep upgrade systems and varied enemy types
@@ -244,7 +229,6 @@ Players should feel the tension of resource scarcity, the satisfaction of succes
 - **Kingdom Rush** - Polish, balance, and strategic depth
 
 **Merge Mechanics:**
-
 - **Triple Town** - Spatial puzzle elements with merge mechanics
 
 - **Merge Dragons** - Chain reactions and strategic placement
@@ -252,7 +236,6 @@ Players should feel the tension of resource scarcity, the satisfaction of succes
 - **2048** - Simple rules creating complex strategy
 
 **Rogue-lite Progression:**
-
 - **FTL: Faster Than Light** - Meaningful permanent upgrades between runs
 
 - **Risk of Rain 2** - Temporary power-ups affecting immediate gameplay
@@ -260,7 +243,6 @@ Players should feel the tension of resource scarcity, the satisfaction of succes
 - **Dead Cells** - Persistent progression enhancing future runs
 
 **Base Building & NPCs:**
-
 - **Fallout Shelter** - Living base with character personalities
 
 - **This War of Mine** - Survival resource management with character stories
@@ -273,7 +255,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 ### 2.3 Unique Selling Points
 
 **1. Hybrid Merge-Defense Gameplay**
-
 - First game to combine 3-match merge mechanics with wave-based tower defense
 
 - Creates unique spatial puzzle layer during preparation phases
@@ -281,7 +262,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 - Strategic placement decisions affect both immediate and long-term survival
 
 **2. Living Base Ecosystem**
-
 - NPCs with persistent personalities, dialogue, and relationships
 
 - Base physically evolves and grows with player progression
@@ -289,7 +269,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 - Character-driven narrative in a typically mechanics-focused genre
 
 **3. Dynamic Real-Time Threats**
-
 - Zombie holes create emergent tactical challenges during combat
 
 - Requires immediate player response, breaking traditional tower defense passivity
@@ -297,7 +276,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 - Adds skill-based interaction to strategy gameplay
 
 **4. Strategic Boost Management**
-
 - Consumable power-ups with targeted AoE deployment
 
 - Adds tactical timing layer to combat encounters
@@ -305,7 +283,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 - Creates resource management decisions during intense moments
 
 **5. Strategic Path Manipulation**
-
 - Zombie vision system (5x5 grid) enables custom defensive pathway creation
 
 - Players can design their own tower defense routes through strategic wall placement
@@ -313,7 +290,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 - Wall durability system creates permanent consequences for defensive failures
 
 **6. Comprehensive Meta Progression**
-
 - 11 major upgrade trees with 40+ improvements
 
 - Meaningful customization affecting gameplay style
@@ -323,7 +299,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 ### 2.4 Player Experience Goals
 
 **Moment-to-moment Experience:**
-
 - **Time Pressure:** Day/night cycle creates urgency for strategic decisions
 
 - **Tactical Tension:** Constant evaluation of threats and resource allocation
@@ -335,7 +310,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 - **Resource Optimization:** Balancing immediate needs with long-term planning
 
 **Session-level Experience:**
-
 - **Progression Satisfaction:** Each run provides meaningful advancement
 
 - **Strategic Mastery:** Players develop better techniques and timing
@@ -347,7 +321,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 - **Goal-Oriented Gameplay:** Each map has specific survival targets and story resolution
 
 **Long-term Experience:**
-
 - **Mastery Development:** Deep understanding of merge combinations and timing
 
 - **Base Customization:** Persistent upgrades create unique playstyles
@@ -363,7 +336,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 4. **Expression Phase:** Personalizing base and exploring different approaches
 
 **Target Session Length:**
-
 - **Individual Runs:** 45-90 minutes
 
 - **Base Management:** 10-15 minutes between runs
@@ -373,7 +345,6 @@ City Defense Z stands apart by being the first game to successfully merge these 
 - **Long-term Engagement:** 50+ hours across multiple months
 
 **Accessibility Goals:**
-
 - **Visual Clarity:** Clear visual language for all systems and mechanics
 
 - **Intuitive Controls:** Simple input methods for complex strategic decisions
@@ -412,7 +383,6 @@ This creates meaningful tension where poor time management leaves defenses incom
 City Defense Z elevates the tower defense genre through story-driven objectives that give meaning to survival. Each of the 4 unique maps presents a compelling scenario delivered through authentic walkie-talkie communications:
 
 **Map Progression Structure:**
-
 - **Map 1: Emergency Evacuation** (50-day survival goal)
 
   - *Opening:* "Hey captain, we had to quickly establish a base here due to circumstances. We have to repair our planes to leave, but it will take 50 days."
@@ -440,7 +410,6 @@ City Defense Z elevates the tower defense genre through story-driven objectives 
   - Final narrative climax and ultimate challenge
 
 **Narrative Design Benefits:**
-
 - **Clear Objectives:** Players understand exactly why they're defending and for how long
 
 - **Emotional Investment:** Story context makes survival feel meaningful rather than arbitrary
@@ -457,7 +426,6 @@ City Defense Z elevates the tower defense genre through story-driven objectives 
 Every 3 days, players face a critical strategic decision that affects both immediate survival and long-term progression. This system creates regular decision points that maintain engagement and force strategic thinking:
 
 **Offering Mechanics:**
-
 - **Timing:** Automatically triggered every 3 days
 
 - **Presentation:** 3 randomly generated reward options
@@ -486,7 +454,6 @@ Players must constantly evaluate their current situation against future needs:
   - Build toward more powerful upgrade trees
 
 **Design Benefits:**
-
 - **Regular Engagement:** Every 3 days provides a meaningful decision point
 
 - **Strategic Depth:** Forces evaluation of short-term vs long-term benefits
@@ -503,7 +470,6 @@ Players must constantly evaluate their current situation against future needs:
 City Defense Z creates emotional investment through a dynamic NPC system that transforms the base from a mechanical structure into a living community. Players make meaningful choices about their companions and must manage both relationships and resources.
 
 **NPC Selection & Base Customization:**
-
 - **Recruitment Events:** On specific days (e.g. day 5), two NPCs approach the base
 
 - **Meaningful Choice:** Players must choose only one NPC per encounter via UI popup
@@ -521,7 +487,6 @@ City Defense Z creates emotional investment through a dynamic NPC system that tr
   - **Guerrilla:** Excellent expedition survival rate and loot chances
 
 **Living Base Interaction:**
-
 - **Physical Presence:** NPCs visibly walk around and interact within the base
 
 - **Personality System:** Each NPC has 6 unique voice-acted dialogue lines
@@ -536,7 +501,6 @@ City Defense Z creates emotional investment through a dynamic NPC system that tr
 A complex resource management system where players must balance immediate base needs with potential rewards:
  
 **Expedition Structure:**
-
 - **Small Expeditions:** 2 days, low reward, high survival rate
 
 - **Medium Expeditions:** 4 days, medium reward, medium survival rate (unlockable)
@@ -546,7 +510,6 @@ A complex resource management system where players must balance immediate base n
 - **Progression Gating:** Medium/Large expeditions unlocked via Research Point investment
 
 **Strategic Decision Framework:**
-
 - **Solo Expeditions:** Higher risk, but allows multiple simultaneous rewards
 
 - **Group Expeditions:** Lower individual risk, but single reward and higher resource cost
@@ -560,7 +523,6 @@ A complex resource management system where players must balance immediate base n
 **Expedition Rewards:** Food, Resource, Ammunition, Research Points
 
 **Design Psychology Benefits:**
-
 - **Emotional Investment:** Players care about NPC survival beyond mechanical benefits
 
 - **Customization Satisfaction:** Each player builds a unique base community
@@ -577,7 +539,6 @@ A complex resource management system where players must balance immediate base n
 A multi-layered tactical system that combines real-time collection pressure with strategic deployment decisions, creating constant tactical engagement during combat phases:
 
 **Boost Collection Mechanics:**
-
 - **Time Pressure:** Zombies drop boosts that disappear in 5 seconds if not collected
 
 - **Quick Decision Making:** Players must rapidly assess boost value vs combat focus
@@ -585,7 +546,6 @@ A multi-layered tactical system that combines real-time collection pressure with
 - **Risk Assessment:** Collecting boosts may require exposing troops or shifting attention
 
 **Boost Types & Duration:**
-
 - **Damage Boost (30s):** +50% soldier damage output
 
 - **Fire Rate Boost (20s):** +35% soldier attack speed  
@@ -595,7 +555,6 @@ A multi-layered tactical system that combines real-time collection pressure with
 - **Resource Boost:** +50% resource generation for next 6 collections
 
 **Strategic Deployment System:**
-
 - **Targeted Application:** Boosts must be manually aimed at soldier positions
 
 - **AoE Radius:** Clash of Clans-style area targeting affects multiple soldiers
@@ -613,7 +572,6 @@ Players face cascading strategic choices:
 4. **Positioning Strategy:** "Should I group soldiers to maximize boost overlap?"
 
 **Design Benefits:**
-
 - **Active Engagement:** Prevents passive "wait and watch" tower defense gameplay
 
 - **Resource Management:** Limited boost storage creates inventory decisions
@@ -630,7 +588,6 @@ Players face cascading strategic choices:
 An emergent challenge system that breaks traditional tower defense passivity by introducing unpredictable, skill-based threats requiring immediate player intervention during combat:
 
 **Zombie Hole Mechanics:**
-
 - **Random Emergence:** Cracks appear unpredictably anywhere on the map during combat
 
 - **Immediate Threat:** Holes continuously spawn additional zombies if left unclosed
@@ -642,7 +599,6 @@ An emergent challenge system that breaks traditional tower defense passivity by 
 - **Satisfying Feedback:** Successful sealing triggers missile strike animation with planes
 
 **Strategic Impact:**
-
 - **Attention Management:** Forces players to monitor entire battlefield simultaneously
 
 - **Priority Assessment:** Players must decide when to address holes vs focus on other combat elements
@@ -654,7 +610,6 @@ An emergent challenge system that breaks traditional tower defense passivity by 
 - **Map Awareness:** Players must maintain spatial awareness of entire battlefield
 
 **Adrenaline & Engagement Benefits:**
-
 - **Active Participation:** Eliminates passive "set and forget" tower defense gameplay
 
 - **Constant Vigilance:** Players must stay alert throughout entire combat phase
@@ -668,7 +623,6 @@ An emergent challenge system that breaks traditional tower defense passivity by 
 - **Reward Satisfaction:** Successful hole closure provides immediate gratification
 
 **Integration with Other Systems:**
-
 - **Compounds Day/Night Pressure:** Holes can appear during critical final moments
 
 - **Conflicts with Boost Collection:** Players must choose between collecting boosts or sealing holes
@@ -681,7 +635,6 @@ An emergent challenge system that breaks traditional tower defense passivity by 
 A subtle but powerful immersion system that reinforces the global apocalyptic setting and creates emotional connection to the larger world beyond the player's immediate survival situation:
 
 **News Ticker Implementation:**
-
 - **Continuous Flow:** News headlines scroll horizontally across the top of the screen
 
 - **Atmospheric Content:** Reports from around the world about the zombie apocalypse
@@ -691,7 +644,6 @@ A subtle but powerful immersion system that reinforces the global apocalyptic se
 - **Non-Intrusive Design:** Subtle enough not to distract from gameplay but visible enough to enhance atmosphere
 
 **World-Building Benefits:**
-
 - **Global Scope:** Reinforces that this is a worldwide catastrophe, not just local
 
 - **Emotional Weight:** Players feel part of a larger struggle for humanity's survival
@@ -703,7 +655,6 @@ A subtle but powerful immersion system that reinforces the global apocalyptic se
 - **Apocalyptic Authenticity:** Mimics how people would actually stay informed during a crisis
 
 **Psychological Impact:**
-
 - **Scale Recognition:** Players understand their base defense is part of a global fight
 
 - **Urgency Reinforcement:** News of spreading infection heightens survival stakes
@@ -720,7 +671,6 @@ This system transforms City Defense Z from a simple survival game into a window 
 The building placement system extends beyond simple structure cards to include sophisticated utility cards that provide strategic flexibility and advanced base management options:
 
 **Core Building Card Mechanics:**
-
 - **Card Selection:** Three random building cards presented each day
 
 - **Grid Placement:** Click card, then place on available grid squares
@@ -743,7 +693,6 @@ The building placement system extends beyond simple structure cards to include s
 Beyond basic building cards, the system includes powerful management tools:
 
 **Building Relocation Card:**
-
 - **Purpose:** Move any selected building to a desired grid location
 
 - **Strategic Value:** Correct placement mistakes and optimize merge positioning
@@ -753,7 +702,6 @@ Beyond basic building cards, the system includes powerful management tools:
 - **Flexibility:** Allows experimentation with different base configurations
 
 **Direct Level-Up Card:**
-
 - **Purpose:** Instantly upgrade any selected building to the next level
 
 - **Strategic Power:** Bypasses the 3-adjacent merge requirement
@@ -763,7 +711,6 @@ Beyond basic building cards, the system includes powerful management tools:
 - **Resource Alternative:** Trades card resource for merge positioning requirements
 
 **Advanced Strategic Benefits:**
-
 - **Mistake Correction:** Relocation cards prevent permanent layout errors
 
 - **Optimization Tools:** Players can refine base layouts over time
@@ -777,7 +724,6 @@ Beyond basic building cards, the system includes powerful management tools:
 - **Risk Mitigation:** Reduces punishment for suboptimal early placement decisions
 
 **Usability & Accessibility Features:**
-
 - **Instant Recognition:** Color coding eliminates need to read card text during time pressure
 
 - **Cognitive Load Reduction:** Visual system reduces mental processing during fast-paced placement
@@ -794,7 +740,6 @@ This sophisticated card system transforms base building from simple placement in
 An active night-phase system that provides players with powerful tactical options while reinforcing narrative progression and preventing passive gameplay during combat:
 
 **Airstrike Mechanics:**
-
 - **Night Phase Activation:** Airstrikes available only during combat phases
 
 - **UI Integration:** Bottom interface bar displays available aircraft options
@@ -806,7 +751,6 @@ An active night-phase system that provides players with powerful tactical option
 - **Tactical Variety:** Different aircraft provide distinct attack patterns
 
 **Aircraft Types & Attack Patterns:**
-
 - **Standard Strike Aircraft:** Targeted bombing at selected radius location
 
 - **Carpet Bomber:** Delivers 3 bombs in vertical formation pattern
@@ -814,7 +758,6 @@ An active night-phase system that provides players with powerful tactical option
 - **Additional Aircraft:** Unlockable through progression (future variants)
 
 **Narrative-Driven Progression:**
-
 - **Initial Lock:** Airstrike capabilities are unavailable at game start
 
 - **Story Integration:** Airstrikes unlock after completing Map 1 storyline
@@ -826,7 +769,6 @@ An active night-phase system that provides players with powerful tactical option
 - **Achievement Reward:** Story completion provides meaningful gameplay enhancement
 
 **Strategic Impact:**
-
 - **Active Engagement:** Prevents passive observation during night phase
 
 - **Tactical Decisions:** Players must choose timing and targeting for maximum effect
@@ -838,7 +780,6 @@ An active night-phase system that provides players with powerful tactical option
 - **Combo Potential:** Synergizes with boost system and defensive positioning
 
 **Design Benefits:**
-
 - **Story-Gameplay Integration:** Unlocks feel earned and narratively justified
 
 - **Player Agency:** Active decision-making throughout entire combat phase
@@ -855,7 +796,6 @@ A sophisticated interface design that provides players with essential informatio
 **Top Panel Interface Elements:**
 
 **Time Control System:**
-
 - **Game Speed Controls:** Pause, 1x, 2x, and 3x speed options (top right)
 
 - **Player Pacing:** Allows acceleration during planning or slowing for precise timing
@@ -863,7 +803,6 @@ A sophisticated interface design that provides players with essential informatio
 - **Strategic Advantage:** Fast-forward through safe periods, slow down during critical moments
 
 **Day/Night Phase Indicator:**
-
 - **Visual Status:** Dynamic sun/moon icon shows current phase
 
 - **Progress Visualization:** Circular progress bar around icon displays time remaining until phase change
@@ -873,7 +812,6 @@ A sophisticated interface design that provides players with essential informatio
 - **Transition Warning:** Visual countdown prevents surprise phase switches
 
 **Session Information:**
-
 - **Day Counter:** Clear display of current day (e.g., "Day 3")
 
 - **Progress Tracking:** Helps players understand their advancement toward map objectives
@@ -881,7 +819,6 @@ A sophisticated interface design that provides players with essential informatio
 - **Strategic Context:** Informs decisions about long-term resource allocation
 
 **Manual Phase Control:**
-
 - **"End Day" Button:** Allows players to manually transition to night phase
 
 - **Time Optimization:** Skip waiting when all preparations are complete
@@ -891,7 +828,6 @@ A sophisticated interface design that provides players with essential informatio
 - **Efficiency Tool:** Experienced players can maximize session pacing
 
 **Base Health System:**
-
 - **Health Percentage:** Prominent display of main base integrity (0-100%)
 
 - **Critical Information:** Core survival metric always visible
@@ -901,7 +837,6 @@ A sophisticated interface design that provides players with essential informatio
 - **End Condition:** 0% health triggers game over state
 
 **Interface Design Benefits:**
-
 - **Information Hierarchy:** Most critical data prominently displayed
 
 - **Player Agency:** Multiple control options accommodate different playstyles
@@ -916,7 +851,6 @@ A sophisticated interface design that provides players with essential informatio
 Clean, intuitive menu design that emphasizes clarity and thematic consistency while providing essential functionality:
 
 **Main Menu Features:**
-
 - **Simple Navigation:** Continue, New Game, Settings, Exit options
 
 - **Theme Consistency:** Military/apocalyptic aesthetic throughout
@@ -926,7 +860,6 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 - **Visual Polish:** Professional logo design and atmospheric background
 
 **Map Selection Interface:**
-
 - **"Choose the City to Save":** Narrative framing for map selection
 
 - **Visual Progression:** Clear distinction between available (Nevada) and locked maps
@@ -938,7 +871,6 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 - **Consistent Styling:** Military-themed UI borders and typography
 
 **Design Philosophy:**
-
 - **Functional Simplicity:** No unnecessary complexity or confusing navigation
 
 - **Clear Hierarchy:** Important options prominently displayed
@@ -958,7 +890,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 **Primary Gameplay Cycle:**
 
 **Phase 1: Day Phase (Preparation)**
-
 - **Resource Collection:** Manually click on buildings with icons to harvest accumulated resources and soldiers
 
 - **Card Selection:** Choose from 3 randomly offered building cards or utility cards
@@ -974,7 +905,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Manual Control:** Use "End Day" button to proceed when ready
 
 **Phase 2: Night Phase (Combat)**
-
 - **Wave Defense:** Survive zombie attacks using deployed defenses
 
 - **Active Engagement:** Collect time-limited boosts dropped by defeated zombies
@@ -988,7 +918,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Resource Monitoring:** Watch base health percentage and defensive effectiveness
 
 **Daily Progression Elements:**
-
 - **3-Day Offerings:** Every 3rd day, choose from 3 strategic reward options
 
 - **NPC Events:** Specific days trigger NPC recruitment opportunities
@@ -1002,7 +931,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 **Individual Run Architecture:**
 
 **Run Initiation:**
-
 - **Map Selection:** Choose from available maps (progression-locked)
 
 - **Base Setup:** Begin with basic structures and starting resources
@@ -1012,7 +940,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Initial Resources:** Start with defined amounts of Resource, Ammunition, Food, Population
 
 **Early Game (Days 1-10):**
-
 - **Foundation Building:** Establish basic resource production chains
 
 - **System Learning:** Master card placement and merge mechanics
@@ -1022,7 +949,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Defensive Setup:** Learn soldier placement and basic combat
 
 **Mid Game (Days 11-30):**
-
 - **Optimization Phase:** Develop efficient building layouts and merge strategies
 
 - **Advanced Systems:** Unlock medium expeditions, utilize utility cards
@@ -1032,7 +958,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Challenge Scaling:** Face increased zombie variety and boss encounters
 
 **Late Game (Days 31+):**
-
 - **Mastery Required:** Execute complex multi-system strategies
 
 - **Maximum Complexity:** Manage all systems simultaneously under pressure
@@ -1042,7 +967,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Decision Points:** Choose between map completion or infinite survival
 
 **Run Completion:**
-
 - **Victory Conditions:** Survive designated days OR player chooses to complete
 
 - **Defeat Conditions:** Base health reaches 0%
@@ -1056,7 +980,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 **Multi-Layer Progression System:**
 
 **Session-Level Progression (Within Single Run):**
-
 - **Building Evolution:** Merge buildings to create more powerful structures
 
 - **Soldier Advancement:** Combine soldiers to create elite units
@@ -1068,7 +991,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Strategic Development:** Optimize building placement and time management
 
 **Campaign Progression (Across Multiple Runs):**
-
 - **Research Point Investment:** Permanent upgrades through 11 major upgrade trees
 
 - **Map Unlocks:** Progress through 4 unique maps with increasing difficulty
@@ -1080,7 +1002,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Mastery Development:** Understand complex system interactions and optimal strategies
 
 **Narrative Progression:**
-
 - **Story Advancement:** Experience map-specific storylines and objectives
 
 - **Character Development:** Build relationships with chosen NPCs
@@ -1094,7 +1015,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 **Victory Conditions:**
 
 **Map Completion Victory:**
-
 - **Objective Achievement:** Survive designated number of days for each map:
 
   - Map 1 (Nevada): 50 days - "Plane repair completion"
@@ -1110,7 +1030,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Story Resolution:** Narrative conclusion via walkie-talkie communication
 
 **Infinite Survival Victory:**
-
 - **Endless Mode:** Continue beyond story objectives indefinitely
 
 - **High Score Pursuit:** Maximize days survived for leaderboard competition
@@ -1122,7 +1041,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 **Defeat Conditions:**
 
 **Base Destruction:**
-
 - **Health Depletion:** Main base health reaches 0%
 
 - **Cumulative Damage:** Result of insufficient defenses over multiple nights
@@ -1130,7 +1048,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Strategic Failure:** Poor resource management or defensive positioning
 
 **Resource Starvation:**
-
 - **Food Shortage:** Prolonged HUNGER debuff weakens defenses
 
 - **Economic Collapse:** Inability to afford necessary buildings or soldiers
@@ -1138,7 +1055,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Population Crisis:** Insufficient population to support defensive needs
 
 **Special Defeat Scenarios:**
-
 - **Revive System:** Advanced players can utilize expensive revive upgrades
 
 - **Second Chances:** Burn remaining zombies, respawn base at 30% health
@@ -1146,7 +1062,6 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 - **Limited Uses:** Revive system balanced by scarcity and high research point cost
 
 **Post-Defeat Progression:**
-
 - **Research Point Retention:** Permanent currency preserved between runs
 
 - **Meta Advancement:** Apply learnings and upgrades to improve future attempts
@@ -1168,7 +1083,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 **Run-Currencies (Reset Each Run):**
 
 **Resource**
-
 - **Primary Function:** Card purchasing and building placement
 
 - **Generation:** End-of-day automatic income, Factory building production
@@ -1180,7 +1094,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Management:** Must balance immediate building needs with future expansion
 
 **Ammunition**
-
 - **Primary Function:** Combat systems and defensive structures
 
 - **Generation:** Ammunition building production, expedition rewards
@@ -1192,7 +1105,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Management:** Balance production capacity with combat consumption
 
 **Food**
-
 - **Primary Function:** Population sustenance and expedition supplies
 
 - **Generation:** Farm building production in dedicated farm zones
@@ -1204,7 +1116,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Management:** Scale production with population growth and expedition activity
 
 **Population**
-
 - **Primary Function:** Maximum soldier capacity limitation
 
 - **Generation:** House building construction and merging
@@ -1216,7 +1127,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 **Permanent Currency:**
 
 **Research Points**
-
 - **Primary Function:** Meta progression and permanent upgrades
 
 - **Generation:** Laboratory building production, expedition rewards, run completion bonuses, 3-day offering selections
@@ -1230,7 +1140,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 **Economic Mechanics:**
 
 **Manual Collection System:**
-
 - **Visual Indicators:** Buildings display resource icons when production is ready for collection
 
 - **Click-to-Harvest:** Players must manually click on buildings to collect accumulated resources
@@ -1272,7 +1181,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Intuitive Feedback:** Visual states provide instant understanding of building production status
 
 **Production Timing:**
-
 - **Collection Windows:** Resources accumulate during day phases and must be manually collected
 
 - **Strategic Timing:** Players must balance collection with other day-phase activities
@@ -1282,7 +1190,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Capacity Limits:** Buildings stop producing when storage is full until collected
 
 **Resource Balancing:**
-
 - **Interconnected Systems:** All currencies affect each other's utility
 
 - **Strategic Trade-offs:** Investment in one area affects capabilities in others
@@ -1294,7 +1201,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 **Grid-Based Placement Mechanics:**
 
 **Spatial Framework:**
-
 - **Main Grid Zone:** Primary building area for Houses, Barracks, Factories, Labs, Ammunition buildings
 
 - **Farm Grid Zone:** Specialized area for Farm buildings with crop production mechanics
@@ -1304,7 +1210,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Visual Feedback:** White grid tiles indicate valid placement locations
 
 **Card-Based Building Selection:**
-
 - **Daily Offerings:** 3 random cards presented each day from available building pool
 
 - **Building Cards:** Factory (Yellow/Green), Ammunition (Gray), Barracks (Orange/Red), Laboratory, House, Farm
@@ -1316,7 +1221,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Strategic Choice:** Limited cards force prioritization decisions
 
 **Card Refresh & Reroll System:**
-
 - **Default Reroll Count:** 1 reroll available per day initially
 
 - **Reroll Functionality:** Refresh all 3 cards with new random selections
@@ -1340,7 +1244,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 **Advanced Building Management:**
 
 **Building Relocation System:**
-
 - **Functionality:** Move any placed building to different valid grid location
 
 - **Strategic Value:** Correct placement mistakes, optimize merge positioning
@@ -1350,7 +1253,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Resource Cost:** Requires specific utility card expenditure
 
 **Direct Level-Up System:**
-
 - **Functionality:** Instantly upgrade selected building to next level
 
 - **Strategic Power:** Bypasses 3-adjacent merge requirement
@@ -1364,7 +1266,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 **Core Merge System:**
 
 **Building Merge Requirements (Automatic):**
-
 - **Flexible Adjacency Rule:** 3 buildings of identical type and level can merge in multiple patterns:
 
   - **Fully Horizontal:** Three buildings in same row (e.g., positions 1-2-3)
@@ -1382,7 +1283,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Visual Indicators:** Buildings display level numbers and merge readiness states
 
 **Soldier Merge Requirements (Manual):**
-
 - **Adjacency Detection:** 3 soldiers of identical type and level in adjacent positions trigger merge availability
 
 - **UI Pop-up System:** Merge indicator appears on soldiers when merge is possible
@@ -1396,7 +1296,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Timing Control:** Merge decisions can be made during day phase preparation based on anticipated threats
 
 **Strategic Merge Positioning:**
-
 - **Placement Strategy:** Players can control where the upgraded building will appear
 
 - **Layout Optimization:** Semi-adjacent patterns provide more flexible base layouts
@@ -1406,7 +1305,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Space Efficiency:** L-shaped merges maximize building density in limited grid space
 
 **Merge Strategy Elements:**
-
 - **Spatial Planning:** Players must plan building placement for optimal merge opportunities
 
 - **Resource Efficiency:** Merging creates more powerful buildings with better resource generation
@@ -1416,7 +1314,6 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 - **Layout Optimization:** Advanced players develop efficient merge pattern strategies
 
 **Alternative Upgrade Paths:**
-
 - **Direct Level-Up Cards:** Bypass spatial requirements through resource expenditure
 
 - **Building Relocation:** Reposition buildings to create merge opportunities
@@ -1432,7 +1329,6 @@ City Defense Z's combat system centers on strategic deployment of diverse milita
 **Soldier Types & Capabilities:**
 
 **Basic Soldier**
-
 - **Function:** Primary defensive unit with standard combat effectiveness
 
 - **Merge Capability:** 3 adjacent soldiers merge into enhanced unit
@@ -1442,7 +1338,6 @@ City Defense Z's combat system centers on strategic deployment of diverse milita
 - **Resource Cost:** Consumes Ammunition for training and maintenance
 
 **Specialized Units (Non-Mergeable):**
-
 - **Mortar:** Long-range artillery with area-of-effect damage
 
 - **Machine Gun (Bixi):** High fire rate, effective against swarm enemies
@@ -1464,7 +1359,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 **Simplified Pathfinding System:**
 
 **Basic Movement Mechanics:**
-
 - **Forward Direction:** Zombies spawn facing the base and move directly toward it
 
 - **Obstacle Response:** When encountering walls in their direct path, zombies will attack them
@@ -1474,7 +1368,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **No Complex Routing:** Zombies do not seek alternative paths or gaps
 
 **Strategic Wall Placement:**
-
 - **Direct Blocking:** Walls placed in zombie paths will be attacked and destroyed
 
 - **Funnel Creation:** Strategic wall placement can still channel zombies into specific areas
@@ -1484,7 +1377,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Simple Path Control:** Basic crowd control through obstacle placement
 
 **Wall Durability System:**
-
 - **Damage Accumulation:** Walls take damage from zombie attacks but cannot be repaired
 
 - **Permanent Consequences:** Destroyed walls remain destroyed until the next day
@@ -1494,7 +1386,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Strategic Resource Management:** Wall destruction affects long-term defensive planning
 
 **Main Base Defense:**
-
 - **Primary Wall System:** Main base protected by central wall with percentage-based health (100% → 0%)
 
 - **Critical Defense:** Main wall destruction triggers immediate game failure
@@ -1504,7 +1395,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Priority Target:** Zombies will ultimately target main base if not diverted by strategic walls
 
 **Combat Resolution:**
-
 - **Automatic Engagement:** Soldiers and defensive structures attack zombies within range
 
 - **Damage Calculation:** Combat effectiveness based on unit types, levels, and upgrade bonuses
@@ -1522,7 +1412,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 **Basic Zombie Types:**
 
 **Level 1 - Normal Zombie**
-
 - **Characteristics:** Balanced speed and durability baseline
 
 - **Variants:** Multiple appearance models for visual variety
@@ -1530,7 +1419,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Combat Role:** Standard threat requiring basic defensive response
 
 **Level 2 - Runner Zombie**
-
 - **Characteristics:** Enhanced movement speed
 
 - **Tactical Challenge:** Bypasses slow defensive setups
@@ -1538,7 +1426,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Counter Strategy:** Requires rapid-fire or early engagement units
 
 **Level 3 - Exploding Zombie**
-
 - **Characteristics:** High durability, very slow movement, area-effect death explosion
 
 - **Tactical Challenge:** Explosion damages nearby soldiers and structures
@@ -1546,7 +1433,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Counter Strategy:** Eliminate at distance or isolate impact area
 
 **Level 4 - Ranged Zombie**
-
 - **Characteristics:** Attacks soldiers from distance
 
 - **Tactical Challenge:** Bypasses traditional defensive positioning
@@ -1554,7 +1440,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Counter Strategy:** Requires mobile units or cover mechanics
 
 **Level 5 - Advanced Zombie**
-
 - **Characteristics:** Enhanced abilities and threat level
 
 - **Tactical Challenge:** Requires upgraded defensive capabilities
@@ -1562,7 +1447,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 **Boss Zombie Types:**
 
 **Level 1 Boss - Stonefist**
-
 - **Abilities:** Rock throwing (ranged), hand/kick strikes (melee)
 
 - **Size:** Larger model with increased health and damage
@@ -1570,7 +1454,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Tactical Challenge:** Dual-range threat requiring versatile defensive response
 
 **Level 2 Boss - Deathtouch**
-
 - **Abilities:** Sword-arm swings, tentacle whip attacks
 
 - **Tactical Challenge:** Extended reach and multiple attack patterns
@@ -1578,7 +1461,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Counter Strategy:** Requires sustained damage and positional awareness
 
 **Level 3 Boss - Banger**
-
 - **Abilities:** Melee strikes, toxic explosion on death
 
 - **Tactical Challenge:** Post-death area denial affects nearby soldiers
@@ -1586,7 +1468,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Counter Strategy:** Elimination at safe distance or poison resistance
 
 **Level 4 Boss - Toxicz**
-
 - **Abilities:** Long-range toxic projectile attacks
 
 - **Tactical Challenge:** Extended range bypasses traditional defenses
@@ -1594,7 +1475,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Counter Strategy:** Mobile response or enhanced armor systems
 
 **Wave Mechanics:**
-
 - **Progressive Difficulty:** Enemy strength and variety increase with day progression
 
 - **Composition Variety:** Different enemy type combinations require tactical adaptation
@@ -1606,7 +1486,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 **Boost Collection Mechanics:**
 
 **Drop System:**
-
 - **Source:** Zombies randomly drop boosts upon defeat
 
 - **Time Pressure:** Boosts disappear after 5 seconds if not collected
@@ -1618,7 +1497,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 **Boost Types & Effects:**
 
 **Damage Boost**
-
 - **Duration:** 30 seconds active effect
 
 - **Effect:** +50% soldier damage output
@@ -1628,7 +1506,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **AoE Application:** Targeted deployment affects multiple soldiers within radius
 
 **Fire Rate Boost**
-
 - **Duration:** 20 seconds active effect
 
 - **Effect:** +35% soldier attack speed
@@ -1638,7 +1515,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Tactical Timing:** Combine with damage boosts for maximum effectiveness
 
 **Shield Boost**
-
 - **Duration:** 10 seconds active effect
 
 - **Effect:** Absorbs 50% incoming damage
@@ -1648,7 +1524,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Emergency Application:** Preserve soldiers during critical defensive failures
 
 **Resource Boost**
-
 - **Duration:** Affects next 6 resource collections
 
 - **Effect:** +50% resource generation efficiency
@@ -1658,7 +1533,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Long-term Value:** Compounds with building-based resource generation
 
 **Deployment System:**
-
 - **Manual Targeting:** Players click to designate boost application area
 
 - **AoE Radius:** Clash of Clans-style area targeting affects multiple units
@@ -1670,7 +1544,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 ### 4.7 Dynamic Threat System (Zombie Holes)
 
 **Emergence Mechanics:**
-
 - **Random Timing:** Cracks appear unpredictably during combat phases
 
 - **Location Variety:** Holes spawn anywhere on battlefield requiring map awareness
@@ -1680,7 +1553,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Visual Warning:** Clear crack indicators alert players to new threats
 
 **Sealing Process:**
-
 - **Interaction Requirement:** Players must tap hole location 5 times in quick succession
 
 - **Time Pressure:** Failure to complete sequence in time resets progress
@@ -1690,7 +1562,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Success Animation:** Missile strike launched by planes upon successful sealing
 
 **Strategic Impact:**
-
 - **Attention Management:** Forces players to monitor entire battlefield simultaneously
 
 - **Priority Assessment:** Emergency response competes with other combat actions
@@ -1700,7 +1571,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 - **Threat Escalation:** Ignored holes exponentially increase zombie pressure
 
 **System Integration:**
-
 - **Boost Conflict:** Hole sealing competes with boost collection for player attention
 
 - **Resource Impact:** Emergency holes disrupt careful strategic planning
@@ -1718,7 +1588,6 @@ Beyond mobile military units, players can deploy static defensive structures tha
 City Defense Z features a sophisticated multi-layered progression system that ensures every run contributes to long-term player advancement, creating meaningful growth across multiple gameplay sessions while maintaining the challenging rogue-lite core experience.
 
 **Progression Philosophy:**
-
 - **Persistent Growth:** Every run provides permanent advancement through Research Points
 
 - **Strategic Investment:** Players choose their upgrade path through 11 major upgrade trees
@@ -1730,7 +1599,6 @@ City Defense Z features a sophisticated multi-layered progression system that en
 **Three-Tier Progression Structure:**
 
 **Tier 1: Session Progression (Within Single Run)**
-
 - **Building Evolution:** Merge mechanics create immediate power increases
 
 - **Resource Accumulation:** Economic growth enables stronger defenses
@@ -1740,7 +1608,6 @@ City Defense Z features a sophisticated multi-layered progression system that en
 - **Strategic Learning:** Understanding optimal placement and timing strategies
 
 **Tier 2: Campaign Progression (Across Multiple Runs)**
-
 - **Research Point Investment:** Permanent upgrades through 11 major trees
 
 - **Map Unlocks:** Narrative progression through 4 unique environments
@@ -1750,7 +1617,6 @@ City Defense Z features a sophisticated multi-layered progression system that en
 - **NPC Collection:** Build diverse base community with specialized abilities
 
 **Tier 3: Mastery Progression (Long-term Engagement)**
-
 - **Strategic Optimization:** Deep understanding of system interactions
 
 - **Build Variety:** Experimentation with different upgrade combinations
@@ -1760,7 +1626,6 @@ City Defense Z features a sophisticated multi-layered progression system that en
 - **Community Engagement:** Sharing strategies and competing on leaderboards
 
 **Research Point Economy:**
-
 - **Primary Currency:** Research Points serve as the core meta progression resource
 
 - **Generation Sources:** Laboratory buildings, expedition rewards, run completion bonuses, 3-day offerings
@@ -1770,7 +1635,6 @@ City Defense Z features a sophisticated multi-layered progression system that en
 - **Permanent Benefits:** All upgrades persist across runs and affect future gameplay
 
 **Progression Pacing:**
-
 - **Early Game:** Rapid initial upgrades provide significant power increases
 
 - **Mid Game:** More expensive upgrades require strategic resource allocation
@@ -1786,7 +1650,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 **Upgrade Tree Architecture:**
 
 **1. Building Cards Default Level Increase**
-
 - **Concept:** Buildings start at higher levels when placed
 
 - **Progression:** 5 upgrade levels available
@@ -1796,7 +1659,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Economic Benefit:** Higher baseline production and defensive capabilities
 
 **2. Trained Soldier's Default Level Increase**
-
 - **Concept:** Soldiers spawn at higher base levels when trained from barracks
 
 - **Level 1:** Soldiers start at Level 2 instead of Level 1 (base level +1)
@@ -1816,7 +1678,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Economic Impact:** Maximizes soldier effectiveness from minimal resource investment
 
 **3. Placeable Wall's Upgrade**
-
 - **Level 1:** Increases maximum placeable wall capacity by +20
 
 - **Level 2:** +20 wall capacity and increased wall HP
@@ -1828,7 +1689,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Strategic Evolution:** From quantity increase to defensive enhancement to active damage
 
 **4. Farm Upgrade**
-
 - **Level 1:** Increases farm crop harvest by +75%
 
 - **Level 2:** Crops grow faster (1 day earlier completion)
@@ -1842,7 +1702,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Food Security:** Ensures sustainable population and expedition support
 
 **5. Laboratory Upgrade**
-
 - **Level 1:** Increases research point generation by +50%
 
 - **Level 2:** Research points gathering finishes faster (1 day earlier)
@@ -1852,7 +1711,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Meta Acceleration:** Faster access to additional upgrade trees
 
 **6. Expedition Upgrade**
-
 - **Level 1:** Increases NPC survival rate on expeditions by +20%
 
 - **Level 2:** Increases expedition rewards by +50%
@@ -1862,7 +1720,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Risk Mitigation:** Safer and more profitable NPC expeditions
 
 **7. NPC Upgrade**
-
 - **Level 1:** Amplifies main buff effect of NPCs by +50%
 
 - **Level 2:** Amplifies main buff effect of NPCs by +75%
@@ -1872,7 +1729,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Synergy Enhancement:** Maximizes chosen NPC specialization benefits
 
 **8. REVIVE UPGRADE (Premium Tier)**
-
 - **Level 1:** Upon defeat, burn all standing zombies, respawn base at 30% HP (1 use per run)
 
 - **Level 2:** Makes revive upgrade usable 2 times per run
@@ -1884,7 +1740,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Strategic Consideration:** Balances cost vs risk tolerance
 
 **9. Weapons Upgrade**
-
 - **Level 1:** Increases soldier fire rate (faster attacks)
 
 - **Level 2:** Decreases soldier reload time by 50%
@@ -1894,7 +1749,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Combat Enhancement:** Comprehensive military effectiveness improvements
 
 **10. Airstrike Upgrade**
-
 - **Level 1:** Airstrikes cost 50% less ammunition
 
 - **Level 2:** Unlocks 3-bomb launcher plane attack pattern
@@ -1904,7 +1758,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Tactical Enhancement:** More affordable and effective air support
 
 **11. Reroll Cards Upgrade**
-
 - **Level 1:** Adds REROLL function to daily card selection
 
 - **Level 2:** +1 additional reroll per day (2 total)
@@ -1916,7 +1769,6 @@ The Research Point upgrade system transforms the player's main base into a custo
 - **Strategic Flexibility:** Increased control over building card availability
 
 **Upgrade Synergies:**
-
 - **Economic Focus:** Farm + Laboratory upgrades create resource abundance
 
 - **Military Focus:** Weapons + Wall upgrades maximize defensive capability
@@ -1932,7 +1784,6 @@ The Research Point investment system provides deep strategic customization throu
 **Research Point Generation:**
 
 **Primary Sources:**
-
 - **Laboratory Buildings:** Daily production scaled by building level and upgrades
 
 - **Expedition Rewards:** Variable amounts based on expedition type and success
@@ -1942,7 +1793,6 @@ The Research Point investment system provides deep strategic customization throu
 - **3-Day Offerings:** Strategic choice to prioritize long-term investment over immediate resources
 
 **Secondary Sources:**
-
 - **Achievement Unlocks:** Bonus research points for completing specific challenges
 
 - **Map Completion:** Significant research point rewards for surviving full map storylines
@@ -1952,7 +1802,6 @@ The Research Point investment system provides deep strategic customization throu
 **Investment Strategy Framework:**
 
 **Early Game Priorities (0-100 Research Points):**
-
 - **Farm Upgrade Level 1:** Ensure food security for population growth
 
 - **Reroll Cards Level 1:** Unlock card refresh system for strategic flexibility
@@ -1960,7 +1809,6 @@ The Research Point investment system provides deep strategic customization throu
 - **Building Cards Default Level 1:** Accelerate early game building power
 
 **Mid Game Development (100-500 Research Points):**
-
 - **Weapons Upgrade Tree:** Enhanced military effectiveness for increasing difficulty
 
 - **Laboratory Upgrades:** Accelerate future research point generation
@@ -1968,7 +1816,6 @@ The Research Point investment system provides deep strategic customization throu
 - **NPC Upgrade Level 1:** Amplify chosen NPC specialization benefits
 
 **Late Game Optimization (500+ Research Points):**
-
 - **Advanced Combat Systems:** Airstrike upgrades for overwhelming enemy pressure
 
 - **Specialized Builds:** Complete specific trees for focused strategies
@@ -1976,7 +1823,6 @@ The Research Point investment system provides deep strategic customization throu
 - **Revive System:** Ultimate safety net for high-difficulty challenges
 
 **Upgrade Tree Interdependencies:**
-
 - **Economic Engine:** Laboratory + Farm upgrades create sustainable resource base
 
 - **Military Machine:** Weapons + Wall + Airstrike upgrades maximize combat potential
@@ -1986,7 +1832,6 @@ The Research Point investment system provides deep strategic customization throu
 - **Strategic Mastery:** Reroll + Revive upgrades provide ultimate tactical flexibility
 
 **Cost Scaling System:**
-
 - **Tier 1 Upgrades:** 10-25 Research Points (foundational improvements)
 
 - **Tier 2 Upgrades:** 50-100 Research Points (significant enhancements)
@@ -2002,7 +1847,6 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 **NPC Recruitment & Selection:**
 
 **Recruitment Events:**
-
 - **Trigger Days:** Specific days (e.g., Day 5) activate NPC encounter events
 
 - **Choice Presentation:** Two NPCs approach the base simultaneously
@@ -2016,7 +1860,6 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 **NPC Specialization Types:**
 
 **Scientist**
-
 - **Primary Buff:** +30% research point generation speed
 
 - **Expedition Performance:** Poor survival rate, low combat effectiveness
@@ -2028,7 +1871,6 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 - **Base Interaction:** Intellectual dialogue focused on research and discovery
 
 **Military Expert**
-
 - **Primary Buff:** Enhances soldier combat stats (damage, accuracy, morale)
 
 - **Expedition Performance:** Good survival rate, moderate combat effectiveness
@@ -2040,7 +1882,6 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 - **Base Interaction:** Tactical dialogue focused on military strategy and defense
 
 **Farmer**
-
 - **Primary Buff:** Increases farm production efficiency and crop yield
 
 - **Expedition Performance:** Moderate survival rate, low combat effectiveness
@@ -2052,7 +1893,6 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 - **Base Interaction:** Practical dialogue focused on agricultural productivity and base sustenance
 
 **Guerrilla**
-
 - **Primary Buff:** Moderate base benefits but exceptional expedition performance
 
 - **Expedition Performance:** Excellent survival rate, high loot discovery chance
@@ -2066,7 +1906,6 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 **Living Base Interaction System:**
 
 **Physical Presence:**
-
 - **Base Movement:** NPCs visibly walk around the base, creating a living environment
 
 - **Interactive Elements:** NPCs interact with base structures and each other
@@ -2076,7 +1915,6 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 - **Environmental Storytelling:** NPC actions reinforce their specialization and personality
 
 **Dialogue System:**
-
 - **Unique Voice Lines:** Each NPC has 6 distinct dialogue options
 
 - **Random Triggers:** Clicking NPCs activates randomly selected dialogue
@@ -2094,7 +1932,6 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 6. "A well-fed team is a strong team, captain"
 
 **Emotional Investment Mechanics:**
-
 - **Attachment Building:** Extended interaction creates player connection to specific NPCs
 
 - **Loss Consequences:** NPC death during expeditions creates genuine emotional impact
@@ -2110,7 +1947,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 **Expedition Structure & Types:**
 
 **Small Expeditions**
-
 - **Duration:** 2 days
 
 - **Risk Level:** High survival rate, minimal resource investment
@@ -2122,7 +1958,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 - **Strategic Role:** Safe resource supplementation with minimal risk
 
 **Medium Expeditions (Unlockable)**
-
 - **Duration:** 4 days
 
 - **Risk Level:** Medium survival rate, moderate resource investment
@@ -2134,7 +1969,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 - **Strategic Role:** Balanced risk/reward for advancing players
 
 **Large Expeditions (Unlockable)**
-
 - **Duration:** 5 days
 
 - **Risk Level:** Medium survival rate, high resource investment
@@ -2148,7 +1982,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 **Expedition Planning & Resource Management:**
 
 **Resource Costs:**
-
 - **Food Requirement:** Each NPC consumes food supplies for expedition duration
 
 - **Ammunition Requirement:** Small ammunition cost per NPC for equipment and defense
@@ -2158,7 +1991,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 - **Strategic Planning:** Players must balance expedition investment with base needs
 
 **Group vs Solo Decision Framework:**
-
 - **Solo Expeditions:** Higher individual NPC risk but allows multiple simultaneous expeditions
 
 - **Group Expeditions:** Lower individual risk but single reward and higher resource cost
@@ -2168,7 +2000,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 - **Risk Distribution:** Balance between safety and reward multiplication
 
 **Expedition Tracking & Management:**
-
 - **Visual Countdown:** Clear indication of days remaining until NPC return
 
 - **Status Updates:** Information about expedition progress and potential complications
@@ -2180,7 +2011,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 **Reward Systems & Discovery:**
 
 **Standard Expedition Rewards:**
-
 - **Food:** Additional sustenance for population and future expeditions
 
 - **Resource:** Economic boost for building cards and base development
@@ -2190,7 +2020,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 - **Research Points:** Meta progression advancement
 
 **Advanced Reward Possibilities:**
-
 - **Rare Resources:** Special materials for unique upgrades or building options
 
 - **NPC Recruitment Opportunities:** Chance to discover additional NPCs
@@ -2202,7 +2031,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 **Risk & Consequence Management:**
 
 **NPC Death Mechanics:**
-
 - **Permanent Loss:** NPCs who die on expeditions never return
 
 - **Emotional Impact:** Loss of invested character relationships
@@ -2212,7 +2040,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 - **Risk Assessment:** Players must evaluate expedition value against potential NPC loss
 
 **Survival Rate Factors:**
-
 - **NPC Type:** Guerrilla NPCs have higher survival rates than Scientists
 
 - **Expedition Size:** Group expeditions provide safety in numbers
@@ -2222,7 +2049,6 @@ The expedition system adds a layer of risk/reward resource management that exten
 - **Equipment Quality:** Base upgrades and resource investment affect success chances
 
 **Strategic Integration:**
-
 - **Base Planning:** Expedition timing affects base resource management
 
 - **Long-term Strategy:** Expedition rewards fuel research point progression
@@ -2248,7 +2074,6 @@ Buildings that generate resources over time and require manual collection throug
 Buildings that provide passive benefits without requiring resource collection.
 
 **Grid Zone Organization:**
-
 - **Main Grid Zone:** Primary building area for most structure types
 
 - **Farm Grid Zone:** Specialized agricultural area with unique crop mechanics
@@ -2256,7 +2081,6 @@ Buildings that provide passive benefits without requiring resource collection.
 **Building Type Specifications:**
 
 **Factory (Yellow/Green)**
-
 - **Classification:** Production Building (Collectable)
 
 - **Primary Function:** Resource currency generation
@@ -2278,7 +2102,6 @@ Buildings that provide passive benefits without requiring resource collection.
 - **Economic Impact:** Foundation of base expansion and development
 
 **Ammunition Building (Gray)**
-
 - **Classification:** Production Building (Collectable)  
 
 - **Primary Function:** Ammunition currency generation
@@ -2300,7 +2123,6 @@ Buildings that provide passive benefits without requiring resource collection.
 - **Combat Impact:** Enables defensive structure deployment and soldier maintenance
 
 **Barracks (Orange/Red)**
-
 - **Classification:** Production Building (Collectable)
 
 - **Primary Function:** Soldier training and deployment
@@ -2322,7 +2144,6 @@ Buildings that provide passive benefits without requiring resource collection.
 - **Military Impact:** Core defensive capability through soldier production
 
 **Laboratory (Research Theme)**
-
 - **Classification:** Production Building (Collectable)
 
 - **Primary Function:** Research Point generation for meta progression
@@ -2344,7 +2165,6 @@ Buildings that provide passive benefits without requiring resource collection.
 - **Progression Impact:** Gateway to all meta progression upgrade trees
 
 **House (Population Theme)**
-
 - **Classification:** Static Building
 
 - **Primary Function:** Population capacity increase
@@ -2362,7 +2182,6 @@ Buildings that provide passive benefits without requiring resource collection.
 - **Military Impact:** Determines maximum deployable soldier count
 
 **Farm (Agricultural Theme)**  
-
 - **Classification:** Production Building (Collectable) with Area Effect
 
 - **Primary Function:** Food production through crop cultivation
@@ -2388,7 +2207,6 @@ Buildings that provide passive benefits without requiring resource collection.
 **Advanced Building Management:**
 
 **Building Relocation System:**
-
 - **Functionality:** Move any placed building to different valid grid location
 
 - **Strategic Application:** Correct placement mistakes, optimize merge positioning
@@ -2398,7 +2216,6 @@ Buildings that provide passive benefits without requiring resource collection.
 - **Resource Requirement:** Building Relocation Card expenditure
 
 **Direct Level-Up System:**
-
 - **Functionality:** Instantly upgrade selected building to next level
 
 - **Strategic Value:** Bypass 3-adjacent merge spatial requirements
@@ -2408,7 +2225,6 @@ Buildings that provide passive benefits without requiring resource collection.
 - **Resource Trade-off:** Exchange card resources for positional flexibility
 
 **Building Synergies & Interdependencies:**
-
 - **Economic Chain:** Factory → Resource → Building Cards → Base Expansion
 
 - **Military Chain:** Ammunition Building → Military Resources → Soldiers/Defenses
@@ -2428,7 +2244,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 **Primary Combat Units (Mergeable):**
 
 **Basic Soldier**
-
 - **Source:** Trained from Barracks buildings
 
 - **Merge Capability:** 3 adjacent soldiers can merge into 1 enhanced soldier via manual activation
@@ -2450,7 +2265,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 - **Visual Progression:** Higher merge levels show enhanced equipment and armor
 
 **Enhanced Soldier (Merged Level 2)**
-
 - **Creation:** Result of merging 3 basic soldiers
 
 - **Combat Effectiveness:** Significantly improved damage output and durability
@@ -2462,7 +2276,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 - **Resource Efficiency:** More effective than individual basic soldiers
 
 **Elite Soldier (Merged Level 3+)**
-
 - **Creation:** Result of merging 3 enhanced soldiers
 
 - **Combat Effectiveness:** Exceptional damage, accuracy, and survivability
@@ -2476,7 +2289,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 **Specialized Units (Non-Mergeable):**
 
 **Mortar Artillery**
-
 - **Combat Role:** Long-range area-of-effect damage specialist
 
 - **Tactical Advantage:** Attacks enemies before they reach defensive lines
@@ -2492,7 +2304,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 ---
 
 **Machine Gun (Bixi)**
-
 - **Combat Role:** High fire rate, sustained damage output
 
 - **Tactical Advantage:** Exceptional effectiveness against swarm enemies
@@ -2506,7 +2317,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 - **Visual Design:** Heavy machine gun emplacement with ammunition feeds
 
 **Rocket Launcher**
-
 - **Combat Role:** Heavy damage specialist for armored targets
 
 - **Tactical Advantage:** Devastating single-target damage
@@ -2522,7 +2332,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 **Unit Deployment & Management:**
 
 **Day Phase Deployment:**
-
 - **Positioning Strategy:** Place soldiers on battlefield grid squares
 
 - **Manual Merge Planning:** Position soldiers for potential merge opportunities, knowing that merge pop-ups will appear when 3 are adjacent
@@ -2534,7 +2343,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 - **Time Management:** Complete deployment and merge decisions before 10-second countdown warning
 
 **Night Phase Combat:**
-
 - **Automatic Engagement:** Soldiers attack zombies within range automatically
 
 - **Boost Integration:** Apply collected boosts via AoE targeting for enhanced effectiveness
@@ -2546,7 +2354,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 **Advanced Soldier Mechanics:**
 
 **Upgrade Interactions:**
-
 - **Default Level Increase:** Permanent upgrades allow soldiers to start at higher levels
 
 - **NPC Buffs:** Military Expert NPC enhances soldier combat statistics
@@ -2556,7 +2363,6 @@ City Defense Z employs a diverse military system combining trainable soldiers wi
 - **Equipment Synergy:** Various upgrade combinations create specialized soldier builds
 
 **Tactical Considerations:**
-
 - **Range Management:** Different soldier types have varying engagement ranges
 
 - **AoE Optimization:** Position soldiers to maximize boost coverage and effectiveness
@@ -2578,7 +2384,6 @@ City Defense Z features a comprehensive zombie threat system with escalating dif
 **Basic Zombie Types (Levels 1-5):**
 
 **Level 1 - Normal Zombie**
-
 - **Movement Speed:** Baseline moderate pace
 
 - **Durability:** Standard health pool
@@ -2594,7 +2399,6 @@ City Defense Z features a comprehensive zombie threat system with escalating dif
 - **Spawn Frequency:** High frequency throughout all waves
 
 **Level 2 - Runner Zombie**
-
 - **Movement Speed:** Enhanced speed, bypasses slow defenses
 
 - **Durability:** Reduced health to balance speed advantage
@@ -2610,7 +2414,6 @@ City Defense Z features a comprehensive zombie threat system with escalating dif
 - **Tactical Challenge:** Forces players to engage threats earlier in defensive line
 
 **Level 3 - Exploding Zombie**
-
 - **Movement Speed:** Very slow, deliberate approach
 
 - **Durability:** High health pool, difficult to eliminate quickly
@@ -2626,7 +2429,6 @@ City Defense Z features a comprehensive zombie threat system with escalating dif
 - **Tactical Challenge:** Requires careful positioning to minimize explosion impact
 
 **Level 4 - Ranged Zombie**
-
 - **Movement Speed:** Standard pace
 
 - **Durability:** Moderate health pool
@@ -2642,7 +2444,6 @@ City Defense Z features a comprehensive zombie threat system with escalating dif
 - **Tactical Challenge:** Forces reconsideration of soldier placement strategies
 
 **Level 5 - Advanced Zombie**
-
 - **Movement Speed:** Variable based on specific variant abilities
 
 - **Durability:** Enhanced health and defensive capabilities
@@ -2660,7 +2461,6 @@ City Defense Z features a comprehensive zombie threat system with escalating dif
 **Boss Zombie Types (Levels 1-4):**
 
 **Level 1 Boss - Stonefist**
-
 - **Size:** Larger model with increased health and damage
 
 - **Tactical Challenge:** Dual-range threat requiring versatile defensive response
@@ -2668,19 +2468,16 @@ City Defense Z features a comprehensive zombie threat system with escalating dif
 - **Counter Strategy:** Dual-range defensive setup, sustained damage focus
 
 **Level 2 Boss - Deathtouch**
-
 - **Tactical Challenge:** Extended reach and multiple attack patterns
 
 - **Counter Strategy:** Range advantage maintenance, positioning awareness
 
 **Level 3 Boss - Banger**
-
 - **Tactical Challenge:** Post-death area denial affects nearby soldiers
 
 - **Counter Strategy:** Long-range elimination, poison resistance, area evacuation
 
 **Level 4 Boss - Toxicz**
-
 - **Tactical Challenge:** Extended range bypasses most traditional defensive strategies
 
 - **Counter Strategy:** Mobile response capabilities
@@ -2688,7 +2485,6 @@ City Defense Z features a comprehensive zombie threat system with escalating dif
 **Enemy Behavior Systems:**
 
 **Zombie Pathfinding:**
-
 - **Spawn Direction:** Zombies spawn facing forward toward the base
 
 - **Simple Navigation:** Direct forward movement toward base with basic obstacle avoidance
@@ -2700,7 +2496,6 @@ City Defense Z features a comprehensive zombie threat system with escalating dif
 - **Straightforward Movement:** No complex vision-based pathfinding or gap-seeking behavior
 
 **Wave Composition & Scaling:**
-
 - **Progressive Difficulty:** Enemy strength and variety increase with day progression
 
 - **Mixed Compositions:** Combine different enemy types requiring tactical adaptation
@@ -2716,7 +2511,6 @@ City Defense Z features four distinct maps, each providing unique environmental 
 **Map Progression System:**
 
 **Unlock Structure:**
-
 - **Map 1 (Available):** Starting map accessible immediately
 
 - **Map 2 (Locked):** Unlocks after surviving 50 days on Map 1
@@ -2731,7 +2525,6 @@ Each map provides story context through walkie-talkie communications, giving pla
 **Map Specifications:**
 
 **Map 1: Nevada Emergency Base**
-
 - **Environment Theme:** Desert emergency landing site
 
 - **Narrative Context:** Emergency plane crash requires base establishment
@@ -2751,7 +2544,6 @@ Each map provides story context through walkie-talkie communications, giving pla
 - **Strategic Considerations:** Must create artificial defensive structures through walls and building placement
 
 **Map 2: [Urban Environment - TBD]**
-
 - **Environment Theme:** [Abandoned city/urban setting]
 
 - **Narrative Context:** [Story-specific scenario]
@@ -2767,7 +2559,6 @@ Each map provides story context through walkie-talkie communications, giving pla
 - **Strategic Elements:** [Unique defensive opportunities and obstacles]
 
 **Map 3: [Industrial/Military Setting - TBD]**
-
 - **Environment Theme:** [Industrial complex or military installation]
 
 - **Narrative Context:** [Story-specific scenario]
@@ -2783,7 +2574,6 @@ Each map provides story context through walkie-talkie communications, giving pla
 - **Strategic Elements:** [Advanced defensive structures and challenges]
 
 **Map 4: The Final Laboratory**
-
 - **Environment Theme:** Research facility/medical complex
 
 - **Narrative Context:** Zombie vaccine development scenario
@@ -2803,7 +2593,6 @@ Each map provides story context through walkie-talkie communications, giving pla
 **Environmental Design Elements:**
 
 **Grid System Integration:**
-
 - **Main Grid Zone:** Primary building placement area with optimal spacing
 
 - **Farm Grid Zone:** Specialized agricultural areas for food production
@@ -2813,7 +2602,6 @@ Each map provides story context through walkie-talkie communications, giving pla
 - **Natural Obstacles:** Environmental features affecting zombie pathfinding
 
 **Visual & Atmospheric Design:**
-
 - **Thematic Consistency:** Each map reflects its narrative context through environmental details
 
 - **Tactical Clarity:** Clear visual distinction between different zone types and placement areas
@@ -2823,7 +2611,6 @@ Each map provides story context through walkie-talkie communications, giving pla
 - **Strategic Readability:** Easy identification of defensive opportunities and challenges
 
 **Progressive Difficulty Integration:**
-
 - **Environmental Complexity:** Later maps feature more challenging terrain and layout constraints
 
 - **Defensive Opportunities:** Advanced maps provide unique defensive advantages and obstacles
@@ -2839,7 +2626,6 @@ City Defense Z elevates the tower defense genre through compelling story-driven 
 **Narrative Delivery Framework:**
 
 **Walkie-Talkie Communication System:**
-
 - **Authentic Military Style:** Realistic radio communications with static and military terminology
 
 - **Story Integration:** Key narrative beats delivered through base communications
@@ -2854,7 +2640,6 @@ City Defense Z elevates the tower defense genre through compelling story-driven 
 A continuous atmospheric element that reinforces the global scale of the zombie apocalypse while providing immersive world-building without interrupting gameplay flow.
 
 **Implementation:**
-
 - **Visual Presentation:** Scrolling news headlines across the top interface
 
 - **Content Examples:** 
@@ -2868,7 +2653,6 @@ A continuous atmospheric element that reinforces the global scale of the zombie 
   - "Emergency broadcasts cease from major cities worldwide"
 
 **World-Building Benefits:**
-
 - **Global Scope:** Reinforces worldwide catastrophe beyond player's immediate survival
 
 - **Emotional Weight:** Creates sense of participating in humanity's survival struggle
@@ -2880,7 +2664,6 @@ A continuous atmospheric element that reinforces the global scale of the zombie 
 **Map-Specific Story Arcs:**
 
 **Map 1: Emergency Evacuation**
-
 - **Opening Scenario:** Emergency plane crash forces immediate base establishment
 
 - **Central Conflict:** Survival during aircraft repair operations
@@ -2894,7 +2677,6 @@ A continuous atmospheric element that reinforces the global scale of the zombie 
 - **Thematic Focus:** Survival, teamwork, and escape from overwhelming odds
 
 **Map 4: The Cure (Final Chapter)**
-
 - **Opening Scenario:** Discovery of zombie vaccine development opportunity
 
 - **Central Conflict:** Protecting vaccine production for 100 days
@@ -2913,7 +2695,6 @@ A continuous atmospheric element that reinforces the global scale of the zombie 
 Each NPC type provides distinct narrative perspectives and character development opportunities:
 
 **Scientist NPC Narrative Role:**
-
 - **Perspective:** Scientific analysis and research progress updates
 
 - **Character Arc:** From academic theory to practical survival application
@@ -2923,7 +2704,6 @@ Each NPC type provides distinct narrative perspectives and character development
 - **Story Function:** Provides exposition about zombie behavior and cure development
 
 **Military Expert NPC Narrative Role:**
-
 - **Perspective:** Tactical analysis and strategic military assessment
 
 - **Character Arc:** From standard military protocol to apocalypse survival adaptation
@@ -2933,7 +2713,6 @@ Each NPC type provides distinct narrative perspectives and character development
 - **Story Function:** Reinforces military atmosphere and tactical authenticity
 
 **Farmer NPC Narrative Role:**
-
 - **Perspective:** Practical survival and resource management focus
 
 - **Character Arc:** From agricultural routine to survival agriculture expertise
@@ -2943,7 +2722,6 @@ Each NPC type provides distinct narrative perspectives and character development
 - **Story Function:** Grounds story in practical survival necessities
 
 **Guerrilla NPC Narrative Role:**
-
 - **Perspective:** Exploration, reconnaissance, and external world knowledge
 
 - **Character Arc:** From independent survivor to team expedition specialist
@@ -2955,7 +2733,6 @@ Each NPC type provides distinct narrative perspectives and character development
 **Emotional Investment Mechanics:**
 
 **Relationship Building:**
-
 - **Interactive Dialogue:** Regular NPC conversations develop player attachment
 
 - **Shared Experiences:** Surviving challenges together creates narrative bonds
@@ -2965,7 +2742,6 @@ Each NPC type provides distinct narrative perspectives and character development
 - **Community Building:** Multiple NPCs create dynamic interpersonal base relationships
 
 **Player Agency & Choice:**
-
 - **NPC Selection:** Meaningful choices in companion recruitment affect story direction
 
 - **Expedition Decisions:** Risk/reward choices create personal investment in character survival
@@ -2975,7 +2751,6 @@ Each NPC type provides distinct narrative perspectives and character development
 - **Strategic Customization:** Upgrade paths allow personalized narrative experience
 
 **Thematic Coherence:**
-
 - **Survival Horror:** Constant threat maintains tension while allowing hope
 
 - **Military Realism:** Authentic military communications and procedures
@@ -2995,7 +2770,6 @@ City Defense Z's user interface design prioritizes clarity, efficiency, and them
 **Core UI Design Philosophy:**
 
 **"Information at a Glance"**
-
 - **Instant Recognition:** Critical game information accessible through quick visual scanning
 
 - **Minimal Cognitive Load:** Interface elements reduce mental processing time during high-pressure moments
@@ -3005,7 +2779,6 @@ City Defense Z's user interface design prioritizes clarity, efficiency, and them
 - **Context Sensitivity:** Interface adapts to current game phase and player needs
 
 **"Functional Clarity Over Visual Complexity"**
-
 - **Purpose-Driven Design:** Every interface element serves a clear functional purpose
 
 - **Visual Noise Reduction:** Unnecessary decorative elements minimized to prevent distraction
@@ -3015,7 +2788,6 @@ City Defense Z's user interface design prioritizes clarity, efficiency, and them
 - **Readable Typography:** Clear, legible fonts optimized for various screen sizes and resolutions
 
 **"Thematic Integration"**
-
 - **Military Aesthetic:** Interface design reinforces post-apocalyptic military command center atmosphere
 
 - **Authentic Feel:** UI elements styled to feel like real military equipment and tactical displays
@@ -3027,7 +2799,6 @@ City Defense Z's user interface design prioritizes clarity, efficiency, and them
 **Design Principles:**
 
 **Accessibility & Inclusivity:**
-
 - **Color-Blind Support:** Important information conveyed through multiple visual channels (color + shape + text)
 
 - **Scalable Elements:** Interface elements scalable for different screen sizes and visual needs
@@ -3037,7 +2808,6 @@ City Defense Z's user interface design prioritizes clarity, efficiency, and them
 - **Consistent Layouts:** Predictable interface organization reduces learning curve
 
 **Efficiency & Speed:**
-
 - **Single-Click Actions:** Most common actions accessible with single interaction
 
 - **Contextual Menus:** Right-click or long-press context menus for advanced options
@@ -3047,7 +2817,6 @@ City Defense Z's user interface design prioritizes clarity, efficiency, and them
 - **Touch Optimization:** Mobile interface optimized for finger interaction and gesture control
 
 **Error Prevention & Recovery:**
-
 - **Clear Feedback:** Immediate visual and audio confirmation for all player actions
 
 - **Undo Capabilities:** Where possible, allow players to reverse accidental actions
@@ -3063,7 +2832,6 @@ The in-game HUD provides comprehensive game state information while maintaining 
 **Top Interface Bar:**
 
 **Primary Information Display:**
-
 - **Day Counter:** Current day prominently displayed (e.g., "Day 12")
 
 - **Phase Indicator:** Dynamic sun/moon icon with circular progress bar showing time remaining in current phase
@@ -3075,7 +2843,6 @@ The in-game HUD provides comprehensive game state information while maintaining 
 - **Base Health:** Large, prominent health percentage display (0-100%) with color-coded visual bar
 
 **Resource Panel:**
-
 - **Currency Display:** All five resource types shown with current quantities:
 
   - **Resource:** Factory icon + number
@@ -3093,7 +2860,6 @@ The in-game HUD provides comprehensive game state information while maintaining 
 - **Trend Arrows:** Small indicators showing resource generation/consumption trends
 
 **News Ticker System:**
-
 - **Scrolling Headlines:** Continuous horizontal scroll of apocalypse-related news
 
 - **Atmospheric Content:** Global zombie situation updates without gameplay distraction
@@ -3105,7 +2871,6 @@ The in-game HUD provides comprehensive game state information while maintaining 
 **Card Selection Interface:**
 
 **Building Card Presentation:**
-
 - **Three-Card Layout:** Daily building cards displayed horizontally across bottom interface
 
 - **Visual Design:** Military-style card aesthetic with color-coded building types:
@@ -3119,7 +2884,6 @@ The in-game HUD provides comprehensive game state information while maintaining 
 - **Card States:** Visual distinction between affordable and unaffordable cards
 
 **Placement System:**
-
 - **Grid Visualization:** White tiles indicate valid placement locations
 
 - **Preview System:** Hover/touch preview showing building placement before confirmation
@@ -3131,7 +2895,6 @@ The in-game HUD provides comprehensive game state information while maintaining 
 **Combat Phase Interface:**
 
 **Boost Management:**
-
 - **Boost Inventory:** Bottom interface shows collected boosts with remaining duration timers
 
 - **AoE Targeting:** Clash of Clans-style circular targeting system for boost deployment
@@ -3141,7 +2904,6 @@ The in-game HUD provides comprehensive game state information while maintaining 
 - **Usage Feedback:** Clear visual effects when boosts are successfully applied
 
 **Airstrike System:**
-
 - **Aircraft Selection:** Bottom panel displays available aircraft with ammunition costs
 
 - **Targeting Interface:** Click-to-target system with visual range indicators
@@ -3151,7 +2913,6 @@ The in-game HUD provides comprehensive game state information while maintaining 
 - **Cooldown Timers:** Visual indicators for airstrike availability and recharge times
 
 **Emergency Response Elements:**
-
 - **Zombie Hole Indicators:** Bright red crack visuals with pulsing animations
 
 - **Tap Counter:** Visual feedback showing progress toward hole sealing (1/5, 2/5, etc.)
@@ -3165,7 +2926,6 @@ Clean, intuitive menu design emphasizing functionality and thematic consistency 
 **Main Menu Design:**
 
 **Primary Navigation:**
-
 - **Continue:** Resume most recent run with save state preview
 
 - **New Game:** Start fresh run with map selection interface
@@ -3177,7 +2937,6 @@ Clean, intuitive menu design emphasizing functionality and thematic consistency 
 - **Exit:** Clean game termination with save confirmation
 
 **Visual Design:**
-
 - **Logo Presentation:** Professional City Defense Z logo with military aesthetic
 
 - **Background Atmosphere:** Subtle animated background suggesting post-apocalyptic military base
@@ -3189,7 +2948,6 @@ Clean, intuitive menu design emphasizing functionality and thematic consistency 
 **Map Selection Interface:**
 
 **"Choose the City to Save":**
-
 - **Geographic Presentation:** Map selection framed as choosing deployment location
 
 - **Progressive Unlocks:** Visual distinction between available and locked maps
@@ -3201,7 +2959,6 @@ Clean, intuitive menu design emphasizing functionality and thematic consistency 
 - **Progress Tracking:** Show best survival records and completion status
 
 **Map Options:**
-
 - **Map 1 - Nevada:** Available from start, desert emergency base theme
 
 - **Map 2 - [Urban Location]:** Locked until Map 1 completion (50 days)
@@ -3213,7 +2970,6 @@ Clean, intuitive menu design emphasizing functionality and thematic consistency 
 **Base Upgrade Interface:**
 
 **Research Point Investment:**
-
 - **Upgrade Tree Visualization:** Clear tree structure showing 11 major upgrade categories
 
 - **Progress Tracking:** Visual indicators showing completed vs available upgrades
@@ -3225,7 +2981,6 @@ Clean, intuitive menu design emphasizing functionality and thematic consistency 
 - **Investment Confirmation:** Clear confirmation dialogs for expensive upgrade purchases
 
 **NPC Management:**
-
 - **Current NPCs:** Visual display of recruited NPCs with specialization indicators
 
 - **Expedition Tracking:** Countdown timers and status updates for NPCs on expeditions
@@ -3237,7 +2992,6 @@ Clean, intuitive menu design emphasizing functionality and thematic consistency 
 **Settings & Options:**
 
 **Comprehensive Customization:**
-
 - **Audio Settings:** Master volume, music, sound effects, voice volume controls
 
 - **Video Settings:** Resolution, fullscreen/windowed, graphics quality presets
@@ -3255,7 +3009,6 @@ Intuitive control systems optimized for both PC and mobile platforms, prioritizi
 **PC Platform Controls:**
 
 **Mouse & Keyboard Primary:**
-
 - **Left Click:** Primary selection and placement action
 
 - **Right Click:** Context menus and alternative actions
@@ -3271,7 +3024,6 @@ Intuitive control systems optimized for both PC and mobile platforms, prioritizi
 - **R Key:** Reroll building cards (when rerolls available)
 
 **Strategic Shortcuts:**
-
 - **WASD:** Camera pan for large battlefield navigation
 
 - **Shift+Click:** Multi-select for batch operations
@@ -3283,7 +3035,6 @@ Intuitive control systems optimized for both PC and mobile platforms, prioritizi
 - **Escape:** Open pause menu or cancel current action
 
 **Building & Placement:**
-
 - **Click Card → Click Grid:** Two-step building placement system
 
 - **Drag & Drop:** Alternative placement method for experienced players
@@ -3293,7 +3044,6 @@ Intuitive control systems optimized for both PC and mobile platforms, prioritizi
 - **Rotation (R):** Building rotation where applicable
 
 **Combat Controls:**
-
 - **Click Boost → Click Target:** Boost deployment system
 
 - **Click & Drag:** AoE targeting for boosts and airstrikes
@@ -3305,7 +3055,6 @@ Intuitive control systems optimized for both PC and mobile platforms, prioritizi
 **Mobile Platform Controls:**
 
 **Touch Interface Optimization:**
-
 - **Tap:** Primary selection and action
 
 - **Long Press:** Context menus and detailed information
@@ -3317,7 +3066,6 @@ Intuitive control systems optimized for both PC and mobile platforms, prioritizi
 - **Double Tap:** Quick confirmation actions
 
 **Gesture Controls:**
-
 - **Swipe Up:** Open/close resource panel
 
 - **Swipe Down:** Access settings menu
@@ -3327,7 +3075,6 @@ Intuitive control systems optimized for both PC and mobile platforms, prioritizi
 - **Three-Finger Tap:** Emergency pause
 
 **Touch-Optimized Elements:**
-
 - **Larger Touch Targets:** Interface elements sized for finger interaction
 
 - **Visual Touch Feedback:** Clear visual response to all touch interactions
@@ -3339,7 +3086,6 @@ Intuitive control systems optimized for both PC and mobile platforms, prioritizi
 **Universal Control Principles:**
 
 **Accessibility Features:**
-
 - **Customizable Controls:** Remappable keys and adjustable touch sensitivity
 
 - **One-Handed Mode:** Alternative layouts for mobile accessibility
@@ -3349,7 +3095,6 @@ Intuitive control systems optimized for both PC and mobile platforms, prioritizi
 - **Eye Tracking Support:** Advanced accessibility for specialized hardware
 
 **Error Prevention:**
-
 - **Confirmation Dialogs:** Destructive actions require explicit confirmation
 
 - **Undo System:** Limited undo functionality for placement mistakes
@@ -3365,7 +3110,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 **Visual Accessibility:**
 
 **Colorblind Support:**
-
 - **Multi-Channel Information:** Critical information conveyed through color, shape, AND text/icons
 
 - **Colorblind-Friendly Palette:** Interface colors tested for deuteranopia, protanopia, and tritanopia
@@ -3375,7 +3119,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 - **High Contrast Mode:** Optional high-contrast interface for improved visibility
 
 **Low Vision Support:**
-
 - **Scalable UI:** Interface elements scalable from 100% to 200% size
 
 - **Font Customization:** Adjustable font sizes with dyslexia-friendly font options
@@ -3385,7 +3128,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 - **Magnification Support:** Built-in zoom functionality with screen following
 
 **Visual Clarity Enhancements:**
-
 - **Motion Reduction:** Optional reduced animation mode for motion sensitivity
 
 - **Flash Reduction:** Minimized flashing effects with seizure consideration
@@ -3397,7 +3139,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 **Audio Accessibility:**
 
 **Hearing Impairment Support:**
-
 - **Visual Audio Cues:** Important audio information displayed as visual indicators
 
 - **Subtitle System:** All dialogue and important audio effects subtitled
@@ -3407,7 +3148,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 - **Vibration Alerts:** Mobile platform uses haptic feedback for audio cues
 
 **Audio Customization:**
-
 - **Individual Volume Controls:** Separate sliders for music, effects, voice, and UI sounds
 
 - **Audio Descriptions:** Optional audio descriptions for visual events
@@ -3419,7 +3159,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 **Motor Accessibility:**
 
 **Alternative Input Methods:**
-
 - **Single-Switch Support:** Gameplay possible with single button/key input
 
 - **Adjustable Timing:** Customizable timing requirements for time-sensitive actions
@@ -3429,7 +3168,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 - **Simplified Controls:** Optional simplified control schemes reducing required inputs
 
 **Customization Options:**
-
 - **Input Remapping:** Full keyboard and controller remapping support
 
 - **Sensitivity Adjustment:** Mouse/touch sensitivity customization
@@ -3441,7 +3179,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 **Cognitive Accessibility:**
 
 **Information Management:**
-
 - **Tutorial Replay:** Ability to replay tutorial sections at any time
 
 - **Context Help:** In-game help system with situation-specific guidance
@@ -3451,7 +3188,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 - **Simplified Mode:** Optional reduced complexity mode with fewer simultaneous systems
 
 **Memory Support:**
-
 - **Visual Reminders:** Interface elements remind players of current objectives
 
 - **Action History:** Log of recent player actions and their consequences
@@ -3463,7 +3199,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 **Language & Communication:**
 
 **Localization Support:**
-
 - **Multiple Languages:** Full localization for major languages
 
 - **Cultural Adaptation:** Interface elements adapted for cultural preferences
@@ -3473,7 +3208,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 - **Symbol Usage:** Universal symbols supplement text-based information
 
 **Communication Features:**
-
 - **Clear Messaging:** Simple, direct language in all interface text
 
 - **Icon Consistency:** Consistent iconography throughout all interface systems
@@ -3485,7 +3219,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 **Platform-Specific Accessibility:**
 
 **PC Accessibility:**
-
 - **Windows Accessibility API:** Full integration with Windows accessibility features
 
 - **Keyboard Navigation:** Complete keyboard-only navigation support
@@ -3495,7 +3228,6 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 - **High DPI Support:** Proper scaling on high-resolution displays
 
 **Mobile Accessibility:**
-
 - **iOS Accessibility:** VoiceOver, Switch Control, and Assistive Touch support
 
 - **Android Accessibility:** TalkBack, Select to Speak, and Live Caption integration
@@ -3515,7 +3247,6 @@ City Defense Z employs a cohesive visual design language that balances tactical 
 **Core Visual Philosophy:**
 
 **"Tactical Realism with Atmospheric Depth"**
-
 - **Functional Aesthetics:** Visual design prioritizes gameplay clarity while maintaining thematic authenticity
 
 - **Military Precision:** Clean, organized visual language reflecting military efficiency and tactical mindset
@@ -3527,7 +3258,6 @@ City Defense Z employs a cohesive visual design language that balances tactical 
 **Art Direction Pillars:**
 
 **Authentic Military Aesthetic:**
-
 - **Color Palette:** Muted military colors (olive greens, khakis, grays) with high-contrast accent colors for critical information
 
 - **Material Language:** Realistic textures suggesting worn military equipment, weathered structures, and functional materials
@@ -3537,7 +3267,6 @@ City Defense Z employs a cohesive visual design language that balances tactical 
 - **Environmental Storytelling:** Visual details that reinforce narrative context without cluttering gameplay space
 
 **Post-Apocalyptic Atmosphere:**
-
 - **Environmental Decay:** Structures show appropriate wear, damage, and improvised repairs reflecting survival conditions
 
 - **Resource Scarcity:** Visual design communicates the precious nature of supplies and materials
@@ -3547,7 +3276,6 @@ City Defense Z employs a cohesive visual design language that balances tactical 
 - **Global Crisis Context:** Environmental details support the worldwide catastrophe narrative
 
 **Gameplay-First Design:**
-
 - **Visual Hierarchy:** Critical gameplay elements (resources, threats, interactive objects) use distinct visual language
 
 - **Readability:** All gameplay elements remain clear and distinguishable across various lighting conditions and screen sizes
@@ -3559,7 +3287,6 @@ City Defense Z employs a cohesive visual design language that balances tactical 
 **Visual Style Specifications:**
 
 **Character Design:**
-
 - **Soldier Aesthetics:** Realistic military uniforms and equipment with progressive wear indicating experience/upgrade levels
 
 - **NPC Personality:** Each NPC type has distinct visual characteristics reflecting their specialization and background
@@ -3569,7 +3296,6 @@ City Defense Z employs a cohesive visual design language that balances tactical 
 - **Facial Animation:** Basic but expressive character animations for dialogue and personality communication
 
 **Environmental Design:**
-
 - **Base Architecture:** Modular, functional structures that grow organically as players expand their base
 
 - **Terrain Variety:** Each map features distinct environmental characteristics supporting tactical variety
@@ -3579,7 +3305,6 @@ City Defense Z employs a cohesive visual design language that balances tactical 
 - **Destruction Systems:** Visual feedback for damage, wear, and structural integrity
 
 **Building Visual Language:**
-
 - **Modular Construction:** Buildings appear assembled from available materials with clear functional purpose
 
 - **Level Progression:** Higher-level buildings show enhanced construction, better materials, and increased sophistication
@@ -3589,7 +3314,6 @@ City Defense Z employs a cohesive visual design language that balances tactical 
 - **Merge Visualization:** Clear visual progression when buildings merge and evolve
 
 **User Interface Aesthetics:**
-
 - **Military HUD Design:** Interface elements styled as tactical displays and military equipment
 
 - **Information Density:** Clean, organized layouts preventing visual clutter while maximizing information accessibility
@@ -3605,7 +3329,6 @@ City Defense Z's audio design creates an immersive military command experience t
 **Audio Design Principles:**
 
 **"Immersive Command Experience"**
-
 - **Tactical Audio:** Sound design supports strategic gameplay by providing clear audio feedback for all player actions
 
 - **Atmospheric Immersion:** Audio reinforces the post-apocalyptic military setting without overwhelming gameplay focus
@@ -3617,7 +3340,6 @@ City Defense Z's audio design creates an immersive military command experience t
 **Functional Audio Architecture:**
 
 **Gameplay Audio Systems:**
-
 - **Action Feedback:** Every player interaction receives appropriate audio confirmation
 
 - **Status Communication:** Resource changes, building completion, and system updates have distinct audio signatures
@@ -3627,7 +3349,6 @@ City Defense Z's audio design creates an immersive military command experience t
 - **Phase Transitions:** Clear audio cues mark day/night transitions and critical timing moments
 
 **Spatial Audio Design:**
-
 - **3D Positioning:** Combat sounds positioned spatially to support tactical awareness
 
 - **Distance Modeling:** Audio volume and quality changes based on distance from action
@@ -3637,7 +3358,6 @@ City Defense Z's audio design creates an immersive military command experience t
 - **Directional Cues:** Audio helps players locate threats, opportunities, and areas requiring attention
 
 **Dynamic Audio Layering:**
-
 - **Contextual Mixing:** Audio mix adapts to current game phase and player activity level
 
 - **Intensity Scaling:** Musical and ambient audio respond to threat levels and gameplay tension
@@ -3649,7 +3369,6 @@ City Defense Z's audio design creates an immersive military command experience t
 **Audio Aesthetic Framework:**
 
 **Military Communication Style:**
-
 - **Walkie-Talkie Effects:** Story delivery through authentic radio communication with static and interference
 
 - **Command Structure:** Audio reinforces military hierarchy and tactical communication protocols
@@ -3659,7 +3378,6 @@ City Defense Z's audio design creates an immersive military command experience t
 - **Emergency Protocols:** Audio cues reflect realistic military emergency response procedures
 
 **Apocalyptic Atmosphere:**
-
 - **Environmental Audio:** Ambient sounds suggesting desolate, dangerous world conditions
 
 - **Resource Scarcity:** Audio cues emphasizing the precious nature of supplies and equipment
@@ -3675,7 +3393,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 **Music Design Strategy:**
 
 **Adaptive Musical Score:**
-
 - **Dynamic Composition:** Music responds to gameplay phases, threat levels, and player progress
 
 - **Layered Architecture:** Modular musical elements combine based on current game state
@@ -3687,7 +3404,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 **Phase-Based Musical Themes:**
 
 **Day Phase Music:**
-
 - **Strategic Planning Theme:** Calm, focused music supporting careful decision-making
 
 - **Resource Management Motif:** Subtle background music allowing concentration on economic planning
@@ -3697,7 +3413,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 - **Building Success:** Positive musical stingers for successful merges and base expansion
 
 **Night Phase Music:**
-
 - **Combat Intensity:** Dynamic music scaling with threat level and zombie presence
 
 - **Tension Building:** Musical escalation supporting adrenaline and tactical urgency
@@ -3707,7 +3422,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 - **Victory Relief:** Musical resolution for successful wave completion
 
 **Narrative Musical Support:**
-
 - **Story Moments:** Emotional musical underscore for walkie-talkie communications and story beats
 
 - **Map Themes:** Each map location has distinctive musical identity supporting environmental storytelling
@@ -3719,7 +3433,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 **Sound Effects Architecture:**
 
 **Combat Audio Systems:**
-
 - **Weapon Variety:** Distinct audio signatures for different soldier types and equipment
 
 - **Impact Feedback:** Clear audio confirmation for successful attacks and damage dealt
@@ -3729,7 +3442,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 - **Destruction Effects:** Satisfying audio for building destruction, wall collapse, and enemy elimination
 
 **Base Management Audio:**
-
 - **Building Construction:** Audio feedback for placement, completion, and upgrades
 
 - **Resource Collection:** Distinct sounds for different resource types and collection actions
@@ -3739,7 +3451,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 - **Production Ready:** Audio alerts for completed production cycles requiring collection
 
 **Interactive System Audio:**
-
 - **UI Feedback:** Comprehensive audio feedback for all interface interactions
 
 - **Card Selection:** Audio cues for building card selection, costs, and placement
@@ -3749,7 +3460,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 - **Emergency Alerts:** Urgent audio warnings for zombie holes and critical threats
 
 **Environmental Audio:**
-
 - **Ambient Soundscape:** Atmospheric audio supporting each map's environmental characteristics
 
 - **Weather Systems:** Audio effects for environmental conditions affecting atmosphere
@@ -3761,7 +3471,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 **Specialized Audio Features:**
 
 **Voice Acting & Dialogue:**
-
 - **NPC Characterization:** Professional voice acting bringing personality to each NPC type
 
 - **Military Authenticity:** Realistic military communication style and terminology
@@ -3771,7 +3480,6 @@ Comprehensive audio content strategy balancing atmospheric immersion with functi
 - **Accessibility Support:** Clear enunciation and subtitle support for hearing accessibility
 
 **Procedural Audio Systems:**
-
 - **Dynamic Generation:** Some audio elements generated procedurally to maintain freshness
 
 - **Contextual Variation:** Audio variations preventing repetition during extended play sessions
@@ -3787,7 +3495,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 **Animation Design Philosophy:**
 
 **"Clarity Through Motion"**
-
 - **Functional Animation:** All animations serve clear gameplay or narrative purpose
 
 - **Strategic Readability:** Animations enhance rather than obscure tactical information
@@ -3799,7 +3506,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 **Gameplay Animation Systems:**
 
 **Building & Construction Animations:**
-
 - **Placement Feedback:** Clear visual confirmation when buildings are successfully placed
 
 - **Construction Progress:** Visual progression showing building completion and upgrade processes
@@ -3811,7 +3517,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 - **Destruction Sequences:** Appropriate collapse animations for damaged or destroyed structures
 
 **Unit & Combat Animations:**
-
 - **Soldier Behavior:** Idle, movement, and combat animations conveying military professionalism
 
 - **Merge Sequences:** Visual transformation when soldiers combine into higher-level units
@@ -3823,7 +3528,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 - **Formation Movement:** Coordinated animation for soldier positioning and tactical deployment
 
 **Enemy Animation Framework:**
-
 - **Zombie Variety:** Distinct movement and behavior animations for each zombie type
 
 - **Threat Communication:** Animations clearly indicating zombie capabilities and danger level
@@ -3837,7 +3541,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 **Interactive System Animations:**
 
 **User Interface Animations:**
-
 - **Transition Effects:** Smooth transitions between game phases and interface states
 
 - **Feedback Systems:** Visual confirmation animations for all player interactions
@@ -3849,7 +3552,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 - **Alert Systems:** Attention-grabbing animations for critical information and emergency situations
 
 **Environmental Animations:**
-
 - **Day/Night Cycle:** Smooth lighting transitions supporting phase change communication
 
 - **Weather Effects:** Subtle atmospheric animations enhancing environmental immersion
@@ -3859,7 +3561,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 - **Atmospheric Details:** Environmental animations supporting post-apocalyptic world-building
 
 **Narrative Animation Support:**
-
 - **Character Expression:** Basic facial animation and gesture systems for NPC dialogue
 
 - **Story Moments:** Cinematic animation elements for key narrative beats
@@ -3871,7 +3572,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 **Technical Animation Specifications:**
 
 **Performance Optimization:**
-
 - **Level-of-Detail Systems:** Animation complexity scales based on screen importance and device capabilities
 
 - **Efficient Rendering:** Optimized animation systems maintaining smooth performance
@@ -3881,7 +3581,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 - **Platform Scaling:** Animation quality and complexity adapted for mobile vs PC platforms
 
 **Accessibility Considerations:**
-
 - **Motion Sensitivity:** Reduced animation options for players sensitive to excessive movement
 
 - **Clear Communication:** Essential information communicated through multiple channels (visual, audio, UI)
@@ -3891,7 +3590,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 - **Customization Options:** Player control over animation density and intensity
 
 **Quality Assurance Standards:**
-
 - **Cross-Platform Consistency:** Animations maintain quality and clarity across all target platforms
 
 - **Performance Benchmarks:** Animation systems meet frame rate requirements on minimum specification hardware
@@ -3901,7 +3599,6 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 - **Accessibility Compliance:** Animation design supports comprehensive accessibility requirements
 
 **Animation Asset Pipeline:**
-
 - **Modular Design:** Reusable animation components reducing development time and memory usage
 
 - **Version Control:** Systematic animation asset management supporting iterative development
@@ -3921,7 +3618,6 @@ City Defense Z is designed for cross-platform deployment with primary focus on P
 **Platform Architecture Overview:**
 
 **Primary Platform - PC (Windows/Mac/Linux):**
-
 - **Target Engine:** Unity 2022.3 LTS for cross-platform development and long-term stability
 
 - **Distribution:** Steam as primary distribution platform with potential for other PC digital stores
@@ -3931,7 +3627,6 @@ City Defense Z is designed for cross-platform deployment with primary focus on P
 - **Feature Completeness:** Full feature set including all gameplay systems, UI complexity, and visual fidelity
 
 **Secondary Platform - Mobile (iOS/Android):**
-
 - **Adaptation Strategy:** Touch-optimized interface with simplified UI elements and gesture controls
 
 - **Performance Scaling:** Reduced visual complexity and optimized rendering for mobile hardware constraints
@@ -3945,7 +3640,6 @@ City Defense Z is designed for cross-platform deployment with primary focus on P
 **PC Platform Requirements:**
 
 **Minimum System Requirements:**
-
 - **Operating System:** Windows 10 64-bit / macOS 10.14 Mojave / Ubuntu 18.04 LTS
 
 - **Processor:** Intel Core i3-6100 (3.7GHz) / AMD FX-6300 (3.5GHz) equivalent
@@ -3963,7 +3657,6 @@ City Defense Z is designed for cross-platform deployment with primary focus on P
 - **Sound Card:** DirectX compatible
 
 **Recommended System Requirements:**
-
 - **Operating System:** Windows 11 64-bit / macOS 12.0 Monterey / Ubuntu 20.04 LTS or later
 
 - **Processor:** Intel Core i5-8400 (2.8GHz) / AMD Ryzen 5 2600 (3.4GHz) or better
@@ -3983,7 +3676,6 @@ City Defense Z is designed for cross-platform deployment with primary focus on P
 **Mobile Platform Requirements:**
 
 **iOS Requirements:**
-
 - **Device Compatibility:** iPhone 8 / iPad (6th generation) or newer
 
 - **Operating System:** iOS 14.0 or later
@@ -3997,7 +3689,6 @@ City Defense Z is designed for cross-platform deployment with primary focus on P
 - **Additional:** Metal graphics API support
 
 **Android Requirements:**
-
 - **Operating System:** Android 8.0 (API level 26) or higher
 
 - **Architecture:** ARM64 (64-bit) processor
@@ -4013,7 +3704,6 @@ City Defense Z is designed for cross-platform deployment with primary focus on P
 **Cross-Platform Technical Considerations:**
 
 **Engine Selection Rationale:**
-
 - **Unity 2022.3 LTS:** Proven cross-platform development framework with extensive platform support
 
 - **Long-term Support:** LTS version ensures stability and extended support lifecycle for post-launch maintenance
@@ -4023,7 +3713,6 @@ City Defense Z is designed for cross-platform deployment with primary focus on P
 - **Platform Integration:** Native integration with Steam, iOS App Store, and Google Play Store
 
 **Rendering Pipeline:**
-
 - **Universal Render Pipeline (URP):** Optimized rendering system supporting both desktop and mobile platforms
 
 - **Scalable Graphics:** Dynamic quality scaling based on platform capabilities and user preferences
@@ -4039,7 +3728,6 @@ Comprehensive performance benchmarks ensuring smooth, responsive gameplay across
 **Performance Benchmarks:**
 
 **PC Platform Targets:**
-
 - **Frame Rate:** 60 FPS stable on recommended specifications, 30 FPS minimum on minimum specifications
 
 - **Loading Times:** Initial game launch under 30 seconds, level loading under 15 seconds on SSD
@@ -4051,7 +3739,6 @@ Comprehensive performance benchmarks ensuring smooth, responsive gameplay across
 - **GPU Usage:** Efficient utilization with headroom for background applications and multitasking
 
 **Mobile Platform Targets:**
-
 - **Frame Rate:** 30 FPS stable on minimum specifications, 60 FPS on high-end devices with variable refresh rate support
 
 - **Battery Life:** Minimum 2 hours continuous gameplay on average mobile devices
@@ -4065,7 +3752,6 @@ Comprehensive performance benchmarks ensuring smooth, responsive gameplay across
 **Optimization Strategies:**
 
 **Rendering Optimization:**
-
 - **Level-of-Detail (LOD) Systems:** Automatic quality scaling based on object importance and screen distance
 
 - **Culling Systems:** Frustum culling, occlusion culling, and distance-based object culling
@@ -4077,7 +3763,6 @@ Comprehensive performance benchmarks ensuring smooth, responsive gameplay across
 - **Batching Strategies:** Dynamic batching and GPU instancing for repeated objects
 
 **Memory Management:**
-
 - **Asset Streaming:** Smart loading and unloading of assets based on current gameplay needs
 
 - **Object Pooling:** Reusable object pools for frequently spawned elements (zombies, effects, UI elements)
@@ -4089,7 +3774,6 @@ Comprehensive performance benchmarks ensuring smooth, responsive gameplay across
 - **Audio Memory:** Compressed audio formats with streaming for larger audio files
 
 **CPU Optimization:**
-
 - **Pathfinding Efficiency:** Optimized AI pathfinding with level-of-detail and update frequency scaling
 
 - **Physics Optimization:** Efficient collision detection and physics simulation appropriate for gameplay needs
@@ -4103,7 +3787,6 @@ Comprehensive performance benchmarks ensuring smooth, responsive gameplay across
 **Platform-Specific Optimizations:**
 
 **PC Optimization:**
-
 - **Multi-Core Utilization:** Efficient use of multiple CPU cores for parallel processing
 
 - **Graphics Settings:** Comprehensive graphics options allowing users to optimize for their hardware
@@ -4115,7 +3798,6 @@ Comprehensive performance benchmarks ensuring smooth, responsive gameplay across
 - **Background Compatibility:** Efficient resource usage allowing smooth operation with other applications
 
 **Mobile Optimization:**
-
 - **Touch Responsiveness:** Low-latency touch input processing for immediate feedback
 
 - **Power Efficiency:** Optimized rendering and processing to minimize battery drain
@@ -4133,7 +3815,6 @@ Comprehensive data persistence architecture ensuring reliable save functionality
 **Save System Architecture:**
 
 **Local Save System:**
-
 - **Save File Format:** JSON-based save files with encryption for data protection and anti-tampering
 
 - **Incremental Saves:** Efficient incremental save system updating only changed data to minimize I/O operations
@@ -4145,7 +3826,6 @@ Comprehensive data persistence architecture ensuring reliable save functionality
 - **Platform Integration:** Native save file locations appropriate for each platform (Documents folder on PC, platform-specific locations on mobile)
 
 **Cloud Save Integration:**
-
 - **Steam Cloud:** Full integration with Steam Cloud for automatic save synchronization across PC devices
 
 - **Mobile Cloud:** iCloud integration for iOS, Google Play Games for Android save synchronization
@@ -4159,7 +3839,6 @@ Comprehensive data persistence architecture ensuring reliable save functionality
 **Data Persistence Structure:**
 
 **Game State Categories:**
-
 - **Current Run Data:** Active game session state including resources, buildings, soldiers, day progress
 
 - **Meta Progression:** Research point totals, upgrade tree completion, unlocked content
@@ -4196,7 +3875,6 @@ SaveData/
 **Data Integrity & Security:**
 
 **Save File Protection:**
-
 - **Checksum Validation:** MD5 hash verification for save file integrity checking
 
 - **Encryption:** Basic encryption preventing casual save file editing while maintaining performance
@@ -4208,7 +3886,6 @@ SaveData/
 - **Permission Management:** Appropriate file permissions and access control for platform security requirements
 
 **Anti-Cheat Considerations:**
-
 - **Server Validation:** Optional server-side validation for critical progression milestones (future feature)
 
 - **Reasonable Limits:** Data validation ensuring save values remain within reasonable gameplay bounds
@@ -4222,7 +3899,6 @@ SaveData/
 **Data Migration & Updates:**
 
 **Version Compatibility:**
-
 - **Forward Compatibility:** Newer game versions can load older save files with appropriate data migration
 
 - **Migration Scripts:** Automated data conversion for save files from previous game versions
@@ -4253,7 +3929,6 @@ Game Architecture/
 ```
 
 **Modular Design Principles:**
-
 - **Separation of Concerns:** Each system handles distinct functionality with clear interfaces
 
 - **Event-Driven Architecture:** Systems communicate through event messaging reducing direct dependencies
@@ -4267,7 +3942,6 @@ Game Architecture/
 **System Interaction Patterns:**
 
 **Event System Architecture:**
-
 - **Central Event Bus:** Unity-based event system handling inter-system communication
 
 - **Type-Safe Events:** Strongly-typed event classes preventing runtime errors
@@ -4279,7 +3953,6 @@ Game Architecture/
 - **Performance Optimization:** Efficient event dispatching with minimal allocation overhead
 
 **Data Flow Management:**
-
 - **Unidirectional Data Flow:** Clear data flow patterns preventing circular dependencies
 
 - **State Synchronization:** Automatic UI updates when underlying game state changes
@@ -4293,7 +3966,6 @@ Game Architecture/
 **Platform Abstraction Layer:**
 
 **Cross-Platform Services:**
-
 - **Input Abstraction:** Unified input handling supporting keyboard/mouse and touch interfaces
 
 - **Platform Integration:** Abstract interfaces for platform-specific features (achievements, social, cloud saves)
@@ -4307,7 +3979,6 @@ Game Architecture/
 **Development & Testing Architecture:**
 
 **Code Organization:**
-
 - **Namespace Structure:** Organized code namespaces preventing naming conflicts and improving maintainability
 
 - **Assembly Definitions:** Unity assembly definition files for improved compilation times and dependency management
@@ -4319,7 +3990,6 @@ Game Architecture/
 - **Version Control Integration:** Git-based version control with appropriate branching strategies
 
 **Testing Framework:**
-
 - **Unit Testing:** Comprehensive unit test coverage for critical game systems
 
 - **Integration Testing:** System integration tests ensuring proper inter-system communication
@@ -4333,7 +4003,6 @@ Game Architecture/
 **Scalability & Maintenance:**
 
 **Performance Monitoring:**
-
 - **Runtime Profiling:** Built-in performance monitoring and bottleneck identification
 
 - **Memory Tracking:** Real-time memory usage monitoring and leak detection
@@ -4345,7 +4014,6 @@ Game Architecture/
 - **User Analytics:** Optional anonymous performance data collection for optimization insights
 
 **Update & Deployment Architecture:**
-
 - **Modular Updates:** System designed to support incremental updates and patches
 
 - **Content Pipeline:** Automated content build and deployment pipeline
@@ -4357,7 +4025,6 @@ Game Architecture/
 - **Platform Distribution:** Automated deployment to multiple platform stores and distribution services
 
 **Security & Data Protection:**
-
 - **User Privacy:** Comprehensive privacy protection following GDPR and platform privacy requirements
 
 - **Data Encryption:** Appropriate encryption for sensitive user data and save files
@@ -4379,7 +4046,6 @@ City Defense Z's resource economy is carefully balanced to create meaningful str
 **Economic Design Philosophy:**
 
 **"Scarcity with Strategic Choice"**
-
 - **Resource Tension:** Players consistently face meaningful choices about resource allocation
 
 - **Multi-Path Optimization:** Multiple viable strategies for resource management and base development
@@ -4391,7 +4057,6 @@ City Defense Z's resource economy is carefully balanced to create meaningful str
 **Resource Flow Architecture:**
 
 **Resource (Primary Currency):**
-
 - **Base Generation:** 10 Resource per day (day 1), scaling +2 per day until day 10, then +1 per day
 
 - **Factory Production:** Level 1 Factory produces 5 Resource per collection cycle
@@ -4403,7 +4068,6 @@ City Defense Z's resource economy is carefully balanced to create meaningful str
 - **Economic Pressure Points:** Days 15-25 typically require optimized resource management
 
 **Ammunition (Military Currency):**
-
 - **Base Generation:** 5 Ammunition per day (day 1), scaling +1 per day until day 15
 
 - **Ammunition Building Production:** Level 1 produces 8 Ammunition per collection cycle
@@ -4415,7 +4079,6 @@ City Defense Z's resource economy is carefully balanced to create meaningful str
 - **Crisis Management:** Ammunition scarcity during heavy combat waves creates tactical tension
 
 **Food (Survival Currency):**
-
 - **Base Consumption:** 1 Food per Population per day (automatic deduction)
 
 - **Farm Production:** Level 1 Farm produces 6 Food per collection cycle, affects surrounding grids
@@ -4427,7 +4090,6 @@ City Defense Z's resource economy is carefully balanced to create meaningful str
 - **Population Scaling:** Larger armies require proportionally more food infrastructure
 
 **Population (Capacity Limitation):**
-
 - **Base Capacity:** 10 Population at game start
 
 - **House Production:** Level 1 House provides +5 Population capacity
@@ -4439,7 +4101,6 @@ City Defense Z's resource economy is carefully balanced to create meaningful str
 - **Growth Planning:** Population becomes bottleneck for large-scale military strategies
 
 **Research Points (Meta Currency):**
-
 - **Laboratory Production:** Level 1 Lab produces 2 Research Points per collection cycle
 
 - **Expedition Rewards:** 3-8 Research Points based on expedition type and success
@@ -4469,7 +4130,6 @@ Resource Expenditure Categories:
 ```
 
 **Production Scaling Curves:**
-
 - **Linear Base Growth:** Consistent daily resource increases preventing early game stagnation
 
 - **Exponential Building Growth:** Merged buildings provide exponentially improved production
@@ -4479,7 +4139,6 @@ Resource Expenditure Categories:
 - **Efficiency Rewards:** Optimal merge strategies provide significant economic advantages
 
 **Economy Stress Testing:**
-
 - **Resource Shortage Scenarios:** Game remains playable even with suboptimal resource management
 
 - **Abundance Prevention:** Resource caps and meaningful sinks prevent runaway economic growth
@@ -4495,7 +4154,6 @@ Combat balance ensures engaging, skill-based encounters that scale appropriately
 **Combat Design Principles:**
 
 **"Tactical Depth with Clear Feedback"**
-
 - **Readable Combat:** Players can understand why they succeeded or failed in combat encounters
 
 - **Multiple Solutions:** Various tactical approaches remain viable for overcoming challenges
@@ -4517,7 +4175,6 @@ Soldier Level Progression:
 ```
 
 **Specialized Unit Balance:**
-
 - **Mortar Artillery:** High damage, slow fire rate, vulnerable to fast enemies
 
 - **Machine Gun (Bixi):** Excellent vs swarms, less effective vs individual strong enemies
@@ -4539,7 +4196,6 @@ Zombie Type Scaling (by day):
 ```
 
 **Boss Encounter Balance:**
-
 - **Level 1 Boss (Stonefist):** Appears days 8-12, requires 3-4 Level 2 soldiers minimum
 
 - **Level 2 Boss (Deathtouch):** Appears days 18-25, requires mixed unit composition
@@ -4551,7 +4207,6 @@ Zombie Type Scaling (by day):
 **Combat Mechanics Balance:**
 
 **Boost System Effectiveness:**
-
 - **Damage Boost:** +50% damage for 30 seconds, critical for boss encounters
 
 - **Fire Rate Boost:** +35% attack speed for 20 seconds, excellent vs swarm waves
@@ -4561,7 +4216,6 @@ Zombie Type Scaling (by day):
 - **Resource Boost:** +50% collection for 6 cycles, economic recovery mechanism
 
 **Airstrike Balance:**
-
 - **Standard Strike:** 300-500 damage in medium radius, costs 15 Ammunition
 
 - **Carpet Bomber:** 200 damage x3 bombs in line formation, costs 25 Ammunition
@@ -4571,7 +4225,6 @@ Zombie Type Scaling (by day):
 - **Upgrade Impact:** Research upgrades significantly improve cost-effectiveness and power
 
 **Wall Durability System:**
-
 - **Basic Wall HP:** 100 HP, destroyed by 8-12 basic zombie attacks
 
 - **Wall Upgrade Effects:** +50% HP per wall upgrade level
@@ -4583,7 +4236,6 @@ Zombie Type Scaling (by day):
 **Combat Pacing & Flow:**
 
 **Wave Composition Design:**
-
 - **Early Waves (Days 1-5):** 10-20 zombies, single type, 30-45 second duration
 
 - **Mid Waves (Days 15-25):** 25-40 zombies, 2-3 types mixed, 60-90 second duration
@@ -4593,7 +4245,6 @@ Zombie Type Scaling (by day):
 - **Boss Waves:** Standard wave + boss zombie, extended duration with preparation time
 
 **Combat Feedback Systems:**
-
 - **Damage Numbers:** Clear visual feedback for damage dealt and received
 
 - **Threat Indicators:** Visual and audio cues for high-priority targets
@@ -4609,7 +4260,6 @@ Progression systems are carefully tuned to provide satisfying advancement while 
 **Meta Progression Philosophy:**
 
 **"Meaningful Growth with Sustained Challenge"**
-
 - **Power Progression:** Players feel consistently stronger while challenges scale appropriately
 
 - **Choice Significance:** Upgrade investments create meaningfully different gameplay experiences
@@ -4650,7 +4300,6 @@ Research Point Investment Tiers:
 **Run Length Progression:**
 
 **Expected Survival Curves:**
-
 - **Beginner Runs (0-5 attempts):** 5-15 days average survival
 
 - **Learning Phase (6-20 attempts):** 15-35 days average survival
@@ -4660,7 +4309,6 @@ Research Point Investment Tiers:
 - **Mastery Phase (51+ attempts):** 50+ days consistent survival
 
 **Progression Milestone Rewards:**
-
 - **First 10-Day Survival:** Unlock medium expeditions (significant capability expansion)
 
 - **First 25-Day Survival:** Unlock large expeditions (high-risk/high-reward options)
@@ -4672,7 +4320,6 @@ Research Point Investment Tiers:
 **NPC Progression Integration:**
 
 **NPC Acquisition Timeline:**
-
 - **First NPC Choice:** Day 5 of first successful run
 
 - **Subsequent NPCs:** Every 5-8 days during mid-to-late game
@@ -4682,7 +4329,6 @@ Research Point Investment Tiers:
 - **Loss Recovery:** NPC death creates meaningful setback requiring strategic adaptation
 
 **Base Customization Progression:**
-
 - **Visual Progression:** Base appearance improves with upgrade investments
 
 - **Functional Growth:** Upgraded bases provide tangible gameplay advantages
@@ -4698,7 +4344,6 @@ Difficulty progression creates escalating challenges that match player skill dev
 **Difficulty Design Philosophy:**
 
 **"Adaptive Challenge with Player Agency"**
-
 - **Skill-Based Scaling:** Difficulty increases match typical player skill development
 
 - **Multiple Difficulty Vectors:** Challenge increases through various mechanics simultaneously
@@ -4710,7 +4355,6 @@ Difficulty progression creates escalating challenges that match player skill dev
 **Map-Based Difficulty Progression:**
 
 **Map 1 (Nevada) - Learning Curve:**
-
 - **Zombie Density:** 10-30 zombies per wave maximum
 
 - **Enemy Types:** Primarily Level 1-2 zombies, rare Level 3
@@ -4722,7 +4366,6 @@ Difficulty progression creates escalating challenges that match player skill dev
 - **Objective:** 50-day survival with tutorial integration
 
 **Map 2 (Urban) - Skill Development:**
-
 - **Zombie Density:** 20-45 zombies per wave maximum
 
 - **Enemy Types:** Level 1-3 majority, Level 4 introduction
@@ -4734,7 +4377,6 @@ Difficulty progression creates escalating challenges that match player skill dev
 - **Objective:** 75-day survival requiring strategic optimization
 
 **Map 3 (Industrial) - Advanced Challenge:**
-
 - **Zombie Density:** 30-60 zombies per wave maximum
 
 - **Enemy Types:** Level 2-4 majority, Level 5 introduction
@@ -4746,7 +4388,6 @@ Difficulty progression creates escalating challenges that match player skill dev
 - **Objective:** Extended survival requiring mastery of all systems
 
 **Map 4 (Laboratory) - Ultimate Test:**
-
 - **Zombie Density:** 40-80 zombies per wave maximum
 
 - **Enemy Types:** All levels present, emphasis on Level 4-5
@@ -4770,7 +4411,6 @@ Difficulty Progression Factors:
 ```
 
 **Player Performance Adaptation:**
-
 - **Success Tracking:** Game monitors player performance and adjusts accordingly
 
 - **Assistance Systems:** Struggling players receive subtle difficulty reductions
@@ -4782,7 +4422,6 @@ Difficulty Progression Factors:
 **Accessibility Difficulty Options:**
 
 **Difficulty Modifiers:**
-
 - **Casual Mode:** -25% enemy health and damage, +25% resource generation
 
 - **Standard Mode:** Balanced experience as designed
@@ -4792,7 +4431,6 @@ Difficulty Progression Factors:
 - **Expert Mode:** +50% challenge across all systems, for experienced players
 
 **Assistive Features:**
-
 - **Extended Day Phases:** Longer preparation time for players who need it
 
 - **Visual Assistance:** Enhanced visual indicators for critical information
@@ -4804,7 +4442,6 @@ Difficulty Progression Factors:
 **Balance Validation Framework:**
 
 **Testing Methodology:**
-
 - **Statistical Analysis:** Data-driven balance adjustments based on player performance metrics
 
 - **Playtester Diversity:** Testing across various skill levels and playstyles
@@ -4814,7 +4451,6 @@ Difficulty Progression Factors:
 - **Edge Case Testing:** Validation of extreme strategies and unusual gameplay approaches
 
 **Success Metrics:**
-
 - **Completion Rates:** 60-80% of players should complete Map 1, 40-60% Map 2, 20-40% Map 3, 10-25% Map 4
 
 - **Engagement Retention:** Players should feel motivated to attempt multiple runs
@@ -4834,7 +4470,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 **Onboarding Philosophy:**
 
 **"Learn by Doing with Guided Discovery"**
-
 - **Interactive Learning:** Players learn through actual gameplay rather than passive information consumption
 
 - **Progressive Complexity:** Systems introduced incrementally, building on previously mastered concepts
@@ -4848,7 +4483,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 **Phase 1: Foundation Tutorial (Days 1-3)**
 
 **First Day Tutorial:**
-
 - **Basic Placement:** Learn building card selection and grid placement mechanics
 
 - **Resource Introduction:** Understand Resource currency and basic economic concepts
@@ -4860,7 +4494,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 - **Victory Condition:** Complete first night phase successfully with minimal complexity
 
 **Second Day Tutorial:**
-
 - **Soldier Training:** Learn Barracks functionality and soldier deployment
 
 - **Combat Basics:** Understand soldier behavior and zombie engagement
@@ -4872,7 +4505,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 - **Boost Introduction:** Collect and use first boost during night phase
 
 **Third Day Tutorial:**
-
 - **Multiple Resources:** Introduction to Ammunition currency and military economics
 
 - **Wall Placement:** Learn defensive structure deployment and tactical positioning
@@ -4886,7 +4518,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 **Phase 2: System Integration Tutorial (Days 4-7)**
 
 **Day 4-5: Advanced Building Systems:**
-
 - **Farm Introduction:** Learn Food currency and population management
 
 - **Population Limits:** Understand soldier capacity constraints and housing needs
@@ -4898,7 +4529,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 - **NPC Introduction:** First NPC recruitment choice with guided explanation
 
 **Day 6-7: Combat Mastery:**
-
 - **Specialized Units:** Introduction to Mortar, Machine Gun, and Rocket Launcher
 
 - **Boss Encounters:** First boss zombie with guided tactical response
@@ -4912,7 +4542,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 **Phase 3: Meta Systems Tutorial (Days 8-15)**
 
 **Research Point Systems:**
-
 - **Laboratory Introduction:** Understanding meta progression currency
 
 - **First Upgrade:** Guided investment in first permanent upgrade
@@ -4924,7 +4553,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 - **Upgrade Tree Navigation:** Interface tutorial for research point investment
 
 **Advanced Strategic Systems:**
-
 - **Expedition Tutorial:** First NPC expedition with risk/reward explanation
 
 - **Utility Cards:** Introduction to Building Relocation and Direct Level-Up cards
@@ -4938,7 +4566,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 **Tutorial Design Principles:**
 
 **Adaptive Guidance:**
-
 - **Skill Detection:** Tutorial adapts pace based on player performance and comprehension
 
 - **Skip Options:** Experienced players can accelerate through familiar concepts
@@ -4950,7 +4577,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 - **Progressive Disclosure:** Advanced features hidden until player ready to learn them
 
 **Feedback Systems:**
-
 - **Visual Indicators:** Clear visual cues highlighting interactive elements and opportunities
 
 - **Success Celebration:** Positive reinforcement for correct actions and strategic decisions
@@ -4962,7 +4588,6 @@ City Defense Z's onboarding system introduces players to complex strategic syste
 - **Confidence Building:** Structured success experiences building player self-efficacy
 
 **Tutorial Accessibility:**
-
 - **Multiple Learning Styles:** Visual, auditory, and kinesthetic learning support
 
 - **Pacing Control:** Players control tutorial progression speed
@@ -4980,7 +4605,6 @@ Comprehensive motivation architecture sustaining player engagement through multi
 **Motivation Design Framework:**
 
 **"Intrinsic Growth with Extrinsic Recognition"**
-
 - **Mastery Development:** Players motivated by improving strategic skills and tactical execution
 
 - **Autonomy Support:** Multiple viable strategies preserve player choice and creativity
@@ -5019,7 +4643,6 @@ Progression Milestones:
 ```
 
 **Daily & Weekly Challenges:**
-
 - **Rotating Objectives:** Daily challenges providing focused gameplay goals
 
 - **Skill Development:** Challenges designed to teach specific strategies and techniques
@@ -5033,7 +4656,6 @@ Progression Milestones:
 **Progression Feedback Systems:**
 
 **Visual Progress Communication:**
-
 - **Experience Bars:** Clear visual representation of advancement toward next milestone
 
 - **Badge Systems:** Visual achievement display in player profile and base interface
@@ -5045,7 +4667,6 @@ Progression Milestones:
 - **Personal Best Tracking:** Historical performance comparison and improvement recognition
 
 **Emotional Reward Mechanisms:**
-
 - **Narrative Payoffs:** Story resolution providing emotional satisfaction for persistence
 
 - **Character Relationships:** NPC development creating emotional investment in base community
@@ -5059,7 +4680,6 @@ Progression Milestones:
 **Social Motivation Elements:**
 
 **Community Integration:**
-
 - **Strategy Sharing:** Platforms for players to share successful base designs and strategies
 
 - **Achievement Showcase:** Social display of accomplishments and rare achievements
@@ -5077,7 +4697,6 @@ Comprehensive systems ensuring sustained player engagement through strategic dep
 **Replay Value Architecture:**
 
 **"Infinite Strategic Depth with Evolving Challenges"**
-
 - **Emergent Complexity:** Simple systems interact to create complex strategic scenarios
 
 - **Multiple Solutions:** Various approaches remain viable for every challenge
@@ -5116,7 +4735,6 @@ Viable Strategy Archetypes:
 **Content Replayability Factors:**
 
 **Map Variety & Progression:**
-
 - **Environmental Diversity:** Each map requires different tactical approaches and strategies
 
 - **Narrative Reexperience:** Multiple playthroughs reveal different story details and character interactions
@@ -5128,7 +4746,6 @@ Viable Strategy Archetypes:
 - **Seasonal Content:** Periodic updates adding new maps, enemies, or mechanics
 
 **NPC Combination Variety:**
-
 - **Team Composition:** 4 NPC types create 15 different possible base communities
 
 - **Specialization Synergies:** Different NPC combinations enable different strategic approaches
@@ -5140,7 +4757,6 @@ Viable Strategy Archetypes:
 - **Loss Recovery:** NPC death creates meaningful narrative and strategic consequences
 
 **Research Point Investment Paths:**
-
 - **Upgrade Tree Variety:** 11 major trees with 40+ individual upgrades create vast customization possibilities
 
 - **Build Specialization:** Different upgrade investments create meaningfully different gameplay experiences
@@ -5154,7 +4770,6 @@ Viable Strategy Archetypes:
 **Long-term Engagement Mechanics:**
 
 **Skill Development Progression:**
-
 - **Mechanical Mastery:** Improving at real-time decision making and multitasking
 
 - **Strategic Understanding:** Developing deeper appreciation for system interactions
@@ -5166,7 +4781,6 @@ Viable Strategy Archetypes:
 - **Teaching Others:** Advanced players mentoring newcomers in community spaces
 
 **Content Evolution Systems:**
-
 - **Balance Updates:** Regular balance adjustments keeping strategies fresh and viable
 
 - **New Content Releases:** Additional maps, enemies, or mechanics expanding strategic possibilities
@@ -5180,7 +4794,6 @@ Viable Strategy Archetypes:
 **Retention Psychology:**
 
 **Investment Escalation:**
-
 - **Sunk Cost Engagement:** Research Point investment creates psychological commitment
 
 - **Base Attachment:** Emotional investment in developed base and NPC relationships
@@ -5192,7 +4805,6 @@ Viable Strategy Archetypes:
 - **Community Status:** Social recognition within player community
 
 **Variety Maintenance:**
-
 - **Procedural Elements:** Random card draws and enemy compositions prevent repetitive gameplay
 
 - **Strategic Discovery:** New strategy combinations discovered through experimentation
@@ -5210,7 +4822,6 @@ Competitive ranking system motivating players to push their survival limits thro
 **Leaderboard Design Philosophy:**
 
 **"Survival Excellence Recognition"**
-
 - **Pure Survival Focus:** Leaderboards based solely on days survived, rewarding strategic mastery
 
 - **Map-Specific Competition:** Each map maintains its own leaderboard encouraging diverse strategic approaches
@@ -5222,7 +4833,6 @@ Competitive ranking system motivating players to push their survival limits thro
 **Steam Leaderboard System:**
 
 **Map-Specific Leaderboards:**
-
 - **Map 1 (Nevada):** Top 10 players + player's current ranking (e.g., "#2323")
 
 - **Map 2 (Urban):** Top 10 players + player's current ranking
@@ -5232,7 +4842,6 @@ Competitive ranking system motivating players to push their survival limits thro
 - **Map 4 (Laboratory):** Top 10 players + player's current ranking
 
 **Primary Leaderboard Metric:**
-
 - **Days Survived:** Core ranking metric measuring ultimate survival achievement
 
 - **100+ Day Benchmark:** Major milestone separating casual survivors from elite strategists
@@ -5244,7 +4853,6 @@ Competitive ranking system motivating players to push their survival limits thro
 **Leaderboard Display Features:**
 
 **Top 10 Display:**
-
 - **Rank Position:** Clear numerical ranking (#1, #2, #3, etc.)
 
 - **Player Name:** Steam username display
@@ -5254,7 +4862,6 @@ Competitive ranking system motivating players to push their survival limits thro
 - **Visual Hierarchy:** Distinctive styling for top 3 positions (Gold, Silver, Bronze themes)
 
 **Personal Ranking:**
-
 - **Current Position:** Player's exact rank within global leaderboard (e.g., "#2323")
 
 - **Days Survived:** Player's best survival record on each map
@@ -5266,7 +4873,6 @@ Competitive ranking system motivating players to push their survival limits thro
 **Competitive Motivation Systems:**
 
 **Ranking Incentives:**
-
 - **Elite Recognition:** Top 10 positions provide significant prestige within community
 
 - **Personal Bests:** Constant motivation to surpass previous survival records
@@ -5276,7 +4882,6 @@ Competitive ranking system motivating players to push their survival limits thro
 - **Achievement Goals:** Clear targets for competitive improvement (Top 1000, Top 100, Top 10)
 
 **Infinite Mode Integration:**
-
 - **Post-Story Motivation:** Leaderboards provide compelling reason to continue after map completion
 
 - **Optimization Challenges:** Competitive environment encourages discovery of optimal strategies
@@ -5286,7 +4891,6 @@ Competitive ranking system motivating players to push their survival limits thro
 - **Mastery Demonstration:** Top rankings demonstrate complete system mastery and strategic excellence
 
 **Technical Implementation:**
-
 - **Steam Integration:** Native Steam leaderboard API for reliable data synchronization
 
 - **Real-time Updates:** Leaderboard positions update immediately upon run completion
@@ -5306,7 +4910,6 @@ Comprehensive analysis of City Defense Z's target market, player demographics, a
 **Primary Target Audience:**
 
 **Core Demographics - Strategy Gaming Enthusiasts (Age 18-35)**
-
 - **Platform Preference:** Primarily PC gamers with Steam library focus
 
 - **Gaming Experience:** 3+ years of strategy game experience, familiar with tower defense mechanics
@@ -5320,7 +4923,6 @@ Comprehensive analysis of City Defense Z's target market, player demographics, a
 **Specific Player Archetypes:**
 
 **Tower Defense Veterans:**
-
 - **Background:** Players of Bloons TD, Plants vs. Zombies, Kingdom Rush series
 
 - **Expectations:** Deep upgrade systems, varied enemy types, strategic placement challenges
@@ -5330,7 +4932,6 @@ Comprehensive analysis of City Defense Z's target market, player demographics, a
 - **City Defense Z Appeal:** Merge mechanics add fresh twist to familiar tower defense gameplay
 
 **Merge Game Migrants:**
-
 - **Background:** Players transitioning from casual merge games (Merge Dragons, Triple Town)
 
 - **Expectations:** Satisfying merge mechanics, clear progression feedback, accessible learning curve
@@ -5340,7 +4941,6 @@ Comprehensive analysis of City Defense Z's target market, player demographics, a
 - **City Defense Z Appeal:** Strategic merge placement combined with tower defense creates deeper gameplay
 
 **Rogue-lite Enthusiasts:**
-
 - **Background:** Players of FTL, Risk of Rain, Dead Cells who appreciate meta progression
 
 - **Expectations:** Meaningful permanent upgrades, challenging gameplay, replay value
@@ -5352,7 +4952,6 @@ Comprehensive analysis of City Defense Z's target market, player demographics, a
 **Secondary Target Audience:**
 
 **Mobile Strategy Players (Age 25-45)**
-
 - **Platform Usage:** Primarily mobile gaming during commute/breaks
 
 - **Session Patterns:** 15-45 minute sessions, prefer games with clear stopping points
@@ -5362,7 +4961,6 @@ Comprehensive analysis of City Defense Z's target market, player demographics, a
 - **Adaptation Needs:** Touch-optimized controls, simplified UI, shorter session structure
 
 **Zombie Theme Enthusiasts:**
-
 - **Background:** Fans of zombie apocalypse media and games
 
 - **Appeal Factors:** Post-apocalyptic setting, survival narrative, community building elements
@@ -5374,7 +4972,6 @@ Comprehensive analysis of City Defense Z's target market, player demographics, a
 **Market Positioning Strategy:**
 
 **Competitive Differentiation:**
-
 - **Unique Positioning:** "The thinking person's merge game" or "Tower defense with puzzle depth"
 
 - **Value Proposition:** Premium strategy experience without microtransaction pressure
@@ -5384,7 +4981,6 @@ Comprehensive analysis of City Defense Z's target market, player demographics, a
 - **Steam Market Focus:** Leverage Steam's strategy game community and recommendation algorithms
 
 **Audience Expansion Opportunities:**
-
 - **Content Creator Partnerships:** Strategy gaming YouTubers and Twitch streamers
 
 - **Community Building:** Discord servers and Reddit communities for strategy sharing
@@ -5402,7 +4998,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 **Post-Launch Strategy Framework:**
 
 **"Sustained Engagement Through Quality Content"**
-
 - **Player-First Approach:** Updates based on community feedback and player behavior data
 
 - **Strategic Timing:** Regular content cadence maintaining player interest
@@ -5414,7 +5009,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 **Content Release Timeline:**
 
 **Month 1-2 Post-Launch: Stability & Refinement**
-
 - **Priority:** Bug fixes, balance adjustments, performance optimization
 
 - **Content:** Quality-of-life improvements, accessibility enhancements
@@ -5424,7 +5018,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Metrics Tracking:** Player retention, completion rates, community sentiment
 
 **Month 3-6: Foundation Expansion**
-
 - **New Map Content:** Map 5 - "Underground Facility" (Extended narrative conclusion)
 
 - **Enemy Expansion:** 2-3 new zombie types with unique mechanics
@@ -5434,7 +5027,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Achievement System:** Extended achievement set for long-term players
 
 **Month 6-12: Major Content Updates**
-
 - **Seasonal Events:** Limited-time challenges with exclusive rewards
 
 - **New Game Modes:** Challenge mode with preset scenarios and restrictions
@@ -5444,7 +5036,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Community Tools:** Screenshot sharing, strategy blueprint system
 
 **Year 2+: Long-term Evolution**
-
 - **Platform Expansion:** Mobile version adaptation and release
 
 - **Expansion Pack:** Major content addition with new storyline and maps
@@ -5456,7 +5047,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 **Content Categories:**
 
 **Core Gameplay Expansion:**
-
 - **New Maps:** Additional environments with unique tactical challenges
 
 - **Enemy Variety:** Fresh zombie types requiring new strategic approaches
@@ -5466,7 +5056,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Upgrade Systems:** Extended progression trees for veteran players
 
 **Narrative Content:**
-
 - **Extended Storylines:** Continuation of main narrative beyond vaccine completion
 
 - **Character Development:** Deeper NPC backstories and relationship systems
@@ -5476,7 +5065,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Player Choice:** Narrative branching based on player decisions
 
 **Quality of Life Improvements:**
-
 - **Interface Enhancements:** Based on player feedback and usage data
 
 - **Accessibility Features:** Continued improvement for diverse player needs
@@ -5488,7 +5076,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 **Community-Driven Content:**
 
 **Player Engagement Systems:**
-
 - **Strategy Sharing:** Enhanced tools for base design and strategy communication
 
 - **Community Challenges:** Developer-created scenarios testing player creativity
@@ -5500,7 +5087,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 **Marketing & Viral Content Strategy:**
 
 **TikTok Campaign Integration:**
-
 - **Viral Content Creation:** "I survived until day 1000" style content showcasing extreme survival achievements
 
 - **Influencer Partnerships:** Collaborate with gaming TikTokers to create engaging survival challenge content
@@ -5512,7 +5098,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Content Formats:** Quick survival tips, epic zombie wave footage, base design showcases
 
 **Monthly Tournament System:**
-
 - **Prize Pool:** $1000 USD monthly prize for first player to reach day 500
 
 - **Tournament Structure:** Open competition with clear rules and verification system
@@ -5524,7 +5109,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Skill Progression:** Tournaments motivate players to develop advanced strategies
 
 **Community Integration Campaign:**
-
 - **"Become a Zombie" Contest:** Email collection campaign with photo submission
 
 - **Winner Integration:** Selected participants added as custom zombie models in future updates
@@ -5536,7 +5120,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Recurring Events:** Monthly or quarterly "Become a Zombie" campaigns
 
 **Feedback Integration Loops:**
-
 - **Regular Surveys:** Quarterly player satisfaction and content preference surveys
 
 - **Beta Testing:** Community involvement in testing new content before release
@@ -5548,7 +5131,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 **Monetization Strategy (Ethical Framework):**
 
 **Premium Content Philosophy:**
-
 - **Value-First Approach:** All paid content provides clear value without affecting game balance
 
 - **No Pay-to-Win:** Competitive integrity maintained across all content updates
@@ -5558,7 +5140,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Optional Enhancement:** DLC content enhances rather than completes the experience
 
 **Potential Revenue Streams:**
-
 - **Expansion Packs:** Major content additions with new campaigns and features
 
 - **Cosmetic Content:** Visual customization options for base and units
@@ -5570,7 +5151,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 **Success Metrics & KPIs:**
 
 **Player Engagement Metrics:**
-
 - **Monthly Active Users:** Target 70% retention at 1 month, 40% at 6 months
 
 - **Session Length:** Average 45-60 minutes per session
@@ -5580,7 +5160,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Community Activity:** Discord/forum participation, Steam review sentiment
 
 **Business Performance Indicators:**
-
 - **Revenue Targets:** Break-even within 6 months, profit sustainability year 1
 
 - **Sales Metrics:** Steam wishlist conversion, regional market performance
@@ -5594,7 +5173,6 @@ Comprehensive plan for maintaining player engagement and revenue growth through 
 - **Viral Metrics:** User-generated content creation, social media reach, hashtag performance
 
 **Long-term Vision:**
-
 - **Franchise Potential:** Establish City Defense Z as recognizable strategy game brand
 
 - **Community Growth:** Build dedicated player community supporting long-term engagement
