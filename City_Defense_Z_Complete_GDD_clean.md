@@ -28,7 +28,6 @@
 ### 1.2 Target Audience
 
 **Primary Audience:** 
-
 - Strategy and tower defense enthusiasts aged 18-35
 
 - Players who enjoy games like Bloons TD, Plants vs. Zombies, Age of War
@@ -38,7 +37,6 @@
 - Rogue-lite enthusiasts who appreciate Risk of Rain, FTL, Dead Cells
 
 **Secondary Audience:** 
-
 - Casual mobile gamers seeking deeper strategic gameplay
 
 - Players transitioning from simple merge games to more complex strategy
@@ -4197,24 +4195,24 @@ Comprehensive data persistence architecture ensuring reliable save functionality
 **Save Data Hierarchy:**
 ```
 SaveData/
-• MetaProgression/
-    ◦ ResearchPoints (total and spent)
-    ◦ UpgradeTrees (completion status for all 11 trees)
-    ◦ UnlockedContent (maps, features, systems)
-    ◦ GlobalStatistics (total playtime, games played, achievements)
-• CurrentRun/
-    ◦ GameState (day, phase, resources, health)
-    ◦ BaseLayout (building positions, levels, production status)
-    ◦ MilitaryUnits (soldier positions, types, levels)
-    ◦ ActiveSystems (expeditions, timers, temporary effects)
-• BaseConfiguration/
-    ◦ NPCRoster (recruited NPCs, specializations, relationships)
-    ◦ BaseCustomization (visual customizations, layout preferences)
-    ◦ ExpeditionHistory (past expeditions, outcomes, statistics)
-• PlayerPreferences/
-• Settings (audio, video, controls, accessibility)
-• Interface (UI scaling, information density preferences)
-• GameplayOptions (difficulty modifiers, assistance features)
+- MetaProgression/
+- ResearchPoints (total and spent)
+- UpgradeTrees (completion status for all 11 trees)
+- UnlockedContent (maps, features, systems)
+- GlobalStatistics (total playtime, games played, achievements)
+- CurrentRun/
+- GameState (day, phase, resources, health)
+- BaseLayout (building positions, levels, production status)
+- MilitaryUnits (soldier positions, types, levels)
+- ActiveSystems (expeditions, timers, temporary effects)
+- BaseConfiguration/
+- NPCRoster (recruited NPCs, specializations, relationships)
+- BaseCustomization (visual customizations, layout preferences)
+- ExpeditionHistory (past expeditions, outcomes, statistics)
+- PlayerPreferences/
+- Settings (audio, video, controls, accessibility)
+- Interface (UI scaling, information density preferences)
+- GameplayOptions (difficulty modifiers, assistance features)
 ```
 
 **Data Integrity & Security:**
@@ -4266,14 +4264,14 @@ Comprehensive system architecture designed for scalability, maintainability, and
 **Core Game Systems:**
 ```
 Game Architecture/
-• GameManager (Central coordination and state management)
-• ResourceManager (Currency and resource tracking)
-• BuildingSystem (Placement, merging, production)
-• CombatSystem (Soldiers, enemies, combat resolution)
-• ProgressionSystem (Meta upgrades and research points)
-• NPCSystem (Character management and expeditions)
-• UIManager (Interface coordination and state synchronization)
-• SaveManager (Data persistence and cloud synchronization)
+- GameManager (Central coordination and state management)
+- ResourceManager (Currency and resource tracking)
+- BuildingSystem (Placement, merging, production)
+- CombatSystem (Soldiers, enemies, combat resolution)
+- ProgressionSystem (Meta upgrades and research points)
+- NPCSystem (Character management and expeditions)
+- UIManager (Interface coordination and state synchronization)
+- SaveManager (Data persistence and cloud synchronization)
 ```
 
 **Modular Design Principles:**
@@ -4479,17 +4477,17 @@ City Defense Z's resource economy is carefully balanced to create meaningful str
 **Resource Sink Analysis:**
 ```
 Resource Expenditure Categories:
-• Essential Spending (60-70% of income)
-    ◦ Building Cards (40-50%)
-    ◦ Soldier Training (15-20%)
-    ◦ Basic Infrastructure (5-10%)
-• Strategic Investment (20-30% of income)
-    ◦ Advanced Buildings (10-15%)
-    ◦ Utility Cards (5-10%)
-    ◦ Defensive Structures (5-10%)
-• Emergency Reserves (10-20% of income)
-• Crisis Response (5-10%)
-• Opportunity Investment (5-10%)
+- Essential Spending (60-70% of income)
+- Building Cards (40-50%)
+- Soldier Training (15-20%)
+- Basic Infrastructure (5-10%)
+- Strategic Investment (20-30% of income)
+- Advanced Buildings (10-15%)
+- Utility Cards (5-10%)
+- Defensive Structures (5-10%)
+- Emergency Reserves (10-20% of income)
+- Crisis Response (5-10%)
+- Opportunity Investment (5-10%)
 ```
 
 **Production Scaling Curves:**
@@ -4533,11 +4531,11 @@ Combat balance ensures engaging, skill-based encounters that scale appropriately
 **Soldier Effectiveness Scaling:**
 ```
 Soldier Level Progression:
-• Level 1 (Basic): 100% baseline effectiveness
-• Level 2 (3-merge): 250% effectiveness (2.5x individual soldiers)
-• Level 3 (9-merge): 600% effectiveness (6x individual soldiers)
-• Level 4 (27-merge): 1400% effectiveness (14x individual soldiers)
-• Level 5+ (81+ merge): Exponential scaling with diminishing returns
+- Level 1 (Basic): 100% baseline effectiveness
+- Level 2 (3-merge): 250% effectiveness (2.5x individual soldiers)
+- Level 3 (9-merge): 600% effectiveness (6x individual soldiers)
+- Level 4 (27-merge): 1400% effectiveness (14x individual soldiers)
+- Level 5+ (81+ merge): Exponential scaling with diminishing returns
 ```
 
 **Specialized Unit Balance:**
@@ -4555,11 +4553,11 @@ Soldier Level Progression:
 **Basic Zombie Progression:**
 ```
 Zombie Type Scaling (by day):
-• Days 1-10: Primarily Level 1 zombies, rare Level 2
-• Days 11-20: Level 1-2 majority, Level 3 introduction
-• Days 21-35: Level 2-3 majority, Level 4 introduction
-• Days 36-50: Level 3-4 majority, Level 5 introduction
-• Days 51+: All levels present, increasing density and boss frequency
+- Days 1-10: Primarily Level 1 zombies, rare Level 2
+- Days 11-20: Level 1-2 majority, Level 3 introduction
+- Days 21-35: Level 2-3 majority, Level 4 introduction
+- Days 36-50: Level 3-4 majority, Level 5 introduction
+- Days 51+: All levels present, increasing density and boss frequency
 ```
 
 **Boss Encounter Balance:**
@@ -4647,28 +4645,28 @@ Progression systems are carefully tuned to provide satisfying advancement while 
 **Research Point Generation:**
 ```
 Research Point Sources (per run):
-• Laboratory Production: 15-30 RP (days 1-25), 30-60 RP (days 25+)
-• Expedition Rewards: 5-20 RP per successful expedition
-• 3-Day Offerings: 10-25 RP when chosen over immediate resources
-• Map Completion Bonus: 50-150 RP based on days survived
-• Achievement Unlocks: 25-100 RP for milestone completions
+- Laboratory Production: 15-30 RP (days 1-25), 30-60 RP (days 25+)
+- Expedition Rewards: 5-20 RP per successful expedition
+- 3-Day Offerings: 10-25 RP when chosen over immediate resources
+- Map Completion Bonus: 50-150 RP based on days survived
+- Achievement Unlocks: 25-100 RP for milestone completions
 ```
 
 **Upgrade Cost Structure:**
 ```
 Research Point Investment Tiers:
-• Tier 1 (Foundation): 25-50 RP per upgrade
-    ◦ Basic building/soldier improvements
-    ◦ Essential quality-of-life features
-• Tier 2 (Enhancement): 75-150 RP per upgrade
-    ◦ Significant gameplay improvements
-    ◦ New strategic options
-• Tier 3 (Specialization): 200-300 RP per upgrade
-    ◦ Powerful specialized abilities
-    ◦ Advanced strategic systems
-• Tier 4 (Mastery): 400-600 RP per upgrade
-• Game-changing capabilities
-• Ultimate progression goals
+- Tier 1 (Foundation): 25-50 RP per upgrade
+- Basic building/soldier improvements
+- Essential quality-of-life features
+- Tier 2 (Enhancement): 75-150 RP per upgrade
+- Significant gameplay improvements
+- New strategic options
+- Tier 3 (Specialization): 200-300 RP per upgrade
+- Powerful specialized abilities
+- Advanced strategic systems
+- Tier 4 (Mastery): 400-600 RP per upgrade
+- Game-changing capabilities
+- Ultimate progression goals
 ```
 
 **Run Length Progression:**
@@ -4786,11 +4784,11 @@ Difficulty progression creates escalating challenges that match player skill dev
 **Time-Based Scaling:**
 ```
 Difficulty Progression Factors:
-• Zombie Health: +5% per 10 days
-• Zombie Damage: +3% per 10 days
-• Wave Size: +1-2 zombies per 5 days
-• Boss Frequency: Increasing frequency over time
-• Resource Efficiency: Gradually decreasing resource generation per zombie killed
+- Zombie Health: +5% per 10 days
+- Zombie Damage: +3% per 10 days
+- Wave Size: +1-2 zombies per 5 days
+- Boss Frequency: Increasing frequency over time
+- Resource Efficiency: Gradually decreasing resource generation per zombie killed
 ```
 
 **Player Performance Adaptation:**
@@ -5020,26 +5018,26 @@ Comprehensive motivation architecture sustaining player engagement through multi
 **Survival Achievements:**
 ```
 Progression Milestones:
-• Survival Streaks
-    ◦ "First Week" (Survive 7 days)
-    ◦ "Against All Odds" (Survive 25 days)
-    ◦ "Fortress Commander" (Survive 50 days)
-    ◦ "Legendary Survivor" (Survive 100 days)
-• Combat Mastery
-    ◦ "Zombie Slayer" (Eliminate 1,000 zombies)
-    ◦ "Boss Hunter" (Defeat 10 boss zombies)
-    ◦ "Perfect Defense" (Complete day with 0 base damage)
-    ◦ "Strategic Mastery" (Win using only basic soldiers)
-• Economic Excellence
-    ◦ "Resource Tycoon" (Accumulate 500 Resource)
-    ◦ "Efficient Builder" (Complete 50 building merges)
-    ◦ "Research Pioneer" (Spend 1,000 Research Points)
-    ◦ "Expedition Master" (Complete 25 successful expeditions)
-• Narrative Progress
-• "Map Liberator" (Complete all 4 maps)
-• "Community Builder" (Recruit all NPC types)
-• "Story Witness" (Experience all major narrative beats)
-• "Hope Bringer" (Complete final vaccine storyline)
+- Survival Streaks
+- "First Week" (Survive 7 days)
+- "Against All Odds" (Survive 25 days)
+- "Fortress Commander" (Survive 50 days)
+- "Legendary Survivor" (Survive 100 days)
+- Combat Mastery
+- "Zombie Slayer" (Eliminate 1,000 zombies)
+- "Boss Hunter" (Defeat 10 boss zombies)
+- "Perfect Defense" (Complete day with 0 base damage)
+- "Strategic Mastery" (Win using only basic soldiers)
+- Economic Excellence
+- "Resource Tycoon" (Accumulate 500 Resource)
+- "Efficient Builder" (Complete 50 building merges)
+- "Research Pioneer" (Spend 1,000 Research Points)
+- "Expedition Master" (Complete 25 successful expeditions)
+- Narrative Progress
+- "Map Liberator" (Complete all 4 maps)
+- "Community Builder" (Recruit all NPC types)
+- "Story Witness" (Experience all major narrative beats)
+- "Hope Bringer" (Complete final vaccine storyline)
 ```
 
 **Daily & Weekly Challenges:**
@@ -5115,26 +5113,26 @@ Comprehensive systems ensuring sustained player engagement through strategic dep
 **Build Diversity Framework:**
 ```
 Viable Strategy Archetypes:
-• Economic Focus Builds
-    ◦ Factory Maximization (Resource abundance strategy)
-    ◦ Research Acceleration (Meta progression focus)
-    ◦ Expedition Economy (NPC-based resource generation)
-    ◦ Efficiency Optimization (Minimal resource waste approach)
-• Military Specialization Builds
-    ◦ Elite Soldier Focus (High-level merge strategy)
-    ◦ Swarm Defense (Quantity over quality approach)
-    ◦ Specialized Units (Artillery/Machine Gun emphasis)
-    ◦ Defensive Fortification (Wall and structure focus)
-• Hybrid Strategies
-    ◦ Balanced Approach (All systems moderate development)
-    ◦ Adaptive Strategy (Situation-responsive builds)
-    ◦ Late Game Scaling (Early game sacrifice for long-term power)
-    ◦ Risk Management (Conservative resource allocation)
-• Advanced Techniques
-• Speed Running (Minimum day completion challenges)
-• Restriction Challenges (Limited building types, no merging, etc.)
-• Perfect Efficiency (Zero waste optimization)
-• Creative Builds (Unusual strategy combinations)
+- Economic Focus Builds
+- Factory Maximization (Resource abundance strategy)
+- Research Acceleration (Meta progression focus)
+- Expedition Economy (NPC-based resource generation)
+- Efficiency Optimization (Minimal resource waste approach)
+- Military Specialization Builds
+- Elite Soldier Focus (High-level merge strategy)
+- Swarm Defense (Quantity over quality approach)
+- Specialized Units (Artillery/Machine Gun emphasis)
+- Defensive Fortification (Wall and structure focus)
+- Hybrid Strategies
+- Balanced Approach (All systems moderate development)
+- Adaptive Strategy (Situation-responsive builds)
+- Late Game Scaling (Early game sacrifice for long-term power)
+- Risk Management (Conservative resource allocation)
+- Advanced Techniques
+- Speed Running (Minimum day completion challenges)
+- Restriction Challenges (Limited building types, no merging, etc.)
+- Perfect Efficiency (Zero waste optimization)
+- Creative Builds (Unusual strategy combinations)
 ```
 
 **Content Replayability Factors:**
