@@ -105,7 +105,7 @@ Nintendo Switch adaptation
 2. **Dynamic Threat System:** Real-time zombie hole spawning requires immediate tactical response during combat
 3. **Living Base Ecosystem:** NPCs with persistent relationships, expedition systems, and meaningful base customization
 4. **Contextual Boost System:** Strategic consumable management with targeted AoE deployment
- 
+  
 **Core Features:** 
 
 #### Card-Based Building System
