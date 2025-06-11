@@ -261,7 +261,7 @@ Clear vision based on successful first demo
 
 September 2025 release avoids major competitor launches
 
----
+--- 
 
 ## 2. Game Concept
 
