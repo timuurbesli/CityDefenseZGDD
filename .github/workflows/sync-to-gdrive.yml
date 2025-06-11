@@ -30,18 +30,14 @@ jobs:
         # Create fonts directory if it doesn't exist
         sudo mkdir -p /usr/share/fonts/truetype/lexend
         
-        # Download Lexend font family
-        wget -q https://fonts.google.com/download?family=Lexend -O lexend.zip
-        unzip -q lexend.zip -d lexend
-        
-        # Install all Lexend font files
-        sudo mv lexend/*.ttf /usr/share/fonts/truetype/lexend/
+        # Download individual Lexend font files
+        wget -q "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX.ttf" -O "/usr/share/fonts/truetype/lexend/Lexend-Regular.ttf"
+        wget -q "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCwsW.ttf" -O "/usr/share/fonts/truetype/lexend/Lexend-Medium.ttf"
+        wget -q "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCzQW.ttf" -O "/usr/share/fonts/truetype/lexend/Lexend-Bold.ttf"
+        wget -q "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCxEW.ttf" -O "/usr/share/fonts/truetype/lexend/Lexend-Light.ttf"
         
         # Update font cache
         sudo fc-cache -f -v
-        
-        # Clean up
-        rm -rf lexend lexend.zip
         
         # Verify font installation
         fc-list | grep -i lexend

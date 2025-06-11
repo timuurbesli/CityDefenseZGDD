@@ -193,7 +193,7 @@ September 2025
 **Current Development Team**
 
 Core Development Team- 
-**Ercan Karadaş**  - Game Developer
+**Ercan Karadaş**  - Game Developer 
 **Alperen Erdoğan** - Game Developer
 - **Celalcan Ulucan** - 3D Artist
 - **Hasan Hüseyin Kıdeyş** - 3D Artist
