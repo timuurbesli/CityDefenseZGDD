@@ -90,9 +90,13 @@
 ### 1.4 Key Features & USPs (Unique Selling Points)
 
 **Innovation Points:**
+
 1. **Hybrid Merge-Defense Mechanics:** First game to successfully combine 3-match merge mechanics with wave-based tower defense
+
 2. **Dynamic Threat System:** Real-time zombie hole spawning requires immediate tactical response during combat
+
 3. **Living Base Ecosystem:** NPCs with persistent relationships, expedition systems, and meaningful base customization
+
 4. **Contextual Boost System:** Strategic consumable management with targeted AoE deployment
 
 **Core Features:**
@@ -357,9 +361,13 @@ City Defense Z stands apart by being the first game to successfully merge these 
 - **Replay Value:** Multiple maps and strategies extend gameplay longevity
 
 **Emotional Journey:**
+
 1. **Discovery Phase:** Learning basic mechanics and systems
+
 2. **Competence Phase:** Developing strategies and surviving longer
+
 3. **Mastery Phase:** Optimizing builds and conquering difficult challenges
+
 4. **Expression Phase:** Personalizing base and exploring different approaches
 
 **Target Session Length:**
@@ -402,8 +410,11 @@ A fundamental aspect of City Defense Z is the strict separation between preparat
   - Cannot activate soldier merge pop-ups that may still be visible
 
 **Strategic Implication:** Players must efficiently balance their day time between:
+
 1. **Base Management:** Building merges and resource collection
+
 2. **Battlefield Preparation:** Soldier placement and defensive positioning
+
 3. **Time Management:** Completing all preparations before the deadline
 
 This creates meaningful tension where poor time management leaves defenses incomplete, while efficient planning maximizes survival chances. The 10-second warning ensures players always feel the approaching deadline, making every day phase decision consequential.
@@ -608,8 +619,11 @@ A multi-layered tactical system that combines real-time collection pressure with
 Players face cascading strategic choices:
 
 1. **Collection Phase:** "Is this boost worth the distraction/risk?"
+
 2. **Storage Management:** "Should I use this now or save for boss waves?"
+
 3. **Targeting Phase:** "Where should I deploy this for maximum effect?"
+
 4. **Positioning Strategy:** "Should I group soldiers to maximize boost overlap?"
 
 **Design Benefits:**
@@ -2086,11 +2100,17 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 - **Atmospheric Enhancement:** Voice acting and sound effects create immersive experience
 
 **Example Farmer NPC Dialogues:**
+
 1. "Hello captain, everything is good at the farm"
+
 2. "Farm farm farm... everyday I farm, that's what I do"
+
 3. "The crops are looking healthy this season"
+
 4. "We'll need more seeds if we want to expand production"
+
 5. "Food security is the foundation of survival"
+
 6. "A well-fed team is a strong team, captain"
 
 **Emotional Investment Mechanics:**

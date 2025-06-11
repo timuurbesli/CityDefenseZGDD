@@ -18,8 +18,8 @@ from pathlib import Path
 
 def fix_bullet_formatting(content):
     """
-    Fix bullet point formatting by adding blank lines between consecutive bullet points
-    and before bullet points that immediately follow non-bullet text.
+    Fix bullet point and numbered list formatting by adding blank lines between consecutive items
+    and before items that immediately follow non-list text.
     
     Args:
         content (str): The content of the markdown file
@@ -30,24 +30,30 @@ def fix_bullet_formatting(content):
     lines = content.split('\n')
     result_lines = []
     
+    def is_list_item(line):
+        """Check if a line is a bullet point or numbered list item."""
+        stripped = line.strip()
+        return (re.match(r'^- ', stripped) or  # Bullet point
+                re.match(r'^\d+\. ', stripped))  # Numbered list
+    
     for i, line in enumerate(lines):
-        # Check if current line is a bullet point
-        if re.match(r'^- ', line.strip()):
-            # Check if previous line exists and is not empty and is not a bullet point
-            if i > 0 and lines[i - 1].strip() != '' and not re.match(r'^- ', lines[i - 1].strip()):
-                # Add blank line before bullet point if not already present
+        # Check if current line is a list item
+        if is_list_item(line):
+            # Check if previous line exists and is not empty and is not a list item
+            if i > 0 and lines[i - 1].strip() != '' and not is_list_item(lines[i - 1]):
+                # Add blank line before list item if not already present
                 if not (len(result_lines) > 0 and result_lines[-1] == ''):
                     result_lines.append('')
         
         result_lines.append(line)
         
-        # Check if current line is a bullet point and next line is also a bullet point
-        if re.match(r'^- ', line.strip()):
+        # Check if current line is a list item and next line is also a list item
+        if is_list_item(line):
             if i + 1 < len(lines):
-                next_line = lines[i + 1].strip()
-                if re.match(r'^- ', next_line):
-                    # Add blank line between bullet points if not already present
-                    if i + 1 < len(lines) and lines[i + 1].strip() != '':
+                next_line = lines[i + 1]
+                if is_list_item(next_line):
+                    # Add blank line between list items if not already present
+                    if next_line.strip() != '':
                         result_lines.append('')
     
     return '\n'.join(result_lines)
