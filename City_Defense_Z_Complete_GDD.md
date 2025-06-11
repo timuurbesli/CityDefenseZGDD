@@ -1,6 +1,6 @@
 # Game Design Document - City Defense Z
 **Version 1.0**  
-**Date: December 2024**  
+**Date: December 2025**  
 **Document Status: Draft**
 
 ---
