@@ -235,29 +235,4 @@ jobs:
       env:
         GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
         GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
-      run: node upload-to-gdrive.js
-      
-    - name: Create Release
-      if: success()
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        tag_name: sync-${{ github.run_number }}
-        release_name: GDD Sync ${{ github.run_number }}
-        body: |
-          📄 **GDD Files Successfully Synced to Google Drive**
-          
-          **Converted Files:**
-          - City Defense Z Complete GDD → DOCX
-          - City Defense Z GDD Skeleton → DOCX
-          - Additional markdown files → DOCX
-          
-          **Sync Details:**
-          - Date: ${{ github.event.head_commit.timestamp }}
-          - Commit: ${{ github.sha }}
-          - Google Drive Folder: https://drive.google.com/drive/folders/${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
-          
-          ✅ All files are now available in your Google Drive folder!
-        draft: false
-        prerelease: false 
+      run: node upload-to-gdrive.js 
