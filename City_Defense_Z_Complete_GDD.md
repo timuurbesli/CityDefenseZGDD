@@ -1,7 +1,7 @@
 # Game Design Document - City Defense Z
 
-**Version 1.0**  
-**Date: December 2025**  
+**Version 1.0**
+**Date: December 2025**
 **Document Status: Draft**
 
 ---
@@ -10,7 +10,9 @@
 
 ### 1.1 Game Overview
 
-**City Defense Z** is a rogue-lite, wave-based zombie defense strategy game that combines tactical base building with dynamic combat mechanics. Players must survive increasingly difficult zombie waves while building and upgrading their defenses through an innovative card-based placement system.
+**City Defense Z**
+
+is a rogue-lite, wave-based zombie defense strategy game that combines tactical base building with dynamic combat mechanics. Players must survive increasingly difficult zombie waves while building and upgrading their defenses through an innovative card-based placement system.
 
 **Core Concept:**
 
@@ -18,15 +20,25 @@ Players are tasked with defending a strategic base location against relentless z
 
 **Key Gameplay Pillars:**
 
-**Strategic Building Placement** Card-based building system with grid placement
+**Strategic Building Placement**
 
-**Merge & Upgrade Mechanics** 3-to-1 building evolution system
+Card-based building system with grid placement
 
-**Dynamic Combat** Real-time zombie waves with interactive boost collection
+#### Merge & Upgrade Mechanics
 
-**Meta Progression** Persistent base upgrades and NPC relationships
+3-to-1 building evolution system
 
-**Emergent Threats** Dynamic zombie hole spawning requiring immediate player intervention
+**Dynamic Combat**
+
+Real-time zombie waves with interactive boost collection
+
+**Meta Progression**
+
+Persistent base upgrades and NPC relationships
+
+**Emergent Threats**
+
+Dynamic zombie hole spawning requiring immediate player intervention
 
 ### 1.2 Target Audience
 
@@ -48,15 +60,21 @@ Casual mobile gamers seeking deeper strategic gameplay
 
 **Platform Considerations:**
 
-**Primary Platform** PC (Steam)
+**Primary Platform**
 
-**Secondary Platform** Mobile (iOS/Android) - with adapted touch controls
+PC (Steam)
 
-**Potential Future** Nintendo Switch adaptation
+**Secondary Platform**
+
+Mobile (iOS/Android) - with adapted touch controls
+
+**Potential Future**
+
+Nintendo Switch adaptation
 
 ### 1.3 Platform & Technical Requirements
 
-**Minimum System Requirements (PC):**
+#### Minimum System Requirements (PC):
 
 - OS: Windows 10 64-bit / macOS 10.14 / Ubuntu 18.04
 - Processor: Intel i3-6100 / AMD FX-6300 equivalent
@@ -65,7 +83,7 @@ Casual mobile gamers seeking deeper strategic gameplay
 - Storage: 2 GB available space
 - Network: Internet connection for cloud saves (optional)
 
-**Recommended System Requirements (PC):**
+#### Recommended System Requirements (PC):
 
 - OS: Windows 11 64-bit / macOS 12.0 / Ubuntu 20.04+
 - Processor: Intel i5-8400 / AMD Ryzen 5 2600 equivalent
@@ -90,17 +108,29 @@ Casual mobile gamers seeking deeper strategic gameplay
 
 **Core Features:**
 
-**Card-Based Building System** 6 unique building types with merge evolution paths
+#### Card-Based Building System
 
-**Multi-Resource Economy** 5 interconnected resource types (Resource, Ammunition, Research Points, Food, Population)
+6 unique building types with merge evolution paths
 
-**Comprehensive Meta Progression** 11 major upgrade trees with 40+ persistent improvements
+**Multi-Resource Economy**
 
-**Rich NPC System** 4 specialist NPCs with unique abilities, dialogues, and expedition mechanics
+5 interconnected resource types (Resource, Ammunition, Research Points, Food, Population)
 
-**Varied Content** 4 unique maps with progressive difficulty and narrative context
+**Comprehensive Meta Progression**
 
-**Dynamic Combat** 5 basic zombie types + 4 boss variants with unique mechanics
+11 major upgrade trees with 40+ persistent improvements
+
+#### Rich NPC System
+
+4 specialist NPCs with unique abilities, dialogues, and expedition mechanics
+
+##### Varied Content
+
+4 unique maps with progressive difficulty and narrative context
+
+**Dynamic Combat**
+
+5 basic zombie types + 4 boss variants with unique mechanics
 
 **Competitive Advantages:**
 
@@ -113,75 +143,125 @@ Casual mobile gamers seeking deeper strategic gameplay
 
 **Development Timeline & History:**
 
-**Initial Development** November 2023 - March 2024 (4 months)
+**Initial Development**
+
+November 2023 - March 2024 (4 months)
 
   - Core card-based building system implemented
   - First Steam demo build released (March 2024)
 
-**Exploration Phase** March 2024 - June 2025 (15 months)
+##### Exploration Phase
+
+March 2024 - June 2025 (15 months)
 
   - Experimented with RTS variant for second demo
   - Market research and gameplay iteration
 
-**Current Phase** June 2025 - September 2025 (3 months to release)
+##### Current Phase
+
+June 2025 - September 2025 (3 months to release)
 
   - Returning to proven card-based system from first demo
   - Final polish, content completion, and release preparation
 
-**Target Release** September 2025
+**Target Release**
+
+September 2025
 
 **Current Development Status:**
 
-**Core Systems** ✅ Completed (first demo validated)
+#### Core Systems
 
-**Art & Audio** 🔄 In progress (refinement phase)
+✅ Completed (first demo validated)
 
-**Content Creation** 🔄 Final maps, zombies, and balance tuning
+**Art & Audio**
 
-**UI/UX Polish** 🔄 Based on demo feedback
+🔄 In progress (refinement phase)
 
-**Testing & QA** 📅 July-August 2025
+##### Content Creation
 
-**Current Development Team:**Core Development Team- **Ercan Karadaş** - Game Developer
+🔄 Final maps, zombies, and balance tuning
 
-**Alperen Erdoğan** - Game Developer  
+**UI/UX Polish**
+
+🔄 Based on demo feedback
+
+**Testing & QA**
+
+📅 July-August 2025
+
+**Current Development Team**
+
+Core Development Team- **Ercan Karadaş**  - Game Developer
+
+**Alperen Erdoğan**
+
+- Game Developer
 - **Celalcan Ulucan** - 3D Artist
 - **Hasan Hüseyin Kıdeyş** - 3D Artist
 - **Timur Beşli** - Product Manager
 
-**Leadership & Design** - **Zafer Çelik** - Lead Game Developer (part-time, multi-project)
+##### Leadership & Design
+
+- **Zafer Çelik**  - Lead Game Developer (part-time, multi-project)
 
   - Development planning, asset management, coding standards
 
-**Batuhan Yurtseven** - Game Designer (part-time, multi-project)
+**Batuhan Yurtseven**
 
-**Team Adjustments for Military Service** - **August 2025:** Alperen Erdoğan - Military training (1 month)
+- Game Designer (part-time, multi-project)
 
-**September 2025** Ercan Karadaş - Military training (1 month)  
+**Team Adjustments for Military Service**
 
-**Coverage Plan** +1 Additional Developer to maintain development pace
+- **August 2025:**  Alperen Erdoğan - Military training (1 month)
 
-**Total Team Size:** 7 members (5 full-time core + 2 part-time leadership)
+**September 2025**
+
+Ercan Karadaş - Military training (1 month)
+
+**Coverage Plan**
+
++1 Additional Developer to maintain development pace
+
+**Total Team Size**
+
+7 members (5 full-time core + 2 part-time leadership)
 
 **Development Advantages:**
 
-**Proven Core Mechanics** First demo validated player interest and core gameplay loop
+#### Proven Core Mechanics
 
-**Market Feedback** Steam demo provided real player data and feedback
+First demo validated player interest and core gameplay loop
 
-**Focused Timeline** 3-month sprint to release with established foundation
+**Market Feedback**
 
-**Risk Reduction** Returning to validated concept minimizes development risk
+Steam demo provided real player data and feedback
+
+**Focused Timeline**
+
+3-month sprint to release with established foundation
+
+**Risk Reduction**
+
+Returning to validated concept minimizes development risk
 
 **Strategic Advantages:**
 
-**Established Community** Steam demo created early adopter base
+**Established Community**
 
-**Proven Concept** Market validation reduces launch risk
+Steam demo created early adopter base
 
-**Focused Development** Clear vision based on successful first demo
+**Proven Concept**
 
-**Competitive Timing** September 2025 release avoids major competitor launches
+Market validation reduces launch risk
+
+**Focused Development**
+
+Clear vision based on successful first demo
+
+**Competitive Timing**
+
+September 2025 release avoids major competitor launches
 
 ---
 
@@ -189,49 +269,81 @@ Casual mobile gamers seeking deeper strategic gameplay
 
 ### 2.1 Core Vision
 
-**City Defense Z** represents a bold fusion of strategic genres, combining the addictive merge mechanics of puzzle games with the tactical depth of tower defense and the progression satisfaction of rogue-lite games. Our vision is to create a game that offers both immediate tactical gratification and long-term strategic planning.
+**City Defense Z**
 
-**Design Philosophy:**
+represents a bold fusion of strategic genres, combining the addictive merge mechanics of puzzle games with the tactical depth of tower defense and the progression satisfaction of rogue-lite games. Our vision is to create a game that offers both immediate tactical gratification and long-term strategic planning.
 
-**"Easy to Learn, Hard to Master"** Simple card placement mechanics that evolve into complex strategic decisions
+#### Design Philosophy:
 
-**"Every Decision Matters"** From building placement to resource allocation, each choice impacts survival
+**"Easy to Learn, Hard to Master"**
 
-**"Persistent Growth"** Meta progression ensures every run contributes to long-term advancement
+Simple card placement mechanics that evolve into complex strategic decisions
 
-**"Dynamic Challenges"** Emergent threats keep gameplay fresh and engaging
+**"Every Decision Matters"**
 
-**Core Emotional Experience:**
+From building placement to resource allocation, each choice impacts survival
+
+**"Persistent Growth"**
+
+Meta progression ensures every run contributes to long-term advancement
+
+**"Dynamic Challenges"**
+
+Emergent threats keep gameplay fresh and engaging
+
+#### Core Emotional Experience:
 
 Players should feel the tension of resource scarcity, the satisfaction of successful merges, the excitement of discovering new strategies, and the accomplishment of surviving increasingly difficult waves while building a thriving base community.
 
 ### 2.2 Genre & Inspirations
 
-**Primary Genre:** Strategy - Tower Defense / Rogue-lite
+**Primary Genre**
 
-**Secondary Elements:** Merge Puzzle, Base Building, Resource Management
+Strategy - Tower Defense / Rogue-lite
 
-**Key Inspirations:**Tower Defense Foundation- **Plants vs. Zombies** - Accessible tower defense with personality and theme
+**Secondary Elements**
 
-**Bloons TD 6** - Deep upgrade systems and varied enemy types
+Merge Puzzle, Base Building, Resource Management
+
+**Key Inspirations**
+
+Tower Defense Foundation- **Plants vs. Zombies**  - Accessible tower defense with personality and theme
+
+**Bloons TD 6**
+
+- Deep upgrade systems and varied enemy types
 - **Kingdom Rush** - Polish, balance, and strategic depth
 
-**Merge Mechanics** - **Triple Town** - Spatial puzzle elements with merge mechanics
+#### Merge Mechanics
 
-**Merge Dragons** - Chain reactions and strategic placement
+- **Triple Town**  - Spatial puzzle elements with merge mechanics
+
+**Merge Dragons**
+
+- Chain reactions and strategic placement
 - **2048** - Simple rules creating complex strategy
 
-**Rogue-lite Progression** - **FTL: Faster Than Light** - Meaningful permanent upgrades between runs
+**Rogue-lite Progression**
 
-**Risk of Rain 2** - Temporary power-ups affecting immediate gameplay
+- **FTL: Faster Than Light**  - Meaningful permanent upgrades between runs
+
+**Risk of Rain 2**
+
+- Temporary power-ups affecting immediate gameplay
 - **Dead Cells** - Persistent progression enhancing future runs
 
-**Base Building & NPCs** - **Fallout Shelter** - Living base with character personalities
+**Base Building & NPCs**
 
-**This War of Mine** - Survival resource management with character stories
+- **Fallout Shelter**  - Living base with character personalities
+
+**This War of Mine**
+
+- Survival resource management with character stories
 - **State of Decay** - Community building in post-apocalyptic setting
 
-**Unique Innovation** City Defense Z stands apart by being the first game to successfully merge these disparate mechanics into a cohesive experience. The combination of real-time combat with puzzle-like building placement creates a unique strategic layer not found in other games.
+**Unique Innovation**
+
+City Defense Z stands apart by being the first game to successfully merge these disparate mechanics into a cohesive experience. The combination of real-time combat with puzzle-like building placement creates a unique strategic layer not found in other games.
 
 ### 2.3 Unique Selling Points
 
@@ -253,7 +365,7 @@ Players should feel the tension of resource scarcity, the satisfaction of succes
 - Requires immediate player response, breaking traditional tower defense passivity
 - Adds skill-based interaction to strategy gameplay
 
-**4. Strategic Boost Management**
+#### 4. Strategic Boost Management
 
 - Consumable power-ups with targeted AoE deployment
 - Adds tactical timing layer to combat encounters
@@ -265,7 +377,9 @@ Players should feel the tension of resource scarcity, the satisfaction of succes
 - Players can design their own tower defense routes through strategic wall placement
 - Wall durability system creates permanent consequences for defensive failures
 
-**6. Comprehensive Meta Progression**:
+**6. Comprehensive Meta Progression**
+
+:
 
 - 11 major upgrade trees with 40+ improvements
 - Meaningful customization affecting gameplay style
@@ -273,41 +387,69 @@ Players should feel the tension of resource scarcity, the satisfaction of succes
 
 ### 2.4 Player Experience Goals
 
-**Moment-to-moment Experience:**
+#### Moment-to-moment Experience:
 
-**Time Pressure** Day/night cycle creates urgency for strategic decisions
+**Time Pressure**
 
-**Tactical Tension** Constant evaluation of threats and resource allocation
+Day/night cycle creates urgency for strategic decisions
 
-**Spatial Reasoning** Planning building placement for optimal merge opportunities
+**Tactical Tension**
 
-**Quick Decision Making** Responding to zombie holes and boost opportunities
+Constant evaluation of threats and resource allocation
 
-**Resource Optimization** Balancing immediate needs with long-term planning
+**Spatial Reasoning**
 
-**Session-level Experience:**
+Planning building placement for optimal merge opportunities
 
-**Progression Satisfaction** Each run provides meaningful advancement
+**Quick Decision Making**
 
-**Strategic Mastery** Players develop better techniques and timing
+Responding to zombie holes and boost opportunities
 
-**Narrative Engagement** Story-driven objectives provide clear purpose for survival
+**Resource Optimization**
 
-**Challenge Escalation** Difficulty increases requiring adaptation and growth
+Balancing immediate needs with long-term planning
 
-**Goal-Oriented Gameplay** Each map has specific survival targets and story resolution
+#### Session-level Experience:
 
-**Long-term Experience:**
+**Progression Satisfaction**
 
-**Mastery Development** Deep understanding of merge combinations and timing
+Each run provides meaningful advancement
 
-**Base Customization** Persistent upgrades create unique playstyles
+**Strategic Mastery**
 
-**Community Building** Emotional attachment to NPCs and base development
+Players develop better techniques and timing
 
-**Replay Value** Multiple maps and strategies extend gameplay longevity
+##### Narrative Engagement
 
-**Emotional Journey:**
+Story-driven objectives provide clear purpose for survival
+
+**Challenge Escalation**
+
+Difficulty increases requiring adaptation and growth
+
+**Goal-Oriented Gameplay**
+
+Each map has specific survival targets and story resolution
+
+#### Long-term Experience:
+
+**Mastery Development**
+
+Deep understanding of merge combinations and timing
+
+**Base Customization**
+
+Persistent upgrades create unique playstyles
+
+**Community Building**
+
+Emotional attachment to NPCs and base development
+
+**Replay Value**
+
+Multiple maps and strategies extend gameplay longevity
+
+#### Emotional Journey:
 
 1. **Discovery Phase:** Learning basic mechanics and systems
 2. **Competence Phase:** Developing strategies and surviving longer
@@ -316,32 +458,55 @@ Players should feel the tension of resource scarcity, the satisfaction of succes
 
 **Target Session Length:**
 
-**Individual Runs** 45-90 minutes
+**Individual Runs**
 
-**Base Management** 10-15 minutes between runs
+45-90 minutes
 
-**Daily Play Sessions** 1-2 hours
+#### Base Management
 
-**Long-term Engagement** 50+ hours across multiple months
+10-15 minutes between runs
 
-**Accessibility Goals:**
+**Daily Play Sessions**
 
-**Visual Clarity** Clear visual language for all systems and mechanics
+1-2 hours
 
-**Intuitive Controls** Simple input methods for complex strategic decisions
+##### Long-term Engagement
 
-**Flexible Difficulty** Multiple difficulty options and assistance features
+50+ hours across multiple months
 
-**Cultural Accessibility** Universal themes and clear iconography
+#### Accessibility Goals:
 
-**Critical Design Element - Day/Night Cycle Pressure:**
+**Visual Clarity**
+
+Clear visual language for all systems and mechanics
+
+**Intuitive Controls**
+
+Simple input methods for complex strategic decisions
+
+**Flexible Difficulty**
+
+Multiple difficulty options and assistance features
+
+**Cultural Accessibility**
+
+Universal themes and clear iconography
+
+#### Critical Design Element - Day/Night Cycle Pressure:
+
 A fundamental aspect of City Defense Z is the strict separation between preparation (day) and combat (night) phases. During the final 10 seconds of each day, players experience intense urgency through:
 
-**Visual Alerts** Flashing warning effects and countdown timer
+**Visual Alerts**
 
-**Audio Cues** Alarm sounds and urgent music transitions  
+Flashing warning effects and countdown timer
 
-**Absolute Deadline** Once night begins, NO modifications are possible:
+**Audio Cues**
+
+Alarm sounds and urgent music transitions
+
+**Absolute Deadline**
+
+Once night begins, NO modifications are possible:
 
   - Cannot change soldier placements
   - Cannot add landmines, walls, or new soldiers
@@ -349,7 +514,9 @@ A fundamental aspect of City Defense Z is the strict separation between preparat
   - Cannot collect resources or adjust defenses
   - Cannot activate soldier merge pop-ups that may still be visible
 
-**Strategic Implication:** Players must efficiently balance their day time between:
+**Strategic Implication**
+
+Players must efficiently balance their day time between:
 1. **Base Management:** Building merges and resource collection
 2. **Battlefield Preparation:** Soldier placement and defensive positioning
 3. **Time Management:** Completing all preparations before the deadline
@@ -359,7 +526,8 @@ This creates meaningful tension where poor time management leaves defenses incom
 **Narrative-Driven Map Progression:**
 City Defense Z elevates the tower defense genre through story-driven objectives that give meaning to survival. Each of the 4 unique maps presents a compelling scenario delivered through authentic walkie-talkie communications:
 
-**Map Progression Structure:**
+#### Map Progression Structure:
+
 - **Map 1: Emergency Evacuation** (50-day survival goal)
   - *Opening:* "Hey captain, we had to quickly establish a base here due to circumstances. We have to repair our planes to leave, but it will take 50 days."
   - *Completion:* "Hey captain, the plane is ready. We can leave whenever you want." 
@@ -377,172 +545,293 @@ City Defense Z elevates the tower defense genre through story-driven objectives 
   - *Opening:* "Hey captain, we finally found the vaccine against the zombies, but it will take 100 days to produce it. Can we survive that long?"
   - Final narrative climax and ultimate challenge
 
-**Narrative Design Benefits:**
+#### Narrative Design Benefits:
 
-**Clear Objectives** Players understand exactly why they're defending and for how long
+**Clear Objectives**
 
-**Emotional Investment** Story context makes survival feel meaningful rather than arbitrary
+Players understand exactly why they're defending and for how long
 
-**Achievement Structure** Map unlocks provide long-term progression goals
+**Emotional Investment**
 
-**Player Agency** Choice to continue or advance maintains player control
+Story context makes survival feel meaningful rather than arbitrary
 
-**Thematic Variety** Each map can have unique environmental and story elements
+#### Achievement Structure
 
-**Immersive Delivery** Walkie-talkie format maintains apocalyptic atmosphere
+Map unlocks provide long-term progression goals
 
-**Strategic Choice System - 3-Day Offerings:**
+**Player Agency**
+
+Choice to continue or advance maintains player control
+
+**Thematic Variety**
+
+Each map can have unique environmental and story elements
+
+**Immersive Delivery**
+
+Walkie-talkie format maintains apocalyptic atmosphere
+
+#### Strategic Choice System - 3-Day Offerings:
+
 Every 3 days, players face a critical strategic decision that affects both immediate survival and long-term progression. This system creates regular decision points that maintain engagement and force strategic thinking:
 
-**Offering Mechanics:**
+#### Offering Mechanics:
 
-**Timing** Automatically triggered every 3 days
+**Timing**
 
-**Presentation** 3 randomly generated reward options
+Automatically triggered every 3 days
 
-**Commitment** Player must choose exactly one option to proceed
+**Presentation**
 
-**Variety** Rewards include Ammunition, Resource, Research Points, or Food
+3 randomly generated reward options
 
-**Strategic Decision Framework:**
+**Commitment**
+
+Player must choose exactly one option to proceed
+
+**Variety**
+
+Rewards include Ammunition, Resource, Research Points, or Food
+
+#### Strategic Decision Framework:
+
 Players must constantly evaluate their current situation against future needs:
 
-**Immediate Survival Focus** Choose in-game currencies (Ammunition, Resource, Food) to strengthen current run
+**Immediate Survival Focus**
+
+Choose in-game currencies (Ammunition, Resource, Food) to strengthen current run
 
   - Ammunition for more defensive options and airstrikes
   - Resource for additional building cards and placement
   - Food to prevent hunger debuffs and support population
 
-**Long-term Investment Focus** Choose Research Points for meta progression
+**Long-term Investment Focus**
+
+Choose Research Points for meta progression
 
   - Unlock permanent upgrades affecting all future runs
   - Invest in base improvements and new capabilities
   - Build toward more powerful upgrade trees
 
-**Design Benefits:**
+#### Design Benefits:
 
-**Regular Engagement** Every 3 days provides a meaningful decision point
+##### Regular Engagement
 
-**Strategic Depth** Forces evaluation of short-term vs long-term benefits
+Every 3 days provides a meaningful decision point
 
-**Run Variety** Random rewards ensure no two runs feel identical
+**Strategic Depth**
 
-**Player Agency** Maintains control over progression strategy
+Forces evaluation of short-term vs long-term benefits
 
-**Risk Management** Players must assess current run viability vs future investment
+**Run Variety**
 
-**Pacing** Breaks up survival gameplay with strategic planning moments
+Random rewards ensure no two runs feel identical
+
+**Player Agency**
+
+Maintains control over progression strategy
+
+#### Risk Management
+
+Players must assess current run viability vs future investment
+
+**Pacing**
+
+Breaks up survival gameplay with strategic planning moments
 
 **Living Base Ecosystem - NPC Relationships & Expeditions:**
 City Defense Z creates emotional investment through a dynamic NPC system that transforms the base from a mechanical structure into a living community. Players make meaningful choices about their companions and must manage both relationships and resources.
 
 **NPC Selection & Base Customization:**
 
-**Recruitment Events** On specific days (e.g. day 5), two NPCs approach the base
+**Recruitment Events**
 
-**Meaningful Choice** Players must choose only one NPC per encounter via UI popup
+On specific days (e.g. day 5), two NPCs approach the base
 
-**Character Profiles** Each NPC displays expedition stats and unique buff abilities
+**Meaningful Choice**
 
-**Specialization System** Four distinct NPC types with different strengths:
+Players must choose only one NPC per encounter via UI popup
+
+**Character Profiles**
+
+Each NPC displays expedition stats and unique buff abilities
+
+#### Specialization System
+
+Four distinct NPC types with different strengths:
 
   
-**Scientist** +30% research point generation, poor expedition survival
+**Scientist**
+
++30% research point generation, poor expedition survival
 
   
-**Military Expert** Boosts soldier combat effectiveness  
+**Military Expert**
+
+Boosts soldier combat effectiveness
 
   
-**Farmer** Enhances farm production and food generation
+**Farmer**
+
+Enhances farm production and food generation
 
   
-**Guerrilla** Excellent expedition survival rate and loot chances
+**Guerrilla**
+
+Excellent expedition survival rate and loot chances
 
 **Living Base Interaction:**
 
-**Physical Presence** NPCs visibly walk around and interact within the base
+**Physical Presence**
 
-**Personality System** Each NPC has 6 unique voice-acted dialogue lines
+NPCs visibly walk around and interact within the base
 
-**Random Conversations** Clicking NPCs triggers random authentic dialogue
+#### Personality System
 
-**Emotional Connection** Players develop attachment to their chosen companions
+Each NPC has 6 unique voice-acted dialogue lines
 
-**Base Identity** Each player's base feels unique based on NPC selection choices
+**Random Conversations**
 
-**Expedition Risk/Reward System:**
+Clicking NPCs triggers random authentic dialogue
+
+**Emotional Connection**
+
+Players develop attachment to their chosen companions
+
+**Base Identity**
+
+Each player's base feels unique based on NPC selection choices
+
+#### Expedition Risk/Reward System:
+
 A complex resource management system where players must balance immediate base needs with potential rewards:
 
-**Expedition Structure:**
+#### Expedition Structure:
 
-**Small Expeditions** 2 days, low reward, high survival rate
+**Small Expeditions**
 
-**Medium Expeditions** 4 days, medium reward, medium survival rate (unlockable)
+2 days, low reward, high survival rate
 
-**Large Expeditions** 5 days, high reward, medium survival rate (unlockable)
+**Medium Expeditions**
 
-**Progression Gating** Medium/Large expeditions unlocked via Research Point investment
+4 days, medium reward, medium survival rate (unlockable)
 
-**Strategic Decision Framework:**
+**Large Expeditions**
 
-**Solo Expeditions** Higher risk, but allows multiple simultaneous rewards
+5 days, high reward, medium survival rate (unlockable)
 
-**Group Expeditions** Lower individual risk, but single reward and higher resource cost
+**Progression Gating**
 
-**Resource Cost** Each expedition consumes Food and Ammunition per NPC
+Medium/Large expeditions unlocked via Research Point investment
 
-**Permanent Loss** NPCs can die and never return, creating genuine stakes
+#### Strategic Decision Framework:
 
-**Tracking System** Visual countdown shows days remaining until NPC return
+**Solo Expeditions**
 
-**Expedition Rewards:** Food, Resource, Ammunition, Research Points
+Higher risk, but allows multiple simultaneous rewards
 
-**Design Psychology Benefits:**
+**Group Expeditions**
 
-**Emotional Investment** Players care about NPC survival beyond mechanical benefits
+Lower individual risk, but single reward and higher resource cost
 
-**Customization Satisfaction** Each player builds a unique base community
+**Resource Cost**
 
-**Risk Management Skill** Develops player expertise in probability assessment
+Each expedition consumes Food and Ammunition per NPC
 
-**Resource Allocation** Forces meaningful choices about expedition investment
+**Permanent Loss**
 
-**Narrative Immersion** Dialogue system creates personality and world-building
+NPCs can die and never return, creating genuine stakes
 
-**Loss Aversion** Permanent NPC death creates genuine tension and stakes
+#### Tracking System
 
-**Strategic Boost Management System:**
+Visual countdown shows days remaining until NPC return
+
+##### Expedition Rewards
+
+Food, Resource, Ammunition, Research Points
+
+#### Design Psychology Benefits:
+
+**Emotional Investment**
+
+Players care about NPC survival beyond mechanical benefits
+
+**Customization Satisfaction**
+
+Each player builds a unique base community
+
+#### Risk Management Skill
+
+Develops player expertise in probability assessment
+
+**Resource Allocation**
+
+Forces meaningful choices about expedition investment
+
+**Narrative Immersion**
+
+Dialogue system creates personality and world-building
+
+**Loss Aversion**
+
+Permanent NPC death creates genuine tension and stakes
+
+#### Strategic Boost Management System:
+
 A multi-layered tactical system that combines real-time collection pressure with strategic deployment decisions, creating constant tactical engagement during combat phases:
 
-**Boost Collection Mechanics:**
+#### Boost Collection Mechanics:
 
-**Time Pressure** Zombies drop boosts that disappear in 5 seconds if not collected
+**Time Pressure**
 
-**Quick Decision Making** Players must rapidly assess boost value vs combat focus
+Zombies drop boosts that disappear in 5 seconds if not collected
 
-**Risk Assessment** Collecting boosts may require exposing troops or shifting attention
+**Quick Decision Making**
 
-**Boost Types & Duration:**
+Players must rapidly assess boost value vs combat focus
 
-**Damage Boost (30s)** +50% soldier damage output
+**Risk Assessment**
 
-**Fire Rate Boost (20s)** +35% soldier attack speed  
+Collecting boosts may require exposing troops or shifting attention
 
-**Shield Boost (10s)** Absorbs 50% incoming damage
+#### Boost Types & Duration:
 
-**Resource Boost** +50% resource generation for next 6 collections
+**Damage Boost (30s)**
 
-**Strategic Deployment System:**
++50% soldier damage output
 
-**Targeted Application** Boosts must be manually aimed at soldier positions
+**Fire Rate Boost (20s)**
 
-**AoE Radius** Clash of Clans-style area targeting affects multiple soldiers
++35% soldier attack speed
 
-**Timing Decisions** Save boosts for critical moments vs immediate use
+**Shield Boost (10s)**
 
-**Positioning Strategy** Players arrange soldiers to maximize boost effectiveness
+Absorbs 50% incoming damage
 
-**Multi-Layer Decision Framework:**
+**Resource Boost**
+
++50% resource generation for next 6 collections
+
+#### Strategic Deployment System:
+
+**Targeted Application**
+
+Boosts must be manually aimed at soldier positions
+
+**AoE Radius**
+
+Clash of Clans-style area targeting affects multiple soldiers
+
+**Timing Decisions**
+
+Save boosts for critical moments vs immediate use
+
+#### Positioning Strategy
+
+Players arrange soldiers to maximize boost effectiveness
+
+#### Multi-Layer Decision Framework:
+
 Players face cascading strategic choices:
 
 1. **Collection Phase:** "Is this boost worth the distraction/risk?"
@@ -550,340 +839,600 @@ Players face cascading strategic choices:
 3. **Targeting Phase:** "Where should I deploy this for maximum effect?"
 4. **Positioning Strategy:** "Should I group soldiers to maximize boost overlap?"
 
-**Design Benefits:**
+#### Design Benefits:
 
-**Active Engagement** Prevents passive "wait and watch" tower defense gameplay
+##### Active Engagement
 
-**Resource Management** Limited boost storage creates inventory decisions
+Prevents passive "wait and watch" tower defense gameplay
 
-**Tactical Depth** Boost positioning requires understanding of combat flow
+#### Resource Management
 
-**Risk/Reward** Collection timing creates moment-to-moment tension
+Limited boost storage creates inventory decisions
 
-**Strategic Planning** Players must consider troop positioning for boost effectiveness
+**Tactical Depth**
 
-**Combat Variety** Different boost types encourage varied tactical approaches
+Boost positioning requires understanding of combat flow
 
-**Dynamic Threat System - Zombie Holes:**
+**Risk/Reward**
+
+Collection timing creates moment-to-moment tension
+
+**Strategic Planning**
+
+Players must consider troop positioning for boost effectiveness
+
+**Combat Variety**
+
+Different boost types encourage varied tactical approaches
+
+#### Dynamic Threat System - Zombie Holes:
+
 An emergent challenge system that breaks traditional tower defense passivity by introducing unpredictable, skill-based threats requiring immediate player intervention during combat:
 
-**Zombie Hole Mechanics:**
+#### Zombie Hole Mechanics:
 
-**Random Emergence** Cracks appear unpredictably anywhere on the map during combat
+**Random Emergence**
 
-**Immediate Threat** Holes continuously spawn additional zombies if left unclosed
+Cracks appear unpredictably anywhere on the map during combat
 
-**Skill-Based Resolution** Players must tap holes 5 times in quick succession to seal them
+**Immediate Threat**
 
-**Time Pressure** Failure to complete the sequence in time resets progress
+Holes continuously spawn additional zombies if left unclosed
 
-**Satisfying Feedback** Successful sealing triggers missile strike animation with planes
+**Skill-Based Resolution**
+
+Players must tap holes 5 times in quick succession to seal them
+
+**Time Pressure**
+
+Failure to complete the sequence in time resets progress
+
+**Satisfying Feedback**
+
+Successful sealing triggers missile strike animation with planes
 
 **Strategic Impact:**
 
-**Attention Management** Forces players to monitor entire battlefield simultaneously
+#### Attention Management
 
-**Priority Assessment** Players must decide when to address holes vs focus on other combat elements
+Forces players to monitor entire battlefield simultaneously
 
-**Skill Development** Requires rapid clicking accuracy and timing
+**Priority Assessment**
 
-**Threat Escalation** Ignored holes compound zombie pressure exponentially
+Players must decide when to address holes vs focus on other combat elements
 
-**Map Awareness** Players must maintain spatial awareness of entire battlefield
+**Skill Development**
 
-**Adrenaline & Engagement Benefits:**
+Requires rapid clicking accuracy and timing
 
-**Active Participation** Eliminates passive "set and forget" tower defense gameplay
+**Threat Escalation**
 
-**Constant Vigilance** Players must stay alert throughout entire combat phase
+Ignored holes compound zombie pressure exponentially
 
-**Skill Expression** Fast reaction times and accuracy become gameplay advantages
+**Map Awareness**
 
-**Emergency Response** Creates genuine "crisis management" moments
+Players must maintain spatial awareness of entire battlefield
 
-**Tension Maintenance** Unpredictable timing keeps players on edge
+##### Adrenaline & Engagement Benefits:
 
-**Reward Satisfaction** Successful hole closure provides immediate gratification
+**Active Participation**
 
-**Integration with Other Systems:**
+Eliminates passive "set and forget" tower defense gameplay
 
-**Compounds Day/Night Pressure** Holes can appear during critical final moments
+**Constant Vigilance**
 
-**Conflicts with Boost Collection** Players must choose between collecting boosts or sealing holes
+Players must stay alert throughout entire combat phase
 
-**Affects Resource Planning** Emergency holes can disrupt careful strategic planning
+**Skill Expression**
 
-**Creates Multitasking Challenges** Players juggle multiple real-time demands simultaneously
+Fast reaction times and accuracy become gameplay advantages
 
-**Atmospheric World-Building - Global News System:**
+**Emergency Response**
+
+Creates genuine "crisis management" moments
+
+**Tension Maintenance**
+
+Unpredictable timing keeps players on edge
+
+**Reward Satisfaction**
+
+Successful hole closure provides immediate gratification
+
+#### Integration with Other Systems:
+
+**Compounds Day/Night Pressure**
+
+Holes can appear during critical final moments
+
+##### Conflicts with Boost Collection
+
+Players must choose between collecting boosts or sealing holes
+
+**Affects Resource Planning**
+
+Emergency holes can disrupt careful strategic planning
+
+**Creates Multitasking Challenges**
+
+Players juggle multiple real-time demands simultaneously
+
+#### Atmospheric World-Building - Global News System:
+
 A subtle but powerful immersion system that reinforces the global apocalyptic setting and creates emotional connection to the larger world beyond the player's immediate survival situation:
 
 **News Ticker Implementation:**
 
-**Continuous Flow** News headlines scroll horizontally across the top of the screen
+**Continuous Flow**
 
-**Atmospheric Content** Reports from around the world about the zombie apocalypse
+News headlines scroll horizontally across the top of the screen
 
-**Immersive Examples** "Zombies started to be seen in Antarctica as well"
+##### Atmospheric Content
 
-**Non-Intrusive Design** Subtle enough not to distract from gameplay but visible enough to enhance atmosphere
+Reports from around the world about the zombie apocalypse
+
+**Immersive Examples**
+
+"Zombies started to be seen in Antarctica as well"
+
+##### Non-Intrusive Design
+
+Subtle enough not to distract from gameplay but visible enough to enhance atmosphere
 
 **World-Building Benefits:**
 
-**Global Scope** Reinforces that this is a worldwide catastrophe, not just local
+**Global Scope**
 
-**Emotional Weight** Players feel part of a larger struggle for humanity's survival
+Reinforces that this is a worldwide catastrophe, not just local
 
-**Narrative Context** Provides backstory and lore without explicit exposition
+**Emotional Weight**
 
-**Immersion Enhancement** Creates feeling of monitoring real-world emergency broadcasts
+Players feel part of a larger struggle for humanity's survival
 
-**Apocalyptic Authenticity** Mimics how people would actually stay informed during a crisis
+**Narrative Context**
+
+Provides backstory and lore without explicit exposition
+
+**Immersion Enhancement**
+
+Creates feeling of monitoring real-world emergency broadcasts
+
+**Apocalyptic Authenticity**
+
+Mimics how people would actually stay informed during a crisis
 
 **Psychological Impact:**
 
-**Scale Recognition** Players understand their base defense is part of a global fight
+**Scale Recognition**
 
-**Urgency Reinforcement** News of spreading infection heightens survival stakes
+Players understand their base defense is part of a global fight
 
-**Isolation Feeling** Emphasizes how alone and cut-off the player's base is
+**Urgency Reinforcement**
 
-**Hope and Despair** Mix of reports can provide both encouraging and dire updates
+News of spreading infection heightens survival stakes
 
-**Living World** Game world feels active and evolving beyond the player's immediate area
+**Isolation Feeling**
+
+Emphasizes how alone and cut-off the player's base is
+
+**Hope and Despair**
+
+Mix of reports can provide both encouraging and dire updates
+
+**Living World**
+
+Game world feels active and evolving beyond the player's immediate area
 
 This system transforms City Defense Z from a simple survival game into a window into a larger apocalyptic world, making every successful defense feel like a meaningful contribution to humanity's survival.
 
-**Advanced Card-Based Building System:**
+#### Advanced Card-Based Building System:
+
 The building placement system extends beyond simple structure cards to include sophisticated utility cards that provide strategic flexibility and advanced base management options:
 
-**Core Building Card Mechanics:**
+#### Core Building Card Mechanics:
 
-**Card Selection** Three random building cards presented each day
+**Card Selection**
 
-**Grid Placement** Click card, then place on available grid squares
+Three random building cards presented each day
 
-**Merge Requirements** Three adjacent buildings (horizontal/vertical) automatically merge to next level
+**Grid Placement**
 
-**Visual Feedback** Buildings display level numbers and merge readiness indicators
+Click card, then place on available grid squares
 
-**Color-Coded System** Each building type has distinct color coding for instant recognition
+**Merge Requirements**
+
+Three adjacent buildings (horizontal/vertical) automatically merge to next level
+
+**Visual Feedback**
+
+Buildings display level numbers and merge readiness indicators
+
+#### Color-Coded System
+
+Each building type has distinct color coding for instant recognition
 
   
-**Factory** Yellow/Green cards and buildings
+**Factory**
+
+Yellow/Green cards and buildings
 
   
-**Ammunition** Gray cards and buildings
+**Ammunition**
+
+Gray cards and buildings
 
   
-**Barracks** Orange/Red cards and buildings
+**Barracks**
+
+Orange/Red cards and buildings
 
   
-**Other Types** Each with unique color identity
+##### Other Types
+
+Each with unique color identity
 
 **Strategic Utility Cards:**
 Beyond basic building cards, the system includes powerful management tools:
 
 **Building Relocation Card:**
 
-**Purpose** Move any selected building to a desired grid location
+**Purpose**
 
-**Strategic Value** Correct placement mistakes and optimize merge positioning
+Move any selected building to a desired grid location
 
-**Use Case** Reorganize layout when merge opportunities are blocked
+**Strategic Value**
 
-**Flexibility** Allows experimentation with different base configurations
+Correct placement mistakes and optimize merge positioning
+
+**Use Case**
+
+Reorganize layout when merge opportunities are blocked
+
+**Flexibility**
+
+Allows experimentation with different base configurations
 
 **Direct Level-Up Card:**
 
-**Purpose** Instantly upgrade any selected building to the next level
+**Purpose**
 
-**Strategic Power** Bypasses the 3-adjacent merge requirement
+Instantly upgrade any selected building to the next level
 
-**High-Level Efficiency** Particularly valuable for upgrading level 4+ buildings
+**Strategic Power**
 
-**Resource Alternative** Trades card resource for merge positioning requirements
+Bypasses the 3-adjacent merge requirement
+
+**High-Level Efficiency**
+
+Particularly valuable for upgrading level 4+ buildings
+
+**Resource Alternative**
+
+Trades card resource for merge positioning requirements
 
 **Advanced Strategic Benefits:**
 
-**Mistake Correction** Relocation cards prevent permanent layout errors
+**Mistake Correction**
 
-**Optimization Tools** Players can refine base layouts over time
+Relocation cards prevent permanent layout errors
 
-**Emergency Upgrades** Direct level-up cards provide immediate power boosts
+**Optimization Tools**
 
-**Strategic Flexibility** Multiple paths to achieve building upgrades
+Players can refine base layouts over time
 
-**Depth Layer** Advanced players can optimize with utility cards vs basic merge patterns
+**Emergency Upgrades**
 
-**Risk Mitigation** Reduces punishment for suboptimal early placement decisions
+Direct level-up cards provide immediate power boosts
+
+**Strategic Flexibility**
+
+Multiple paths to achieve building upgrades
+
+**Depth Layer**
+
+Advanced players can optimize with utility cards vs basic merge patterns
+
+**Risk Mitigation**
+
+Reduces punishment for suboptimal early placement decisions
 
 **Usability & Accessibility Features:**
 
-**Instant Recognition** Color coding eliminates need to read card text during time pressure
+**Instant Recognition**
 
-**Cognitive Load Reduction** Visual system reduces mental processing during fast-paced placement
+Color coding eliminates need to read card text during time pressure
 
-**Merge Planning** Players can quickly identify same-type buildings for merge opportunities
+**Cognitive Load Reduction**
 
-**Error Prevention** Distinct colors prevent accidental misplacement of building types
+Visual system reduces mental processing during fast-paced placement
 
-**Accessibility Support** Color system aids players with different reading speeds or language barriers
+**Merge Planning**
+
+Players can quickly identify same-type buildings for merge opportunities
+
+**Error Prevention**
+
+Distinct colors prevent accidental misplacement of building types
+
+**Accessibility Support**
+
+Color system aids players with different reading speeds or language barriers
 
 This sophisticated card system transforms base building from simple placement into complex strategic management, where players balance building types, utility cards, and positioning optimization to create the most effective defensive layouts.
 
-**Strategic Airstrike System:**
+#### Strategic Airstrike System:
+
 An active night-phase system that provides players with powerful tactical options while reinforcing narrative progression and preventing passive gameplay during combat:
 
-**Airstrike Mechanics:**
+#### Airstrike Mechanics:
 
-**Night Phase Activation** Airstrikes available only during combat phases
+##### Night Phase Activation
 
-**UI Integration** Bottom interface bar displays available aircraft options
+Airstrikes available only during combat phases
 
-**Manual Targeting** Players click to designate strike locations and timing
+**UI Integration**
 
-**Resource Cost** Airstrikes consume ammunition resources
+Bottom interface bar displays available aircraft options
 
-**Tactical Variety** Different aircraft provide distinct attack patterns
+**Manual Targeting**
 
-**Aircraft Types & Attack Patterns:**
+Players click to designate strike locations and timing
 
-**Standard Strike Aircraft** Targeted bombing at selected radius location
+**Resource Cost**
 
-**Carpet Bomber** Delivers 3 bombs in vertical formation pattern
+Airstrikes consume ammunition resources
 
-**Additional Aircraft** Unlockable through progression (future variants)
+**Tactical Variety**
+
+Different aircraft provide distinct attack patterns
+
+#### Aircraft Types & Attack Patterns:
+
+**Standard Strike Aircraft**
+
+Targeted bombing at selected radius location
+
+**Carpet Bomber**
+
+Delivers 3 bombs in vertical formation pattern
+
+**Additional Aircraft**
+
+Unlockable through progression (future variants)
 
 **Narrative-Driven Progression:**
 
-**Initial Lock** Airstrike capabilities are unavailable at game start
+**Initial Lock**
 
-**Story Integration** Airstrikes unlock after completing Map 1 storyline
+Airstrike capabilities are unavailable at game start
 
-**Narrative Context** "Plane repair completion" provides logical unlock reason
+**Story Integration**
 
-**Progressive Access** Different aircraft unlock through map progression
+Airstrikes unlock after completing Map 1 storyline
 
-**Achievement Reward** Story completion provides meaningful gameplay enhancement
+**Narrative Context**
+
+"Plane repair completion" provides logical unlock reason
+
+**Progressive Access**
+
+Different aircraft unlock through map progression
+
+**Achievement Reward**
+
+Story completion provides meaningful gameplay enhancement
 
 **Strategic Impact:**
 
-**Active Engagement** Prevents passive observation during night phase
+##### Active Engagement
 
-**Tactical Decisions** Players must choose timing and targeting for maximum effect
+Prevents passive observation during night phase
 
-**Resource Management** Airstrike costs create strategic resource allocation choices
+**Tactical Decisions**
 
-**Emergency Response** Provides tools for handling overwhelming zombie situations
+Players must choose timing and targeting for maximum effect
 
-**Combo Potential** Synergizes with boost system and defensive positioning
+#### Resource Management
 
-**Design Benefits:**
+Airstrike costs create strategic resource allocation choices
 
-**Story-Gameplay Integration** Unlocks feel earned and narratively justified
+**Emergency Response**
 
-**Player Agency** Active decision-making throughout entire combat phase
+Provides tools for handling overwhelming zombie situations
 
-**Tactical Depth** Multiple aircraft types encourage varied strategic approaches
+**Combo Potential**
 
-**Progression Satisfaction** Unlocking airstrikes provides significant power increase
+Synergizes with boost system and defensive positioning
 
-**Visual Spectacle** Dramatic airstrike effects enhance combat excitement
+#### Design Benefits:
 
-**Comprehensive UI & Time Management System:**
+**Story-Gameplay Integration**
+
+Unlocks feel earned and narratively justified
+
+**Player Agency**
+
+Active decision-making throughout entire combat phase
+
+**Tactical Depth**
+
+Multiple aircraft types encourage varied strategic approaches
+
+**Progression Satisfaction**
+
+Unlocking airstrikes provides significant power increase
+
+**Visual Spectacle**
+
+Dramatic airstrike effects enhance combat excitement
+
+#### Comprehensive UI & Time Management System:
+
 A sophisticated interface design that provides players with essential information and granular control over game pacing, enabling strategic time management and situational awareness:
 
-**Top Panel Interface Elements:**Time Control System- **Game Speed Controls:** Pause, 1x, 2x, and 3x speed options (top right)
+**Top Panel Interface Elements**
 
-**Player Pacing** Allows acceleration during planning or slowing for precise timing
+Time Control System- **Game Speed Controls:**  Pause, 1x, 2x, and 3x speed options (top right)
 
-**Strategic Advantage** Fast-forward through safe periods, slow down during critical moments
+**Player Pacing**
 
-**Day/Night Phase Indicator:**
+Allows acceleration during planning or slowing for precise timing
 
-**Visual Status** Dynamic sun/moon icon shows current phase
+**Strategic Advantage**
 
-**Progress Visualization** Circular progress bar around icon displays time remaining until phase change
+Fast-forward through safe periods, slow down during critical moments
 
-**Preparation Planning** Players can gauge available time for day-phase activities
+#### Day/Night Phase Indicator:
 
-**Transition Warning** Visual countdown prevents surprise phase switches
+**Visual Status**
+
+Dynamic sun/moon icon shows current phase
+
+**Progress Visualization**
+
+Circular progress bar around icon displays time remaining until phase change
+
+**Preparation Planning**
+
+Players can gauge available time for day-phase activities
+
+**Transition Warning**
+
+Visual countdown prevents surprise phase switches
 
 **Session Information:**
 
-**Day Counter** Clear display of current day (e.g., "Day 3")
+**Day Counter**
 
-**Progress Tracking** Helps players understand their advancement toward map objectives
+Clear display of current day (e.g., "Day 3")
 
-**Strategic Context** Informs decisions about long-term resource allocation
+**Progress Tracking**
 
-**Manual Phase Control:**
+Helps players understand their advancement toward map objectives
 
-**"End Day" Button** Allows players to manually transition to night phase
+**Strategic Context**
 
-**Time Optimization** Skip waiting when all preparations are complete
+Informs decisions about long-term resource allocation
 
-**Strategic Choice** Trade remaining day time for immediate combat engagement
+#### Manual Phase Control:
 
-**Efficiency Tool** Experienced players can maximize session pacing
+**"End Day" Button**
 
-**Base Health System:**
+Allows players to manually transition to night phase
 
-**Health Percentage** Prominent display of main base integrity (0-100%)
+**Time Optimization**
 
-**Critical Information** Core survival metric always visible
+Skip waiting when all preparations are complete
 
-**Visual Feedback** Green progress bar provides instant status recognition
+**Strategic Choice**
 
-**End Condition** 0% health triggers game over state
+Trade remaining day time for immediate combat engagement
 
-**Interface Design Benefits:**
+**Efficiency Tool**
 
-**Information Hierarchy** Most critical data prominently displayed
+Experienced players can maximize session pacing
 
-**Player Agency** Multiple control options accommodate different playstyles
+#### Base Health System:
 
-**Visual Clarity** Clean, readable design prevents information overload
+**Health Percentage**
 
-**Strategic Support** Interface enhances rather than hinders tactical decision-making
+Prominent display of main base integrity (0-100%)
 
-**Accessibility** Large, clear elements support quick recognition during intense moments
+**Critical Information**
 
-**Menu System & Navigation Design:**
+Core survival metric always visible
+
+**Visual Feedback**
+
+Green progress bar provides instant status recognition
+
+**End Condition**
+
+0% health triggers game over state
+
+#### Interface Design Benefits:
+
+**Information Hierarchy**
+
+Most critical data prominently displayed
+
+**Player Agency**
+
+Multiple control options accommodate different playstyles
+
+**Visual Clarity**
+
+Clean, readable design prevents information overload
+
+**Strategic Support**
+
+Interface enhances rather than hinders tactical decision-making
+
+**Accessibility**
+
+Large, clear elements support quick recognition during intense moments
+
+#### Menu System & Navigation Design:
+
 Clean, intuitive menu design that emphasizes clarity and thematic consistency while providing essential functionality:
 
 **Main Menu Features:**
 
-**Simple Navigation** Continue, New Game, Settings, Exit options
+**Simple Navigation**
 
-**Theme Consistency** Military/apocalyptic aesthetic throughout
+Continue, New Game, Settings, Exit options
 
-**Platform Integration** Steam wishlist functionality and social media links
+**Theme Consistency**
 
-**Visual Polish** Professional logo design and atmospheric background
+Military/apocalyptic aesthetic throughout
+
+**Platform Integration**
+
+Steam wishlist functionality and social media links
+
+**Visual Polish**
+
+Professional logo design and atmospheric background
 
 **Map Selection Interface:**
 
-**"Choose the City to Save"** Narrative framing for map selection
+**"Choose the City to Save"**
 
-**Visual Progression** Clear distinction between available (Nevada) and locked maps
+Narrative framing for map selection
 
-**Geographic Variety** Istanbul, Paris, Beijing represent global scope
+**Visual Progression**
 
-**Progression Clarity** "Available in Full Version" messaging for locked content
+Clear distinction between available (Nevada) and locked maps
 
-**Consistent Styling** Military-themed UI borders and typography
+**Geographic Variety**
 
-**Design Philosophy:**
+Istanbul, Paris, Beijing represent global scope
 
-**Functional Simplicity** No unnecessary complexity or confusing navigation
+**Progression Clarity**
 
-**Clear Hierarchy** Important options prominently displayed
+"Available in Full Version" messaging for locked content
 
-**Thematic Immersion** Every element reinforces the apocalyptic military setting
+**Consistent Styling**
 
-**User-Friendly** Intuitive layout that doesn't require explanation
+Military-themed UI borders and typography
+
+#### Design Philosophy:
+
+##### Functional Simplicity
+
+No unnecessary complexity or confusing navigation
+
+**Clear Hierarchy**
+
+Important options prominently displayed
+
+**Thematic Immersion**
+
+Every element reinforces the apocalyptic military setting
+
+**User-Friendly**
+
+Intuitive layout that doesn't require explanation
 
 ---
 
@@ -895,184 +1444,326 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 
 **Primary Gameplay Cycle:**
 
-**Phase 1: Day Phase (Preparation)**
+#### Phase 1: Day Phase (Preparation)
 
-**Resource Collection** Manually click on buildings with icons to harvest accumulated resources and soldiers
+##### Resource Collection
 
-**Card Selection** Choose from 3 randomly offered building cards or utility cards
+Manually click on buildings with icons to harvest accumulated resources and soldiers
 
-**Strategic Placement** Position buildings on grid system to optimize merge opportunities
+**Card Selection**
 
-**Base Management** Collect resources, manage NPC assignments, plan expeditions
+Choose from 3 randomly offered building cards or utility cards
 
-**Battlefield Preparation** Deploy soldiers, place defensive structures, position walls
+**Strategic Placement**
 
-**Time Pressure** Complete all preparations before 10-second countdown warning
+Position buildings on grid system to optimize merge opportunities
 
-**Manual Control** Use "End Day" button to proceed when ready
+#### Base Management
 
-**Phase 2: Night Phase (Combat)**
+Collect resources, manage NPC assignments, plan expeditions
 
-**Wave Defense** Survive zombie attacks using deployed defenses
+**Battlefield Preparation**
 
-**Active Engagement** Collect time-limited boosts dropped by defeated zombies
+Deploy soldiers, place defensive structures, position walls
 
-**Emergency Response** Quickly seal zombie holes with 5-tap mechanic
+**Time Pressure**
 
-**Tactical Deployment** Use stored boosts strategically via AoE targeting
+Complete all preparations before 10-second countdown warning
 
-**Airstrike Coordination** Deploy aircraft for devastating area attacks
+**Manual Control**
 
-**Resource Monitoring** Watch base health percentage and defensive effectiveness
+Use "End Day" button to proceed when ready
+
+#### Phase 2: Night Phase (Combat)
+
+**Wave Defense**
+
+Survive zombie attacks using deployed defenses
+
+##### Active Engagement
+
+Collect time-limited boosts dropped by defeated zombies
+
+**Emergency Response**
+
+Quickly seal zombie holes with 5-tap mechanic
+
+**Tactical Deployment**
+
+Use stored boosts strategically via AoE targeting
+
+**Airstrike Coordination**
+
+Deploy aircraft for devastating area attacks
+
+**Resource Monitoring**
+
+Watch base health percentage and defensive effectiveness
 
 **Daily Progression Elements:**
 
-**3-Day Offerings** Every 3rd day, choose from 3 strategic reward options
+**3-Day Offerings**
 
-**NPC Events** Specific days trigger NPC recruitment opportunities
+Every 3rd day, choose from 3 strategic reward options
 
-**Story Beats** Map-specific narrative delivered via walkie-talkie communications
+**NPC Events**
 
-**Expedition Management** Track returning NPCs and plan new expeditions
+Specific days trigger NPC recruitment opportunities
+
+**Story Beats**
+
+Map-specific narrative delivered via walkie-talkie communications
+
+#### Expedition Management
+
+Track returning NPCs and plan new expeditions
 
 ### 3.2 Session Structure
 
-**Individual Run Architecture:**Run Initiation- **Map Selection:** Choose from available maps (progression-locked)
+#### Individual Run Architecture
 
-**Base Setup** Begin with basic structures and starting resources
+Run Initiation- **Map Selection:**  Choose from available maps (progression-locked)
 
-**Objective Briefing** Receive story context and survival goal via walkie-talkie
+**Base Setup**
 
-**Initial Resources** Start with defined amounts of Resource, Ammunition, Food, Population
+Begin with basic structures and starting resources
+
+**Objective Briefing**
+
+Receive story context and survival goal via walkie-talkie
+
+**Initial Resources**
+
+Start with defined amounts of Resource, Ammunition, Food, Population
 
 **Early Game (Days 1-10):**
 
-**Foundation Building** Establish basic resource production chains
+**Foundation Building**
 
-**System Learning** Master card placement and merge mechanics
+Establish basic resource production chains
 
-**NPC Recruitment** Make first companion choices
+#### System Learning
 
-**Defensive Setup** Learn soldier placement and basic combat
+Master card placement and merge mechanics
+
+**NPC Recruitment**
+
+Make first companion choices
+
+**Defensive Setup**
+
+Learn soldier placement and basic combat
 
 **Mid Game (Days 11-30):**
 
-**Optimization Phase** Develop efficient building layouts and merge strategies
+##### Optimization Phase
 
-**Advanced Systems** Unlock medium expeditions, utilize utility cards
+Develop efficient building layouts and merge strategies
 
-**Strategic Depth** Balance immediate survival with long-term resource investment
+#### Advanced Systems
 
-**Challenge Scaling** Face increased zombie variety and boss encounters
+Unlock medium expeditions, utilize utility cards
+
+**Strategic Depth**
+
+Balance immediate survival with long-term resource investment
+
+**Challenge Scaling**
+
+Face increased zombie variety and boss encounters
 
 **Late Game (Days 31+):**
 
-**Mastery Required** Execute complex multi-system strategies
+**Mastery Required**
 
-**Maximum Complexity** Manage all systems simultaneously under pressure
+Execute complex multi-system strategies
 
-**Story Resolution** Work toward map-specific objectives (50, 75, 100 days)
+**Maximum Complexity**
 
-**Decision Points** Choose between map completion or infinite survival
+Manage all systems simultaneously under pressure
+
+**Story Resolution**
+
+Work toward map-specific objectives (50, 75, 100 days)
+
+**Decision Points**
+
+Choose between map completion or infinite survival
 
 **Run Completion:**
 
-**Victory Conditions** Survive designated days OR player chooses to complete
+##### Victory Conditions
 
-**Defeat Conditions** Base health reaches 0%
+Survive designated days OR player chooses to complete
 
-**Research Point Awards** Permanent currency based on performance
+##### Defeat Conditions
 
-**Meta Progression** Apply earned upgrades to strengthen future runs
+Base health reaches 0%
+
+**Research Point Awards**
+
+Permanent currency based on performance
+
+**Meta Progression**
+
+Apply earned upgrades to strengthen future runs
 
 ### 3.3 Progression Overview
 
-**Multi-Layer Progression System:**Session-Level Progression (Within Single Run)- **Building Evolution:** Merge buildings to create more powerful structures
+#### Multi-Layer Progression System
 
-**Soldier Advancement** Combine soldiers to create elite units
+Session-Level Progression (Within Single Run)- **Building Evolution:**  Merge buildings to create more powerful structures
 
-**Resource Accumulation** Build economic engine for stronger defenses
+**Soldier Advancement**
 
-**Tactical Mastery** Improve at boost deployment and zombie hole management
+Combine soldiers to create elite units
 
-**Strategic Development** Optimize building placement and time management
+**Resource Accumulation**
 
-**Campaign Progression (Across Multiple Runs):**
+Build economic engine for stronger defenses
 
-**Research Point Investment** Permanent upgrades through 11 major upgrade trees
+**Tactical Mastery**
 
-**Map Unlocks** Progress through 4 unique maps with increasing difficulty
+Improve at boost deployment and zombie hole management
 
-**System Unlocks** Gain access to medium/large expeditions, airstrikes, utility cards
+**Strategic Development**
 
-**NPC Collection** Build diverse base community with specialized abilities
+Optimize building placement and time management
 
-**Mastery Development** Understand complex system interactions and optimal strategies
+##### Campaign Progression (Across Multiple Runs):
+
+**Research Point Investment**
+
+Permanent upgrades through 11 major upgrade trees
+
+**Map Unlocks**
+
+Progress through 4 unique maps with increasing difficulty
+
+#### System Unlocks
+
+Gain access to medium/large expeditions, airstrikes, utility cards
+
+##### NPC Collection
+
+Build diverse base community with specialized abilities
+
+**Mastery Development**
+
+Understand complex system interactions and optimal strategies
 
 **Narrative Progression:**
 
-**Story Advancement** Experience map-specific storylines and objectives
+**Story Advancement**
 
-**Character Development** Build relationships with chosen NPCs
+Experience map-specific storylines and objectives
 
-**World Building** Global zombie apocalypse context through news system
+**Character Development**
 
-**Achievement Satisfaction** Unlock new capabilities through story completion
+Build relationships with chosen NPCs
+
+**World Building**
+
+Global zombie apocalypse context through news system
+
+**Achievement Satisfaction**
+
+Unlock new capabilities through story completion
 
 ### 3.4 Victory & Defeat Conditions
 
-**Victory Conditions:**Map Completion Victory- **Objective Achievement:** Survive designated number of days for each map:
+##### Victory Conditions
+
+Map Completion Victory- **Objective Achievement:**  Survive designated number of days for each map:
 
   - Map 1 (Nevada): 50 days - "Plane repair completion"
   - Map 2: 75 days - [Story-specific objective]
   - Map 3: [TBD days] - [Story-specific objective]  
   - Map 4 (Final): 100 days - "Vaccine production completion"
 
-**Player Choice** Option to continue infinitely or proceed to next map
+**Player Choice**
 
-**Story Resolution** Narrative conclusion via walkie-talkie communication
+Option to continue infinitely or proceed to next map
+
+**Story Resolution**
+
+Narrative conclusion via walkie-talkie communication
 
 **Infinite Survival Victory:**
 
-**Endless Mode** Continue beyond story objectives indefinitely
+**Endless Mode**
 
-**High Score Pursuit** Maximize days survived for leaderboard competition
+Continue beyond story objectives indefinitely
 
-**Mastery Challenge** Test optimized strategies against escalating difficulty
+**High Score Pursuit**
 
-**Research Point Farming** Generate maximum permanent currency for meta progression
+Maximize days survived for leaderboard competition
 
-**Defeat Conditions:**Base Destruction- **Health Depletion:** Main base health reaches 0%
+**Mastery Challenge**
 
-**Cumulative Damage** Result of insufficient defenses over multiple nights
+Test optimized strategies against escalating difficulty
 
-**Strategic Failure** Poor resource management or defensive positioning
+**Research Point Farming**
+
+Generate maximum permanent currency for meta progression
+
+##### Defeat Conditions
+
+Base Destruction- **Health Depletion:**  Main base health reaches 0%
+
+**Cumulative Damage**
+
+Result of insufficient defenses over multiple nights
+
+**Strategic Failure**
+
+Poor resource management or defensive positioning
 
 **Resource Starvation:**
 
-**Food Shortage** Prolonged HUNGER debuff weakens defenses
+**Food Shortage**
 
-**Economic Collapse** Inability to afford necessary buildings or soldiers
+Prolonged HUNGER debuff weakens defenses
 
-**Population Crisis** Insufficient population to support defensive needs
+##### Economic Collapse
+
+Inability to afford necessary buildings or soldiers
+
+**Population Crisis**
+
+Insufficient population to support defensive needs
 
 **Special Defeat Scenarios:**
 
-**Revive System** Advanced players can utilize expensive revive upgrades
+#### Revive System
 
-**Second Chances** Burn remaining zombies, respawn base at 30% health
+Advanced players can utilize expensive revive upgrades
 
-**Limited Uses** Revive system balanced by scarcity and high research point cost
+**Second Chances**
+
+Burn remaining zombies, respawn base at 30% health
+
+**Limited Uses**
+
+Revive system balanced by scarcity and high research point cost
 
 **Post-Defeat Progression:**
 
-**Research Point Retention** Permanent currency preserved between runs
+**Research Point Retention**
 
-**Meta Advancement** Apply learnings and upgrades to improve future attempts
+Permanent currency preserved between runs
 
-**Strategic Iteration** Refine approaches based on defeat analysis
+**Meta Advancement**
 
-**Persistent Growth** Every failure contributes to long-term advancement
+Apply learnings and upgrades to improve future attempts
+
+**Strategic Iteration**
+
+Refine approaches based on defeat analysis
+
+**Persistent Growth**
+
+Every failure contributes to long-term advancement
 
 ---
 
@@ -1082,255 +1773,464 @@ City Defense Z operates on a sophisticated dual-phase system that creates unique
 
 City Defense Z employs a sophisticated dual-currency economy that balances immediate tactical needs with long-term strategic investment, creating meaningful resource management decisions throughout every phase of gameplay:
 
-**Currency Architecture:**Run-Currencies (Reset Each Run)**Resource**:
+#### Currency Architecture
 
-**Primary Function** Card purchasing and building placement
+Run-Currencies (Reset Each Run)**Resource** :
 
-**Generation** End-of-day automatic income, Factory building production
+##### Primary Function
 
-**Expenditure** Building cards, utility cards, base management actions
+Card purchasing and building placement
 
-**Strategic Role** Core economic engine for base development
+##### Generation
 
-**Management** Must balance immediate building needs with future expansion
+End-of-day automatic income, Factory building production
 
-**Ammunition**:
+##### Expenditure
 
-**Primary Function** Combat systems and defensive structures
+Building cards, utility cards, base management actions
 
-**Generation** Ammunition building production, expedition rewards
+**Strategic Role**
 
-**Expenditure** Soldier deployment, landmines, walls, airstrike operations
+Core economic engine for base development
 
-**Strategic Role** Military resource for active defense
+#### Management
 
-**Management** Balance production capacity with combat consumption
+Must balance immediate building needs with future expansion
 
-**Food**:
+**Ammunition**
 
-**Primary Function** Population sustenance and expedition supplies
+:
 
-**Generation** Farm building production in dedicated farm zones
+##### Primary Function
 
-**Expenditure** Soldier maintenance, NPC expeditions
+Combat systems and defensive structures
 
-**Consequence** HUNGER debuff when insufficient supply affects combat effectiveness
+##### Generation
 
-**Management** Scale production with population growth and expedition activity
+Ammunition building production, expedition rewards
 
-**Population**:
+##### Expenditure
 
-**Primary Function** Maximum soldier capacity limitation
+Soldier deployment, landmines, walls, airstrike operations
 
-**Generation** House building construction and merging
+**Strategic Role**
 
-**Strategic Role** Caps military strength, requires housing investment
+Military resource for active defense
 
-**Management** Balance housing construction with other building priorities
+#### Management
 
-**Permanent Currency:**
+Balance production capacity with combat consumption
 
-**Research Points**:
+**Food**
 
-**Primary Function** Meta progression and permanent upgrades
+:
 
-**Generation** Laboratory building production, expedition rewards, run completion bonuses, 3-day offering selections
+##### Primary Function
 
-**Expenditure** 11 major upgrade trees with 40+ individual improvements
+Population sustenance and expedition supplies
 
-**Strategic Role** Long-term character progression and power increases
+##### Generation
 
-**Management** Investment decisions affect future run capabilities
+Farm building production in dedicated farm zones
 
-**Economic Mechanics:**Manual Collection System- **Visual Indicators:** Buildings display resource icons when production is ready for collection
+##### Expenditure
 
-**Click-to-Harvest** Players must manually click on buildings to collect accumulated resources
+Soldier maintenance, NPC expeditions
 
-**Visual State System** Buildings show production status through model changes (similar to Clash of Clans):
+**Consequence**
+
+HUNGER debuff when insufficient supply affects combat effectiveness
+
+#### Management
+
+Scale production with population growth and expedition activity
+
+**Population**
+
+:
+
+##### Primary Function
+
+Maximum soldier capacity limitation
+
+##### Generation
+
+House building construction and merging
+
+**Strategic Role**
+
+Caps military strength, requires housing investment
+
+#### Management
+
+Balance housing construction with other building priorities
+
+##### Permanent Currency:
+
+**Research Points**
+
+:
+
+##### Primary Function
+
+Meta progression and permanent upgrades
+
+##### Generation
+
+Laboratory building production, expedition rewards, run completion bonuses, 3-day offering selections
+
+##### Expenditure
+
+11 major upgrade trees with 40+ individual improvements
+
+**Strategic Role**
+
+Long-term character progression and power increases
+
+#### Management
+
+Investment decisions affect future run capabilities
+
+#### Economic Mechanics
+
+Manual Collection System- **Visual Indicators:**  Buildings display resource icons when production is ready for collection
+
+**Click-to-Harvest**
+
+Players must manually click on buildings to collect accumulated resources
+
+#### Visual State System
+
+Buildings show production status through model changes (similar to Clash of Clans):
 
   
-**Empty State** Recently collected buildings appear depleted/empty
+**Empty State**
+
+Recently collected buildings appear depleted/empty
 
   
-**Full State** Ready-to-collect buildings show visual abundance of their resource type
+**Full State**
+
+Ready-to-collect buildings show visual abundance of their resource type
 
   
-**Ammunition Factory** Shows ammunition boxes/crates when full, empty storage when depleted
+**Ammunition Factory**
+
+Shows ammunition boxes/crates when full, empty storage when depleted
 
   
-**Resource Factory** Displays resource materials/containers when ready, empty when collected
+**Resource Factory**
+
+Displays resource materials/containers when ready, empty when collected
 
   
-**Barracks** Shows soldiers/military equipment when training complete, empty when recruited
+**Barracks**
+
+Shows soldiers/military equipment when training complete, empty when recruited
 
   
-**Laboratory** Displays research materials/equipment when ready, minimal when collected
+**Laboratory**
+
+Displays research materials/equipment when ready, minimal when collected
 
   
-**Farm** Shows full crops/food storage when harvestable, empty fields when collected
+**Farm**
 
-**Collection Types** - **Ammunition Factory:** Displays ammunition icon, click to collect ammunition
+Shows full crops/food storage when harvestable, empty fields when collected
 
-  
-**Resource Factory** Displays resource icon, click to collect resources  
+##### Collection Types
 
-  
-**Barracks** Displays soldier icon, click to collect trained soldiers
+- **Ammunition Factory:**  Displays ammunition icon, click to collect ammunition
 
   
-**Laboratory** Displays research point icon, click to collect research points
+**Resource Factory**
+
+Displays resource icon, click to collect resources
 
   
-**Farm** Displays food icon, click to collect food
+**Barracks**
+
+Displays soldier icon, click to collect trained soldiers
 
   
-**House** Displays population icon when housing capacity increases
+**Laboratory**
 
-**Strategic Timing** Uncollected resources do not accumulate beyond building capacity
+Displays research point icon, click to collect research points
 
-**Active Engagement** Forces player interaction with base during day phases
+  
+**Farm**
 
-**Intuitive Feedback** Visual states provide instant understanding of building production status
+Displays food icon, click to collect food
 
-**Production Timing:**
+  
+**House**
 
-**Collection Windows** Resources accumulate during day phases and must be manually collected
+Displays population icon when housing capacity increases
 
-**Strategic Timing** Players must balance collection with other day-phase activities
+**Strategic Timing**
 
-**Efficiency Optimization** Higher-level buildings produce more resources faster
+Uncollected resources do not accumulate beyond building capacity
 
-**Capacity Limits** Buildings stop producing when storage is full until collected
+##### Active Engagement
+
+Forces player interaction with base during day phases
+
+**Intuitive Feedback**
+
+Visual states provide instant understanding of building production status
+
+##### Production Timing:
+
+##### Collection Windows
+
+Resources accumulate during day phases and must be manually collected
+
+**Strategic Timing**
+
+Players must balance collection with other day-phase activities
+
+**Efficiency Optimization**
+
+Higher-level buildings produce more resources faster
+
+**Capacity Limits**
+
+Buildings stop producing when storage is full until collected
 
 **Resource Balancing:**
 
-**Interconnected Systems** All currencies affect each other's utility
+#### Interconnected Systems
 
-**Strategic Trade-offs** Investment in one area affects capabilities in others
+All currencies affect each other's utility
 
-**Dynamic Scaling** Resource needs increase with base complexity and enemy difficulty
+**Strategic Trade-offs**
+
+Investment in one area affects capabilities in others
+
+**Dynamic Scaling**
+
+Resource needs increase with base complexity and enemy difficulty
 
 ### 4.2 Building & Placement System
 
-**Grid-Based Placement Mechanics:**Spatial Framework- **Main Grid Zone:** Primary building area for Houses, Barracks, Factories, Labs, Ammunition buildings
+#### Grid-Based Placement Mechanics
 
-**Farm Grid Zone** Specialized area for Farm buildings with crop production mechanics
+Spatial Framework- **Main Grid Zone:**  Primary building area for Houses, Barracks, Factories, Labs, Ammunition buildings
 
-**Grid Constraints** Each building occupies specific grid squares with adjacency requirements
+**Farm Grid Zone**
 
-**Visual Feedback** White grid tiles indicate valid placement locations
+Specialized area for Farm buildings with crop production mechanics
+
+**Grid Constraints**
+
+Each building occupies specific grid squares with adjacency requirements
+
+**Visual Feedback**
+
+White grid tiles indicate valid placement locations
 
 **Card-Based Building Selection:**
 
-**Daily Offerings** 3 random cards presented each day from available building pool
+**Daily Offerings**
 
-**Building Cards** Factory (Yellow/Green), Ammunition (Gray), Barracks (Orange/Red), Laboratory, House, Farm
+3 random cards presented each day from available building pool
 
-**Utility Cards** Building Relocation Card, Direct Level-Up Card
+**Building Cards**
 
-**Card Costs** Each card requires specific Resource expenditure
+Factory (Yellow/Green), Ammunition (Gray), Barracks (Orange/Red), Laboratory, House, Farm
 
-**Strategic Choice** Limited cards force prioritization decisions
+**Utility Cards**
 
-**Card Refresh & Reroll System:**
+Building Relocation Card, Direct Level-Up Card
 
-**Default Reroll Count** 1 reroll available per day initially
+**Card Costs**
 
-**Reroll Functionality** Refresh all 3 cards with new random selections
+Each card requires specific Resource expenditure
 
-**Strategic Timing** Players must decide when to use limited rerolls
+**Strategic Choice**
 
-**Permanent Upgrades** Reroll Cards Upgrade tree increases daily reroll count:
+Limited cards force prioritization decisions
+
+#### Card Refresh & Reroll System:
+
+**Default Reroll Count**
+
+1 reroll available per day initially
+
+##### Reroll Functionality
+
+Refresh all 3 cards with new random selections
+
+**Strategic Timing**
+
+Players must decide when to use limited rerolls
+
+**Permanent Upgrades**
+
+Reroll Cards Upgrade tree increases daily reroll count:
 
   - Level 1: Adds REROLL function (unlocks the system)
   - Level 2: +1 additional reroll per day (2 total)
   - Level 3: +1 additional reroll per day (3 total)  
   - Level 4: +1 additional reroll per day (4 total)
 
-**Automatic Refresh** When all 3 cards are purchased, 3 new random cards automatically appear
+**Automatic Refresh**
 
-**Resource Management** Rerolls are free but cards still cost Resources
+When all 3 cards are purchased, 3 new random cards automatically appear
 
-**Advanced Building Management:**Building Relocation System- **Functionality:** Move any placed building to different valid grid location
+#### Resource Management
 
-**Strategic Value** Correct placement mistakes, optimize merge positioning
+Rerolls are free but cards still cost Resources
 
-**Use Cases** Reorganize layout when merge opportunities blocked
+#### Advanced Building Management
 
-**Resource Cost** Requires specific utility card expenditure
+Building Relocation System- 
+##### Functionality:
 
-**Direct Level-Up System:**
+ Move any placed building to different valid grid location
 
-**Functionality** Instantly upgrade selected building to next level
+**Strategic Value**
 
-**Strategic Power** Bypasses 3-adjacent merge requirement
+Correct placement mistakes, optimize merge positioning
 
-**Efficiency Value** Particularly valuable for high-level building advancement
+**Use Cases**
 
-**Resource Alternative** Trade card resource for positional requirements
+Reorganize layout when merge opportunities blocked
+
+**Resource Cost**
+
+Requires specific utility card expenditure
+
+#### Direct Level-Up System:
+
+##### Functionality
+
+Instantly upgrade selected building to next level
+
+**Strategic Power**
+
+Bypasses 3-adjacent merge requirement
+
+**Efficiency Value**
+
+Particularly valuable for high-level building advancement
+
+**Resource Alternative**
+
+Trade card resource for positional requirements
 
 ### 4.3 Merge & Upgrade Mechanics
 
-**Core Merge System:**Building Merge Requirements (Automatic)- **Flexible Adjacency Rule:** 3 buildings of identical type and level can merge in multiple patterns:
+#### Core Merge System
+
+Building Merge Requirements (Automatic)- **Flexible Adjacency Rule:**  3 buildings of identical type and level can merge in multiple patterns:
 
   
-**Fully Horizontal** Three buildings in same row (e.g., positions 1-2-3)
+**Fully Horizontal**
+
+Three buildings in same row (e.g., positions 1-2-3)
 
   
-**Fully Vertical** Three buildings in same column (e.g., positions 2-5-8)
+**Fully Vertical**
+
+Three buildings in same column (e.g., positions 2-5-8)
 
   
-**Semi-Adjacent** L-shaped or corner patterns (e.g., positions 1-2-4)
+**Semi-Adjacent**
 
-**Automatic Triggering** Merge occurs instantly when valid pattern is completed
+L-shaped or corner patterns (e.g., positions 1-2-4)
 
-**Last-Placed Priority** Merged building appears at the location of the most recently placed building
+**Automatic Triggering**
 
-**Level Progression** Combined buildings evolve to next level with enhanced capabilities
+Merge occurs instantly when valid pattern is completed
 
-**Visual Indicators** Buildings display level numbers and merge readiness states
+**Last-Placed Priority**
+
+Merged building appears at the location of the most recently placed building
+
+**Level Progression**
+
+Combined buildings evolve to next level with enhanced capabilities
+
+**Visual Indicators**
+
+Buildings display level numbers and merge readiness states
 
 **Soldier Merge Requirements (Manual):**
 
-**Adjacency Detection** 3 soldiers of identical type and level in adjacent positions trigger merge availability
+**Adjacency Detection**
 
-**UI Pop-up System** Merge indicator appears on soldiers when merge is possible
+3 soldiers of identical type and level in adjacent positions trigger merge availability
 
-**Player-Initiated** Soldiers only merge when player clicks the merge pop-up/indicator
+#### UI Pop-up System
 
-**Strategic Choice** Manual system allows players to choose between multiple individual units vs single upgraded unit
+Merge indicator appears on soldiers when merge is possible
 
-**Tactical Flexibility** Players can maintain 3 separate soldiers for coverage or merge for concentrated power
+**Player-Initiated**
 
-**Timing Control** Merge decisions can be made during day phase preparation based on anticipated threats
+Soldiers only merge when player clicks the merge pop-up/indicator
+
+**Strategic Choice**
+
+Manual system allows players to choose between multiple individual units vs single upgraded unit
+
+**Tactical Flexibility**
+
+Players can maintain 3 separate soldiers for coverage or merge for concentrated power
+
+**Timing Control**
+
+Merge decisions can be made during day phase preparation based on anticipated threats
 
 **Strategic Merge Positioning:**
 
-**Placement Strategy** Players can control where the upgraded building will appear
+#### Placement Strategy
 
-**Layout Optimization** Semi-adjacent patterns provide more flexible base layouts
+Players can control where the upgraded building will appear
 
-**Chain Planning** Strategic placement enables complex merge sequences
+**Layout Optimization**
 
-**Space Efficiency** L-shaped merges maximize building density in limited grid space
+Semi-adjacent patterns provide more flexible base layouts
 
-**Merge Strategy Elements:**
+**Chain Planning**
 
-**Spatial Planning** Players must plan building placement for optimal merge opportunities
+Strategic placement enables complex merge sequences
 
-**Resource Efficiency** Merging creates more powerful buildings with better resource generation
+**Space Efficiency**
 
-**Strategic Timing** Balance immediate needs with merge positioning requirements
+L-shaped merges maximize building density in limited grid space
 
-**Layout Optimization** Advanced players develop efficient merge pattern strategies
+#### Merge Strategy Elements:
+
+**Spatial Planning**
+
+Players must plan building placement for optimal merge opportunities
+
+**Resource Efficiency**
+
+Merging creates more powerful buildings with better resource generation
+
+**Strategic Timing**
+
+Balance immediate needs with merge positioning requirements
+
+**Layout Optimization**
+
+Advanced players develop efficient merge pattern strategies
 
 **Alternative Upgrade Paths:**
 
-**Direct Level-Up Cards** Bypass spatial requirements through resource expenditure
+**Direct Level-Up Cards**
 
-**Building Relocation** Reposition buildings to create merge opportunities
+Bypass spatial requirements through resource expenditure
 
-**Strategic Flexibility** Multiple paths prevent player frustration with suboptimal placement
+**Building Relocation**
+
+Reposition buildings to create merge opportunities
+
+**Strategic Flexibility**
+
+Multiple paths prevent player frustration with suboptimal placement
 
 ### 4.4 Combat System
 
@@ -1338,27 +2238,43 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 
 City Defense Z's combat system centers on strategic deployment of diverse military units, each with unique capabilities and tactical roles. Players must balance unit types, positioning, and resource allocation to create effective defensive strategies.
 
-**Soldier Types & Capabilities:**
+#### Soldier Types & Capabilities:
 
-**Basic Soldier**:
+**Basic Soldier**
 
-**Function** Primary defensive unit with standard combat effectiveness
+:
 
-**Merge Capability** 3 adjacent soldiers merge into enhanced unit
+##### Function
 
-**Deployment** Trained daily from Barracks buildings
+Primary defensive unit with standard combat effectiveness
 
-**Resource Cost** Consumes Ammunition for training and maintenance
+**Merge Capability**
+
+3 adjacent soldiers merge into enhanced unit
+
+**Deployment**
+
+Trained daily from Barracks buildings
+
+**Resource Cost**
+
+Consumes Ammunition for training and maintenance
 
 **Specialized Units (Non-Mergeable):**
 
-**Mortar** Long-range artillery with area-of-effect damage
+**Mortar**
 
-**Machine Gun (Bixi)** High fire rate, effective against swarm enemies
+Long-range artillery with area-of-effect damage
 
-**Rocket Launcher** Heavy damage unit for armored enemies
+**Machine Gun (Bixi)**
 
-**Defensive Structures:**
+High fire rate, effective against swarm enemies
+
+**Rocket Launcher**
+
+Heavy damage unit for armored enemies
+
+#### Defensive Structures:
 
 Beyond mobile military units, players can deploy static defensive structures that provide area control, damage output, and strategic positioning advantages. These structures form the backbone of base defense.
 
@@ -1370,241 +2286,447 @@ Beyond mobile military units, players can deploy static defensive structures tha
 | Outpost (Defense Tower) | Continuous ranged attacks, destructible | 3x3 | Yes | Ammunition |
 | Defense Wall | Physical barrier, blocks zombie advancement | 1x1 | No | Ammunition |
 
-**Simplified Pathfinding System:**Basic Movement Mechanics- **Forward Direction:** Zombies spawn facing the base and move directly toward it
+#### Simplified Pathfinding System
 
-**Obstacle Response** When encountering walls in their direct path, zombies will attack them
+Basic Movement Mechanics- **Forward Direction:**  Zombies spawn facing the base and move directly toward it
 
-**Collision Avoidance** Navmesh agent prevents zombies from overlapping with each other
+**Obstacle Response**
 
-**No Complex Routing** Zombies do not seek alternative paths or gaps
+When encountering walls in their direct path, zombies will attack them
+
+**Collision Avoidance**
+
+Navmesh agent prevents zombies from overlapping with each other
+
+**No Complex Routing**
+
+Zombies do not seek alternative paths or gaps
 
 **Strategic Wall Placement:**
 
-**Direct Blocking** Walls placed in zombie paths will be attacked and destroyed
+**Direct Blocking**
 
-**Funnel Creation** Strategic wall placement can still channel zombies into specific areas
+Walls placed in zombie paths will be attacked and destroyed
 
-**Defensive Positioning** Walls create temporary barriers requiring zombies to stop and attack
+**Funnel Creation**
 
-**Simple Path Control** Basic crowd control through obstacle placement
+Strategic wall placement can still channel zombies into specific areas
 
-**Wall Durability System:**
+**Defensive Positioning**
 
-**Damage Accumulation** Walls take damage from zombie attacks but cannot be repaired
+Walls create temporary barriers requiring zombies to stop and attack
 
-**Permanent Consequences** Destroyed walls remain destroyed until the next day
+**Simple Path Control**
 
-**Rebuild Limitation** Walls can only be reconstructed during the following day phase
+Basic crowd control through obstacle placement
 
-**Strategic Resource Management** Wall destruction affects long-term defensive planning
+#### Wall Durability System:
+
+**Damage Accumulation**
+
+Walls take damage from zombie attacks but cannot be repaired
+
+**Permanent Consequences**
+
+Destroyed walls remain destroyed until the next day
+
+**Rebuild Limitation**
+
+Walls can only be reconstructed during the following day phase
+
+#### Strategic Resource Management
+
+Wall destruction affects long-term defensive planning
 
 **Main Base Defense:**
 
-**Primary Wall System** Main base protected by central wall with percentage-based health (100% → 0%)
+#### Primary Wall System
 
-**Critical Defense** Main wall destruction triggers immediate game failure
+Main base protected by central wall with percentage-based health (100% → 0%)
 
-**Failure Condition** "Zombies has invaded the city..." - immediate run termination
+**Critical Defense**
 
-**Priority Target** Zombies will ultimately target main base if not diverted by strategic walls
+Main wall destruction triggers immediate game failure
+
+**Failure Condition**
+
+"Zombies has invaded the city..." - immediate run termination
+
+**Priority Target**
+
+Zombies will ultimately target main base if not diverted by strategic walls
 
 **Combat Resolution:**
 
-**Automatic Engagement** Soldiers and defensive structures attack zombies within range
+##### Automatic Engagement
 
-**Damage Calculation** Combat effectiveness based on unit types, levels, and upgrade bonuses
+Soldiers and defensive structures attack zombies within range
 
-**Health Management** Base health decreases when zombies breach defenses
+**Damage Calculation**
 
-**Strategic Positioning** Placement decisions critically affect defensive efficiency
+Combat effectiveness based on unit types, levels, and upgrade bonuses
 
-**Path Control** Wall placement creates tactical advantages through zombie movement manipulation
+#### Health Management
+
+Base health decreases when zombies breach defenses
+
+**Strategic Positioning**
+
+Placement decisions critically affect defensive efficiency
+
+**Path Control**
+
+Wall placement creates tactical advantages through zombie movement manipulation
 
 ### 4.5 Wave & Enemy System
 
-**Zombie Classifications:**Basic Zombie Types**Level 1 - Normal Zombie**:
+#### Zombie Classifications
 
-**Characteristics** Balanced speed and durability baseline
+Basic Zombie Types**Level 1 - Normal Zombie** :
 
-**Variants** Multiple appearance models for visual variety
+**Characteristics**
 
-**Combat Role** Standard threat requiring basic defensive response
+Balanced speed and durability baseline
 
-**Level 2 - Runner Zombie**:
+**Variants**
 
-**Characteristics** Enhanced movement speed
+Multiple appearance models for visual variety
 
-**Tactical Challenge** Bypasses slow defensive setups
+**Combat Role**
 
-**Counter Strategy** Requires rapid-fire or early engagement units
+Standard threat requiring basic defensive response
 
-**Level 3 - Exploding Zombie**:
+**Level 2 - Runner Zombie**
 
-**Characteristics** High durability, very slow movement, area-effect death explosion
+:
 
-**Tactical Challenge** Explosion damages nearby soldiers and structures
+**Characteristics**
 
-**Counter Strategy** Eliminate at distance or isolate impact area
+Enhanced movement speed
 
-**Level 4 - Ranged Zombie**:
+**Tactical Challenge**
 
-**Characteristics** Attacks soldiers from distance
+Bypasses slow defensive setups
 
-**Tactical Challenge** Bypasses traditional defensive positioning
+#### Counter Strategy
 
-**Counter Strategy** Requires mobile units or cover mechanics
+Requires rapid-fire or early engagement units
 
-**Level 5 - Advanced Zombie**:
+**Level 3 - Exploding Zombie**
 
-**Characteristics** Enhanced abilities and threat level
+:
 
-**Tactical Challenge** Requires upgraded defensive capabilities
+**Characteristics**
 
-**Boss Zombie Types:**
+High durability, very slow movement, area-effect death explosion
 
-**Level 1 Boss - Stonefist**:
+**Tactical Challenge**
 
-**Abilities** Rock throwing (ranged), hand/kick strikes (melee)
+Explosion damages nearby soldiers and structures
 
-**Size** Larger model with increased health and damage
+#### Counter Strategy
 
-**Tactical Challenge** Dual-range threat requiring versatile defensive response
+Eliminate at distance or isolate impact area
 
-**Level 2 Boss - Deathtouch**:
+**Level 4 - Ranged Zombie**
 
-**Abilities** Sword-arm swings, tentacle whip attacks
+:
 
-**Tactical Challenge** Extended reach and multiple attack patterns
+**Characteristics**
 
-**Counter Strategy** Requires sustained damage and positional awareness
+Attacks soldiers from distance
 
-**Level 3 Boss - Banger**:
+**Tactical Challenge**
 
-**Abilities** Melee strikes, toxic explosion on death
+Bypasses traditional defensive positioning
 
-**Tactical Challenge** Post-death area denial affects nearby soldiers
+#### Counter Strategy
 
-**Counter Strategy** Elimination at safe distance or poison resistance
+Requires mobile units or cover mechanics
 
-**Level 4 Boss - Toxicz**:
+**Level 5 - Advanced Zombie**
 
-**Abilities** Long-range toxic projectile attacks
+:
 
-**Tactical Challenge** Extended range bypasses traditional defenses
+**Characteristics**
 
-**Counter Strategy** Mobile response or enhanced armor systems
+Enhanced abilities and threat level
 
-**Wave Mechanics:**
+**Tactical Challenge**
 
-**Progressive Difficulty** Enemy strength and variety increase with day progression
+Requires upgraded defensive capabilities
 
-**Composition Variety** Different enemy type combinations require tactical adaptation
+#### Boss Zombie Types:
 
-**Boss Integration** Boss zombies appear at climactic moments requiring full defensive coordination
+**Level 1 Boss - Stonefist**
+
+:
+
+**Abilities**
+
+Rock throwing (ranged), hand/kick strikes (melee)
+
+**Size**
+
+Larger model with increased health and damage
+
+**Tactical Challenge**
+
+Dual-range threat requiring versatile defensive response
+
+**Level 2 Boss - Deathtouch**
+
+:
+
+**Abilities**
+
+Sword-arm swings, tentacle whip attacks
+
+**Tactical Challenge**
+
+Extended reach and multiple attack patterns
+
+#### Counter Strategy
+
+Requires sustained damage and positional awareness
+
+**Level 3 Boss - Banger**
+
+:
+
+**Abilities**
+
+Melee strikes, toxic explosion on death
+
+**Tactical Challenge**
+
+Post-death area denial affects nearby soldiers
+
+#### Counter Strategy
+
+Elimination at safe distance or poison resistance
+
+**Level 4 Boss - Toxicz**
+
+:
+
+**Abilities**
+
+Long-range toxic projectile attacks
+
+**Tactical Challenge**
+
+Extended range bypasses traditional defenses
+
+#### Counter Strategy
+
+Mobile response or enhanced armor systems
+
+#### Wave Mechanics:
+
+**Progressive Difficulty**
+
+Enemy strength and variety increase with day progression
+
+**Composition Variety**
+
+Different enemy type combinations require tactical adaptation
+
+**Boss Integration**
+
+Boss zombies appear at climactic moments requiring full defensive coordination
 
 ### 4.6 Boost & Power-up System
 
-**Boost Collection Mechanics:**Drop System- **Source:** Zombies randomly drop boosts upon defeat
+#### Boost Collection Mechanics
 
-**Time Pressure** Boosts disappear after 5 seconds if not collected
+Drop System- **Source:**  Zombies randomly drop boosts upon defeat
 
-**Collection Risk** Players must choose between combat focus and boost collection
+**Time Pressure**
 
-**Storage Limitation** Limited boost inventory creates resource management decisions
+Boosts disappear after 5 seconds if not collected
 
-**Boost Types & Effects:**
+##### Collection Risk
 
-**Damage Boost**:
+Players must choose between combat focus and boost collection
 
-**Duration** 30 seconds active effect
+**Storage Limitation**
 
-**Effect** +50% soldier damage output
+Limited boost inventory creates resource management decisions
 
-**Strategic Use** Optimal during high-density enemy waves or boss encounters
+#### Boost Types & Effects:
 
-**AoE Application** Targeted deployment affects multiple soldiers within radius
+**Damage Boost**
 
-**Fire Rate Boost**:
+:
 
-**Duration** 20 seconds active effect
+**Duration**
 
-**Effect** +35% soldier attack speed
+30 seconds active effect
 
-**Strategic Use** Effective against swarm enemies or time-critical situations
+**Effect**
 
-**Tactical Timing** Combine with damage boosts for maximum effectiveness
++50% soldier damage output
 
-**Shield Boost**:
+**Strategic Use**
 
-**Duration** 10 seconds active effect
+Optimal during high-density enemy waves or boss encounters
 
-**Effect** Absorbs 50% incoming damage
+**AoE Application**
 
-**Strategic Use** Defensive tool during overwhelming enemy pressure
+Targeted deployment affects multiple soldiers within radius
 
-**Emergency Application** Preserve soldiers during critical defensive failures
+**Fire Rate Boost**
 
-**Resource Boost**:
+:
 
-**Duration** Affects next 6 resource collections
+**Duration**
 
-**Effect** +50% resource generation efficiency
+20 seconds active effect
 
-**Strategic Use** Economic acceleration during resource-critical periods
+**Effect**
 
-**Long-term Value** Compounds with building-based resource generation
++35% soldier attack speed
 
-**Deployment System:**
+**Strategic Use**
 
-**Manual Targeting** Players click to designate boost application area
+Effective against swarm enemies or time-critical situations
 
-**AoE Radius** Clash of Clans-style area targeting affects multiple units
+**Tactical Timing**
 
-**Strategic Timing** Choice between immediate use and strategic storage
+Combine with damage boosts for maximum effectiveness
 
-**Positioning Strategy** Soldier arrangement optimization for boost coverage
+**Shield Boost**
+
+:
+
+**Duration**
+
+10 seconds active effect
+
+**Effect**
+
+Absorbs 50% incoming damage
+
+**Strategic Use**
+
+Defensive tool during overwhelming enemy pressure
+
+**Emergency Application**
+
+Preserve soldiers during critical defensive failures
+
+**Resource Boost**
+
+:
+
+**Duration**
+
+Affects next 6 resource collections
+
+**Effect**
+
++50% resource generation efficiency
+
+**Strategic Use**
+
+Economic acceleration during resource-critical periods
+
+**Long-term Value**
+
+Compounds with building-based resource generation
+
+#### Deployment System:
+
+**Manual Targeting**
+
+Players click to designate boost application area
+
+**AoE Radius**
+
+Clash of Clans-style area targeting affects multiple units
+
+**Strategic Timing**
+
+Choice between immediate use and strategic storage
+
+#### Positioning Strategy
+
+Soldier arrangement optimization for boost coverage
 
 ### 4.7 Dynamic Threat System (Zombie Holes)
 
-**Emergence Mechanics:**
+#### Emergence Mechanics:
 
-**Random Timing** Cracks appear unpredictably during combat phases
+**Random Timing**
 
-**Location Variety** Holes spawn anywhere on battlefield requiring map awareness
+Cracks appear unpredictably during combat phases
 
-**Immediate Threat** Begin spawning additional zombies instantly upon appearance
+**Location Variety**
 
-**Visual Warning** Clear crack indicators alert players to new threats
+Holes spawn anywhere on battlefield requiring map awareness
+
+**Immediate Threat**
+
+Begin spawning additional zombies instantly upon appearance
+
+**Visual Warning**
+
+Clear crack indicators alert players to new threats
 
 **Sealing Process:**
 
-**Interaction Requirement** Players must tap hole location 5 times in quick succession
+**Interaction Requirement**
 
-**Time Pressure** Failure to complete sequence in time resets progress
+Players must tap hole location 5 times in quick succession
 
-**Feedback Systems** Each tap provides visual and audio confirmation
+**Time Pressure**
 
-**Success Animation** Missile strike launched by planes upon successful sealing
+Failure to complete sequence in time resets progress
+
+#### Feedback Systems
+
+Each tap provides visual and audio confirmation
+
+**Success Animation**
+
+Missile strike launched by planes upon successful sealing
 
 **Strategic Impact:**
 
-**Attention Management** Forces players to monitor entire battlefield simultaneously
+#### Attention Management
 
-**Priority Assessment** Emergency response competes with other combat actions
+Forces players to monitor entire battlefield simultaneously
 
-**Skill Expression** Quick reaction times become tactical advantages
+**Priority Assessment**
 
-**Threat Escalation** Ignored holes exponentially increase zombie pressure
+Emergency response competes with other combat actions
 
-**System Integration:**
+**Skill Expression**
 
-**Boost Conflict** Hole sealing competes with boost collection for player attention
+Quick reaction times become tactical advantages
 
-**Resource Impact** Emergency holes disrupt careful strategic planning
+**Threat Escalation**
 
-**Difficulty Scaling** Hole frequency and timing increase with game progression
+Ignored holes exponentially increase zombie pressure
 
-**Player Skill Development** Mastery requires efficient multitasking capabilities 
+#### System Integration:
+
+**Boost Conflict**
+
+Hole sealing competes with boost collection for player attention
+
+**Resource Impact**
+
+Emergency holes disrupt careful strategic planning
+
+**Difficulty Scaling**
+
+Hole frequency and timing increase with game progression
+
+**Player Skill Development**
+
+Mastery requires efficient multitasking capabilities
 
 ---
 
@@ -1614,357 +2736,665 @@ Beyond mobile military units, players can deploy static defensive structures tha
 
 City Defense Z features a sophisticated multi-layered progression system that ensures every run contributes to long-term player advancement, creating meaningful growth across multiple gameplay sessions while maintaining the challenging rogue-lite core experience.
 
-**Progression Philosophy:**
+#### Progression Philosophy:
 
-**Persistent Growth** Every run provides permanent advancement through Research Points
+**Persistent Growth**
 
-**Strategic Investment** Players choose their upgrade path through 11 major upgrade trees
+Every run provides permanent advancement through Research Points
 
-**Power Scaling** Upgrades enhance capabilities without trivializing core challenge
+**Strategic Investment**
 
-**Player Agency** Multiple viable progression paths support different playstyles
+Players choose their upgrade path through 11 major upgrade trees
 
-**Three-Tier Progression Structure:**
+**Power Scaling**
+
+Upgrades enhance capabilities without trivializing core challenge
+
+**Player Agency**
+
+Multiple viable progression paths support different playstyles
+
+#### Three-Tier Progression Structure:
 
 **Tier 1: Session Progression (Within Single Run)**
 
-**Building Evolution** Merge mechanics create immediate power increases
+**Building Evolution**
 
-**Resource Accumulation** Economic growth enables stronger defenses
+Merge mechanics create immediate power increases
 
-**Tactical Mastery** Players improve at real-time decision making
+**Resource Accumulation**
 
-**Strategic Learning** Understanding optimal placement and timing strategies
+Economic growth enables stronger defenses
 
-**Tier 2: Campaign Progression (Across Multiple Runs)**
+**Tactical Mastery**
 
-**Research Point Investment** Permanent upgrades through 11 major trees
+Players improve at real-time decision making
 
-**Map Unlocks** Narrative progression through 4 unique environments
+**Strategic Learning**
 
-**System Access** Unlock advanced mechanics (expeditions, airstrikes, utility cards)
+Understanding optimal placement and timing strategies
 
-**NPC Collection** Build diverse base community with specialized abilities
+##### Tier 2: Campaign Progression (Across Multiple Runs)
 
-**Tier 3: Mastery Progression (Long-term Engagement)**
+**Research Point Investment**
 
-**Strategic Optimization** Deep understanding of system interactions
+Permanent upgrades through 11 major trees
 
-**Build Variety** Experimentation with different upgrade combinations
+**Map Unlocks**
 
-**Challenge Completion** High-difficulty objectives and achievement systems
+Narrative progression through 4 unique environments
 
-**Community Engagement** Sharing strategies and competing on leaderboards
+#### System Access
+
+Unlock advanced mechanics (expeditions, airstrikes, utility cards)
+
+##### NPC Collection
+
+Build diverse base community with specialized abilities
+
+##### Tier 3: Mastery Progression (Long-term Engagement)
+
+**Strategic Optimization**
+
+Deep understanding of system interactions
+
+**Build Variety**
+
+Experimentation with different upgrade combinations
+
+**Challenge Completion**
+
+High-difficulty objectives and achievement systems
+
+##### Community Engagement
+
+Sharing strategies and competing on leaderboards
 
 **Research Point Economy:**
 
-**Primary Currency** Research Points serve as the core meta progression resource
+##### Primary Currency
 
-**Generation Sources** Laboratory buildings, expedition rewards, run completion bonuses, 3-day offerings
+Research Points serve as the core meta progression resource
 
-**Investment Decisions** 40+ individual upgrades across 11 major trees
+##### Generation Sources
 
-**Permanent Benefits** All upgrades persist across runs and affect future gameplay
+Laboratory buildings, expedition rewards, run completion bonuses, 3-day offerings
+
+**Investment Decisions**
+
+40+ individual upgrades across 11 major trees
+
+**Permanent Benefits**
+
+All upgrades persist across runs and affect future gameplay
 
 **Progression Pacing:**
 
-**Early Game** Rapid initial upgrades provide significant power increases
+**Early Game**
 
-**Mid Game** More expensive upgrades require strategic resource allocation
+Rapid initial upgrades provide significant power increases
 
-**Late Game** Final upgrades offer specialized enhancements for advanced strategies
+**Mid Game**
 
-**Endless Scaling** Infinite progression through repeated high-level runs
+More expensive upgrades require strategic resource allocation
+
+**Late Game**
+
+Final upgrades offer specialized enhancements for advanced strategies
+
+**Endless Scaling**
+
+Infinite progression through repeated high-level runs
 
 ### 5.2 Base Upgrade System
 
 The Research Point upgrade system transforms the player's main base into a customizable command center, with 11 distinct upgrade trees offering 40+ permanent improvements that fundamentally enhance gameplay capabilities.
 
-**Upgrade Tree Architecture:**
+#### Upgrade Tree Architecture:
 
-**1. Building Cards Default Level Increase**:
+**1. Building Cards Default Level Increase**
 
-**Concept** Buildings start at higher levels when placed
+:
 
-**Progression** 5 upgrade levels available
+**Concept**
 
-**Strategic Impact** Reduces merge requirements for powerful buildings
+Buildings start at higher levels when placed
 
-**Economic Benefit** Higher baseline production and defensive capabilities
+**Progression**
 
-**2. Trained Soldier's Default Level Increase**:
+5 upgrade levels available
 
-**Concept** Soldiers spawn at higher base levels when trained from barracks
+**Strategic Impact**
 
-**Level 1** Soldiers start at Level 2 instead of Level 1 (base level +1)
+Reduces merge requirements for powerful buildings
 
-**Level 2** Soldiers start at Level 3 instead of Level 1 (base level +2)
+##### Economic Benefit
 
-**Level 3** Soldiers start at Level 4 instead of Level 1 (base level +3)
+Higher baseline production and defensive capabilities
 
-**Level 4** Soldiers start at Level 5 instead of Level 1 (base level +4)
+**2. Trained Soldier's Default Level Increase**
 
-**Level 5** Soldiers start at Level 6 instead of Level 1 (base level +5)
+:
 
-**Military Advantage** Stronger baseline defensive forces without requiring merging
+**Concept**
 
-**Strategic Value** Significantly reduces need for soldier merging in early-mid game
+Soldiers spawn at higher base levels when trained from barracks
 
-**Economic Impact** Maximizes soldier effectiveness from minimal resource investment
+**Level 1**
 
-**3. Placeable Wall's Upgrade**:
+Soldiers start at Level 2 instead of Level 1 (base level +1)
 
-**Level 1** Increases maximum placeable wall capacity by +20
+**Level 2**
 
-**Level 2** +20 wall capacity and increased wall HP
+Soldiers start at Level 3 instead of Level 1 (base level +2)
 
-**Level 3** +20 wall capacity (total: +60)
+**Level 3**
 
-**Level 4** Electrifies walls, shocking zombies that attack them
+Soldiers start at Level 4 instead of Level 1 (base level +3)
 
-**Strategic Evolution** From quantity increase to defensive enhancement to active damage
+**Level 4**
 
-**4. Farm Upgrade**:
+Soldiers start at Level 5 instead of Level 1 (base level +4)
 
-**Level 1** Increases farm crop harvest by +75%
+**Level 5**
 
-**Level 2** Crops grow faster (1 day earlier completion)
+Soldiers start at Level 6 instead of Level 1 (base level +5)
 
-**Level 3** Farm will grow extra 2 grids of crop (area expansion)
+**Military Advantage**
 
-**Level 4** Increases farm crop harvest by +100% (total: +175%)
+Stronger baseline defensive forces without requiring merging
 
-**Level 5** Crops grow faster (1 day earlier, total: 2 days faster)
+**Strategic Value**
 
-**Food Security** Ensures sustainable population and expedition support
+Significantly reduces need for soldier merging in early-mid game
 
-**5. Laboratory Upgrade**:
+##### Economic Impact
 
-**Level 1** Increases research point generation by +50%
+Maximizes soldier effectiveness from minimal resource investment
 
-**Level 2** Research points gathering finishes faster (1 day earlier)
+**3. Placeable Wall's Upgrade**
 
-**Level 3** Increases research point generation by +100% (total: +150%)
+:
 
-**Meta Acceleration** Faster access to additional upgrade trees
+**Level 1**
 
-**6. Expedition Upgrade**:
+Increases maximum placeable wall capacity by +20
 
-**Level 1** Increases NPC survival rate on expeditions by +20%
+**Level 2**
 
-**Level 2** Increases expedition rewards by +50%
++20 wall capacity and increased wall HP
 
-**Level 3** Expeditions finish faster (1 day earlier completion)
+**Level 3**
 
-**Risk Mitigation** Safer and more profitable NPC expeditions
++20 wall capacity (total: +60)
 
-**7. NPC Upgrade**:
+**Level 4**
 
-**Level 1** Amplifies main buff effect of NPCs by +50%
+Electrifies walls, shocking zombies that attack them
 
-**Level 2** Amplifies main buff effect of NPCs by +75%
+**Strategic Evolution**
 
-**Level 3** Amplifies main buff effect of NPCs by +100% (total: +225%)
+From quantity increase to defensive enhancement to active damage
 
-**Synergy Enhancement** Maximizes chosen NPC specialization benefits
+**4. Farm Upgrade**
 
-**8. REVIVE UPGRADE (Premium Tier)**:
+:
 
-**Level 1** Upon defeat, burn all standing zombies, respawn base at 30% HP (1 use per run)
+**Level 1**
 
-**Level 2** Makes revive upgrade usable 2 times per run
+Increases farm crop harvest by +75%
 
-**Level 3** Makes revive upgrade usable 3 times per run
+**Level 2**
 
-**Safety Net** Most expensive upgrade providing second chances
+Crops grow faster (1 day earlier completion)
 
-**Strategic Consideration** Balances cost vs risk tolerance
+**Level 3**
 
-**9. Weapons Upgrade**:
+Farm will grow extra 2 grids of crop (area expansion)
 
-**Level 1** Increases soldier fire rate (faster attacks)
+**Level 4**
 
-**Level 2** Decreases soldier reload time by 50%
+Increases farm crop harvest by +100% (total: +175%)
 
-**Level 3** Increases soldier damage by +50%
+**Level 5**
 
-**Combat Enhancement** Comprehensive military effectiveness improvements
+Crops grow faster (1 day earlier, total: 2 days faster)
 
-**10. Airstrike Upgrade**:
+**Food Security**
 
-**Level 1** Airstrikes cost 50% less ammunition
+Ensures sustainable population and expedition support
 
-**Level 2** Unlocks 3-bomb launcher plane attack pattern
+**5. Laboratory Upgrade**
 
-**Level 3** Increases airstrike radius by +50%
+:
 
-**Tactical Enhancement** More affordable and effective air support
+**Level 1**
 
-**11. Reroll Cards Upgrade**:
+Increases research point generation by +50%
 
-**Level 1** Adds REROLL function to daily card selection
+**Level 2**
 
-**Level 2** +1 additional reroll per day (2 total)
+Research points gathering finishes faster (1 day earlier)
 
-**Level 3** +1 additional reroll per day (3 total)
+**Level 3**
 
-**Level 4** +1 additional reroll per day (4 total maximum)
+Increases research point generation by +100% (total: +150%)
 
-**Strategic Flexibility** Increased control over building card availability
+**Meta Acceleration**
+
+Faster access to additional upgrade trees
+
+**6. Expedition Upgrade**
+
+:
+
+**Level 1**
+
+Increases NPC survival rate on expeditions by +20%
+
+**Level 2**
+
+Increases expedition rewards by +50%
+
+**Level 3**
+
+Expeditions finish faster (1 day earlier completion)
+
+**Risk Mitigation**
+
+Safer and more profitable NPC expeditions
+
+**7. NPC Upgrade**
+
+:
+
+**Level 1**
+
+Amplifies main buff effect of NPCs by +50%
+
+**Level 2**
+
+Amplifies main buff effect of NPCs by +75%
+
+**Level 3**
+
+Amplifies main buff effect of NPCs by +100% (total: +225%)
+
+**Synergy Enhancement**
+
+Maximizes chosen NPC specialization benefits
+
+**8. REVIVE UPGRADE (Premium Tier)**
+
+:
+
+**Level 1**
+
+Upon defeat, burn all standing zombies, respawn base at 30% HP (1 use per run)
+
+**Level 2**
+
+Makes revive upgrade usable 2 times per run
+
+**Level 3**
+
+Makes revive upgrade usable 3 times per run
+
+**Safety Net**
+
+Most expensive upgrade providing second chances
+
+**Strategic Consideration**
+
+Balances cost vs risk tolerance
+
+**9. Weapons Upgrade**
+
+:
+
+**Level 1**
+
+Increases soldier fire rate (faster attacks)
+
+**Level 2**
+
+Decreases soldier reload time by 50%
+
+**Level 3**
+
+Increases soldier damage by +50%
+
+**Combat Enhancement**
+
+Comprehensive military effectiveness improvements
+
+**10. Airstrike Upgrade**
+
+:
+
+**Level 1**
+
+Airstrikes cost 50% less ammunition
+
+**Level 2**
+
+Unlocks 3-bomb launcher plane attack pattern
+
+**Level 3**
+
+Increases airstrike radius by +50%
+
+**Tactical Enhancement**
+
+More affordable and effective air support
+
+**11. Reroll Cards Upgrade**
+
+:
+
+**Level 1**
+
+Adds REROLL function to daily card selection
+
+**Level 2**
+
++1 additional reroll per day (2 total)
+
+**Level 3**
+
++1 additional reroll per day (3 total)
+
+**Level 4**
+
++1 additional reroll per day (4 total maximum)
+
+**Strategic Flexibility**
+
+Increased control over building card availability
 
 **Upgrade Synergies:**
 
-**Economic Focus** Farm + Laboratory upgrades create resource abundance
+##### Economic Focus
 
-**Military Focus** Weapons + Wall upgrades maximize defensive capability
+Farm + Laboratory upgrades create resource abundance
 
-**Flexibility Focus** Reroll + Revive upgrades provide strategic options
+**Military Focus**
 
-**Expedition Focus** NPC + Expedition upgrades optimize exploration rewards
+Weapons + Wall upgrades maximize defensive capability
+
+**Flexibility Focus**
+
+Reroll + Revive upgrades provide strategic options
+
+**Expedition Focus**
+
+NPC + Expedition upgrades optimize exploration rewards
 
 ### 5.3 Research Tree & Upgrades
 
 The Research Point investment system provides deep strategic customization through permanent upgrades that affect fundamental gameplay mechanics, enabling players to develop personalized approaches to base defense and resource management.
 
-**Research Point Generation:**Primary Sources- **Laboratory Buildings:** Daily production scaled by building level and upgrades
+##### Research Point Generation
 
-**Expedition Rewards** Variable amounts based on expedition type and success
+Primary Sources- **Laboratory Buildings:**  Daily production scaled by building level and upgrades
 
-**Run Completion Bonuses** Bonus research points for surviving specific day milestones
+##### Expedition Rewards
 
-**3-Day Offerings** Strategic choice to prioritize long-term investment over immediate resources
+Variable amounts based on expedition type and success
+
+**Run Completion Bonuses**
+
+Bonus research points for surviving specific day milestones
+
+**3-Day Offerings**
+
+Strategic choice to prioritize long-term investment over immediate resources
 
 **Secondary Sources:**
 
-**Achievement Unlocks** Bonus research points for completing specific challenges
+**Achievement Unlocks**
 
-**Map Completion** Significant research point rewards for surviving full map storylines
+Bonus research points for completing specific challenges
 
-**Boss Defeats** Extra research points for eliminating boss zombies
+**Map Completion**
 
-**Investment Strategy Framework:**Early Game Priorities (0-100 Research Points)- **Farm Upgrade Level 1:** Ensure food security for population growth
+Significant research point rewards for surviving full map storylines
 
-**Reroll Cards Level 1** Unlock card refresh system for strategic flexibility
+##### Boss Defeats
 
-**Building Cards Default Level 1** Accelerate early game building power
+Extra research points for eliminating boss zombies
+
+#### Investment Strategy Framework
+
+Early Game Priorities (0-100 Research Points)- **Farm Upgrade Level 1:**  Ensure food security for population growth
+
+**Reroll Cards Level 1**
+
+Unlock card refresh system for strategic flexibility
+
+**Building Cards Default Level 1**
+
+Accelerate early game building power
 
 **Mid Game Development (100-500 Research Points):**
 
-**Weapons Upgrade Tree** Enhanced military effectiveness for increasing difficulty
+**Weapons Upgrade Tree**
 
-**Laboratory Upgrades** Accelerate future research point generation
+Enhanced military effectiveness for increasing difficulty
 
-**NPC Upgrade Level 1** Amplify chosen NPC specialization benefits
+**Laboratory Upgrades**
+
+Accelerate future research point generation
+
+**NPC Upgrade Level 1**
+
+Amplify chosen NPC specialization benefits
 
 **Late Game Optimization (500+ Research Points):**
 
-**Advanced Combat Systems** Airstrike upgrades for overwhelming enemy pressure
+#### Advanced Combat Systems
 
-**Specialized Builds** Complete specific trees for focused strategies
+Airstrike upgrades for overwhelming enemy pressure
 
-**Revive System** Ultimate safety net for high-difficulty challenges
+**Specialized Builds**
+
+Complete specific trees for focused strategies
+
+#### Revive System
+
+Ultimate safety net for high-difficulty challenges
 
 **Upgrade Tree Interdependencies:**
 
-**Economic Engine** Laboratory + Farm upgrades create sustainable resource base
+##### Economic Engine
 
-**Military Machine** Weapons + Wall + Airstrike upgrades maximize combat potential
+Laboratory + Farm upgrades create sustainable resource base
 
-**Exploration Network** NPC + Expedition upgrades optimize discovery and rewards
+**Military Machine**
 
-**Strategic Mastery** Reroll + Revive upgrades provide ultimate tactical flexibility
+Weapons + Wall + Airstrike upgrades maximize combat potential
 
-**Cost Scaling System:**
+**Exploration Network**
 
-**Tier 1 Upgrades** 10-25 Research Points (foundational improvements)
+NPC + Expedition upgrades optimize discovery and rewards
 
-**Tier 2 Upgrades** 50-100 Research Points (significant enhancements)
+**Strategic Mastery**
 
-**Tier 3 Upgrades** 150-300 Research Points (powerful specializations)
+Reroll + Revive upgrades provide ultimate tactical flexibility
 
-**Premium Upgrades** 500+ Research Points (game-changing capabilities)
+#### Cost Scaling System:
+
+**Tier 1 Upgrades**
+
+10-25 Research Points (foundational improvements)
+
+**Tier 2 Upgrades**
+
+50-100 Research Points (significant enhancements)
+
+**Tier 3 Upgrades**
+
+150-300 Research Points (powerful specializations)
+
+**Premium Upgrades**
+
+500+ Research Points (game-changing capabilities)
 
 ### 5.4 NPC System & Relationships
 
 The NPC system transforms City Defense Z from a purely mechanical strategy game into a character-driven survival experience, where players build meaningful relationships with specialized companions who provide both mechanical benefits and emotional investment.
 
-**NPC Recruitment & Selection:**Recruitment Events- **Trigger Days:** Specific days (e.g., Day 5) activate NPC encounter events
+**NPC Recruitment & Selection**
 
-**Choice Presentation** Two NPCs approach the base simultaneously
+Recruitment Events- **Trigger Days:**  Specific days (e.g., Day 5) activate NPC encounter events
 
-**Exclusive Selection** Players must choose exactly one NPC via UI popup
+**Choice Presentation**
 
-**Permanent Decision** Chosen NPCs remain with the base until potential expedition death
+Two NPCs approach the base simultaneously
 
-**Information Display** Each NPC shows expedition stats, survival rates, and unique buff abilities
+**Exclusive Selection**
 
-**NPC Specialization Types:**
+Players must choose exactly one NPC via UI popup
 
-**Scientist**:
+**Permanent Decision**
 
-**Primary Buff** +30% research point generation speed
+Chosen NPCs remain with the base until potential expedition death
 
-**Expedition Performance** Poor survival rate, low combat effectiveness
+**Information Display**
 
-**Strategic Role** Accelerates meta progression through faster research point accumulation
+Each NPC shows expedition stats, survival rates, and unique buff abilities
 
-**Player Type** Appeals to players prioritizing long-term advancement
+#### NPC Specialization Types:
 
-**Base Interaction** Intellectual dialogue focused on research and discovery
+**Scientist**
 
-**Military Expert**:
+:
 
-**Primary Buff** Enhances soldier combat stats (damage, accuracy, morale)
+**Primary Buff**
 
-**Expedition Performance** Good survival rate, moderate combat effectiveness
++30% research point generation speed
 
-**Strategic Role** Improves defensive capabilities during night phases
+**Expedition Performance**
 
-**Player Type** Appeals to players prioritizing immediate combat strength
+Poor survival rate, low combat effectiveness
 
-**Base Interaction** Tactical dialogue focused on military strategy and defense
+**Strategic Role**
 
-**Farmer**:
+Accelerates meta progression through faster research point accumulation
 
-**Primary Buff** Increases farm production efficiency and crop yield
+**Player Type**
 
-**Expedition Performance** Moderate survival rate, low combat effectiveness
+Appeals to players prioritizing long-term advancement
 
-**Strategic Role** Ensures food security for population and expedition sustainability
+**Base Interaction**
 
-**Player Type** Appeals to players prioritizing resource management and population growth
+Intellectual dialogue focused on research and discovery
 
-**Base Interaction** Practical dialogue focused on agricultural productivity and base sustenance
+**Military Expert**
 
-**Guerrilla**:
+:
 
-**Primary Buff** Moderate base benefits but exceptional expedition performance
+**Primary Buff**
 
-**Expedition Performance** Excellent survival rate, high loot discovery chance
+Enhances soldier combat stats (damage, accuracy, morale)
 
-**Strategic Role** Maximizes expedition rewards and minimizes NPC loss risk
+**Expedition Performance**
 
-**Player Type** Appeals to players prioritizing exploration and resource acquisition
+Good survival rate, moderate combat effectiveness
 
-**Base Interaction** Adventure-focused dialogue about expeditions and survival tactics
+**Strategic Role**
 
-**Living Base Interaction System:**Physical Presence- **Base Movement:** NPCs visibly walk around the base, creating a living environment
+Improves defensive capabilities during night phases
 
-**Interactive Elements** NPCs interact with base structures and each other
+**Player Type**
 
-**Visual Personality** Each NPC has distinct movement patterns and behavior animations
+Appeals to players prioritizing immediate combat strength
 
-**Environmental Storytelling** NPC actions reinforce their specialization and personality
+**Base Interaction**
 
-**Dialogue System:**
+Tactical dialogue focused on military strategy and defense
 
-**Unique Voice Lines** Each NPC has 6 distinct dialogue options
+**Farmer**
 
-**Random Triggers** Clicking NPCs activates randomly selected dialogue
+:
 
-**Personality Expression** Dialogue reflects NPC specialization and background
+**Primary Buff**
 
-**Atmospheric Enhancement** Voice acting and sound effects create immersive experience
+Increases farm production efficiency and crop yield
+
+**Expedition Performance**
+
+Moderate survival rate, low combat effectiveness
+
+**Strategic Role**
+
+Ensures food security for population and expedition sustainability
+
+**Player Type**
+
+Appeals to players prioritizing resource management and population growth
+
+**Base Interaction**
+
+Practical dialogue focused on agricultural productivity and base sustenance
+
+**Guerrilla**
+
+:
+
+**Primary Buff**
+
+Moderate base benefits but exceptional expedition performance
+
+**Expedition Performance**
+
+Excellent survival rate, high loot discovery chance
+
+**Strategic Role**
+
+Maximizes expedition rewards and minimizes NPC loss risk
+
+**Player Type**
+
+Appeals to players prioritizing exploration and resource acquisition
+
+**Base Interaction**
+
+Adventure-focused dialogue about expeditions and survival tactics
+
+#### Living Base Interaction System
+
+Physical Presence- **Base Movement:**  NPCs visibly walk around the base, creating a living environment
+
+**Interactive Elements**
+
+NPCs interact with base structures and each other
+
+**Visual Personality**
+
+Each NPC has distinct movement patterns and behavior animations
+
+**Environmental Storytelling**
+
+NPC actions reinforce their specialization and personality
+
+#### Dialogue System:
+
+**Unique Voice Lines**
+
+Each NPC has 6 distinct dialogue options
+
+**Random Triggers**
+
+Clicking NPCs activates randomly selected dialogue
+
+**Personality Expression**
+
+Dialogue reflects NPC specialization and background
+
+**Atmospheric Enhancement**
+
+Voice acting and sound effects create immersive experience
 
 **Example Farmer NPC Dialogues:**
 
@@ -1975,155 +3405,291 @@ The NPC system transforms City Defense Z from a purely mechanical strategy game 
 5. "Food security is the foundation of survival"
 6. "A well-fed team is a strong team, captain"
 
-**Emotional Investment Mechanics:**
+#### Emotional Investment Mechanics:
 
-**Attachment Building** Extended interaction creates player connection to specific NPCs
+**Attachment Building**
 
-**Loss Consequences** NPC death during expeditions creates genuine emotional impact
+Extended interaction creates player connection to specific NPCs
 
-**Base Identity** Each player's base develops unique personality based on NPC selection
+**Loss Consequences**
 
-**Community Building** Multiple NPCs create dynamic base ecosystem
+NPC death during expeditions creates genuine emotional impact
+
+**Base Identity**
+
+Each player's base develops unique personality based on NPC selection
+
+**Community Building**
+
+Multiple NPCs create dynamic base ecosystem
 
 ### 5.5 Expedition System
 
 The expedition system adds a layer of risk/reward resource management that extends gameplay beyond base defense, creating meaningful decisions about NPC deployment and resource allocation while providing alternative paths to advancement.
 
-**Expedition Structure & Types:**Small Expeditions**Duration:** 2 days
+#### Expedition Structure & Types
 
-**Risk Level:** High survival rate, minimal resource investment
+Small Expeditions**Duration:**  2 days
 
-**Reward Tier:** Low-moderate resource gains
+**Risk Level**
 
-**Accessibility:** Available from game start
+High survival rate, minimal resource investment
 
-**Strategic Role:** Safe resource supplementation with minimal risk
+**Reward Tier**
 
-**Medium Expeditions (Unlockable):**Duration4 days
+Low-moderate resource gains
 
-**Risk Level:** Medium survival rate, moderate resource investment
+**Accessibility**
 
-**Reward Tier:** Moderate-high resource gains
+Available from game start
 
-**Unlock Requirement:** Research Point investment in expedition upgrade tree
+**Strategic Role**
 
-**Strategic Role:** Balanced risk/reward for advancing players
+Safe resource supplementation with minimal risk
 
-**Large Expeditions (Advanced Unlock):**Duration7 days
+**Medium Expeditions (Unlockable)**
 
-**Risk Level:** Low survival rate, high resource investment
+Duration4 days
 
-**Reward Tier:** High-value resource gains and rare items
+**Risk Level**
 
-**Unlock Requirement:** Complete medium expedition milestone
+Medium survival rate, moderate resource investment
 
-**Strategic Role:** High-risk, high-reward option for experienced players
+**Reward Tier**
 
-**Expedition Mechanics:**Resource Investment- **Food Cost:** Required supplies based on expedition duration
+Moderate-high resource gains
 
-**NPC Assignment** 1-3 NPCs per expedition based on type
+**Unlock Requirement**
 
-**Equipment** Optional resource investment to improve success chance
+Research Point investment in expedition upgrade tree
 
-**Strategic Cost** Temporary loss of NPC buffs during expedition
+**Strategic Role**
+
+Balanced risk/reward for advancing players
+
+**Large Expeditions (Advanced Unlock)**
+
+Duration7 days
+
+**Risk Level**
+
+Low survival rate, high resource investment
+
+**Reward Tier**
+
+High-value resource gains and rare items
+
+**Unlock Requirement**
+
+Complete medium expedition milestone
+
+**Strategic Role**
+
+High-risk, high-reward option for experienced players
+
+#### Expedition Mechanics
+
+Resource Investment- **Food Cost:**  Required supplies based on expedition duration
+
+**NPC Assignment**
+
+1-3 NPCs per expedition based on type
+
+**Equipment**
+
+Optional resource investment to improve success chance
+
+**Strategic Cost**
+
+Temporary loss of NPC buffs during expedition
 
 **Success Calculation:**
 
-**Base Rate** Determined by expedition type and NPC combat rating
+**Base Rate**
 
-**Modifiers** Equipment bonuses, NPC synergies, upgrade effects
+Determined by expedition type and NPC combat rating
 
-**Random Events** Unexpected challenges or opportunities during expedition
+**Modifiers**
 
-**Survival Check** Final calculation determines NPC survival and reward level
+Equipment bonuses, NPC synergies, upgrade effects
 
-**Reward Structure:**
+**Random Events**
 
-**Primary Resources** Resource, Ammunition, Food based on expedition type
+Unexpected challenges or opportunities during expedition
 
-**Research Points** Bonus points for successful completion
+**Survival Check**
 
-**Special Items** Rare building cards or utility items
+Final calculation determines NPC survival and reward level
 
-**Strategic Value** Rewards scale with risk and investment level
+#### Reward Structure:
 
-**Duration** 5 days
+**Primary Resources**
 
-**Risk Level** Medium survival rate, high resource investment
+Resource, Ammunition, Food based on expedition type
 
-**Reward Tier** High resource gains, potential rare discoveries
+**Research Points**
 
-**Unlock Requirement** Advanced Research Point investment
+Bonus points for successful completion
 
-**Strategic Role** High-stakes expeditions for experienced players
+**Special Items**
 
-**Expedition Planning & Resource Management:**Resource Costs**Food Requirement:** Each NPC consumes food supplies for expedition duration
+Rare building cards or utility items
 
-**Ammunition Requirement:** Small ammunition cost per NPC for equipment and defense
+**Strategic Value**
 
-**Scaling Costs:** Multiple NPCs increase total resource expenditure
+Rewards scale with risk and investment level
 
-**Strategic Planning:** Players must balance expedition investment with base needs
+**Duration**
 
-**Group vs Solo Decision Framework:**Solo ExpeditionsHigher individual NPC risk but allows multiple simultaneous expeditions
+5 days
 
-**Group Expeditions:** Lower individual risk but single reward and higher resource cost
+**Risk Level**
 
-**Parallel Processing:** Send multiple NPCs on separate solo expeditions for multiple rewards
+Medium survival rate, high resource investment
 
-**Risk Distribution:** Balance between safety and reward multiplication
+**Reward Tier**
 
-**Expedition Tracking & Management:**Visual CountdownClear indication of days remaining until NPC return
+High resource gains, potential rare discoveries
 
-**Status Updates:** Information about expedition progress and potential complications
+**Unlock Requirement**
 
-**Resource Planning:** Players must plan base operations around absent NPCs
+Advanced Research Point investment
 
-**Return Integration:** Returning NPCs provide expedition rewards and resume base duties
+**Strategic Role**
 
-**Reward Systems & Discovery:**Standard Expedition Rewards**Food:** Additional sustenance for population and future expeditions
+High-stakes expeditions for experienced players
 
-**Resource:** Economic boost for building cards and base development
+#### Expedition Planning & Resource Management
 
-**Ammunition:** Military supplies for defensive preparations
+Resource Costs**Food Requirement:**  Each NPC consumes food supplies for expedition duration
 
-**Research Points:** Meta progression advancement
+**Ammunition Requirement**
 
-**Advanced Reward Possibilities:**Rare ResourcesSpecial materials for unique upgrades or building options
+Small ammunition cost per NPC for equipment and defense
 
-**NPC Recruitment Opportunities:** Chance to discover additional NPCs
+**Scaling Costs**
 
-**Map Intelligence:** Information about upcoming zombie wave patterns or boss encounters
+Multiple NPCs increase total resource expenditure
 
-**Equipment Discoveries:** Temporary or permanent enhancements for base defense
+**Strategic Planning**
 
-**Risk & Consequence Management:**NPC Death Mechanics- **Permanent Loss:** NPCs who die on expeditions never return
+Players must balance expedition investment with base needs
 
-**Emotional Impact** Loss of invested character relationships
+#### Group vs Solo Decision Framework
 
-**Strategic Consequences** Loss of specialized buff effects and base personality
+Solo ExpeditionsHigher individual NPC risk but allows multiple simultaneous expeditions
 
-**Risk Assessment** Players must evaluate expedition value against potential NPC loss
+**Group Expeditions**
+
+Lower individual risk but single reward and higher resource cost
+
+**Parallel Processing**
+
+Send multiple NPCs on separate solo expeditions for multiple rewards
+
+**Risk Distribution**
+
+Balance between safety and reward multiplication
+
+#### Expedition Tracking & Management
+
+Visual CountdownClear indication of days remaining until NPC return
+
+**Status Updates**
+
+Information about expedition progress and potential complications
+
+**Resource Planning**
+
+Players must plan base operations around absent NPCs
+
+**Return Integration**
+
+Returning NPCs provide expedition rewards and resume base duties
+
+#### Reward Systems & Discovery
+
+Standard Expedition Rewards**Food:**  Additional sustenance for population and future expeditions
+
+**Resource**
+
+Economic boost for building cards and base development
+
+**Ammunition**
+
+Military supplies for defensive preparations
+
+**Research Points**
+
+Meta progression advancement
+
+**Advanced Reward Possibilities**
+
+Rare ResourcesSpecial materials for unique upgrades or building options
+
+**NPC Recruitment Opportunities**
+
+Chance to discover additional NPCs
+
+**Map Intelligence**
+
+Information about upcoming zombie wave patterns or boss encounters
+
+**Equipment Discoveries**
+
+Temporary or permanent enhancements for base defense
+
+#### Risk & Consequence Management
+
+NPC Death Mechanics- **Permanent Loss:**  NPCs who die on expeditions never return
+
+**Emotional Impact**
+
+Loss of invested character relationships
+
+**Strategic Consequences**
+
+Loss of specialized buff effects and base personality
+
+**Risk Assessment**
+
+Players must evaluate expedition value against potential NPC loss
 
 **Survival Rate Factors:**
 
-**NPC Type** Guerrilla NPCs have higher survival rates than Scientists
+**NPC Type**
 
-**Expedition Size** Group expeditions provide safety in numbers
+Guerrilla NPCs have higher survival rates than Scientists
 
-**Upgrade Benefits** Expedition upgrade tree improves survival rates
+**Expedition Size**
 
-**Equipment Quality** Base upgrades and resource investment affect success chances
+Group expeditions provide safety in numbers
+
+**Upgrade Benefits**
+
+Expedition upgrade tree improves survival rates
+
+**Equipment Quality**
+
+Base upgrades and resource investment affect success chances
 
 **Strategic Integration:**
 
-**Base Planning** Expedition timing affects base resource management
+**Base Planning**
 
-**Long-term Strategy** Expedition rewards fuel research point progression
+Expedition timing affects base resource management
 
-**Risk Tolerance** Player personality affects expedition strategy preferences
+#### Long-term Strategy
 
-**Resource Balancing** Must maintain base operations while investing in expeditions
+Expedition rewards fuel research point progression
+
+**Risk Tolerance**
+
+Player personality affects expedition strategy preferences
+
+**Resource Balancing**
+
+Must maintain base operations while investing in expeditions
 
 ---
 
@@ -2133,450 +3699,851 @@ The expedition system adds a layer of risk/reward resource management that exten
 
 City Defense Z features a sophisticated building system with six primary structure types, each serving distinct strategic roles in base development and defensive capabilities. All buildings utilize the core merge mechanic where three adjacent buildings of identical type and level automatically combine into more powerful structures.
 
-**Building Classification System:**Production Buildings (Collectable)Buildings that generate resources over time and require manual collection through clicking when production indicators appear.
+#### Building Classification System
+
+Production Buildings (Collectable)Buildings that generate resources over time and require manual collection through clicking when production indicators appear.
 
 **Static Buildings:**
 Buildings that provide passive benefits without requiring resource collection.
 
 **Grid Zone Organization:**
 
-**Main Grid Zone** Primary building area for most structure types
+**Main Grid Zone**
 
-**Farm Grid Zone** Specialized agricultural area with unique crop mechanics
+Primary building area for most structure types
+
+**Farm Grid Zone**
+
+Specialized agricultural area with unique crop mechanics
 
 **Building Type Specifications:**
 
-**Factory (Yellow/Green)**:
+**Factory (Yellow/Green)**
 
-**Classification** Production Building (Collectable)
+:
 
-**Primary Function** Resource currency generation
+#### Classification
 
-**Grid Location** Main Grid Zone
+Production Building (Collectable)
 
-**Collection Mechanic** Click building when resource icon appears
+##### Primary Function
 
-**Visual States** - *Full State:* Displays resource containers and production materials
+Resource currency generation
+
+**Grid Location**
+
+Main Grid Zone
+
+##### Collection Mechanic
+
+Click building when resource icon appears
+
+**Visual States**
+
+- *Full State:* Displays resource containers and production materials
 
   - *Empty State:* Shows depleted storage after collection
 
-**Strategic Role** Core economic engine enabling building card purchases
+**Strategic Role**
 
-**Merge Evolution** Higher levels produce resources faster with greater capacity
+Core economic engine enabling building card purchases
 
-**Economic Impact** Foundation of base expansion and development
+**Merge Evolution**
 
-**Ammunition Building (Gray)**:
+Higher levels produce resources faster with greater capacity
 
-**Classification** Production Building (Collectable)  
+##### Economic Impact
 
-**Primary Function** Ammunition currency generation
+Foundation of base expansion and development
 
-**Grid Location** Main Grid Zone
+**Ammunition Building (Gray)**
 
-**Collection Mechanic** Click building when ammunition icon appears
+:
 
-**Visual States** - *Full State:* Shows ammunition boxes, crates, and military supplies
+#### Classification
+
+Production Building (Collectable)
+
+##### Primary Function
+
+Ammunition currency generation
+
+**Grid Location**
+
+Main Grid Zone
+
+##### Collection Mechanic
+
+Click building when ammunition icon appears
+
+**Visual States**
+
+- *Full State:* Shows ammunition boxes, crates, and military supplies
 
   - *Empty State:* Displays empty storage containers
 
-**Strategic Role** Military resource for soldiers, walls, landmines, and airstrikes
+**Strategic Role**
 
-**Merge Evolution** Advanced levels provide superior ammunition output
+Military resource for soldiers, walls, landmines, and airstrikes
 
-**Combat Impact** Enables defensive structure deployment and soldier maintenance
+**Merge Evolution**
 
-**Barracks (Orange/Red)**:
+Advanced levels provide superior ammunition output
 
-**Classification** Production Building (Collectable)
+**Combat Impact**
 
-**Primary Function** Soldier training and deployment
+Enables defensive structure deployment and soldier maintenance
 
-**Grid Location** Main Grid Zone
+**Barracks (Orange/Red)**
 
-**Collection Mechanic** Click building when soldier icon appears
+:
 
-**Visual States** - *Full State:* Displays trained soldiers and military equipment
+#### Classification
+
+Production Building (Collectable)
+
+##### Primary Function
+
+Soldier training and deployment
+
+**Grid Location**
+
+Main Grid Zone
+
+##### Collection Mechanic
+
+Click building when soldier icon appears
+
+**Visual States**
+
+- *Full State:* Displays trained soldiers and military equipment
 
   - *Empty State:* Shows empty training facilities
 
-**Strategic Role** Primary source of defensive military units
+**Strategic Role**
 
-**Merge Evolution** Higher levels train more soldiers or elite units
+Primary source of defensive military units
 
-**Military Impact** Core defensive capability through soldier production
+**Merge Evolution**
 
-**Laboratory (Research Theme)**:
+Higher levels train more soldiers or elite units
 
-**Classification** Production Building (Collectable)
+**Military Impact**
 
-**Primary Function** Research Point generation for meta progression
+Core defensive capability through soldier production
 
-**Grid Location** Main Grid Zone
+**Laboratory (Research Theme)**
 
-**Collection Mechanic** Click building when research point icon appears
+:
 
-**Visual States** - *Full State:* Shows research materials, equipment, and scientific apparatus
+#### Classification
+
+Production Building (Collectable)
+
+##### Primary Function
+
+Research Point generation for meta progression
+
+**Grid Location**
+
+Main Grid Zone
+
+##### Collection Mechanic
+
+Click building when research point icon appears
+
+**Visual States**
+
+- *Full State:* Shows research materials, equipment, and scientific apparatus
 
   - *Empty State:* Displays minimal scientific equipment
 
-**Strategic Role** Long-term advancement through permanent upgrade access
+**Strategic Role**
 
-**Merge Evolution** Enhanced research point production efficiency
+Long-term advancement through permanent upgrade access
 
-**Progression Impact** Gateway to all meta progression upgrade trees
+**Merge Evolution**
 
-**House (Population Theme)**:
+Enhanced research point production efficiency
 
-**Classification** Static Building
+**Progression Impact**
 
-**Primary Function** Population capacity increase
+Gateway to all meta progression upgrade trees
 
-**Grid Location** Main Grid Zone
+**House (Population Theme)**
 
-**Collection Mechanic** Click when population icon appears (capacity increase notifications)
+:
 
-**Visual States** Residential appearance indicating occupancy levels
+#### Classification
 
-**Strategic Role** Enables larger soldier armies through population limits
+Static Building
 
-**Merge Evolution** Higher levels support more population
+##### Primary Function
 
-**Military Impact** Determines maximum deployable soldier count
+Population capacity increase
+
+**Grid Location**
+
+Main Grid Zone
+
+##### Collection Mechanic
+
+Click when population icon appears (capacity increase notifications)
+
+**Visual States**
+
+Residential appearance indicating occupancy levels
+
+**Strategic Role**
+
+Enables larger soldier armies through population limits
+
+**Merge Evolution**
+
+Higher levels support more population
+
+**Military Impact**
+
+Determines maximum deployable soldier count
 
 **Farm (Agricultural Theme)**  
 
-**Classification** Production Building (Collectable) with Area Effect
+#### Classification
 
-**Primary Function** Food production through crop cultivation
+Production Building (Collectable) with Area Effect
 
-**Grid Location** Farm Grid Zone (Specialized Area)
+##### Primary Function
 
-**Collection Mechanic** Click building when food icon appears
+Food production through crop cultivation
 
-**Visual States** - *Full State:* Shows abundant crops, full silos, and harvested produce
+**Grid Location**
+
+Farm Grid Zone (Specialized Area)
+
+##### Collection Mechanic
+
+Click building when food icon appears
+
+**Visual States**
+
+- *Full State:* Shows abundant crops, full silos, and harvested produce
 
   - *Empty State:* Displays empty fields and depleted storage
 
-**Unique Mechanics** Generates crops in surrounding grid tiles that can be individually harvested
+#### Unique Mechanics
 
-**Strategic Role** Sustains population and enables NPC expeditions
+Generates crops in surrounding grid tiles that can be individually harvested
 
-**Merge Evolution** Increased crop yield, faster growth, expanded cultivation area
+**Strategic Role**
 
-**Survival Impact** Prevents HUNGER debuff that weakens defensive capabilities
+Sustains population and enables NPC expeditions
 
-**Advanced Building Management:**Building Relocation System- **Functionality:** Move any placed building to different valid grid location
+**Merge Evolution**
 
-**Strategic Application** Correct placement mistakes, optimize merge positioning
+Increased crop yield, faster growth, expanded cultivation area
 
-**Use Cases** Reorganize layout when merge opportunities are blocked
+**Survival Impact**
 
-**Resource Requirement** Building Relocation Card expenditure
+Prevents HUNGER debuff that weakens defensive capabilities
 
-**Direct Level-Up System:**
+#### Advanced Building Management
 
-**Functionality** Instantly upgrade selected building to next level
+Building Relocation System- 
+##### Functionality:
 
-**Strategic Value** Bypass 3-adjacent merge spatial requirements
+ Move any placed building to different valid grid location
 
-**Efficiency Benefit** Particularly valuable for high-level building advancement
+**Strategic Application**
 
-**Resource Trade-off** Exchange card resources for positional flexibility
+Correct placement mistakes, optimize merge positioning
+
+**Use Cases**
+
+Reorganize layout when merge opportunities are blocked
+
+**Resource Requirement**
+
+Building Relocation Card expenditure
+
+#### Direct Level-Up System:
+
+##### Functionality
+
+Instantly upgrade selected building to next level
+
+**Strategic Value**
+
+Bypass 3-adjacent merge spatial requirements
+
+**Efficiency Benefit**
+
+Particularly valuable for high-level building advancement
+
+**Resource Trade-off**
+
+Exchange card resources for positional flexibility
 
 **Building Synergies & Interdependencies:**
 
-**Economic Chain** Factory → Resource → Building Cards → Base Expansion
+##### Economic Chain
 
-**Military Chain** Ammunition Building → Military Resources → Soldiers/Defenses
+Factory → Resource → Building Cards → Base Expansion
 
-**Research Chain** Laboratory → Research Points → Permanent Upgrades
+**Military Chain**
 
-**Population Chain** House → Population Capacity → Soldier Limits
+Ammunition Building → Military Resources → Soldiers/Defenses
 
-**Sustenance Chain** Farm → Food → Population Maintenance + Expeditions
+**Research Chain**
+
+Laboratory → Research Points → Permanent Upgrades
+
+**Population Chain**
+
+House → Population Capacity → Soldier Limits
+
+**Sustenance Chain**
+
+Farm → Food → Population Maintenance + Expeditions
 
 ### 6.2 Unit Types & Abilities
 
 City Defense Z employs a diverse military system combining trainable soldiers with specialized deployable units, creating layered defensive strategies through unit positioning, merging, and tactical deployment.
 
-**Soldier Classification System:**Primary Combat Units (Mergeable)**Basic Soldier**:
+#### Soldier Classification System
 
-**Source** Trained from Barracks buildings
+Primary Combat Units (Mergeable)**Basic Soldier** :
 
-**Merge Capability** 3 adjacent soldiers can merge into 1 enhanced soldier via manual activation
+**Source**
 
-**Merge Mechanics** Unlike buildings, soldiers require player input to merge - a pop-up indicator appears when 3 soldiers are in mergeable position
+Trained from Barracks buildings
 
-**Player Choice** Manual merge system allows strategic decision between multiple individual soldiers vs single upgraded unit
+**Merge Capability**
 
-**Combat Role** Primary defensive backbone with balanced effectiveness
+3 adjacent soldiers can merge into 1 enhanced soldier via manual activation
 
-**Deployment** Place on battlefield grid during day phase
+#### Merge Mechanics
 
-**Resource Cost** Ammunition for training and maintenance
+Unlike buildings, soldiers require player input to merge - a pop-up indicator appears when 3 soldiers are in mergeable position
 
-**Upgrade Path** Merge evolution creates increasingly powerful variants
+**Player Choice**
 
-**Strategic Value** Flexible, cost-effective defensive units
+Manual merge system allows strategic decision between multiple individual soldiers vs single upgraded unit
 
-**Visual Progression** Higher merge levels show enhanced equipment and armor
+**Combat Role**
 
-**Enhanced Soldier (Merged Level 2)**:
+Primary defensive backbone with balanced effectiveness
 
-**Creation** Result of merging 3 basic soldiers
+**Deployment**
 
-**Combat Effectiveness** Significantly improved damage output and durability
+Place on battlefield grid during day phase
 
-**Visual Design** Enhanced equipment, better armor, distinctive appearance
+**Resource Cost**
 
-**Strategic Role** Mid-tier defensive unit with superior capabilities
+Ammunition for training and maintenance
 
-**Resource Efficiency** More effective than individual basic soldiers
+**Upgrade Path**
 
-**Elite Soldier (Merged Level 3+)**:
+Merge evolution creates increasingly powerful variants
 
-**Creation** Result of merging 3 enhanced soldiers
+**Strategic Value**
 
-**Combat Effectiveness** Exceptional damage, accuracy, and survivability
+Flexible, cost-effective defensive units
 
-**Visual Design** Advanced military gear, unique appearance markers
+**Visual Progression**
 
-**Strategic Role** High-tier defensive anchor units
+Higher merge levels show enhanced equipment and armor
 
-**Tactical Deployment** Key positions requiring maximum defensive strength
+**Enhanced Soldier (Merged Level 2)**
+
+:
+
+**Creation**
+
+Result of merging 3 basic soldiers
+
+**Combat Effectiveness**
+
+Significantly improved damage output and durability
+
+##### Visual Design
+
+Enhanced equipment, better armor, distinctive appearance
+
+**Strategic Role**
+
+Mid-tier defensive unit with superior capabilities
+
+**Resource Efficiency**
+
+More effective than individual basic soldiers
+
+**Elite Soldier (Merged Level 3+)**
+
+:
+
+**Creation**
+
+Result of merging 3 enhanced soldiers
+
+**Combat Effectiveness**
+
+Exceptional damage, accuracy, and survivability
+
+##### Visual Design
+
+Advanced military gear, unique appearance markers
+
+**Strategic Role**
+
+High-tier defensive anchor units
+
+**Tactical Deployment**
+
+Key positions requiring maximum defensive strength
 
 **Specialized Units (Non-Mergeable):**
 
-**Mortar Artillery**:
+**Mortar Artillery**
 
-**Combat Role** Long-range area-of-effect damage specialist
+:
 
-**Tactical Advantage** Attacks enemies before they reach defensive lines
+**Combat Role**
 
-**Strategic Deployment** Positioned for maximum battlefield coverage
+Long-range area-of-effect damage specialist
 
-**Resource Cost** Significant ammunition investment
+**Tactical Advantage**
 
-**Weakness** Vulnerable to fast-moving enemies
+Attacks enemies before they reach defensive lines
 
-**Visual Design** Artillery piece with distinctive firing animations
+**Strategic Deployment**
+
+Positioned for maximum battlefield coverage
+
+**Resource Cost**
+
+Significant ammunition investment
+
+**Weakness**
+
+Vulnerable to fast-moving enemies
+
+##### Visual Design
+
+Artillery piece with distinctive firing animations
 
 ---
 
-**Machine Gun (Bixi)**:
+**Machine Gun (Bixi)**
 
-**Combat Role** High fire rate, sustained damage output
+:
 
-**Tactical Advantage** Exceptional effectiveness against swarm enemies
+**Combat Role**
 
-**Strategic Deployment** Choke points and high-traffic defensive areas
+High fire rate, sustained damage output
 
-**Resource Cost** Moderate ammunition with high maintenance
+**Tactical Advantage**
 
-**Strength** Continuous suppressive fire capability
+Exceptional effectiveness against swarm enemies
 
-**Visual Design** Heavy machine gun emplacement with ammunition feeds
+**Strategic Deployment**
 
-**Rocket Launcher**:
+Choke points and high-traffic defensive areas
 
-**Combat Role** Heavy damage specialist for armored targets
+**Resource Cost**
 
-**Tactical Advantage** Devastating single-target damage
+Moderate ammunition with high maintenance
 
-**Strategic Deployment** Anti-boss and heavy enemy elimination
+**Strength**
 
-**Resource Cost** High ammunition per deployment
+Continuous suppressive fire capability
 
-**Strength** Unmatched damage output against tough enemies
+##### Visual Design
 
-**Visual Design** Military rocket launcher with explosive effects
+Heavy machine gun emplacement with ammunition feeds
 
-**Unit Deployment & Management:**Day Phase Deployment- **Positioning Strategy:** Place soldiers on battlefield grid squares
+**Rocket Launcher**
 
-**Manual Merge Planning** Position soldiers for potential merge opportunities, knowing that merge pop-ups will appear when 3 are adjacent
+:
 
-**Strategic Decision Making** Choose between merging soldiers for power or keeping them separate for coverage
+**Combat Role**
 
-**Resource Allocation** Balance soldier training with other ammunition needs
+Heavy damage specialist for armored targets
 
-**Time Management** Complete deployment and merge decisions before 10-second countdown warning
+**Tactical Advantage**
 
-**Night Phase Combat:**
+Devastating single-target damage
 
-**Automatic Engagement** Soldiers attack zombies within range automatically
+**Strategic Deployment**
 
-**Boost Integration** Apply collected boosts via AoE targeting for enhanced effectiveness
+Anti-boss and heavy enemy elimination
 
-**Formation Maintenance** Soldiers hold positions while engaging enemies
+**Resource Cost**
 
-**Casualty Management** Lost soldiers must be replaced during subsequent day phases
+High ammunition per deployment
 
-**Advanced Soldier Mechanics:**Upgrade Interactions- **Default Level Increase:** Permanent upgrades allow soldiers to start at higher levels
+**Strength**
 
-**NPC Buffs** Military Expert NPC enhances soldier combat statistics
+Unmatched damage output against tough enemies
 
-**Research Enhancements** Weapons upgrade tree improves damage, fire rate, and reload speed
+##### Visual Design
 
-**Equipment Synergy** Various upgrade combinations create specialized soldier builds
+Military rocket launcher with explosive effects
+
+#### Unit Deployment & Management
+
+Day Phase Deployment- **Positioning Strategy:**  Place soldiers on battlefield grid squares
+
+**Manual Merge Planning**
+
+Position soldiers for potential merge opportunities, knowing that merge pop-ups will appear when 3 are adjacent
+
+**Strategic Decision Making**
+
+Choose between merging soldiers for power or keeping them separate for coverage
+
+**Resource Allocation**
+
+Balance soldier training with other ammunition needs
+
+#### Time Management
+
+Complete deployment and merge decisions before 10-second countdown warning
+
+#### Night Phase Combat:
+
+##### Automatic Engagement
+
+Soldiers attack zombies within range automatically
+
+**Boost Integration**
+
+Apply collected boosts via AoE targeting for enhanced effectiveness
+
+**Formation Maintenance**
+
+Soldiers hold positions while engaging enemies
+
+#### Casualty Management
+
+Lost soldiers must be replaced during subsequent day phases
+
+#### Advanced Soldier Mechanics
+
+Upgrade Interactions- **Default Level Increase:**  Permanent upgrades allow soldiers to start at higher levels
+
+**NPC Buffs**
+
+Military Expert NPC enhances soldier combat statistics
+
+**Research Enhancements**
+
+Weapons upgrade tree improves damage, fire rate, and reload speed
+
+**Equipment Synergy**
+
+Various upgrade combinations create specialized soldier builds
 
 **Tactical Considerations:**
 
-**Range Management** Different soldier types have varying engagement ranges
+#### Range Management
 
-**AoE Optimization** Position soldiers to maximize boost coverage and effectiveness
+Different soldier types have varying engagement ranges
 
-**Formation Strategy** Balance between merge opportunities and tactical positioning while considering manual merge decisions
+**AoE Optimization**
 
-**Merge Timing** Decide optimal moments to merge soldiers based on incoming wave composition
+Position soldiers to maximize boost coverage and effectiveness
 
-**Resource Efficiency** Balance soldier quantity with merge quality for optimal defense
+#### Formation Strategy
 
-**Coverage vs Power** Strategic choice between multiple soldiers for area coverage vs merged soldiers for concentrated power
+Balance between merge opportunities and tactical positioning while considering manual merge decisions
+
+**Merge Timing**
+
+Decide optimal moments to merge soldiers based on incoming wave composition
+
+**Resource Efficiency**
+
+Balance soldier quantity with merge quality for optimal defense
+
+**Coverage vs Power**
+
+Strategic choice between multiple soldiers for area coverage vs merged soldiers for concentrated power
 
 ### 6.3 Enemy Design & Behavior
 
 City Defense Z features a comprehensive zombie threat system with escalating difficulty through basic enemy variants and powerful boss encounters, each requiring specific tactical responses and defensive strategies.
 
-**Enemy Classification Framework:**Basic Zombie Types (Levels 1-5)**Level 1 - Normal Zombie**:
+#### Enemy Classification Framework
 
-**Movement Speed** Baseline moderate pace
+Basic Zombie Types (Levels 1-5)**Level 1 - Normal Zombie** :
 
-**Durability** Standard health pool
+**Movement Speed**
 
-**Attack Pattern** Basic melee combat
+Baseline moderate pace
 
-**Visual Variants** Multiple appearance models for diversity
+**Durability**
 
-**Strategic Counter** Standard defensive positioning and basic soldiers
+Standard health pool
 
-**Threat Level** Foundation zombie type, easiest to eliminate
+**Attack Pattern**
 
-**Spawn Frequency** High frequency throughout all waves
+Basic melee combat
 
-**Level 2 - Runner Zombie**:
+**Visual Variants**
 
-**Movement Speed** Enhanced speed, bypasses slow defenses
+Multiple appearance models for diversity
 
-**Durability** Reduced health to balance speed advantage
+**Strategic Counter**
 
-**Attack Pattern** Fast approach, standard melee
+Standard defensive positioning and basic soldiers
 
-**Visual Design** Athletic, lean appearance indicating speed
+**Threat Level**
 
-**Strategic Counter** Early engagement units, rapid-fire weapons
+Foundation zombie type, easiest to eliminate
 
-**Threat Level** Moderate - requires updated defensive timing
+**Spawn Frequency**
 
-**Tactical Challenge** Forces players to engage threats earlier in defensive line
+High frequency throughout all waves
 
-**Level 3 - Exploding Zombie**:
+**Level 2 - Runner Zombie**
 
-**Movement Speed** Very slow, deliberate approach
+:
 
-**Durability** High health pool, difficult to eliminate quickly
+**Movement Speed**
 
-**Attack Pattern** Area explosion on death, damages nearby soldiers and structures
+Enhanced speed, bypasses slow defenses
 
-**Visual Design** Bloated appearance with visible explosive characteristics
+**Durability**
 
-**Strategic Counter** Long-range elimination, isolation tactics
+Reduced health to balance speed advantage
 
-**Threat Level** High - post-death explosion creates area denial
+**Attack Pattern**
 
-**Tactical Challenge** Requires careful positioning to minimize explosion impact
+Fast approach, standard melee
 
-**Level 4 - Ranged Zombie**:
+##### Visual Design
 
-**Movement Speed** Standard pace
+Athletic, lean appearance indicating speed
 
-**Durability** Moderate health pool
+**Strategic Counter**
 
-**Attack Pattern** Ranged projectile attacks, bypasses traditional defensive lines
+Early engagement units, rapid-fire weapons
 
-**Visual Design** Modified zombie with ranged attack appendages or tools
+**Threat Level**
 
-**Strategic Counter** Mobile units, cover mechanics, rapid response
+Moderate - requires updated defensive timing
 
-**Threat Level** High - challenges traditional tower defense positioning
+**Tactical Challenge**
 
-**Tactical Challenge** Forces reconsideration of soldier placement strategies
+Forces players to engage threats earlier in defensive line
 
-**Level 5 - Advanced Zombie**:
+**Level 3 - Exploding Zombie**
 
-**Movement Speed** Variable based on specific variant abilities
+:
 
-**Durability** Enhanced health and defensive capabilities
+**Movement Speed**
 
-**Attack Pattern** Advanced combat mechanics and abilities
+Very slow, deliberate approach
 
-**Visual Design** Highly evolved appearance indicating threat level
+**Durability**
 
-**Strategic Counter** Requires upgraded defensive capabilities and advanced tactics
+High health pool, difficult to eliminate quickly
 
-**Threat Level** Very High - end-game standard enemies
+**Attack Pattern**
 
-**Tactical Challenge** Combination of multiple threat types and abilities
+Area explosion on death, damages nearby soldiers and structures
 
-**Boss Zombie Types (Levels 1-4):**
+##### Visual Design
 
-**Level 1 Boss - Stonefist**:
+Bloated appearance with visible explosive characteristics
 
-**Size** Larger model with increased health and damage
+**Strategic Counter**
 
-**Tactical Challenge** Dual-range threat requiring versatile defensive response
+Long-range elimination, isolation tactics
 
-**Counter Strategy** Dual-range defensive setup, sustained damage focus
+**Threat Level**
 
-**Level 2 Boss - Deathtouch**:
+High - post-death explosion creates area denial
 
-**Tactical Challenge** Extended reach and multiple attack patterns
+**Tactical Challenge**
 
-**Counter Strategy** Range advantage maintenance, positioning awareness
+Requires careful positioning to minimize explosion impact
 
-**Level 3 Boss - Banger**:
+**Level 4 - Ranged Zombie**
 
-**Tactical Challenge** Post-death area denial affects nearby soldiers
+:
 
-**Counter Strategy** Long-range elimination, poison resistance, area evacuation
+**Movement Speed**
 
-**Level 4 Boss - Toxicz**:
+Standard pace
 
-**Tactical Challenge** Extended range bypasses most traditional defensive strategies
+**Durability**
 
-**Counter Strategy** Mobile response capabilities
+Moderate health pool
 
-**Enemy Behavior Systems:**Zombie Pathfinding- **Spawn Direction:** Zombies spawn facing forward toward the base
+**Attack Pattern**
 
-**Simple Navigation** Direct forward movement toward base with basic obstacle avoidance
+Ranged projectile attacks, bypasses traditional defensive lines
 
-**Collision Avoidance** Navmesh agent system prevents zombies from colliding with each other
+##### Visual Design
 
-**Wall Interaction** Attack walls that block their direct forward path
+Modified zombie with ranged attack appendages or tools
 
-**Straightforward Movement** No complex vision-based pathfinding or gap-seeking behavior
+**Strategic Counter**
+
+Mobile units, cover mechanics, rapid response
+
+**Threat Level**
+
+High - challenges traditional tower defense positioning
+
+**Tactical Challenge**
+
+Forces reconsideration of soldier placement strategies
+
+**Level 5 - Advanced Zombie**
+
+:
+
+**Movement Speed**
+
+Variable based on specific variant abilities
+
+**Durability**
+
+Enhanced health and defensive capabilities
+
+**Attack Pattern**
+
+Advanced combat mechanics and abilities
+
+##### Visual Design
+
+Highly evolved appearance indicating threat level
+
+**Strategic Counter**
+
+Requires upgraded defensive capabilities and advanced tactics
+
+**Threat Level**
+
+Very High - end-game standard enemies
+
+**Tactical Challenge**
+
+Combination of multiple threat types and abilities
+
+#### Boss Zombie Types (Levels 1-4):
+
+**Level 1 Boss - Stonefist**
+
+:
+
+**Size**
+
+Larger model with increased health and damage
+
+**Tactical Challenge**
+
+Dual-range threat requiring versatile defensive response
+
+#### Counter Strategy
+
+Dual-range defensive setup, sustained damage focus
+
+**Level 2 Boss - Deathtouch**
+
+:
+
+**Tactical Challenge**
+
+Extended reach and multiple attack patterns
+
+#### Counter Strategy
+
+Range advantage maintenance, positioning awareness
+
+**Level 3 Boss - Banger**
+
+:
+
+**Tactical Challenge**
+
+Post-death area denial affects nearby soldiers
+
+#### Counter Strategy
+
+Long-range elimination, poison resistance, area evacuation
+
+**Level 4 Boss - Toxicz**
+
+:
+
+**Tactical Challenge**
+
+Extended range bypasses most traditional defensive strategies
+
+#### Counter Strategy
+
+Mobile response capabilities
+
+#### Enemy Behavior Systems
+
+Zombie Pathfinding- **Spawn Direction:**  Zombies spawn facing forward toward the base
+
+**Simple Navigation**
+
+Direct forward movement toward base with basic obstacle avoidance
+
+**Collision Avoidance**
+
+Navmesh agent system prevents zombies from colliding with each other
+
+**Wall Interaction**
+
+Attack walls that block their direct forward path
+
+**Straightforward Movement**
+
+No complex vision-based pathfinding or gap-seeking behavior
 
 **Wave Composition & Scaling:**
 
-**Progressive Difficulty** Enemy strength and variety increase with day progression
+**Progressive Difficulty**
 
-**Mixed Compositions** Combine different enemy types requiring tactical adaptation
+Enemy strength and variety increase with day progression
 
-**Boss Integration** Boss zombies appear at climactic wave moments
+**Mixed Compositions**
 
-**Threat Diversity** Force players to develop comprehensive defensive strategies
+Combine different enemy types requiring tactical adaptation
+
+**Boss Integration**
+
+Boss zombies appear at climactic wave moments
+
+**Threat Diversity**
+
+Force players to develop comprehensive defensive strategies
 
 ### 6.4 Maps & Environments
 
 City Defense Z features four distinct maps, each providing unique environmental challenges, narrative context, and progressive difficulty scaling that supports the game's story-driven structure while offering varied tactical scenarios.
 
-**Map Progression System:**Unlock Structure- **Map 1 (Available):** Starting map accessible immediately
+#### Map Progression System
 
-**Map 2 (Locked)** Unlocks after surviving 50 days on Map 1
+Unlock Structure- **Map 1 (Available):**  Starting map accessible immediately
 
-**Map 3 (Locked)** Unlocks after surviving 75 days on Map 2  
+**Map 2 (Locked)**
 
-**Map 4 (Locked)** Unlocks after surviving specified days on Map 3
+Unlocks after surviving 50 days on Map 1
+
+**Map 3 (Locked)**
+
+Unlocks after surviving 75 days on Map 2
+
+**Map 4 (Locked)**
+
+Unlocks after surviving specified days on Map 3
 
 **Narrative-Driven Objectives:**
 Each map provides story context through walkie-talkie communications, giving players clear survival goals and emotional investment in defensive success.
@@ -2585,121 +4552,221 @@ Each map provides story context through walkie-talkie communications, giving pla
 
 **Map 1: Nevada Emergency Base**
 
-**Environment Theme** Desert emergency landing site
+**Environment Theme**
 
-**Narrative Context** Emergency plane crash requires base establishment
+Desert emergency landing site
 
-**Story Opening** *"Hey captain, we had to quickly establish a base here due to circumstances. We have to repair our planes to leave, but it will take 50 days."*
+**Narrative Context**
 
-**Survival Objective** 50 days until plane repair completion
+Emergency plane crash requires base establishment
 
-**Story Resolution** *"Hey captain, the plane is ready. We can leave whenever you want."*
+**Story Opening**
 
-**Player Choice** Continue infinitely or progress to Map 2
+*"Hey captain, we had to quickly establish a base here due to circumstances. We have to repair our planes to leave, but it will take 50 days."*
 
-**Tactical Environment** Open desert terrain with clear sight lines
+**Survival Objective**
 
-**Environmental Challenges** Limited natural cover, exposure to all directions
+50 days until plane repair completion
 
-**Strategic Considerations** Must create artificial defensive structures through walls and building placement
+**Story Resolution**
+
+*"Hey captain, the plane is ready. We can leave whenever you want."*
+
+**Player Choice**
+
+Continue infinitely or progress to Map 2
+
+**Tactical Environment**
+
+Open desert terrain with clear sight lines
+
+**Environmental Challenges**
+
+Limited natural cover, exposure to all directions
+
+**Strategic Considerations**
+
+Must create artificial defensive structures through walls and building placement
 
 **Map 2: [Urban Environment - TBD]**
 
-**Environment Theme** [Abandoned city/urban setting]
+**Environment Theme**
 
-**Narrative Context** [Story-specific scenario]
+[Abandoned city/urban setting]
 
-**Survival Objective** 75 days survival requirement
+**Narrative Context**
 
-**Unlock Requirement** Complete Map 1 (50 days survived)
+[Story-specific scenario]
 
-**Story Opening** [Walkie-talkie communication establishing scenario]
+**Survival Objective**
 
-**Environmental Challenges** [Urban-specific tactical considerations]
+75 days survival requirement
 
-**Strategic Elements** [Unique defensive opportunities and obstacles]
+**Unlock Requirement**
+
+Complete Map 1 (50 days survived)
+
+**Story Opening**
+
+[Walkie-talkie communication establishing scenario]
+
+**Environmental Challenges**
+
+[Urban-specific tactical considerations]
+
+**Strategic Elements**
+
+[Unique defensive opportunities and obstacles]
 
 **Map 3: [Industrial/Military Setting - TBD]**
 
-**Environment Theme** [Industrial complex or military installation]
+**Environment Theme**
 
-**Narrative Context** [Story-specific scenario]
+[Industrial complex or military installation]
 
-**Survival Objective** [TBD days survival requirement]
+**Narrative Context**
 
-**Unlock Requirement** Complete Map 2 (75 days survived)
+[Story-specific scenario]
 
-**Story Opening** [Walkie-talkie communication establishing scenario]
+**Survival Objective**
 
-**Environmental Challenges** [Industrial-specific tactical considerations]
+[TBD days survival requirement]
 
-**Strategic Elements** [Advanced defensive structures and challenges]
+**Unlock Requirement**
+
+Complete Map 2 (75 days survived)
+
+**Story Opening**
+
+[Walkie-talkie communication establishing scenario]
+
+**Environmental Challenges**
+
+[Industrial-specific tactical considerations]
+
+**Strategic Elements**
+
+[Advanced defensive structures and challenges]
 
 **Map 4: The Final Laboratory**
 
-**Environment Theme** Research facility/medical complex
+**Environment Theme**
 
-**Narrative Context** Zombie vaccine development scenario
+Research facility/medical complex
 
-**Story Opening** *"Hey captain, we finally found the vaccine against the zombies, but it will take 100 days to produce it. Can we survive that long?"*
+**Narrative Context**
 
-**Survival Objective** 100 days until vaccine production completion
+Zombie vaccine development scenario
 
-**Unlock Requirement** Complete Map 3
+**Story Opening**
 
-**Strategic Significance** Ultimate challenge with highest stakes
+*"Hey captain, we finally found the vaccine against the zombies, but it will take 100 days to produce it. Can we survive that long?"*
 
-**Environmental Challenges** Complex facility layout with multiple defensive zones
+**Survival Objective**
 
-**Narrative Weight** Final story resolution and cure for zombie apocalypse
+100 days until vaccine production completion
 
-**Environmental Design Elements:**Grid System Integration- **Main Grid Zone:** Primary building placement area with optimal spacing
+**Unlock Requirement**
 
-**Farm Grid Zone** Specialized agricultural areas for food production
+Complete Map 3
 
-**Defensive Zones** Strategic positions for soldier and wall placement
+**Strategic Significance**
 
-**Natural Obstacles** Environmental features affecting zombie pathfinding
+Ultimate challenge with highest stakes
 
-**Visual & Atmospheric Design:**
+**Environmental Challenges**
 
-**Thematic Consistency** Each map reflects its narrative context through environmental details
+Complex facility layout with multiple defensive zones
 
-**Tactical Clarity** Clear visual distinction between different zone types and placement areas
+**Narrative Weight**
 
-**Atmospheric Enhancement** Environmental effects and details reinforce apocalyptic setting
+Final story resolution and cure for zombie apocalypse
 
-**Strategic Readability** Easy identification of defensive opportunities and challenges
+##### Environmental Design Elements
+
+Grid System Integration- **Main Grid Zone:**  Primary building placement area with optimal spacing
+
+**Farm Grid Zone**
+
+Specialized agricultural areas for food production
+
+**Defensive Zones**
+
+Strategic positions for soldier and wall placement
+
+**Natural Obstacles**
+
+Environmental features affecting zombie pathfinding
+
+#### Visual & Atmospheric Design:
+
+**Thematic Consistency**
+
+Each map reflects its narrative context through environmental details
+
+**Tactical Clarity**
+
+Clear visual distinction between different zone types and placement areas
+
+**Atmospheric Enhancement**
+
+Environmental effects and details reinforce apocalyptic setting
+
+**Strategic Readability**
+
+Easy identification of defensive opportunities and challenges
 
 **Progressive Difficulty Integration:**
 
-**Environmental Complexity** Later maps feature more challenging terrain and layout constraints
+**Environmental Complexity**
 
-**Defensive Opportunities** Advanced maps provide unique defensive advantages and obstacles
+Later maps feature more challenging terrain and layout constraints
 
-**Tactical Variety** Each map requires different strategic approaches and defensive strategies
+**Defensive Opportunities**
 
-**Narrative Escalation** Environmental stakes increase with story progression
+Advanced maps provide unique defensive advantages and obstacles
+
+**Tactical Variety**
+
+Each map requires different strategic approaches and defensive strategies
+
+**Narrative Escalation**
+
+Environmental stakes increase with story progression
 
 ### 6.5 Narrative & Story Elements
 
 City Defense Z elevates the tower defense genre through compelling story-driven progression that transforms mechanical survival into emotionally meaningful objectives, delivered through authentic military communications and character development.
 
-**Narrative Delivery Framework:**Walkie-Talkie Communication System- **Authentic Military Style:** Realistic radio communications with static and military terminology
+#### Narrative Delivery Framework
 
-**Story Integration** Key narrative beats delivered through base communications
+Walkie-Talkie Communication System- **Authentic Military Style:**  Realistic radio communications with static and military terminology
 
-**Immersive Presentation** Voice acting with radio effects and ambient military atmosphere
+**Story Integration**
 
-**Contextual Timing** Story elements triggered by gameplay progression and day milestones
+Key narrative beats delivered through base communications
 
-**Global Context & World-Building:**News Ticker SystemA continuous atmospheric element that reinforces the global scale of the zombie apocalypse while providing immersive world-building without interrupting gameplay flow.
+**Immersive Presentation**
+
+Voice acting with radio effects and ambient military atmosphere
+
+**Contextual Timing**
+
+Story elements triggered by gameplay progression and day milestones
+
+**Global Context & World-Building**
+
+News Ticker SystemA continuous atmospheric element that reinforces the global scale of the zombie apocalypse while providing immersive world-building without interrupting gameplay flow.
 
 **Implementation:**
 
-**Visual Presentation** Scrolling news headlines across the top interface
+**Visual Presentation**
 
-**Content Examples** - "Zombies started to be seen in Antarctica as well"
+Scrolling news headlines across the top interface
+
+##### Content Examples
+
+- "Zombies started to be seen in Antarctica as well"
 
   - "Military forces report coordinated zombie behavior in Eastern Europe"
   - "Scientists warn of accelerated infection rates in major population centers"
@@ -2707,113 +4774,203 @@ City Defense Z elevates the tower defense genre through compelling story-driven 
 
 **World-Building Benefits:**
 
-**Global Scope** Reinforces worldwide catastrophe beyond player's immediate survival
+**Global Scope**
 
-**Emotional Weight** Creates sense of participating in humanity's survival struggle
+Reinforces worldwide catastrophe beyond player's immediate survival
 
-**Atmospheric Immersion** Mimics realistic emergency broadcast monitoring during crisis
+**Emotional Weight**
 
-**Narrative Context** Provides backstory without explicit exposition interruption
+Creates sense of participating in humanity's survival struggle
+
+**Atmospheric Immersion**
+
+Mimics realistic emergency broadcast monitoring during crisis
+
+**Narrative Context**
+
+Provides backstory without explicit exposition interruption
 
 **Map-Specific Story Arcs:**
 
 **Map 1: Emergency Evacuation**
 
-**Opening Scenario** Emergency plane crash forces immediate base establishment
+**Opening Scenario**
 
-**Central Conflict** Survival during aircraft repair operations
+Emergency plane crash forces immediate base establishment
 
-**Story Progression** Daily updates on repair progress and surrounding threats
+**Central Conflict**
 
-**Climactic Resolution** Choice between evacuation or continued defense
+Survival during aircraft repair operations
 
-**Character Development** Team bonds under emergency conditions
+**Story Progression**
 
-**Thematic Focus** Survival, teamwork, and escape from overwhelming odds
+Daily updates on repair progress and surrounding threats
+
+**Climactic Resolution**
+
+Choice between evacuation or continued defense
+
+**Character Development**
+
+Team bonds under emergency conditions
+
+**Thematic Focus**
+
+Survival, teamwork, and escape from overwhelming odds
 
 **Map 4: The Cure (Final Chapter)**
 
-**Opening Scenario** Discovery of zombie vaccine development opportunity
+**Opening Scenario**
 
-**Central Conflict** Protecting vaccine production for 100 days
+Discovery of zombie vaccine development opportunity
 
-**Story Progression** Research updates, scientific challenges, and escalating zombie threats
+**Central Conflict**
 
-**Ultimate Stakes** Humanity's potential cure vs overwhelming zombie evolution
+Protecting vaccine production for 100 days
 
-**Character Development** Team dedication to ultimate sacrifice for humanity's future
+**Story Progression**
 
-**Thematic Focus** Hope, sacrifice, and humanity's potential redemption
+Research updates, scientific challenges, and escalating zombie threats
 
-**Character-Driven Narrative Elements:**NPC Personality & DevelopmentEach NPC type provides distinct narrative perspectives and character development opportunities:
+**Ultimate Stakes**
+
+Humanity's potential cure vs overwhelming zombie evolution
+
+**Character Development**
+
+Team dedication to ultimate sacrifice for humanity's future
+
+**Thematic Focus**
+
+Hope, sacrifice, and humanity's potential redemption
+
+**Character-Driven Narrative Elements**
+
+NPC Personality & DevelopmentEach NPC type provides distinct narrative perspectives and character development opportunities:
 
 **Scientist NPC Narrative Role:**
 
-**Perspective** Scientific analysis and research progress updates
+**Perspective**
 
-**Character Arc** From academic theory to practical survival application
+Scientific analysis and research progress updates
 
-**Dialogue Themes** Research discoveries, scientific challenges, hope through knowledge
+**Character Arc**
 
-**Story Function** Provides exposition about zombie behavior and cure development
+From academic theory to practical survival application
+
+**Dialogue Themes**
+
+Research discoveries, scientific challenges, hope through knowledge
+
+##### Story Function
+
+Provides exposition about zombie behavior and cure development
 
 **Military Expert NPC Narrative Role:**
 
-**Perspective** Tactical analysis and strategic military assessment
+**Perspective**
 
-**Character Arc** From standard military protocol to apocalypse survival adaptation
+Tactical analysis and strategic military assessment
 
-**Dialogue Themes** Combat effectiveness, strategic planning, military honor
+**Character Arc**
 
-**Story Function** Reinforces military atmosphere and tactical authenticity
+From standard military protocol to apocalypse survival adaptation
+
+**Dialogue Themes**
+
+Combat effectiveness, strategic planning, military honor
+
+##### Story Function
+
+Reinforces military atmosphere and tactical authenticity
 
 **Farmer NPC Narrative Role:**
 
-**Perspective** Practical survival and resource management focus
+**Perspective**
 
-**Character Arc** From agricultural routine to survival agriculture expertise
+Practical survival and resource management focus
 
-**Dialogue Themes** Food security, base sustainability, practical survival wisdom
+**Character Arc**
 
-**Story Function** Grounds story in practical survival necessities
+From agricultural routine to survival agriculture expertise
+
+**Dialogue Themes**
+
+Food security, base sustainability, practical survival wisdom
+
+##### Story Function
+
+Grounds story in practical survival necessities
 
 **Guerrilla NPC Narrative Role:**
 
-**Perspective** Exploration, reconnaissance, and external world knowledge
+**Perspective**
 
-**Character Arc** From independent survivor to team expedition specialist
+Exploration, reconnaissance, and external world knowledge
 
-**Dialogue Themes** Outside world conditions, exploration discoveries, survival tactics
+**Character Arc**
 
-**Story Function** Provides connection to broader world beyond base defense
+From independent survivor to team expedition specialist
 
-**Emotional Investment Mechanics:**Relationship Building- **Interactive Dialogue:** Regular NPC conversations develop player attachment
+**Dialogue Themes**
 
-**Shared Experiences** Surviving challenges together creates narrative bonds
+Outside world conditions, exploration discoveries, survival tactics
 
-**Loss Consequences** NPC death during expeditions creates genuine story impact
+##### Story Function
 
-**Community Building** Multiple NPCs create dynamic interpersonal base relationships
+Provides connection to broader world beyond base defense
+
+#### Emotional Investment Mechanics
+
+Relationship Building- **Interactive Dialogue:**  Regular NPC conversations develop player attachment
+
+##### Shared Experiences
+
+Surviving challenges together creates narrative bonds
+
+**Loss Consequences**
+
+NPC death during expeditions creates genuine story impact
+
+**Community Building**
+
+Multiple NPCs create dynamic interpersonal base relationships
 
 **Player Agency & Choice:**
 
-**NPC Selection** Meaningful choices in companion recruitment affect story direction
+**NPC Selection**
 
-**Expedition Decisions** Risk/reward choices create personal investment in character survival
+Meaningful choices in companion recruitment affect story direction
 
-**Map Progression** Choice between completion and continuation maintains player control
+**Expedition Decisions**
 
-**Strategic Customization** Upgrade paths allow personalized narrative experience
+Risk/reward choices create personal investment in character survival
+
+**Map Progression**
+
+Choice between completion and continuation maintains player control
+
+**Strategic Customization**
+
+Upgrade paths allow personalized narrative experience
 
 **Thematic Coherence:**
 
-**Survival Horror** Constant threat maintains tension while allowing hope
+**Survival Horror**
 
-**Military Realism** Authentic military communications and procedures
+Constant threat maintains tension while allowing hope
 
-**Human Connection** Character relationships provide emotional anchor amid chaos
+**Military Realism**
 
-**Ultimate Hope** Cure storyline provides meaningful end goal beyond simple survival
+Authentic military communications and procedures
+
+**Human Connection**
+
+Character relationships provide emotional anchor amid chaos
+
+**Ultimate Hope**
+
+Cure storyline provides meaningful end goal beyond simple survival
 
 ---
 
@@ -2823,454 +4980,832 @@ City Defense Z elevates the tower defense genre through compelling story-driven 
 
 City Defense Z's user interface design prioritizes clarity, efficiency, and thematic consistency to support fast-paced strategic decision-making while maintaining atmospheric immersion in the military apocalypse setting.
 
-**Core UI Design Philosophy:**
+#### Core UI Design Philosophy:
 
-**"Information at a Glance"**:
+**"Information at a Glance"**
 
-**Instant Recognition** Critical game information accessible through quick visual scanning
+:
 
-**Minimal Cognitive Load** Interface elements reduce mental processing time during high-pressure moments
+**Instant Recognition**
 
-**Priority Hierarchy** Most important information prominently displayed, secondary information easily accessible
+Critical game information accessible through quick visual scanning
 
-**Context Sensitivity** Interface adapts to current game phase and player needs
+**Minimal Cognitive Load**
 
-**"Functional Clarity Over Visual Complexity"**:
+Interface elements reduce mental processing time during high-pressure moments
 
-**Purpose-Driven Design** Every interface element serves a clear functional purpose
+**Priority Hierarchy**
 
-**Visual Noise Reduction** Unnecessary decorative elements minimized to prevent distraction
+Most important information prominently displayed, secondary information easily accessible
 
-**Consistent Iconography** Universal symbols and color coding across all interface systems
+**Context Sensitivity**
 
-**Readable Typography** Clear, legible fonts optimized for various screen sizes and resolutions
+Interface adapts to current game phase and player needs
 
-**"Thematic Integration"**:
+##### "Functional Clarity Over Visual Complexity"
 
-**Military Aesthetic** Interface design reinforces post-apocalyptic military command center atmosphere
+:
 
-**Authentic Feel** UI elements styled to feel like real military equipment and tactical displays
+##### Purpose-Driven Design
 
-**Atmospheric Consistency** Interface supports narrative immersion without breaking player focus
+Every interface element serves a clear functional purpose
 
-**Color Palette** Muted military colors (grays, greens, amber) with high-contrast elements for critical information
+**Visual Noise Reduction**
 
-**Design Principles:**Accessibility & Inclusivity- **Color-Blind Support:** Important information conveyed through multiple visual channels (color + shape + text)
+Unnecessary decorative elements minimized to prevent distraction
 
-**Scalable Elements** Interface elements scalable for different screen sizes and visual needs
+**Consistent Iconography**
 
-**Clear Contrast** High contrast ratios for text readability and element distinction
+Universal symbols and color coding across all interface systems
 
-**Consistent Layouts** Predictable interface organization reduces learning curve
+**Readable Typography**
+
+Clear, legible fonts optimized for various screen sizes and resolutions
+
+**"Thematic Integration"**
+
+:
+
+**Military Aesthetic**
+
+Interface design reinforces post-apocalyptic military command center atmosphere
+
+**Authentic Feel**
+
+UI elements styled to feel like real military equipment and tactical displays
+
+**Atmospheric Consistency**
+
+Interface supports narrative immersion without breaking player focus
+
+**Color Palette**
+
+Muted military colors (grays, greens, amber) with high-contrast elements for critical information
+
+##### Design Principles
+
+Accessibility & Inclusivity- **Color-Blind Support:**  Important information conveyed through multiple visual channels (color + shape + text)
+
+**Scalable Elements**
+
+Interface elements scalable for different screen sizes and visual needs
+
+**Clear Contrast**
+
+High contrast ratios for text readability and element distinction
+
+**Consistent Layouts**
+
+Predictable interface organization reduces learning curve
 
 **Efficiency & Speed:**
 
-**Single-Click Actions** Most common actions accessible with single interaction
+**Single-Click Actions**
 
-**Contextual Menus** Right-click or long-press context menus for advanced options
+Most common actions accessible with single interaction
 
-**Hotkey Support** Keyboard shortcuts for experienced players (PC platform)
+**Contextual Menus**
 
-**Touch Optimization** Mobile interface optimized for finger interaction and gesture control
+Right-click or long-press context menus for advanced options
+
+**Hotkey Support**
+
+Keyboard shortcuts for experienced players (PC platform)
+
+**Touch Optimization**
+
+Mobile interface optimized for finger interaction and gesture control
 
 **Error Prevention & Recovery:**
 
-**Clear Feedback** Immediate visual and audio confirmation for all player actions
+**Clear Feedback**
 
-**Undo Capabilities** Where possible, allow players to reverse accidental actions
+Immediate visual and audio confirmation for all player actions
 
-**Confirmation Dialogs** Destructive actions require explicit confirmation
+**Undo Capabilities**
 
-**Visual States** Clear indication of interactive vs non-interactive elements
+Where possible, allow players to reverse accidental actions
+
+**Confirmation Dialogs**
+
+Destructive actions require explicit confirmation
+
+**Visual States**
+
+Clear indication of interactive vs non-interactive elements
 
 ### 7.2 HUD & In-Game Interface
 
 The in-game HUD provides comprehensive game state information while maintaining clean visual presentation that doesn't obstruct the core gameplay view.
 
-**Top Interface Bar:**Primary Information Display- **Day Counter:** Current day prominently displayed (e.g., "Day 12")
+**Top Interface Bar**
 
-**Phase Indicator** Dynamic sun/moon icon with circular progress bar showing time remaining in current phase
+Primary Information Display- **Day Counter:**  Current day prominently displayed (e.g., "Day 12")
 
-**Game Speed Controls** Pause, 1x, 2x, 3x speed buttons for player pacing control
+##### Phase Indicator
 
-**Manual Phase Control** "End Day" button for immediate transition to night phase
+Dynamic sun/moon icon with circular progress bar showing time remaining in current phase
 
-**Base Health** Large, prominent health percentage display (0-100%) with color-coded visual bar
+**Game Speed Controls**
+
+Pause, 1x, 2x, 3x speed buttons for player pacing control
+
+##### Manual Phase Control
+
+"End Day" button for immediate transition to night phase
+
+**Base Health**
+
+Large, prominent health percentage display (0-100%) with color-coded visual bar
 
 **Resource Panel:**
 
-**Currency Display** All five resource types shown with current quantities:
+##### Currency Display
+
+All five resource types shown with current quantities:
 
   
-**Resource** Factory icon + number
+**Resource**
+
+Factory icon + number
 
   
-**Ammunition** Bullet icon + number
+**Ammunition**
+
+Bullet icon + number
 
   
-**Food** Grain/apple icon + number
+**Food**
+
+Grain/apple icon + number
 
   
-**Population** Person icon + current/maximum (e.g., "15/20")
+**Population**
+
+Person icon + current/maximum (e.g., "15/20")
 
   
-**Research Points** Laboratory flask icon + number
+**Research Points**
 
-**Visual Indicators** Color-coded resource sufficiency (green = adequate, yellow = low, red = critical)
+Laboratory flask icon + number
 
-**Trend Arrows** Small indicators showing resource generation/consumption trends
+**Visual Indicators**
 
-**News Ticker System:**
+Color-coded resource sufficiency (green = adequate, yellow = low, red = critical)
 
-**Scrolling Headlines** Continuous horizontal scroll of apocalypse-related news
+**Trend Arrows**
 
-**Atmospheric Content** Global zombie situation updates without gameplay distraction
+Small indicators showing resource generation/consumption trends
 
-**Visual Design** Military-style ticker tape aesthetic with amber text on dark background
+#### News Ticker System:
 
-**Information Density** Concise headlines that enhance world-building
+**Scrolling Headlines**
 
-**Card Selection Interface:**Building Card Presentation- **Three-Card Layout:** Daily building cards displayed horizontally across bottom interface
+Continuous horizontal scroll of apocalypse-related news
 
-**Visual Design** Military-style card aesthetic with color-coded building types:
+##### Atmospheric Content
+
+Global zombie situation updates without gameplay distraction
+
+##### Visual Design
+
+Military-style ticker tape aesthetic with amber text on dark background
+
+**Information Density**
+
+Concise headlines that enhance world-building
+
+**Card Selection Interface**
+
+Building Card Presentation- **Three-Card Layout:**  Daily building cards displayed horizontally across bottom interface
+
+##### Visual Design
+
+Military-style card aesthetic with color-coded building types:
 
   - Factory (Yellow/Green), Ammunition (Gray), Barracks (Orange/Red), Laboratory (Blue), House (Brown), Farm (Green)
 
-**Cost Display** Resource cost prominently shown on each card
+**Cost Display**
 
-**Reroll System** Reroll button with remaining count indicator
+Resource cost prominently shown on each card
 
-**Card States** Visual distinction between affordable and unaffordable cards
+#### Reroll System
 
-**Placement System:**
+Reroll button with remaining count indicator
 
-**Grid Visualization** White tiles indicate valid placement locations
+**Card States**
 
-**Preview System** Hover/touch preview showing building placement before confirmation
+Visual distinction between affordable and unaffordable cards
 
-**Placement Feedback** Immediate visual confirmation when building is successfully placed
+#### Placement System:
 
-**Error Indication** Clear feedback when placement is invalid (insufficient resources, invalid location)
+**Grid Visualization**
 
-**Combat Phase Interface:**Boost Management- **Boost Inventory:** Bottom interface shows collected boosts with remaining duration timers
+White tiles indicate valid placement locations
 
-**AoE Targeting** Clash of Clans-style circular targeting system for boost deployment
+#### Preview System
 
-**Collection Indicators** Bright, attention-grabbing visuals for dropped boosts with countdown timers
+Hover/touch preview showing building placement before confirmation
 
-**Usage Feedback** Clear visual effects when boosts are successfully applied
+**Placement Feedback**
 
-**Airstrike System:**
+Immediate visual confirmation when building is successfully placed
 
-**Aircraft Selection** Bottom panel displays available aircraft with ammunition costs
+**Error Indication**
 
-**Targeting Interface** Click-to-target system with visual range indicators
+Clear feedback when placement is invalid (insufficient resources, invalid location)
 
-**Confirmation System** Preview of strike area before final confirmation
+##### Combat Phase Interface
 
-**Cooldown Timers** Visual indicators for airstrike availability and recharge times
+Boost Management- **Boost Inventory:**  Bottom interface shows collected boosts with remaining duration timers
+
+**AoE Targeting**
+
+Clash of Clans-style circular targeting system for boost deployment
+
+##### Collection Indicators
+
+Bright, attention-grabbing visuals for dropped boosts with countdown timers
+
+**Usage Feedback**
+
+Clear visual effects when boosts are successfully applied
+
+#### Airstrike System:
+
+**Aircraft Selection**
+
+Bottom panel displays available aircraft with ammunition costs
+
+**Targeting Interface**
+
+Click-to-target system with visual range indicators
+
+#### Confirmation System
+
+Preview of strike area before final confirmation
+
+**Cooldown Timers**
+
+Visual indicators for airstrike availability and recharge times
 
 **Emergency Response Elements:**
 
-**Zombie Hole Indicators** Bright red crack visuals with pulsing animations
+**Zombie Hole Indicators**
 
-**Tap Counter** Visual feedback showing progress toward hole sealing (1/5, 2/5, etc.)
+Bright red crack visuals with pulsing animations
 
-**Urgency Communication** Screen edge alerts and audio cues for new zombie holes
+**Tap Counter**
+
+Visual feedback showing progress toward hole sealing (1/5, 2/5, etc.)
+
+**Urgency Communication**
+
+Screen edge alerts and audio cues for new zombie holes
 
 ### 7.3 Menu System & Navigation
 
 Clean, intuitive menu design emphasizing functionality and thematic consistency while providing comprehensive game options and progression tracking.
 
-**Main Menu Design:**Primary Navigation- **Continue:** Resume most recent run with save state preview
+##### Main Menu Design
 
-**New Game** Start fresh run with map selection interface
+Primary Navigation- **Continue:**  Resume most recent run with save state preview
 
-**Base Upgrades** Access meta progression and research point investment
+**New Game**
 
-**Settings** Comprehensive options for audio, video, and control customization
+Start fresh run with map selection interface
 
-**Exit** Clean game termination with save confirmation
+**Base Upgrades**
 
-**Visual Design:**
+Access meta progression and research point investment
 
-**Logo Presentation** Professional City Defense Z logo with military aesthetic
+**Settings**
 
-**Background Atmosphere** Subtle animated background suggesting post-apocalyptic military base
+Comprehensive options for audio, video, and control customization
 
-**Button Styling** Military-themed button design with clear hover/selection states
+**Exit**
 
-**Platform Integration** Steam wishlist functionality and social media links
+Clean game termination with save confirmation
 
-**Map Selection Interface:**"Choose the City to Save"- **Geographic Presentation:** Map selection framed as choosing deployment location
+#### Visual Design:
 
-**Progressive Unlocks** Visual distinction between available and locked maps
+**Logo Presentation**
 
-**Map Previews** Environmental screenshots or concept art for each location
+Professional City Defense Z logo with military aesthetic
 
-**Objective Display** Clear survival goals and story context for each map
+**Background Atmosphere**
 
-**Progress Tracking** Show best survival records and completion status
+Subtle animated background suggesting post-apocalyptic military base
+
+**Button Styling**
+
+Military-themed button design with clear hover/selection states
+
+**Platform Integration**
+
+Steam wishlist functionality and social media links
+
+**Map Selection Interface**
+
+"Choose the City to Save"- **Geographic Presentation:**  Map selection framed as choosing deployment location
+
+**Progressive Unlocks**
+
+Visual distinction between available and locked maps
+
+**Map Previews**
+
+Environmental screenshots or concept art for each location
+
+**Objective Display**
+
+Clear survival goals and story context for each map
+
+**Progress Tracking**
+
+Show best survival records and completion status
 
 **Map Options:**
 
-**Map 1 - Nevada** Available from start, desert emergency base theme
+**Map 1 - Nevada**
 
-**Map 2 - [Urban Location]** Locked until Map 1 completion (50 days)
+Available from start, desert emergency base theme
 
-**Map 3 - [Industrial Location]** Locked until Map 2 completion (75 days)
+**Map 2 - [Urban Location]**
 
-**Map 4 - Final Laboratory** Locked until Map 3 completion, vaccine development theme
+Locked until Map 1 completion (50 days)
 
-**Base Upgrade Interface:**Research Point Investment- **Upgrade Tree Visualization:** Clear tree structure showing 11 major upgrade categories
+**Map 3 - [Industrial Location]**
 
-**Progress Tracking** Visual indicators showing completed vs available upgrades
+Locked until Map 2 completion (75 days)
 
-**Cost Display** Research point costs prominently displayed for each upgrade
+**Map 4 - Final Laboratory**
 
-**Effect Descriptions** Detailed tooltips explaining upgrade benefits and strategic impact
+Locked until Map 3 completion, vaccine development theme
 
-**Investment Confirmation** Clear confirmation dialogs for expensive upgrade purchases
+**Base Upgrade Interface**
 
-**NPC Management:**
+Research Point Investment- **Upgrade Tree Visualization:**  Clear tree structure showing 11 major upgrade categories
 
-**Current NPCs** Visual display of recruited NPCs with specialization indicators
+**Progress Tracking**
 
-**Expedition Tracking** Countdown timers and status updates for NPCs on expeditions
+Visual indicators showing completed vs available upgrades
 
-**Dialogue Access** Click NPCs to trigger random dialogue interactions
+**Cost Display**
 
-**Relationship Indicators** Visual representation of NPC relationships and base community
+Research point costs prominently displayed for each upgrade
 
-**Settings & Options:**Comprehensive Customization- **Audio Settings:** Master volume, music, sound effects, voice volume controls
+**Effect Descriptions**
 
-**Video Settings** Resolution, fullscreen/windowed, graphics quality presets
+Detailed tooltips explaining upgrade benefits and strategic impact
 
-**Control Settings** Keybinding customization, mouse sensitivity, touch sensitivity (mobile)
+**Investment Confirmation**
 
-**Accessibility Options** Colorblind support, font size scaling, audio cues enhancement
+Clear confirmation dialogs for expensive upgrade purchases
 
-**Language Selection** Multiple language support for UI and audio
+#### NPC Management:
+
+**Current NPCs**
+
+Visual display of recruited NPCs with specialization indicators
+
+**Expedition Tracking**
+
+Countdown timers and status updates for NPCs on expeditions
+
+**Dialogue Access**
+
+Click NPCs to trigger random dialogue interactions
+
+**Relationship Indicators**
+
+Visual representation of NPC relationships and base community
+
+**Settings & Options**
+
+Comprehensive Customization- **Audio Settings:**  Master volume, music, sound effects, voice volume controls
+
+**Video Settings**
+
+Resolution, fullscreen/windowed, graphics quality presets
+
+**Control Settings**
+
+Keybinding customization, mouse sensitivity, touch sensitivity (mobile)
+
+**Accessibility Options**
+
+Colorblind support, font size scaling, audio cues enhancement
+
+**Language Selection**
+
+Multiple language support for UI and audio
 
 ### 7.4 Control Scheme
 
 Intuitive control systems optimized for both PC and mobile platforms, prioritizing efficiency and accessibility while supporting the game's strategic depth.
 
-**PC Platform Controls:**Mouse & Keyboard Primary- **Left Click:** Primary selection and placement action
+**PC Platform Controls**
 
-**Right Click** Context menus and alternative actions
+Mouse & Keyboard Primary- **Left Click:**  Primary selection and placement action
 
-**Mouse Wheel** Zoom in/out for battlefield overview
+**Right Click**
 
-**Space Bar** Pause/unpause gameplay
+Context menus and alternative actions
 
-**Number Keys (1-4)** Quick speed control (1=pause, 2=1x, 3=2x, 4=3x)
+**Mouse Wheel**
 
-**Tab** Toggle between day/night phase (when available)
+Zoom in/out for battlefield overview
 
-**R Key** Reroll building cards (when rerolls available)
+**Space Bar**
+
+Pause/unpause gameplay
+
+**Number Keys (1-4)**
+
+Quick speed control (1=pause, 2=1x, 3=2x, 4=3x)
+
+**Tab**
+
+Toggle between day/night phase (when available)
+
+**R Key**
+
+Reroll building cards (when rerolls available)
 
 **Strategic Shortcuts:**
 
-**WASD** Camera pan for large battlefield navigation
+**WASD**
 
-**Shift+Click** Multi-select for batch operations
+Camera pan for large battlefield navigation
 
-**Ctrl+Click** Force actions (override confirmations)
+**Shift+Click**
 
-**F1-F4** Quick access to specific interface panels
+Multi-select for batch operations
 
-**Escape** Open pause menu or cancel current action
+**Ctrl+Click**
+
+Force actions (override confirmations)
+
+**F1-F4**
+
+Quick access to specific interface panels
+
+**Escape**
+
+Open pause menu or cancel current action
 
 **Building & Placement:**
 
-**Click Card → Click Grid** Two-step building placement system
+**Click Card → Click Grid**
 
-**Drag & Drop** Alternative placement method for experienced players
+Two-step building placement system
 
-**Hover Preview** Real-time placement preview before confirmation
+**Drag & Drop**
 
-**Rotation (R)** Building rotation where applicable
+Alternative placement method for experienced players
+
+**Hover Preview**
+
+Real-time placement preview before confirmation
+
+**Rotation (R)**
+
+Building rotation where applicable
 
 **Combat Controls:**
 
-**Click Boost → Click Target** Boost deployment system
+**Click Boost → Click Target**
 
-**Click & Drag** AoE targeting for boosts and airstrikes
+Boost deployment system
 
-**Rapid Click** Zombie hole sealing (5 clicks required)
+**Click & Drag**
 
-**Hold Shift** Precision targeting mode
+AoE targeting for boosts and airstrikes
 
-**Mobile Platform Controls:**Touch Interface Optimization- **Tap:** Primary selection and action
+**Rapid Click**
 
-**Long Press** Context menus and detailed information
+Zombie hole sealing (5 clicks required)
 
-**Pinch Zoom** Battlefield zoom for strategic overview
+**Hold Shift**
 
-**Two-Finger Drag** Camera panning
+Precision targeting mode
 
-**Double Tap** Quick confirmation actions
+**Mobile Platform Controls**
+
+Touch Interface Optimization- **Tap:**  Primary selection and action
+
+**Long Press**
+
+Context menus and detailed information
+
+**Pinch Zoom**
+
+Battlefield zoom for strategic overview
+
+**Two-Finger Drag**
+
+Camera panning
+
+**Double Tap**
+
+Quick confirmation actions
 
 **Gesture Controls:**
 
-**Swipe Up** Open/close resource panel
+**Swipe Up**
 
-**Swipe Down** Access settings menu
+Open/close resource panel
 
-**Swipe Left/Right** Quick speed control cycling
+**Swipe Down**
 
-**Three-Finger Tap** Emergency pause
+Access settings menu
+
+**Swipe Left/Right**
+
+Quick speed control cycling
+
+**Three-Finger Tap**
+
+Emergency pause
 
 **Touch-Optimized Elements:**
 
-**Larger Touch Targets** Interface elements sized for finger interaction
+**Larger Touch Targets**
 
-**Visual Touch Feedback** Clear visual response to all touch interactions
+Interface elements sized for finger interaction
 
-**Gesture Tutorials** In-game tutorials for mobile-specific controls
+**Visual Touch Feedback**
 
-**Haptic Feedback** Vibration confirmation for critical actions (where supported)
+Clear visual response to all touch interactions
 
-**Universal Control Principles:**Accessibility Features- **Customizable Controls:** Remappable keys and adjustable touch sensitivity
+**Gesture Tutorials**
 
-**One-Handed Mode** Alternative layouts for mobile accessibility
+In-game tutorials for mobile-specific controls
 
-**Voice Commands** Optional voice control for basic actions (future feature)
+**Haptic Feedback**
 
-**Eye Tracking Support** Advanced accessibility for specialized hardware
+Vibration confirmation for critical actions (where supported)
+
+**Universal Control Principles**
+
+Accessibility Features- **Customizable Controls:**  Remappable keys and adjustable touch sensitivity
+
+**One-Handed Mode**
+
+Alternative layouts for mobile accessibility
+
+**Voice Commands**
+
+Optional voice control for basic actions (future feature)
+
+**Eye Tracking Support**
+
+Advanced accessibility for specialized hardware
 
 **Error Prevention:**
 
-**Confirmation Dialogs** Destructive actions require explicit confirmation
+**Confirmation Dialogs**
 
-**Undo System** Limited undo functionality for placement mistakes
+Destructive actions require explicit confirmation
 
-**Visual Feedback** Clear indication of valid vs invalid actions
+#### Undo System
 
-**Progressive Disclosure** Advanced controls hidden until needed
+Limited undo functionality for placement mistakes
+
+**Visual Feedback**
+
+Clear indication of valid vs invalid actions
+
+**Progressive Disclosure**
+
+Advanced controls hidden until needed
 
 ### 7.5 Accessibility Features
 
 Comprehensive accessibility support ensuring City Defense Z is playable by diverse audiences with varying needs and abilities.
 
-**Visual Accessibility:**Colorblind Support- **Multi-Channel Information:** Critical information conveyed through color, shape, AND text/icons
+**Visual Accessibility**
 
-**Colorblind-Friendly Palette** Interface colors tested for deuteranopia, protanopia, and tritanopia
+Colorblind Support- **Multi-Channel Information:**  Critical information conveyed through color, shape, AND text/icons
 
-**Pattern Alternatives** Distinct patterns and textures supplement color coding
+**Colorblind-Friendly Palette**
 
-**High Contrast Mode** Optional high-contrast interface for improved visibility
+Interface colors tested for deuteranopia, protanopia, and tritanopia
+
+**Pattern Alternatives**
+
+Distinct patterns and textures supplement color coding
+
+**High Contrast Mode**
+
+Optional high-contrast interface for improved visibility
 
 **Low Vision Support:**
 
-**Scalable UI** Interface elements scalable from 100% to 200% size
+**Scalable UI**
 
-**Font Customization** Adjustable font sizes with dyslexia-friendly font options
+Interface elements scalable from 100% to 200% size
 
-**Screen Reader Compatibility** Interface elements properly labeled for screen reader software
+**Font Customization**
 
-**Magnification Support** Built-in zoom functionality with screen following
+Adjustable font sizes with dyslexia-friendly font options
+
+**Screen Reader Compatibility**
+
+Interface elements properly labeled for screen reader software
+
+**Magnification Support**
+
+Built-in zoom functionality with screen following
 
 **Visual Clarity Enhancements:**
 
-**Motion Reduction** Optional reduced animation mode for motion sensitivity
+**Motion Reduction**
 
-**Flash Reduction** Minimized flashing effects with seizure consideration
+Optional reduced animation mode for motion sensitivity
 
-**Focus Indicators** Clear visual focus indicators for keyboard navigation
+**Flash Reduction**
 
-**Consistent Layouts** Predictable interface organization reduces cognitive load
+Minimized flashing effects with seizure consideration
 
-**Audio Accessibility:**Hearing Impairment Support- **Visual Audio Cues:** Important audio information displayed as visual indicators
+**Focus Indicators**
 
-**Subtitle System** All dialogue and important audio effects subtitled
+Clear visual focus indicators for keyboard navigation
 
-**Visual Feedback** Screen effects and interface elements provide audio feedback alternatives
+**Consistent Layouts**
 
-**Vibration Alerts** Mobile platform uses haptic feedback for audio cues
+Predictable interface organization reduces cognitive load
+
+**Audio Accessibility**
+
+Hearing Impairment Support- **Visual Audio Cues:**  Important audio information displayed as visual indicators
+
+#### Subtitle System
+
+All dialogue and important audio effects subtitled
+
+**Visual Feedback**
+
+Screen effects and interface elements provide audio feedback alternatives
+
+**Vibration Alerts**
+
+Mobile platform uses haptic feedback for audio cues
 
 **Audio Customization:**
 
-**Individual Volume Controls** Separate sliders for music, effects, voice, and UI sounds
+**Individual Volume Controls**
 
-**Audio Descriptions** Optional audio descriptions for visual events
+Separate sliders for music, effects, voice, and UI sounds
 
-**Sound Replacement** Custom sound pack support for personal audio preferences
+**Audio Descriptions**
 
-**Frequency Adjustment** Audio frequency filtering for hearing aid compatibility
+Optional audio descriptions for visual events
 
-**Motor Accessibility:**Alternative Input Methods- **Single-Switch Support:** Gameplay possible with single button/key input
+**Sound Replacement**
 
-**Adjustable Timing** Customizable timing requirements for time-sensitive actions
+Custom sound pack support for personal audio preferences
 
-**Hold/Toggle Options** Choice between hold and toggle for sustained actions
+**Frequency Adjustment**
 
-**Simplified Controls** Optional simplified control schemes reducing required inputs
+Audio frequency filtering for hearing aid compatibility
+
+**Motor Accessibility**
+
+Alternative Input Methods- **Single-Switch Support:**  Gameplay possible with single button/key input
+
+**Adjustable Timing**
+
+Customizable timing requirements for time-sensitive actions
+
+**Hold/Toggle Options**
+
+Choice between hold and toggle for sustained actions
+
+**Simplified Controls**
+
+Optional simplified control schemes reducing required inputs
 
 **Customization Options:**
 
-**Input Remapping** Full keyboard and controller remapping support
+**Input Remapping**
 
-**Sensitivity Adjustment** Mouse/touch sensitivity customization
+Full keyboard and controller remapping support
 
-**Auto-Actions** Optional automation for repetitive actions
+**Sensitivity Adjustment**
 
-**Pause-Anytime** Ability to pause during any game phase for breaks
+Mouse/touch sensitivity customization
 
-**Cognitive Accessibility:**Information Management- **Tutorial Replay:** Ability to replay tutorial sections at any time
+**Auto-Actions**
 
-**Context Help** In-game help system with situation-specific guidance
+Optional automation for repetitive actions
 
-**Progress Indicators** Clear visual progress tracking for all systems
+**Pause-Anytime**
 
-**Simplified Mode** Optional reduced complexity mode with fewer simultaneous systems
+Ability to pause during any game phase for breaks
+
+**Cognitive Accessibility**
+
+Information Management- **Tutorial Replay:**  Ability to replay tutorial sections at any time
+
+**Context Help**
+
+In-game help system with situation-specific guidance
+
+**Progress Indicators**
+
+Clear visual progress tracking for all systems
+
+**Simplified Mode**
+
+Optional reduced complexity mode with fewer simultaneous systems
 
 **Memory Support:**
 
-**Visual Reminders** Interface elements remind players of current objectives
+**Visual Reminders**
 
-**Action History** Log of recent player actions and their consequences
+Interface elements remind players of current objectives
 
-**Save State Information** Detailed save game information showing current situation
+**Action History**
 
-**Strategy Guides** In-game access to strategy tips and system explanations
+Log of recent player actions and their consequences
 
-**Language & Communication:**Localization Support- **Multiple Languages:** Full localization for major languages
+**Save State Information**
 
-**Cultural Adaptation** Interface elements adapted for cultural preferences
+Detailed save game information showing current situation
 
-**Text Scaling** Dynamic text sizing to accommodate different languages
+#### Strategy Guides
 
-**Symbol Usage** Universal symbols supplement text-based information
+In-game access to strategy tips and system explanations
+
+**Language & Communication**
+
+Localization Support- **Multiple Languages:**  Full localization for major languages
+
+**Cultural Adaptation**
+
+Interface elements adapted for cultural preferences
+
+**Text Scaling**
+
+Dynamic text sizing to accommodate different languages
+
+**Symbol Usage**
+
+Universal symbols supplement text-based information
 
 **Communication Features:**
 
-**Clear Messaging** Simple, direct language in all interface text
+**Clear Messaging**
 
-**Icon Consistency** Consistent iconography throughout all interface systems
+Simple, direct language in all interface text
 
-**Error Messages** Helpful, actionable error messages with suggested solutions
+**Icon Consistency**
 
-**Progress Communication** Clear feedback about player progress and achievements
+Consistent iconography throughout all interface systems
 
-**Platform-Specific Accessibility:**PC Accessibility- **Windows Accessibility API:** Full integration with Windows accessibility features
+**Error Messages**
 
-**Keyboard Navigation** Complete keyboard-only navigation support
+Helpful, actionable error messages with suggested solutions
 
-**Screen Reader Support** NVDA, JAWS, and Windows Narrator compatibility
+**Progress Communication**
 
-**High DPI Support** Proper scaling on high-resolution displays
+Clear feedback about player progress and achievements
+
+**Platform-Specific Accessibility**
+
+PC Accessibility- **Windows Accessibility API:**  Full integration with Windows accessibility features
+
+**Keyboard Navigation**
+
+Complete keyboard-only navigation support
+
+**Screen Reader Support**
+
+NVDA, JAWS, and Windows Narrator compatibility
+
+**High DPI Support**
+
+Proper scaling on high-resolution displays
 
 **Mobile Accessibility:**
 
-**iOS Accessibility** VoiceOver, Switch Control, and Assistive Touch support
+**iOS Accessibility**
 
-**Android Accessibility** TalkBack, Select to Speak, and Live Caption integration
+VoiceOver, Switch Control, and Assistive Touch support
 
-**Platform Guidelines** Adherence to iOS and Android accessibility guidelines
+**Android Accessibility**
 
-**Device Features** Utilization of built-in accessibility features
+TalkBack, Select to Speak, and Live Caption integration
+
+**Platform Guidelines**
+
+Adherence to iOS and Android accessibility guidelines
+
+**Device Features**
+
+Utilization of built-in accessibility features
 
 ---
 
@@ -3280,359 +5815,653 @@ Comprehensive accessibility support ensuring City Defense Z is playable by diver
 
 City Defense Z employs a cohesive visual design language that balances tactical clarity with atmospheric immersion, creating a distinctive military-apocalypse aesthetic that supports strategic gameplay while maintaining emotional engagement.
 
-**Core Visual Philosophy:**
+#### Core Visual Philosophy:
 
-**"Tactical Realism with Atmospheric Depth"**:
+**"Tactical Realism with Atmospheric Depth"**
 
-**Functional Aesthetics** Visual design prioritizes gameplay clarity while maintaining thematic authenticity
+:
 
-**Military Precision** Clean, organized visual language reflecting military efficiency and tactical mindset
+##### Functional Aesthetics
 
-**Apocalyptic Atmosphere** Environmental details and effects convey the weight of zombie apocalypse setting
+Visual design prioritizes gameplay clarity while maintaining thematic authenticity
 
-**Strategic Clarity** Visual hierarchy ensures gameplay elements are instantly recognizable and functional
+**Military Precision**
 
-**Art Direction Pillars:**Authentic Military Aesthetic- **Color Palette:** Muted military colors (olive greens, khakis, grays) with high-contrast accent colors for critical information
+Clean, organized visual language reflecting military efficiency and tactical mindset
 
-**Material Language** Realistic textures suggesting worn military equipment, weathered structures, and functional materials
+**Apocalyptic Atmosphere**
 
-**Lighting Strategy** Dramatic lighting contrasts emphasizing day/night cycle importance and creating atmospheric tension
+Environmental details and effects convey the weight of zombie apocalypse setting
 
-**Environmental Storytelling** Visual details that reinforce narrative context without cluttering gameplay space
+**Strategic Clarity**
+
+Visual hierarchy ensures gameplay elements are instantly recognizable and functional
+
+**Art Direction Pillars**
+
+Authentic Military Aesthetic- **Color Palette:**  Muted military colors (olive greens, khakis, grays) with high-contrast accent colors for critical information
+
+**Material Language**
+
+Realistic textures suggesting worn military equipment, weathered structures, and functional materials
+
+#### Lighting Strategy
+
+Dramatic lighting contrasts emphasizing day/night cycle importance and creating atmospheric tension
+
+**Environmental Storytelling**
+
+Visual details that reinforce narrative context without cluttering gameplay space
 
 **Post-Apocalyptic Atmosphere:**
 
-**Environmental Decay** Structures show appropriate wear, damage, and improvised repairs reflecting survival conditions
+**Environmental Decay**
 
-**Resource Scarcity** Visual design communicates the precious nature of supplies and materials
+Structures show appropriate wear, damage, and improvised repairs reflecting survival conditions
 
-**Makeshift Solutions** Buildings and defenses appear constructed from available materials rather than perfect military installations
+**Resource Scarcity**
 
-**Global Crisis Context** Environmental details support the worldwide catastrophe narrative
+Visual design communicates the precious nature of supplies and materials
 
-**Gameplay-First Design:**
+**Makeshift Solutions**
 
-**Visual Hierarchy** Critical gameplay elements (resources, threats, interactive objects) use distinct visual language
+Buildings and defenses appear constructed from available materials rather than perfect military installations
 
-**Readability** All gameplay elements remain clear and distinguishable across various lighting conditions and screen sizes
+**Global Crisis Context**
 
-**Consistent Iconography** Universal visual symbols reduce cognitive load during high-pressure decision making
+Environmental details support the worldwide catastrophe narrative
 
-**Animation Clarity** Movement and transitions support gameplay understanding rather than pure visual spectacle
+#### Gameplay-First Design:
 
-**Visual Style Specifications:**Character Design- **Soldier Aesthetics:** Realistic military uniforms and equipment with progressive wear indicating experience/upgrade levels
+**Visual Hierarchy**
 
-**NPC Personality** Each NPC type has distinct visual characteristics reflecting their specialization and background
+Critical gameplay elements (resources, threats, interactive objects) use distinct visual language
 
-**Zombie Design** Varied zombie appearances balancing horror elements with strategic readability
+**Readability**
 
-**Facial Animation** Basic but expressive character animations for dialogue and personality communication
+All gameplay elements remain clear and distinguishable across various lighting conditions and screen sizes
 
-**Environmental Design:**
+**Consistent Iconography**
 
-**Base Architecture** Modular, functional structures that grow organically as players expand their base
+Universal visual symbols reduce cognitive load during high-pressure decision making
 
-**Terrain Variety** Each map features distinct environmental characteristics supporting tactical variety
+**Animation Clarity**
 
-**Weather Effects** Subtle atmospheric effects (dust, wind, lighting) enhance immersion without obscuring gameplay
+Movement and transitions support gameplay understanding rather than pure visual spectacle
 
-**Destruction Systems** Visual feedback for damage, wear, and structural integrity
+**Visual Style Specifications**
+
+Character Design- **Soldier Aesthetics:**  Realistic military uniforms and equipment with progressive wear indicating experience/upgrade levels
+
+**NPC Personality**
+
+Each NPC type has distinct visual characteristics reflecting their specialization and background
+
+##### Zombie Design
+
+Varied zombie appearances balancing horror elements with strategic readability
+
+**Facial Animation**
+
+Basic but expressive character animations for dialogue and personality communication
+
+#### Environmental Design:
+
+#### Base Architecture
+
+Modular, functional structures that grow organically as players expand their base
+
+**Terrain Variety**
+
+Each map features distinct environmental characteristics supporting tactical variety
+
+**Weather Effects**
+
+Subtle atmospheric effects (dust, wind, lighting) enhance immersion without obscuring gameplay
+
+#### Destruction Systems
+
+Visual feedback for damage, wear, and structural integrity
 
 **Building Visual Language:**
 
-**Modular Construction** Buildings appear assembled from available materials with clear functional purpose
+**Modular Construction**
 
-**Level Progression** Higher-level buildings show enhanced construction, better materials, and increased sophistication
+Buildings appear assembled from available materials with clear functional purpose
 
-**Resource Indication** Buildings visually communicate their function and current production status
+**Level Progression**
 
-**Merge Visualization** Clear visual progression when buildings merge and evolve
+Higher-level buildings show enhanced construction, better materials, and increased sophistication
+
+**Resource Indication**
+
+Buildings visually communicate their function and current production status
+
+**Merge Visualization**
+
+Clear visual progression when buildings merge and evolve
 
 **User Interface Aesthetics:**
 
-**Military HUD Design** Interface elements styled as tactical displays and military equipment
+##### Military HUD Design
 
-**Information Density** Clean, organized layouts preventing visual clutter while maximizing information accessibility
+Interface elements styled as tactical displays and military equipment
 
-**Thematic Integration** UI elements feel integrated into the game world rather than overlaid on top
+**Information Density**
 
-**Responsive Design** Interface scales appropriately across different platforms and screen sizes
+Clean, organized layouts preventing visual clutter while maximizing information accessibility
+
+**Thematic Integration**
+
+UI elements feel integrated into the game world rather than overlaid on top
+
+##### Responsive Design
+
+Interface scales appropriately across different platforms and screen sizes
 
 ### 8.2 Audio Design Philosophy
 
 City Defense Z's audio design creates an immersive military command experience that enhances strategic decision-making while maintaining atmospheric tension throughout the zombie apocalypse setting.
 
-**Audio Design Principles:**
+#### Audio Design Principles:
 
-**"Immersive Command Experience"**:
+##### "Immersive Command Experience"
 
-**Tactical Audio** Sound design supports strategic gameplay by providing clear audio feedback for all player actions
+:
 
-**Atmospheric Immersion** Audio reinforces the post-apocalyptic military setting without overwhelming gameplay focus
+**Tactical Audio**
 
-**Clarity Priority** Essential game information communicated through distinct, recognizable audio cues
+Sound design supports strategic gameplay by providing clear audio feedback for all player actions
 
-**Emotional Engagement** Sound design enhances narrative moments and player emotional investment
+**Atmospheric Immersion**
 
-**Functional Audio Architecture:**Gameplay Audio Systems- **Action Feedback:** Every player interaction receives appropriate audio confirmation
+Audio reinforces the post-apocalyptic military setting without overwhelming gameplay focus
 
-**Status Communication** Resource changes, building completion, and system updates have distinct audio signatures
+**Clarity Priority**
 
-**Threat Awareness** Enemy presence, incoming waves, and emergency situations use escalating audio alerts
+Essential game information communicated through distinct, recognizable audio cues
 
-**Phase Transitions** Clear audio cues mark day/night transitions and critical timing moments
+##### Emotional Engagement
 
-**Spatial Audio Design:**
+Sound design enhances narrative moments and player emotional investment
 
-**3D Positioning** Combat sounds positioned spatially to support tactical awareness
+#### Functional Audio Architecture
 
-**Distance Modeling** Audio volume and quality changes based on distance from action
+Gameplay Audio Systems- **Action Feedback:**  Every player interaction receives appropriate audio confirmation
 
-**Environmental Context** Sound reflects environmental conditions and base layout
+**Status Communication**
 
-**Directional Cues** Audio helps players locate threats, opportunities, and areas requiring attention
+Resource changes, building completion, and system updates have distinct audio signatures
+
+**Threat Awareness**
+
+Enemy presence, incoming waves, and emergency situations use escalating audio alerts
+
+##### Phase Transitions
+
+Clear audio cues mark day/night transitions and critical timing moments
+
+#### Spatial Audio Design:
+
+**3D Positioning**
+
+Combat sounds positioned spatially to support tactical awareness
+
+**Distance Modeling**
+
+Audio volume and quality changes based on distance from action
+
+**Environmental Context**
+
+Sound reflects environmental conditions and base layout
+
+**Directional Cues**
+
+Audio helps players locate threats, opportunities, and areas requiring attention
 
 **Dynamic Audio Layering:**
 
-**Contextual Mixing** Audio mix adapts to current game phase and player activity level
+**Contextual Mixing**
 
-**Intensity Scaling** Musical and ambient audio respond to threat levels and gameplay tension
+Audio mix adapts to current game phase and player activity level
 
-**Player Control** Comprehensive audio settings allow customization without losing essential information
+**Intensity Scaling**
 
-**Accessibility Support** Visual alternatives for critical audio information
+Musical and ambient audio respond to threat levels and gameplay tension
 
-**Audio Aesthetic Framework:**Military Communication Style- **Walkie-Talkie Effects:** Story delivery through authentic radio communication with static and interference
+**Player Control**
 
-**Command Structure** Audio reinforces military hierarchy and tactical communication protocols
+Comprehensive audio settings allow customization without losing essential information
 
-**Technical Language** Appropriate military terminology and communication style
+**Accessibility Support**
 
-**Emergency Protocols** Audio cues reflect realistic military emergency response procedures
+Visual alternatives for critical audio information
+
+#### Audio Aesthetic Framework
+
+Military Communication Style- **Walkie-Talkie Effects:**  Story delivery through authentic radio communication with static and interference
+
+#### Command Structure
+
+Audio reinforces military hierarchy and tactical communication protocols
+
+**Technical Language**
+
+Appropriate military terminology and communication style
+
+**Emergency Protocols**
+
+Audio cues reflect realistic military emergency response procedures
 
 **Apocalyptic Atmosphere:**
 
-**Environmental Audio** Ambient sounds suggesting desolate, dangerous world conditions
+**Environmental Audio**
 
-**Resource Scarcity** Audio cues emphasizing the precious nature of supplies and equipment
+Ambient sounds suggesting desolate, dangerous world conditions
 
-**Survival Tension** Background audio maintaining appropriate stress level without overwhelming gameplay
+**Resource Scarcity**
 
-**Global Context** Distant sounds and radio reports suggesting worldwide crisis scope
+Audio cues emphasizing the precious nature of supplies and equipment
+
+**Survival Tension**
+
+Background audio maintaining appropriate stress level without overwhelming gameplay
+
+**Global Context**
+
+Distant sounds and radio reports suggesting worldwide crisis scope
 
 ### 8.3 Music & Sound Effects
 
 Comprehensive audio content strategy balancing atmospheric immersion with functional gameplay support through carefully designed music and sound effect systems.
 
-**Music Design Strategy:**Adaptive Musical Score- **Dynamic Composition:** Music responds to gameplay phases, threat levels, and player progress
+#### Music Design Strategy
 
-**Layered Architecture** Modular musical elements combine based on current game state
+Adaptive Musical Score- **Dynamic Composition:**  Music responds to gameplay phases, threat levels, and player progress
 
-**Emotional Pacing** Musical progression supports narrative beats and player emotional journey
+#### Layered Architecture
 
-**Cultural Sensitivity** Music appropriate for global audience without cultural bias
+Modular musical elements combine based on current game state
 
-**Phase-Based Musical Themes:**Day Phase Music- **Strategic Planning Theme:** Calm, focused music supporting careful decision-making
+**Emotional Pacing**
 
-**Resource Management Motif** Subtle background music allowing concentration on economic planning
+Musical progression supports narrative beats and player emotional journey
 
-**Time Pressure Escalation** Musical intensity increases during final 10-second countdown warning
+**Cultural Sensitivity**
 
-**Building Success** Positive musical stingers for successful merges and base expansion
+Music appropriate for global audience without cultural bias
 
-**Night Phase Music:**
+##### Phase-Based Musical Themes
 
-**Combat Intensity** Dynamic music scaling with threat level and zombie presence
+Day Phase Music- **Strategic Planning Theme:**  Calm, focused music supporting careful decision-making
 
-**Tension Building** Musical escalation supporting adrenaline and tactical urgency
+#### Resource Management Motif
 
-**Boss Encounters** Distinctive musical themes for major zombie boss battles
+Subtle background music allowing concentration on economic planning
 
-**Victory Relief** Musical resolution for successful wave completion
+**Time Pressure Escalation**
+
+Musical intensity increases during final 10-second countdown warning
+
+**Building Success**
+
+Positive musical stingers for successful merges and base expansion
+
+#### Night Phase Music:
+
+**Combat Intensity**
+
+Dynamic music scaling with threat level and zombie presence
+
+**Tension Building**
+
+Musical escalation supporting adrenaline and tactical urgency
+
+**Boss Encounters**
+
+Distinctive musical themes for major zombie boss battles
+
+##### Victory Relief
+
+Musical resolution for successful wave completion
 
 **Narrative Musical Support:**
 
-**Story Moments** Emotional musical underscore for walkie-talkie communications and story beats
+**Story Moments**
 
-**Map Themes** Each map location has distinctive musical identity supporting environmental storytelling
+Emotional musical underscore for walkie-talkie communications and story beats
 
-**Character Themes** Subtle musical motifs associated with different NPC types
+**Map Themes**
 
-**Achievement Celebration** Musical rewards for major progression milestones
+Each map location has distinctive musical identity supporting environmental storytelling
 
-**Sound Effects Architecture:**Combat Audio Systems- **Weapon Variety:** Distinct audio signatures for different soldier types and equipment
+**Character Themes**
 
-**Impact Feedback** Clear audio confirmation for successful attacks and damage dealt
+Subtle musical motifs associated with different NPC types
 
-**Zombie Audio** Varied zombie sounds supporting identification of different threat types
+**Achievement Celebration**
 
-**Destruction Effects** Satisfying audio for building destruction, wall collapse, and enemy elimination
+Musical rewards for major progression milestones
 
-**Base Management Audio:**
+#### Sound Effects Architecture
 
-**Building Construction** Audio feedback for placement, completion, and upgrades
+Combat Audio Systems- **Weapon Variety:**  Distinct audio signatures for different soldier types and equipment
 
-**Resource Collection** Distinct sounds for different resource types and collection actions
+**Impact Feedback**
 
-**Merge Events** Special audio effects for building and soldier merge processes
+Clear audio confirmation for successful attacks and damage dealt
 
-**Production Ready** Audio alerts for completed production cycles requiring collection
+**Zombie Audio**
 
-**Interactive System Audio:**
+Varied zombie sounds supporting identification of different threat types
 
-**UI Feedback** Comprehensive audio feedback for all interface interactions
+**Destruction Effects**
 
-**Card Selection** Audio cues for building card selection, costs, and placement
+Satisfying audio for building destruction, wall collapse, and enemy elimination
 
-**Boost Systems** Distinct audio for boost collection, storage, and deployment
+#### Base Management Audio:
 
-**Emergency Alerts** Urgent audio warnings for zombie holes and critical threats
+**Building Construction**
+
+Audio feedback for placement, completion, and upgrades
+
+##### Resource Collection
+
+Distinct sounds for different resource types and collection actions
+
+**Merge Events**
+
+Special audio effects for building and soldier merge processes
+
+##### Production Ready
+
+Audio alerts for completed production cycles requiring collection
+
+#### Interactive System Audio:
+
+**UI Feedback**
+
+Comprehensive audio feedback for all interface interactions
+
+**Card Selection**
+
+Audio cues for building card selection, costs, and placement
+
+#### Boost Systems
+
+Distinct audio for boost collection, storage, and deployment
+
+**Emergency Alerts**
+
+Urgent audio warnings for zombie holes and critical threats
 
 **Environmental Audio:**
 
-**Ambient Soundscape** Atmospheric audio supporting each map's environmental characteristics
+**Ambient Soundscape**
 
-**Weather Systems** Audio effects for environmental conditions affecting atmosphere
+Atmospheric audio supporting each map's environmental characteristics
 
-**Base Activity** Background audio suggesting living base with NPC activity and operations
+#### Weather Systems
 
-**Global Context** Distant audio hints supporting worldwide apocalypse narrative
+Audio effects for environmental conditions affecting atmosphere
 
-**Specialized Audio Features:**Voice Acting & Dialogue- **NPC Characterization:** Professional voice acting bringing personality to each NPC type
+**Base Activity**
 
-**Military Authenticity** Realistic military communication style and terminology
+Background audio suggesting living base with NPC activity and operations
 
-**Emotional Range** Voice acting supporting character development and narrative progression
+**Global Context**
 
-**Accessibility Support** Clear enunciation and subtitle support for hearing accessibility
+Distant audio hints supporting worldwide apocalypse narrative
 
-**Procedural Audio Systems:**
+**Specialized Audio Features**
 
-**Dynamic Generation** Some audio elements generated procedurally to maintain freshness
+Voice Acting & Dialogue- **NPC Characterization:**  Professional voice acting bringing personality to each NPC type
 
-**Contextual Variation** Audio variations preventing repetition during extended play sessions
+**Military Authenticity**
 
-**Adaptive Quality** Audio quality scaling based on platform capabilities and user settings
+Realistic military communication style and terminology
 
-**Memory Optimization** Efficient audio streaming and compression for performance optimization
+**Emotional Range**
+
+Voice acting supporting character development and narrative progression
+
+**Accessibility Support**
+
+Clear enunciation and subtitle support for hearing accessibility
+
+#### Procedural Audio Systems:
+
+##### Dynamic Generation
+
+Some audio elements generated procedurally to maintain freshness
+
+**Contextual Variation**
+
+Audio variations preventing repetition during extended play sessions
+
+**Adaptive Quality**
+
+Audio quality scaling based on platform capabilities and user settings
+
+**Memory Optimization**
+
+Efficient audio streaming and compression for performance optimization
 
 ### 8.4 Animation Requirements
 
 Comprehensive animation strategy supporting gameplay clarity, narrative communication, and atmospheric immersion while maintaining optimal performance across target platforms.
 
-**Animation Design Philosophy:**
+#### Animation Design Philosophy:
 
-**"Clarity Through Motion"**:
+**"Clarity Through Motion"**
 
-**Functional Animation** All animations serve clear gameplay or narrative purpose
+:
 
-**Strategic Readability** Animations enhance rather than obscure tactical information
+##### Functional Animation
 
-**Performance Priority** Smooth animation performance across all target devices and platforms
+All animations serve clear gameplay or narrative purpose
 
-**Thematic Consistency** Animation style supports military-apocalypse aesthetic throughout
+**Strategic Readability**
 
-**Gameplay Animation Systems:**Building & Construction Animations- **Placement Feedback:** Clear visual confirmation when buildings are successfully placed
+Animations enhance rather than obscure tactical information
 
-**Construction Progress** Visual progression showing building completion and upgrade processes
+**Performance Priority**
 
-**Merge Animations** Satisfying visual effects when buildings combine and evolve to higher levels
+Smooth animation performance across all target devices and platforms
 
-**Production Indicators** Animated elements showing resource generation and collection readiness
+**Thematic Consistency**
 
-**Destruction Sequences** Appropriate collapse animations for damaged or destroyed structures
+Animation style supports military-apocalypse aesthetic throughout
+
+#### Gameplay Animation Systems
+
+Building & Construction Animations- **Placement Feedback:**  Clear visual confirmation when buildings are successfully placed
+
+**Construction Progress**
+
+Visual progression showing building completion and upgrade processes
+
+**Merge Animations**
+
+Satisfying visual effects when buildings combine and evolve to higher levels
+
+##### Production Indicators
+
+Animated elements showing resource generation and collection readiness
+
+**Destruction Sequences**
+
+Appropriate collapse animations for damaged or destroyed structures
 
 **Unit & Combat Animations:**
 
-**Soldier Behavior** Idle, movement, and combat animations conveying military professionalism
+**Soldier Behavior**
 
-**Merge Sequences** Visual transformation when soldiers combine into higher-level units
+Idle, movement, and combat animations conveying military professionalism
 
-**Combat Actions** Clear attack, reload, and defensive animations supporting tactical understanding
+**Merge Sequences**
 
-**Damage Feedback** Visual indicators for unit health, injury, and elimination
+Visual transformation when soldiers combine into higher-level units
 
-**Formation Movement** Coordinated animation for soldier positioning and tactical deployment
+**Combat Actions**
 
-**Enemy Animation Framework:**
+Clear attack, reload, and defensive animations supporting tactical understanding
 
-**Zombie Variety** Distinct movement and behavior animations for each zombie type
+**Damage Feedback**
 
-**Threat Communication** Animations clearly indicating zombie capabilities and danger level
+Visual indicators for unit health, injury, and elimination
 
-**Attack Patterns** Readable animation telegraphing enemy attacks and special abilities
+**Formation Movement**
 
-**Pathfinding Visualization** Clear movement animations showing zombie navigation and objectives
+Coordinated animation for soldier positioning and tactical deployment
 
-**Death Sequences** Appropriate elimination animations with gameplay feedback (boost drops, explosions)
+#### Enemy Animation Framework:
 
-**Interactive System Animations:**User Interface Animations- **Transition Effects:** Smooth transitions between game phases and interface states
+**Zombie Variety**
 
-**Feedback Systems** Visual confirmation animations for all player interactions
+Distinct movement and behavior animations for each zombie type
 
-**Card Mechanics** Engaging animations for building card selection, placement, and reroll systems
+**Threat Communication**
 
-**Resource Updates** Clear visual indication when resources change or are collected
+Animations clearly indicating zombie capabilities and danger level
 
-**Alert Systems** Attention-grabbing animations for critical information and emergency situations
+**Attack Patterns**
+
+Readable animation telegraphing enemy attacks and special abilities
+
+**Pathfinding Visualization**
+
+Clear movement animations showing zombie navigation and objectives
+
+**Death Sequences**
+
+Appropriate elimination animations with gameplay feedback (boost drops, explosions)
+
+#### Interactive System Animations
+
+User Interface Animations- **Transition Effects:**  Smooth transitions between game phases and interface states
+
+#### Feedback Systems
+
+Visual confirmation animations for all player interactions
+
+#### Card Mechanics
+
+Engaging animations for building card selection, placement, and reroll systems
+
+**Resource Updates**
+
+Clear visual indication when resources change or are collected
+
+#### Alert Systems
+
+Attention-grabbing animations for critical information and emergency situations
 
 **Environmental Animations:**
 
-**Day/Night Cycle** Smooth lighting transitions supporting phase change communication
+**Day/Night Cycle**
 
-**Weather Effects** Subtle atmospheric animations enhancing environmental immersion
+Smooth lighting transitions supporting phase change communication
 
-**Base Activity** Background animations suggesting living base with ongoing operations
+**Weather Effects**
 
-**Atmospheric Details** Environmental animations supporting post-apocalyptic world-building
+Subtle atmospheric animations enhancing environmental immersion
+
+**Base Activity**
+
+Background animations suggesting living base with ongoing operations
+
+**Atmospheric Details**
+
+Environmental animations supporting post-apocalyptic world-building
 
 **Narrative Animation Support:**
 
-**Character Expression** Basic facial animation and gesture systems for NPC dialogue
+**Character Expression**
 
-**Story Moments** Cinematic animation elements for key narrative beats
+Basic facial animation and gesture systems for NPC dialogue
 
-**Expedition Visualization** Animation sequences showing NPC departures and returns
+**Story Moments**
 
-**Achievement Celebration** Rewarding animations for major progression milestones
+Cinematic animation elements for key narrative beats
 
-**Technical Animation Specifications:**Performance Optimization- **Level-of-Detail Systems:** Animation complexity scales based on screen importance and device capabilities
+**Expedition Visualization**
 
-**Efficient Rendering** Optimized animation systems maintaining smooth performance
+Animation sequences showing NPC departures and returns
 
-**Memory Management** Smart loading and unloading of animation assets based on current needs
+**Achievement Celebration**
 
-**Platform Scaling** Animation quality and complexity adapted for mobile vs PC platforms
+Rewarding animations for major progression milestones
+
+**Technical Animation Specifications**
+
+Performance Optimization- **Level-of-Detail Systems:**  Animation complexity scales based on screen importance and device capabilities
+
+**Efficient Rendering**
+
+Optimized animation systems maintaining smooth performance
+
+#### Memory Management
+
+Smart loading and unloading of animation assets based on current needs
+
+**Platform Scaling**
+
+Animation quality and complexity adapted for mobile vs PC platforms
 
 **Accessibility Considerations:**
 
-**Motion Sensitivity** Reduced animation options for players sensitive to excessive movement
+**Motion Sensitivity**
 
-**Clear Communication** Essential information communicated through multiple channels (visual, audio, UI)
+Reduced animation options for players sensitive to excessive movement
 
-**Consistent Timing** Predictable animation timing supporting player learning and mastery
+**Clear Communication**
 
-**Customization Options** Player control over animation density and intensity
+Essential information communicated through multiple channels (visual, audio, UI)
+
+**Consistent Timing**
+
+Predictable animation timing supporting player learning and mastery
+
+**Customization Options**
+
+Player control over animation density and intensity
 
 **Quality Assurance Standards:**
 
-**Cross-Platform Consistency** Animations maintain quality and clarity across all target platforms
+**Cross-Platform Consistency**
 
-**Performance Benchmarks** Animation systems meet frame rate requirements on minimum specification hardware
+Animations maintain quality and clarity across all target platforms
 
-**Cultural Sensitivity** Animation content appropriate for global audience
+**Performance Benchmarks**
 
-**Accessibility Compliance** Animation design supports comprehensive accessibility requirements
+Animation systems meet frame rate requirements on minimum specification hardware
+
+**Cultural Sensitivity**
+
+Animation content appropriate for global audience
+
+**Accessibility Compliance**
+
+Animation design supports comprehensive accessibility requirements
 
 **Animation Asset Pipeline:**
 
-**Modular Design** Reusable animation components reducing development time and memory usage
+##### Modular Design
 
-**Version Control** Systematic animation asset management supporting iterative development
+Reusable animation components reducing development time and memory usage
 
-**Quality Standards** Consistent animation quality and style guidelines across all content
+**Version Control**
 
-**Integration Testing** Regular testing ensuring animations integrate properly with gameplay systems
+Systematic animation asset management supporting iterative development
+
+**Quality Standards**
+
+Consistent animation quality and style guidelines across all content
+
+**Integration Testing**
+
+Regular testing ensuring animations integrate properly with gameplay systems
 
 ---
 
@@ -3642,221 +6471,409 @@ Comprehensive animation strategy supporting gameplay clarity, narrative communic
 
 City Defense Z is designed for cross-platform deployment with primary focus on PC (Steam) and secondary support for mobile platforms, ensuring optimal performance and user experience across diverse hardware configurations.
 
-**Platform Architecture Overview:**Primary Platform - PC (Windows/Mac/Linux)- **Target Engine:** Unity 2022.3 LTS for cross-platform development and long-term stability
+#### Platform Architecture Overview
 
-**Distribution** Steam as primary distribution platform with potential for other PC digital stores
+Primary Platform - PC (Windows/Mac/Linux)- **Target Engine:**  Unity 2022.3 LTS for cross-platform development and long-term stability
 
-**Performance Focus** Optimized for desktop experience with keyboard/mouse controls and larger screen real estate
+**Distribution**
 
-**Feature Completeness** Full feature set including all gameplay systems, UI complexity, and visual fidelity
+Steam as primary distribution platform with potential for other PC digital stores
+
+**Performance Focus**
+
+Optimized for desktop experience with keyboard/mouse controls and larger screen real estate
+
+**Feature Completeness**
+
+Full feature set including all gameplay systems, UI complexity, and visual fidelity
 
 **Secondary Platform - Mobile (iOS/Android):**
 
-**Adaptation Strategy** Touch-optimized interface with simplified UI elements and gesture controls
+#### Adaptation Strategy
 
-**Performance Scaling** Reduced visual complexity and optimized rendering for mobile hardware constraints
+Touch-optimized interface with simplified UI elements and gesture controls
 
-**Platform Integration** Native mobile features including haptic feedback, notifications, and platform-specific social features
+**Performance Scaling**
 
-**Monetization Consideration** Mobile-friendly monetization options while maintaining core gameplay integrity
+Reduced visual complexity and optimized rendering for mobile hardware constraints
 
-**Technical Specifications:**PC Platform Requirements**Minimum System Requirements:**
+**Platform Integration**
 
-**Operating System** Windows 10 64-bit / macOS 10.14 Mojave / Ubuntu 18.04 LTS
+Native mobile features including haptic feedback, notifications, and platform-specific social features
 
-**Processor** Intel Core i3-6100 (3.7GHz) / AMD FX-6300 (3.5GHz) equivalent
+**Monetization Consideration**
 
-**Memory** 4 GB RAM
+Mobile-friendly monetization options while maintaining core gameplay integrity
 
-**Graphics** DirectX 11 compatible / OpenGL 3.3 / Intel HD Graphics 520 / AMD Radeon R5 equivalent
+#### Technical Specifications:**PC Platform Requirements**Minimum System Requirements:
 
-**DirectX** Version 11
+#### Operating System
 
-**Network** Broadband Internet connection (for cloud saves and updates)
+Windows 10 64-bit / macOS 10.14 Mojave / Ubuntu 18.04 LTS
 
-**Storage** 2 GB available space
+**Processor**
 
-**Sound Card** DirectX compatible
+Intel Core i3-6100 (3.7GHz) / AMD FX-6300 (3.5GHz) equivalent
 
-**Recommended System Requirements:**
+**Memory**
 
-**Operating System** Windows 11 64-bit / macOS 12.0 Monterey / Ubuntu 20.04 LTS or later
+4 GB RAM
 
-**Processor** Intel Core i5-8400 (2.8GHz) / AMD Ryzen 5 2600 (3.4GHz) or better
+**Graphics**
 
-**Memory** 8 GB RAM
+DirectX 11 compatible / OpenGL 3.3 / Intel HD Graphics 520 / AMD Radeon R5 equivalent
 
-**Graphics** NVIDIA GTX 1050 / AMD RX 560 / Intel Iris Xe equivalent or better
+**DirectX**
 
-**DirectX** Version 12
+Version 11
 
-**Network** Broadband Internet connection
+**Network**
 
-**Storage** 4 GB available space (SSD recommended for optimal loading times)
+Broadband Internet connection (for cloud saves and updates)
 
-**Sound Card** DirectX compatible with surround sound support
+**Storage**
 
-**Mobile Platform Requirements:**iOS Requirements- **Device Compatibility:** iPhone 8 / iPad (6th generation) or newer
+2 GB available space
 
-**Operating System** iOS 14.0 or later
+**Sound Card**
 
-**Storage** 1.5 GB available space
+DirectX compatible
 
-**RAM** 3 GB minimum (4 GB recommended)
+#### Recommended System Requirements:
 
-**Network** Wi-Fi or cellular data connection for cloud saves
+#### Operating System
 
-**Additional** Metal graphics API support
+Windows 11 64-bit / macOS 12.0 Monterey / Ubuntu 20.04 LTS or later
+
+**Processor**
+
+Intel Core i5-8400 (2.8GHz) / AMD Ryzen 5 2600 (3.4GHz) or better
+
+**Memory**
+
+8 GB RAM
+
+**Graphics**
+
+NVIDIA GTX 1050 / AMD RX 560 / Intel Iris Xe equivalent or better
+
+**DirectX**
+
+Version 12
+
+**Network**
+
+Broadband Internet connection
+
+**Storage**
+
+4 GB available space (SSD recommended for optimal loading times)
+
+**Sound Card**
+
+DirectX compatible with surround sound support
+
+**Mobile Platform Requirements**
+
+iOS Requirements- **Device Compatibility:**  iPhone 8 / iPad (6th generation) or newer
+
+#### Operating System
+
+iOS 14.0 or later
+
+**Storage**
+
+1.5 GB available space
+
+**RAM**
+
+3 GB minimum (4 GB recommended)
+
+**Network**
+
+Wi-Fi or cellular data connection for cloud saves
+
+**Additional**
+
+Metal graphics API support
 
 **Android Requirements:**
 
-**Operating System** Android 8.0 (API level 26) or higher
+#### Operating System
 
-**Architecture** ARM64 (64-bit) processor
+Android 8.0 (API level 26) or higher
 
-**RAM** 3 GB minimum (4 GB recommended)
+#### Architecture
 
-**Storage** 1.5 GB available space
+ARM64 (64-bit) processor
 
-**Graphics** Vulkan API support preferred, OpenGL ES 3.2 minimum
+**RAM**
 
-**Network** Wi-Fi or mobile data connection for cloud functionality
+3 GB minimum (4 GB recommended)
 
-**Cross-Platform Technical Considerations:**Engine Selection Rationale- **Unity 2022.3 LTS:** Proven cross-platform development framework with extensive platform support
+**Storage**
 
-**Long-term Support** LTS version ensures stability and extended support lifecycle for post-launch maintenance
+1.5 GB available space
 
-**Asset Pipeline** Unified asset pipeline supporting both PC and mobile deployment with automatic optimization
+**Graphics**
 
-**Platform Integration** Native integration with Steam, iOS App Store, and Google Play Store
+Vulkan API support preferred, OpenGL ES 3.2 minimum
+
+**Network**
+
+Wi-Fi or mobile data connection for cloud functionality
+
+**Cross-Platform Technical Considerations**
+
+Engine Selection Rationale- **Unity 2022.3 LTS:**  Proven cross-platform development framework with extensive platform support
+
+**Long-term Support**
+
+LTS version ensures stability and extended support lifecycle for post-launch maintenance
+
+**Asset Pipeline**
+
+Unified asset pipeline supporting both PC and mobile deployment with automatic optimization
+
+**Platform Integration**
+
+Native integration with Steam, iOS App Store, and Google Play Store
 
 **Rendering Pipeline:**
 
-**Universal Render Pipeline (URP)** Optimized rendering system supporting both desktop and mobile platforms
+**Universal Render Pipeline (URP)**
 
-**Scalable Graphics** Dynamic quality scaling based on platform capabilities and user preferences
+Optimized rendering system supporting both desktop and mobile platforms
 
-**Efficient Batching** Optimized draw calls and batching strategies for smooth performance across platforms
+**Scalable Graphics**
 
-**Texture Streaming** Smart texture loading and compression for optimal memory usage
+Dynamic quality scaling based on platform capabilities and user preferences
+
+**Efficient Batching**
+
+Optimized draw calls and batching strategies for smooth performance across platforms
+
+**Texture Streaming**
+
+Smart texture loading and compression for optimal memory usage
 
 ### 9.2 Performance Targets
 
 Comprehensive performance benchmarks ensuring smooth, responsive gameplay across all target platforms while maintaining visual quality and system responsiveness.
 
-**Performance Benchmarks:**PC Platform Targets- **Frame Rate:** 60 FPS stable on recommended specifications, 30 FPS minimum on minimum specifications
+**Performance Benchmarks**
 
-**Loading Times** Initial game launch under 30 seconds, level loading under 15 seconds on SSD
+PC Platform Targets- **Frame Rate:**  60 FPS stable on recommended specifications, 30 FPS minimum on minimum specifications
 
-**Memory Usage** Maximum 2 GB RAM utilization on minimum specs, 4 GB optimal on recommended specs
+**Loading Times**
 
-**CPU Usage** Maximum 50% utilization on recommended specs during peak gameplay moments
+Initial game launch under 30 seconds, level loading under 15 seconds on SSD
 
-**GPU Usage** Efficient utilization with headroom for background applications and multitasking
+**Memory Usage**
+
+Maximum 2 GB RAM utilization on minimum specs, 4 GB optimal on recommended specs
+
+**CPU Usage**
+
+Maximum 50% utilization on recommended specs during peak gameplay moments
+
+**GPU Usage**
+
+Efficient utilization with headroom for background applications and multitasking
 
 **Mobile Platform Targets:**
 
-**Frame Rate** 30 FPS stable on minimum specifications, 60 FPS on high-end devices with variable refresh rate support
+**Frame Rate**
 
-**Battery Life** Minimum 2 hours continuous gameplay on average mobile devices
+30 FPS stable on minimum specifications, 60 FPS on high-end devices with variable refresh rate support
 
-**Thermal Management** Throttle-resistant performance preventing device overheating during extended sessions
+**Battery Life**
 
-**Memory Usage** Maximum 1.5 GB RAM utilization with efficient garbage collection
+Minimum 2 hours continuous gameplay on average mobile devices
 
-**Storage Efficiency** Compressed assets and smart caching to minimize storage footprint
+#### Thermal Management
 
-**Optimization Strategies:**Rendering Optimization- **Level-of-Detail (LOD) Systems:** Automatic quality scaling based on object importance and screen distance
+Throttle-resistant performance preventing device overheating during extended sessions
 
-**Culling Systems** Frustum culling, occlusion culling, and distance-based object culling
+**Memory Usage**
 
-**Texture Optimization** Platform-specific texture compression and resolution scaling
+Maximum 1.5 GB RAM utilization with efficient garbage collection
 
-**Shader Optimization** Efficient shader variants for different platform capabilities
+**Storage Efficiency**
 
-**Batching Strategies** Dynamic batching and GPU instancing for repeated objects
+Compressed assets and smart caching to minimize storage footprint
 
-**Memory Management:**
+**Optimization Strategies**
 
-**Asset Streaming** Smart loading and unloading of assets based on current gameplay needs
+Rendering Optimization- **Level-of-Detail (LOD) Systems:**  Automatic quality scaling based on object importance and screen distance
 
-**Object Pooling** Reusable object pools for frequently spawned elements (zombies, effects, UI elements)
+#### Culling Systems
 
-**Garbage Collection** Minimized memory allocations and strategic garbage collection timing
+Frustum culling, occlusion culling, and distance-based object culling
 
-**Texture Memory** Compressed texture formats and mipmap optimization for different platforms
+**Texture Optimization**
 
-**Audio Memory** Compressed audio formats with streaming for larger audio files
+Platform-specific texture compression and resolution scaling
+
+**Shader Optimization**
+
+Efficient shader variants for different platform capabilities
+
+**Batching Strategies**
+
+Dynamic batching and GPU instancing for repeated objects
+
+#### Memory Management:
+
+**Asset Streaming**
+
+Smart loading and unloading of assets based on current gameplay needs
+
+**Object Pooling**
+
+Reusable object pools for frequently spawned elements (zombies, effects, UI elements)
+
+##### Garbage Collection
+
+Minimized memory allocations and strategic garbage collection timing
+
+**Texture Memory**
+
+Compressed texture formats and mipmap optimization for different platforms
+
+**Audio Memory**
+
+Compressed audio formats with streaming for larger audio files
 
 **CPU Optimization:**
 
-**Pathfinding Efficiency** Optimized AI pathfinding with level-of-detail and update frequency scaling
+**Pathfinding Efficiency**
 
-**Physics Optimization** Efficient collision detection and physics simulation appropriate for gameplay needs
+Optimized AI pathfinding with level-of-detail and update frequency scaling
 
-**Threading Strategy** Multi-threaded systems for appropriate tasks (AI, audio, rendering preparation)
+**Physics Optimization**
 
-**Update Frequency** Variable update rates for different systems based on gameplay importance
+Efficient collision detection and physics simulation appropriate for gameplay needs
 
-**Profiling Integration** Built-in performance monitoring and optimization feedback systems
+#### Threading Strategy
 
-**Platform-Specific Optimizations:**PC Optimization- **Multi-Core Utilization:** Efficient use of multiple CPU cores for parallel processing
+Multi-threaded systems for appropriate tasks (AI, audio, rendering preparation)
 
-**Graphics Settings** Comprehensive graphics options allowing users to optimize for their hardware
+**Update Frequency**
 
-**Memory Scaling** Automatic memory allocation scaling based on available system resources
+Variable update rates for different systems based on gameplay importance
 
-**Input Latency** Optimized input processing for responsive keyboard and mouse controls
+**Profiling Integration**
 
-**Background Compatibility** Efficient resource usage allowing smooth operation with other applications
+Built-in performance monitoring and optimization feedback systems
+
+**Platform-Specific Optimizations**
+
+PC Optimization- **Multi-Core Utilization:**  Efficient use of multiple CPU cores for parallel processing
+
+**Graphics Settings**
+
+Comprehensive graphics options allowing users to optimize for their hardware
+
+**Memory Scaling**
+
+Automatic memory allocation scaling based on available system resources
+
+**Input Latency**
+
+Optimized input processing for responsive keyboard and mouse controls
+
+**Background Compatibility**
+
+Efficient resource usage allowing smooth operation with other applications
 
 **Mobile Optimization:**
 
-**Touch Responsiveness** Low-latency touch input processing for immediate feedback
+**Touch Responsiveness**
 
-**Power Efficiency** Optimized rendering and processing to minimize battery drain
+Low-latency touch input processing for immediate feedback
 
-**Thermal Throttling** Adaptive performance scaling to prevent device overheating
+**Power Efficiency**
 
-**Platform Integration** Efficient use of platform-specific optimizations (Metal on iOS, Vulkan on Android)
+Optimized rendering and processing to minimize battery drain
 
-**Connectivity Management** Smart network usage minimizing data consumption while maintaining functionality
+**Thermal Throttling**
+
+Adaptive performance scaling to prevent device overheating
+
+**Platform Integration**
+
+Efficient use of platform-specific optimizations (Metal on iOS, Vulkan on Android)
+
+#### Connectivity Management
+
+Smart network usage minimizing data consumption while maintaining functionality
 
 ### 9.3 Save System & Data Management
 
 Comprehensive data persistence architecture ensuring reliable save functionality, cloud synchronization, and data integrity across all platforms while supporting the game's progression systems.
 
-**Save System Architecture:**Local Save System- **Save File Format:** JSON-based save files with encryption for data protection and anti-tampering
+#### Save System Architecture
 
-**Incremental Saves** Efficient incremental save system updating only changed data to minimize I/O operations
+Local Save System- **Save File Format:**  JSON-based save files with encryption for data protection and anti-tampering
 
-**Backup System** Multiple save file backups with automatic rotation to prevent data loss
+**Incremental Saves**
 
-**Corruption Recovery** Automatic save file validation and recovery from backup copies when corruption is detected
+Efficient incremental save system updating only changed data to minimize I/O operations
 
-**Platform Integration** Native save file locations appropriate for each platform (Documents folder on PC, platform-specific locations on mobile)
+#### Backup System
+
+Multiple save file backups with automatic rotation to prevent data loss
+
+**Corruption Recovery**
+
+Automatic save file validation and recovery from backup copies when corruption is detected
+
+**Platform Integration**
+
+Native save file locations appropriate for each platform (Documents folder on PC, platform-specific locations on mobile)
 
 **Cloud Save Integration:**
 
-**Steam Cloud** Full integration with Steam Cloud for automatic save synchronization across PC devices
+**Steam Cloud**
 
-**Mobile Cloud** iCloud integration for iOS, Google Play Games for Android save synchronization
+Full integration with Steam Cloud for automatic save synchronization across PC devices
 
-**Cross-Platform Sync** Technical framework for potential cross-platform save synchronization (future feature)
+**Mobile Cloud**
 
-**Conflict Resolution** Intelligent handling of save file conflicts when multiple devices have different save states
+iCloud integration for iOS, Google Play Games for Android save synchronization
 
-**Offline Functionality** Full offline gameplay with automatic sync when connection is restored
+**Cross-Platform Sync**
 
-**Data Persistence Structure:**Game State Categories- **Current Run Data:** Active game session state including resources, buildings, soldiers, day progress
+Technical framework for potential cross-platform save synchronization (future feature)
 
-**Meta Progression** Research point totals, upgrade tree completion, unlocked content
+**Conflict Resolution**
 
-**Base Configuration** NPC selections, base customizations, expedition tracking
+Intelligent handling of save file conflicts when multiple devices have different save states
 
-**Player Preferences** Settings, keybindings, audio/video preferences, accessibility options
+##### Offline Functionality
 
-**Achievement Progress** Completion tracking for achievements and milestone progression
+Full offline gameplay with automatic sync when connection is restored
+
+#### Data Persistence Structure
+
+Game State Categories- **Current Run Data:**  Active game session state including resources, buildings, soldiers, day progress
+
+**Meta Progression**
+
+Research point totals, upgrade tree completion, unlocked content
+
+**Base Configuration**
+
+NPC selections, base customizations, expedition tracking
+
+**Player Preferences**
+
+Settings, keybindings, audio/video preferences, accessibility options
+
+**Achievement Progress**
+
+Completion tracking for achievements and milestone progression
 
 **Save Data Hierarchy:**
 ```
@@ -3881,43 +6898,75 @@ SaveData/
     └── GameplayOptions (difficulty modifiers, assistance features)
 ```
 
-**Data Integrity & Security:**Save File Protection- **Checksum Validation:** MD5 hash verification for save file integrity checking
+**Data Integrity & Security**
 
-**Encryption** Basic encryption preventing casual save file editing while maintaining performance
+Save File Protection- **Checksum Validation:**  MD5 hash verification for save file integrity checking
 
-**Version Control** Save file versioning supporting backward compatibility across game updates
+**Encryption**
 
-**Atomic Writes** Atomic save operations preventing partial write corruption during system interruption
+Basic encryption preventing casual save file editing while maintaining performance
 
-**Permission Management** Appropriate file permissions and access control for platform security requirements
+**Version Control**
+
+Save file versioning supporting backward compatibility across game updates
+
+**Atomic Writes**
+
+Atomic save operations preventing partial write corruption during system interruption
+
+#### Permission Management
+
+Appropriate file permissions and access control for platform security requirements
 
 **Anti-Cheat Considerations:**
 
-**Server Validation** Optional server-side validation for critical progression milestones (future feature)
+**Server Validation**
 
-**Reasonable Limits** Data validation ensuring save values remain within reasonable gameplay bounds
+Optional server-side validation for critical progression milestones (future feature)
 
-**Progression Tracking** Monitoring progression patterns for obviously impossible advancement
+**Reasonable Limits**
 
-**Tamper Detection** Detection of modified save files with appropriate handling (warnings vs resets)
+Data validation ensuring save values remain within reasonable gameplay bounds
 
-**Player Agency** Balance between anti-cheat protection and player freedom for single-player experience
+**Progression Tracking**
 
-**Data Migration & Updates:**Version Compatibility- **Forward Compatibility:** Newer game versions can load older save files with appropriate data migration
+Monitoring progression patterns for obviously impossible advancement
 
-**Migration Scripts** Automated data conversion for save files from previous game versions
+**Tamper Detection**
 
-**Deprecated Feature Handling** Graceful handling of removed features in older save files
+Detection of modified save files with appropriate handling (warnings vs resets)
 
-**New Feature Integration** Smart defaults for new features when loading older save files
+**Player Agency**
 
-**Testing Framework** Comprehensive testing ensuring save compatibility across version updates
+Balance between anti-cheat protection and player freedom for single-player experience
+
+**Data Migration & Updates**
+
+Version Compatibility- **Forward Compatibility:**  Newer game versions can load older save files with appropriate data migration
+
+**Migration Scripts**
+
+Automated data conversion for save files from previous game versions
+
+**Deprecated Feature Handling**
+
+Graceful handling of removed features in older save files
+
+**New Feature Integration**
+
+Smart defaults for new features when loading older save files
+
+#### Testing Framework
+
+Comprehensive testing ensuring save compatibility across version updates
 
 ### 9.4 Architecture Overview
 
 Comprehensive system architecture designed for scalability, maintainability, and optimal performance across multiple platforms while supporting the game's complex interconnected systems.
 
-**System Architecture Framework:**Core Game Systems```
+#### System Architecture Framework
+
+Core Game Systems```
 
 Game Architecture/
 ├── GameManager (Central coordination and state management)
@@ -3930,105 +6979,195 @@ Game Architecture/
 └── SaveManager (Data persistence and cloud synchronization)
 ```
 
-**Modular Design Principles:**
+#### Modular Design Principles:
 
-**Separation of Concerns** Each system handles distinct functionality with clear interfaces
+**Separation of Concerns**
 
-**Event-Driven Architecture** Systems communicate through event messaging reducing direct dependencies
+Each system handles distinct functionality with clear interfaces
 
-**Dependency Injection** Flexible system initialization and configuration management
+#### Event-Driven Architecture
 
-**Interface Abstraction** Platform-specific implementations behind common interfaces
+Systems communicate through event messaging reducing direct dependencies
 
-**Hot-Swappable Components** Systems designed for runtime modification and testing
+**Dependency Injection**
 
-**System Interaction Patterns:**Event System Architecture- **Central Event Bus:** Unity-based event system handling inter-system communication
+Flexible system initialization and configuration management
 
-**Type-Safe Events** Strongly-typed event classes preventing runtime errors
+**Interface Abstraction**
 
-**Event Prioritization** Priority-based event processing for time-critical systems
+Platform-specific implementations behind common interfaces
 
-**Debug Integration** Comprehensive event logging and debugging support
+**Hot-Swappable Components**
 
-**Performance Optimization** Efficient event dispatching with minimal allocation overhead
+Systems designed for runtime modification and testing
 
-**Data Flow Management:**
+#### System Interaction Patterns
 
-**Unidirectional Data Flow** Clear data flow patterns preventing circular dependencies
+Event System Architecture- **Central Event Bus:**  Unity-based event system handling inter-system communication
 
-**State Synchronization** Automatic UI updates when underlying game state changes
+**Type-Safe Events**
 
-**Validation Layers** Multi-level data validation ensuring system integrity
+Strongly-typed event classes preventing runtime errors
 
-**Transaction Support** Atomic operations for complex multi-system changes
+**Event Prioritization**
 
-**Rollback Capability** Ability to revert system state for error recovery
+Priority-based event processing for time-critical systems
 
-**Platform Abstraction Layer:**Cross-Platform Services- **Input Abstraction:** Unified input handling supporting keyboard/mouse and touch interfaces
+**Debug Integration**
 
-**Platform Integration** Abstract interfaces for platform-specific features (achievements, social, cloud saves)
+Comprehensive event logging and debugging support
 
-**Rendering Abstraction** Graphics pipeline abstraction supporting different rendering backends
+**Performance Optimization**
 
-**Audio System** Platform-independent audio management with platform-specific optimizations
+Efficient event dispatching with minimal allocation overhead
 
-**Networking Layer** Abstracted networking for potential future multiplayer or cloud features
+#### Data Flow Management:
 
-**Development & Testing Architecture:**Code Organization- **Namespace Structure:** Organized code namespaces preventing naming conflicts and improving maintainability
+**Unidirectional Data Flow**
 
-**Assembly Definitions** Unity assembly definition files for improved compilation times and dependency management
+Clear data flow patterns preventing circular dependencies
 
-**Coding Standards** Consistent coding conventions and style guidelines across development team
+**State Synchronization**
 
-**Documentation Integration** Inline documentation and API documentation generation
+Automatic UI updates when underlying game state changes
 
-**Version Control Integration** Git-based version control with appropriate branching strategies
+**Validation Layers**
 
-**Testing Framework:**
+Multi-level data validation ensuring system integrity
 
-**Unit Testing** Comprehensive unit test coverage for critical game systems
+**Transaction Support**
 
-**Integration Testing** System integration tests ensuring proper inter-system communication
+Atomic operations for complex multi-system changes
 
-**Performance Testing** Automated performance benchmarking and regression detection
+**Rollback Capability**
 
-**Platform Testing** Automated testing across multiple platform configurations
+Ability to revert system state for error recovery
 
-**Save System Testing** Comprehensive save/load testing including corruption scenarios
+**Platform Abstraction Layer**
 
-**Scalability & Maintenance:**Performance Monitoring- **Runtime Profiling:** Built-in performance monitoring and bottleneck identification
+Cross-Platform Services- **Input Abstraction:**  Unified input handling supporting keyboard/mouse and touch interfaces
 
-**Memory Tracking** Real-time memory usage monitoring and leak detection
+**Platform Integration**
 
-**Frame Rate Analysis** Detailed frame rate analysis with spike identification
+Abstract interfaces for platform-specific features (achievements, social, cloud saves)
 
-**Platform Metrics** Platform-specific performance metrics and optimization opportunities
+**Rendering Abstraction**
 
-**User Analytics** Optional anonymous performance data collection for optimization insights
+Graphics pipeline abstraction supporting different rendering backends
 
-**Update & Deployment Architecture:**
+#### Audio System
 
-**Modular Updates** System designed to support incremental updates and patches
+Platform-independent audio management with platform-specific optimizations
 
-**Content Pipeline** Automated content build and deployment pipeline
+**Networking Layer**
 
-**Quality Assurance Integration** Automated testing integration in deployment pipeline
+Abstracted networking for potential future multiplayer or cloud features
 
-**Rollback Capability** Ability to revert to previous versions if critical issues are discovered
+#### Development & Testing Architecture
 
-**Platform Distribution** Automated deployment to multiple platform stores and distribution services
+Code Organization- **Namespace Structure:**  Organized code namespaces preventing naming conflicts and improving maintainability
+
+**Assembly Definitions**
+
+Unity assembly definition files for improved compilation times and dependency management
+
+**Coding Standards**
+
+Consistent coding conventions and style guidelines across development team
+
+**Documentation Integration**
+
+Inline documentation and API documentation generation
+
+**Version Control Integration**
+
+Git-based version control with appropriate branching strategies
+
+#### Testing Framework:
+
+**Unit Testing**
+
+Comprehensive unit test coverage for critical game systems
+
+**Integration Testing**
+
+System integration tests ensuring proper inter-system communication
+
+**Performance Testing**
+
+Automated performance benchmarking and regression detection
+
+**Platform Testing**
+
+Automated testing across multiple platform configurations
+
+#### Save System Testing
+
+Comprehensive save/load testing including corruption scenarios
+
+**Scalability & Maintenance**
+
+Performance Monitoring- **Runtime Profiling:**  Built-in performance monitoring and bottleneck identification
+
+**Memory Tracking**
+
+Real-time memory usage monitoring and leak detection
+
+**Frame Rate Analysis**
+
+Detailed frame rate analysis with spike identification
+
+#### Platform Metrics
+
+Platform-specific performance metrics and optimization opportunities
+
+**User Analytics**
+
+Optional anonymous performance data collection for optimization insights
+
+#### Update & Deployment Architecture:
+
+**Modular Updates**
+
+System designed to support incremental updates and patches
+
+##### Content Pipeline
+
+Automated content build and deployment pipeline
+
+**Quality Assurance Integration**
+
+Automated testing integration in deployment pipeline
+
+**Rollback Capability**
+
+Ability to revert to previous versions if critical issues are discovered
+
+**Platform Distribution**
+
+Automated deployment to multiple platform stores and distribution services
 
 **Security & Data Protection:**
 
-**User Privacy** Comprehensive privacy protection following GDPR and platform privacy requirements
+**User Privacy**
 
-**Data Encryption** Appropriate encryption for sensitive user data and save files
+Comprehensive privacy protection following GDPR and platform privacy requirements
 
-**Secure Communication** HTTPS-based communication for any network features
+**Data Encryption**
 
-**Platform Compliance** Full compliance with platform security requirements and guidelines
+Appropriate encryption for sensitive user data and save files
 
-**Vulnerability Management** Regular security audits and vulnerability assessment procedures
+**Secure Communication**
+
+HTTPS-based communication for any network features
+
+**Platform Compliance**
+
+Full compliance with platform security requirements and guidelines
+
+#### Vulnerability Management
+
+Regular security audits and vulnerability assessment procedures
 
 ---
 
@@ -4038,77 +7177,142 @@ Game Architecture/
 
 City Defense Z's resource economy is carefully balanced to create meaningful strategic decisions while maintaining engaging gameplay flow across short-term tactical choices and long-term progression investments.
 
-**Economic Design Philosophy:**
+#### Economic Design Philosophy:
 
-**"Scarcity with Strategic Choice"**:
+**"Scarcity with Strategic Choice"**
 
-**Resource Tension** Players consistently face meaningful choices about resource allocation
+:
 
-**Multi-Path Optimization** Multiple viable strategies for resource management and base development
+**Resource Tension**
 
-**Risk/Reward Scaling** Higher-risk decisions offer proportionally greater potential rewards
+Players consistently face meaningful choices about resource allocation
 
-**Time Pressure Integration** Resource decisions complicated by day/night cycle time constraints
+**Multi-Path Optimization**
 
-**Resource Flow Architecture:**Resource (Primary Currency)- **Base Generation:** 10 Resource per day (day 1), scaling +2 per day until day 10, then +1 per day
+Multiple viable strategies for resource management and base development
 
-**Factory Production** Level 1 Factory produces 5 Resource per collection cycle
+**Risk/Reward Scaling**
 
-**Building Costs** Basic buildings cost 8-12 Resource, utility cards cost 15-20 Resource
+Higher-risk decisions offer proportionally greater potential rewards
 
-**Scaling Strategy** Resource generation must outpace building cost inflation for sustained growth
+**Time Pressure Integration**
 
-**Economic Pressure Points** Days 15-25 typically require optimized resource management
+Resource decisions complicated by day/night cycle time constraints
 
-**Ammunition (Military Currency):**
+#### Resource Flow Architecture
 
-**Base Generation** 5 Ammunition per day (day 1), scaling +1 per day until day 15
+Resource (Primary Currency)- 
+##### Base Generation:
 
-**Ammunition Building Production** Level 1 produces 8 Ammunition per collection cycle
+ 10 Resource per day (day 1), scaling +2 per day until day 10, then +1 per day
 
-**Military Costs** Basic soldiers cost 4 Ammunition, walls cost 2 Ammunition, airstrikes cost 15-25 Ammunition
+##### Factory Production
 
-**Strategic Balance** Must balance soldier production with defensive structure investment
+Level 1 Factory produces 5 Resource per collection cycle
 
-**Crisis Management** Ammunition scarcity during heavy combat waves creates tactical tension
+**Building Costs**
 
-**Food (Survival Currency):**
+Basic buildings cost 8-12 Resource, utility cards cost 15-20 Resource
 
-**Base Consumption** 1 Food per Population per day (automatic deduction)
+#### Scaling Strategy
 
-**Farm Production** Level 1 Farm produces 6 Food per collection cycle, affects surrounding grids
+Resource generation must outpace building cost inflation for sustained growth
 
-**Expedition Costs** 2-4 Food per NPC per expedition day
+##### Economic Pressure Points
 
-**Hunger Penalty** -20% combat effectiveness when Food drops below Population requirements
+Days 15-25 typically require optimized resource management
 
-**Population Scaling** Larger armies require proportionally more food infrastructure
+##### Ammunition (Military Currency):
+
+##### Base Generation
+
+5 Ammunition per day (day 1), scaling +1 per day until day 15
+
+##### Ammunition Building Production
+
+Level 1 produces 8 Ammunition per collection cycle
+
+**Military Costs**
+
+Basic soldiers cost 4 Ammunition, walls cost 2 Ammunition, airstrikes cost 15-25 Ammunition
+
+**Strategic Balance**
+
+Must balance soldier production with defensive structure investment
+
+#### Crisis Management
+
+Ammunition scarcity during heavy combat waves creates tactical tension
+
+##### Food (Survival Currency):
+
+**Base Consumption**
+
+1 Food per Population per day (automatic deduction)
+
+##### Farm Production
+
+Level 1 Farm produces 6 Food per collection cycle, affects surrounding grids
+
+**Expedition Costs**
+
+2-4 Food per NPC per expedition day
+
+**Hunger Penalty**
+
+-20% combat effectiveness when Food drops below Population requirements
+
+**Population Scaling**
+
+Larger armies require proportionally more food infrastructure
 
 **Population (Capacity Limitation):**
 
-**Base Capacity** 10 Population at game start
+**Base Capacity**
 
-**House Production** Level 1 House provides +5 Population capacity
+10 Population at game start
 
-**Military Constraint** Cannot train soldiers beyond current Population limit
+##### House Production
 
-**Strategic Investment** Must balance housing construction with other building priorities
+Level 1 House provides +5 Population capacity
 
-**Growth Planning** Population becomes bottleneck for large-scale military strategies
+**Military Constraint**
 
-**Research Points (Meta Currency):**
+Cannot train soldiers beyond current Population limit
 
-**Laboratory Production** Level 1 Lab produces 2 Research Points per collection cycle
+**Strategic Investment**
 
-**Expedition Rewards** 3-8 Research Points based on expedition type and success
+Must balance housing construction with other building priorities
 
-**3-Day Offerings** 5-15 Research Points as alternative to immediate resources
+**Growth Planning**
 
-**Upgrade Costs** Range from 25 (basic) to 500+ (premium) Research Points
+Population becomes bottleneck for large-scale military strategies
 
-**Investment Strategy** Balance immediate run survival with long-term meta progression
+##### Research Points (Meta Currency):
 
-**Economic Balance Mechanisms:**Resource Sink Analysis```
+##### Laboratory Production
+
+Level 1 Lab produces 2 Research Points per collection cycle
+
+##### Expedition Rewards
+
+3-8 Research Points based on expedition type and success
+
+**3-Day Offerings**
+
+5-15 Research Points as alternative to immediate resources
+
+**Upgrade Costs**
+
+Range from 25 (basic) to 500+ (premium) Research Points
+
+#### Investment Strategy
+
+Balance immediate run survival with long-term meta progression
+
+##### Economic Balance Mechanisms
+
+Resource Sink Analysis```
 
 Resource Expenditure Categories:
 ├── Essential Spending (60-70% of income)
@@ -4124,43 +7328,71 @@ Resource Expenditure Categories:
     └── Opportunity Investment (5-10%)
 ```
 
-**Production Scaling Curves:**
+##### Production Scaling Curves:
 
-**Linear Base Growth** Consistent daily resource increases preventing early game stagnation
+**Linear Base Growth**
 
-**Exponential Building Growth** Merged buildings provide exponentially improved production
+Consistent daily resource increases preventing early game stagnation
 
-**Plateau Management** Resource growth plateaus at day 30+ requiring strategic optimization
+**Exponential Building Growth**
 
-**Efficiency Rewards** Optimal merge strategies provide significant economic advantages
+Merged buildings provide exponentially improved production
+
+#### Plateau Management
+
+Resource growth plateaus at day 30+ requiring strategic optimization
+
+##### Efficiency Rewards
+
+Optimal merge strategies provide significant economic advantages
 
 **Economy Stress Testing:**
 
-**Resource Shortage Scenarios** Game remains playable even with suboptimal resource management
+**Resource Shortage Scenarios**
 
-**Abundance Prevention** Resource caps and meaningful sinks prevent runaway economic growth
+Game remains playable even with suboptimal resource management
 
-**Strategic Flexibility** Multiple viable economic strategies support different playstyles
+**Abundance Prevention**
 
-**Recovery Mechanisms** Players can recover from economic mistakes through strategic adaptation
+Resource caps and meaningful sinks prevent runaway economic growth
+
+**Strategic Flexibility**
+
+Multiple viable economic strategies support different playstyles
+
+**Recovery Mechanisms**
+
+Players can recover from economic mistakes through strategic adaptation
 
 ### 10.2 Combat Balance
 
 Combat balance ensures engaging, skill-based encounters that scale appropriately with player progression while maintaining tactical depth and strategic variety.
 
-**Combat Design Principles:**
+#### Combat Design Principles:
 
-**"Tactical Depth with Clear Feedback"**:
+**"Tactical Depth with Clear Feedback"**
 
-**Readable Combat** Players can understand why they succeeded or failed in combat encounters
+:
 
-**Multiple Solutions** Various tactical approaches remain viable for overcoming challenges
+**Readable Combat**
 
-**Skill Expression** Player decision-making and timing significantly impact combat outcomes
+Players can understand why they succeeded or failed in combat encounters
 
-**Progressive Challenge** Combat difficulty scales with player capabilities and game progression
+**Multiple Solutions**
 
-**Unit Balance Framework:**Soldier Effectiveness Scaling```
+Various tactical approaches remain viable for overcoming challenges
+
+**Skill Expression**
+
+Player decision-making and timing significantly impact combat outcomes
+
+**Progressive Challenge**
+
+Combat difficulty scales with player capabilities and game progression
+
+#### Unit Balance Framework
+
+Soldier Effectiveness Scaling```
 
 Soldier Level Progression:
 ├── Level 1 (Basic): 100% baseline effectiveness
@@ -4172,15 +7404,25 @@ Soldier Level Progression:
 
 **Specialized Unit Balance:**
 
-**Mortar Artillery** High damage, slow fire rate, vulnerable to fast enemies
+**Mortar Artillery**
 
-**Machine Gun (Bixi)** Excellent vs swarms, less effective vs individual strong enemies
+High damage, slow fire rate, vulnerable to fast enemies
 
-**Rocket Launcher** Maximum single-target damage, expensive ammunition cost
+**Machine Gun (Bixi)**
 
-**Basic Soldiers** Balanced effectiveness, cost-efficient, forms backbone of defense
+Excellent vs swarms, less effective vs individual strong enemies
 
-**Enemy Challenge Scaling:**Basic Zombie Progression```
+**Rocket Launcher**
+
+Maximum single-target damage, expensive ammunition cost
+
+**Basic Soldiers**
+
+Balanced effectiveness, cost-efficient, forms backbone of defense
+
+**Enemy Challenge Scaling**
+
+Basic Zombie Progression```
 
 Zombie Type Scaling (by day):
 ├── Days 1-10: Primarily Level 1 zombies, rare Level 2
@@ -4192,77 +7434,137 @@ Zombie Type Scaling (by day):
 
 **Boss Encounter Balance:**
 
-**Level 1 Boss (Stonefist)** Appears days 8-12, requires 3-4 Level 2 soldiers minimum
+**Level 1 Boss (Stonefist)**
 
-**Level 2 Boss (Deathtouch)** Appears days 18-25, requires mixed unit composition
+Appears days 8-12, requires 3-4 Level 2 soldiers minimum
 
-**Level 3 Boss (Banger)** Appears days 35-45, requires advanced positioning strategy
+**Level 2 Boss (Deathtouch)**
 
-**Level 4 Boss (Toxicz)** Appears days 50+, requires optimized defensive setup
+Appears days 18-25, requires mixed unit composition
 
-**Combat Mechanics Balance:**Boost System Effectiveness- **Damage Boost:** +50% damage for 30 seconds, critical for boss encounters
+**Level 3 Boss (Banger)**
 
-**Fire Rate Boost** +35% attack speed for 20 seconds, excellent vs swarm waves
+Appears days 35-45, requires advanced positioning strategy
 
-**Shield Boost** 50% damage reduction for 10 seconds, emergency defensive tool
+**Level 4 Boss (Toxicz)**
 
-**Resource Boost** +50% collection for 6 cycles, economic recovery mechanism
+Appears days 50+, requires optimized defensive setup
+
+#### Combat Mechanics Balance
+
+Boost System Effectiveness- **Damage Boost:**  +50% damage for 30 seconds, critical for boss encounters
+
+**Fire Rate Boost**
+
++35% attack speed for 20 seconds, excellent vs swarm waves
+
+**Shield Boost**
+
+50% damage reduction for 10 seconds, emergency defensive tool
+
+**Resource Boost**
+
++50% collection for 6 cycles, economic recovery mechanism
 
 **Airstrike Balance:**
 
-**Standard Strike** 300-500 damage in medium radius, costs 15 Ammunition
+**Standard Strike**
 
-**Carpet Bomber** 200 damage x3 bombs in line formation, costs 25 Ammunition
+300-500 damage in medium radius, costs 15 Ammunition
 
-**Cooldown Timing** 45-60 second cooldowns prevent overuse while maintaining strategic value
+**Carpet Bomber**
 
-**Upgrade Impact** Research upgrades significantly improve cost-effectiveness and power
+200 damage x3 bombs in line formation, costs 25 Ammunition
 
-**Wall Durability System:**
+**Cooldown Timing**
 
-**Basic Wall HP** 100 HP, destroyed by 8-12 basic zombie attacks
+45-60 second cooldowns prevent overuse while maintaining strategic value
 
-**Wall Upgrade Effects** +50% HP per wall upgrade level
+**Upgrade Impact**
 
-**Repair Limitation** Walls cannot be repaired, only rebuilt next day
+Research upgrades significantly improve cost-effectiveness and power
 
-**Strategic Timing** Wall placement timing affects overall defensive efficiency
+#### Wall Durability System:
 
-**Combat Pacing & Flow:**Wave Composition Design- **Early Waves (Days 1-5):** 10-20 zombies, single type, 30-45 second duration
+**Basic Wall HP**
 
-**Mid Waves (Days 15-25)** 25-40 zombies, 2-3 types mixed, 60-90 second duration
+100 HP, destroyed by 8-12 basic zombie attacks
 
-**Late Waves (Days 35+)** 40-60 zombies, all types present, 90-120 second duration
+**Wall Upgrade Effects**
 
-**Boss Waves** Standard wave + boss zombie, extended duration with preparation time
++50% HP per wall upgrade level
 
-**Combat Feedback Systems:**
+**Repair Limitation**
 
-**Damage Numbers** Clear visual feedback for damage dealt and received
+Walls cannot be repaired, only rebuilt next day
 
-**Threat Indicators** Visual and audio cues for high-priority targets
+**Strategic Timing**
 
-**Efficiency Metrics** Post-wave analysis showing combat effectiveness statistics
+Wall placement timing affects overall defensive efficiency
 
-**Learning Support** Clear feedback helping players understand tactical successes and failures
+**Combat Pacing & Flow**
+
+Wave Composition Design- **Early Waves (Days 1-5):**  10-20 zombies, single type, 30-45 second duration
+
+**Mid Waves (Days 15-25)**
+
+25-40 zombies, 2-3 types mixed, 60-90 second duration
+
+**Late Waves (Days 35+)**
+
+40-60 zombies, all types present, 90-120 second duration
+
+**Boss Waves**
+
+Standard wave + boss zombie, extended duration with preparation time
+
+#### Combat Feedback Systems:
+
+**Damage Numbers**
+
+Clear visual feedback for damage dealt and received
+
+**Threat Indicators**
+
+Visual and audio cues for high-priority targets
+
+#### Efficiency Metrics
+
+Post-wave analysis showing combat effectiveness statistics
+
+**Learning Support**
+
+Clear feedback helping players understand tactical successes and failures
 
 ### 10.3 Progression Curves
 
 Progression systems are carefully tuned to provide satisfying advancement while maintaining long-term engagement and strategic depth across multiple gameplay sessions.
 
-**Meta Progression Philosophy:**
+#### Meta Progression Philosophy:
 
-**"Meaningful Growth with Sustained Challenge"**:
+**"Meaningful Growth with Sustained Challenge"**
 
-**Power Progression** Players feel consistently stronger while challenges scale appropriately
+:
 
-**Choice Significance** Upgrade investments create meaningfully different gameplay experiences
+**Power Progression**
 
-**Long-term Engagement** Progression systems support 50+ hours of advancement
+Players feel consistently stronger while challenges scale appropriately
 
-**Restart Motivation** Each run contributes to meaningful permanent advancement
+**Choice Significance**
 
-**Research Point Progression Curve:**Research Point Generation```
+Upgrade investments create meaningfully different gameplay experiences
+
+##### Long-term Engagement
+
+Progression systems support 50+ hours of advancement
+
+**Restart Motivation**
+
+Each run contributes to meaningful permanent advancement
+
+**Research Point Progression Curve**
+
+Research Point Generation```
 
 Research Point Sources (per run):
 ├── Laboratory Production: 15-30 RP (days 1-25), 30-60 RP (days 25+)
@@ -4272,7 +7574,8 @@ Research Point Sources (per run):
 └── Achievement Unlocks: 25-100 RP for milestone completions
 ```
 
-**Upgrade Cost Structure:**
+#### Upgrade Cost Structure:
+
 ```
 Research Point Investment Tiers:
 ├── Tier 1 (Foundation): 25-50 RP per upgrade
@@ -4289,105 +7592,189 @@ Research Point Investment Tiers:
     └── Ultimate progression goals
 ```
 
-**Run Length Progression:**Expected Survival Curves- **Beginner Runs (0-5 attempts):** 5-15 days average survival
+**Run Length Progression**
 
-**Learning Phase (6-20 attempts)** 15-35 days average survival
+Expected Survival Curves- **Beginner Runs (0-5 attempts):**  5-15 days average survival
 
-**Competent Phase (21-50 attempts)** 25-50 days average survival
+##### Learning Phase (6-20 attempts)
 
-**Mastery Phase (51+ attempts)** 50+ days consistent survival
+15-35 days average survival
 
-**Progression Milestone Rewards:**
+##### Competent Phase (21-50 attempts)
 
-**First 10-Day Survival** Unlock medium expeditions (significant capability expansion)
+25-50 days average survival
 
-**First 25-Day Survival** Unlock large expeditions (high-risk/high-reward options)
+##### Mastery Phase (51+ attempts)
 
-**First Map Completion** Unlock airstrikes (major combat enhancement)
+50+ days consistent survival
 
-**Multiple Map Completions** Unlock advanced upgrade trees (specialized builds)
+#### Progression Milestone Rewards:
 
-**NPC Progression Integration:**NPC Acquisition Timeline- **First NPC Choice:** Day 5 of first successful run
+**First 10-Day Survival**
 
-**Subsequent NPCs** Every 5-8 days during mid-to-late game
+Unlock medium expeditions (significant capability expansion)
 
-**Specialization Impact** Chosen NPCs significantly affect optimal strategies
+**First 25-Day Survival**
 
-**Loss Recovery** NPC death creates meaningful setback requiring strategic adaptation
+Unlock large expeditions (high-risk/high-reward options)
+
+**First Map Completion**
+
+Unlock airstrikes (major combat enhancement)
+
+**Multiple Map Completions**
+
+Unlock advanced upgrade trees (specialized builds)
+
+**NPC Progression Integration**
+
+NPC Acquisition Timeline- **First NPC Choice:**  Day 5 of first successful run
+
+**Subsequent NPCs**
+
+Every 5-8 days during mid-to-late game
+
+**Specialization Impact**
+
+Chosen NPCs significantly affect optimal strategies
+
+**Loss Recovery**
+
+NPC death creates meaningful setback requiring strategic adaptation
 
 **Base Customization Progression:**
 
-**Visual Progression** Base appearance improves with upgrade investments
+**Visual Progression**
 
-**Functional Growth** Upgraded bases provide tangible gameplay advantages
+Base appearance improves with upgrade investments
 
-**Personalization Options** Multiple upgrade paths support individual playstyle preferences
+##### Functional Growth
 
-**Community Building** Multiple NPCs create dynamic base ecosystem
+Upgraded bases provide tangible gameplay advantages
+
+**Personalization Options**
+
+Multiple upgrade paths support individual playstyle preferences
+
+**Community Building**
+
+Multiple NPCs create dynamic base ecosystem
 
 ### 10.4 Difficulty Scaling
 
 Difficulty progression creates escalating challenges that match player skill development while maintaining accessibility for diverse player skill levels.
 
-**Difficulty Design Philosophy:**
+#### Difficulty Design Philosophy:
 
-**"Adaptive Challenge with Player Agency"**:
+**"Adaptive Challenge with Player Agency"**
 
-**Skill-Based Scaling** Difficulty increases match typical player skill development
+:
 
-**Multiple Difficulty Vectors** Challenge increases through various mechanics simultaneously
+**Skill-Based Scaling**
 
-**Player Choice Integration** Difficulty affected by player strategic choices and upgrade paths
+Difficulty increases match typical player skill development
 
-**Accessibility Maintenance** Game remains accessible to casual players while rewarding mastery
+**Multiple Difficulty Vectors**
 
-**Map-Based Difficulty Progression:**Map 1 (Nevada) - Learning Curve- **Zombie Density:** 10-30 zombies per wave maximum
+Challenge increases through various mechanics simultaneously
 
-**Enemy Types** Primarily Level 1-2 zombies, rare Level 3
+**Player Choice Integration**
 
-**Boss Frequency** Single boss every 8-12 days
+Difficulty affected by player strategic choices and upgrade paths
 
-**Resource Availability** Generous resource generation supporting learning
+**Accessibility Maintenance**
 
-**Objective** 50-day survival with tutorial integration
+Game remains accessible to casual players while rewarding mastery
+
+**Map-Based Difficulty Progression**
+
+Map 1 (Nevada) - Learning Curve- **Zombie Density:**  10-30 zombies per wave maximum
+
+##### Enemy Types
+
+Primarily Level 1-2 zombies, rare Level 3
+
+**Boss Frequency**
+
+Single boss every 8-12 days
+
+**Resource Availability**
+
+Generous resource generation supporting learning
+
+**Objective**
+
+50-day survival with tutorial integration
 
 **Map 2 (Urban) - Skill Development:**
 
-**Zombie Density** 20-45 zombies per wave maximum
+**Zombie Density**
 
-**Enemy Types** Level 1-3 majority, Level 4 introduction
+20-45 zombies per wave maximum
 
-**Boss Frequency** Boss every 6-8 days with increased variety
+##### Enemy Types
 
-**Environmental Challenges** Urban obstacles affecting placement strategy
+Level 1-3 majority, Level 4 introduction
 
-**Objective** 75-day survival requiring strategic optimization
+**Boss Frequency**
+
+Boss every 6-8 days with increased variety
+
+**Environmental Challenges**
+
+Urban obstacles affecting placement strategy
+
+**Objective**
+
+75-day survival requiring strategic optimization
 
 **Map 3 (Industrial) - Advanced Challenge:**
 
-**Zombie Density** 30-60 zombies per wave maximum
+**Zombie Density**
 
-**Enemy Types** Level 2-4 majority, Level 5 introduction
+30-60 zombies per wave maximum
 
-**Boss Frequency** Multiple bosses per wave in late game
+##### Enemy Types
 
-**Complex Systems** Industrial hazards and advanced mechanics
+Level 2-4 majority, Level 5 introduction
 
-**Objective** Extended survival requiring mastery of all systems
+**Boss Frequency**
+
+Multiple bosses per wave in late game
+
+#### Complex Systems
+
+Industrial hazards and advanced mechanics
+
+**Objective**
+
+Extended survival requiring mastery of all systems
 
 **Map 4 (Laboratory) - Ultimate Test:**
 
-**Zombie Density** 40-80 zombies per wave maximum
+**Zombie Density**
 
-**Enemy Types** All levels present, emphasis on Level 4-5
+40-80 zombies per wave maximum
 
-**Boss Encounters** Frequent boss waves with multiple simultaneous bosses
+##### Enemy Types
 
-**Maximum Complexity** All systems at maximum challenge level
+All levels present, emphasis on Level 4-5
 
-**Objective** 100-day survival representing complete mastery
+**Boss Encounters**
 
-**Dynamic Difficulty Factors:**Time-Based Scaling```
+Frequent boss waves with multiple simultaneous bosses
+
+**Maximum Complexity**
+
+All systems at maximum challenge level
+
+**Objective**
+
+100-day survival representing complete mastery
+
+**Dynamic Difficulty Factors**
+
+Time-Based Scaling```
 
 Difficulty Progression Factors:
 ├── Zombie Health: +5% per 10 days
@@ -4399,49 +7786,89 @@ Difficulty Progression Factors:
 
 **Player Performance Adaptation:**
 
-**Success Tracking** Game monitors player performance and adjusts accordingly
+**Success Tracking**
 
-**Assistance Systems** Struggling players receive subtle difficulty reductions
+Game monitors player performance and adjusts accordingly
 
-**Challenge Escalation** Highly successful players face increased challenge
+#### Assistance Systems
 
-**Transparent Systems** Players can see and understand difficulty adjustments
+Struggling players receive subtle difficulty reductions
 
-**Accessibility Difficulty Options:**Difficulty Modifiers- **Casual Mode:** -25% enemy health and damage, +25% resource generation
+**Challenge Escalation**
 
-**Standard Mode** Balanced experience as designed
+Highly successful players face increased challenge
 
-**Hard Mode** +25% enemy health and damage, -10% resource generation
+#### Transparent Systems
 
-**Expert Mode** +50% challenge across all systems, for experienced players
+Players can see and understand difficulty adjustments
+
+**Accessibility Difficulty Options**
+
+Difficulty Modifiers- **Casual Mode:**  -25% enemy health and damage, +25% resource generation
+
+**Standard Mode**
+
+Balanced experience as designed
+
+**Hard Mode**
+
++25% enemy health and damage, -10% resource generation
+
+**Expert Mode**
+
++50% challenge across all systems, for experienced players
 
 **Assistive Features:**
 
-**Extended Day Phases** Longer preparation time for players who need it
+##### Extended Day Phases
 
-**Visual Assistance** Enhanced visual indicators for critical information
+Longer preparation time for players who need it
 
-**Simplified Systems** Optional simplified versions of complex mechanics
+**Visual Assistance**
 
-**Checkpoint System** Mid-run save points for players requiring breaks
+Enhanced visual indicators for critical information
 
-**Balance Validation Framework:**Testing Methodology- **Statistical Analysis:** Data-driven balance adjustments based on player performance metrics
+#### Simplified Systems
 
-**Playtester Diversity** Testing across various skill levels and playstyles
+Optional simplified versions of complex mechanics
 
-**Iterative Refinement** Regular balance updates based on player feedback and performance data
+#### Checkpoint System
 
-**Edge Case Testing** Validation of extreme strategies and unusual gameplay approaches
+Mid-run save points for players requiring breaks
 
-**Success Metrics:**
+#### Balance Validation Framework
 
-**Completion Rates** 60-80% of players should complete Map 1, 40-60% Map 2, 20-40% Map 3, 10-25% Map 4
+Testing Methodology- **Statistical Analysis:**  Data-driven balance adjustments based on player performance metrics
 
-**Engagement Retention** Players should feel motivated to attempt multiple runs
+**Playtester Diversity**
 
-**Strategic Diversity** Multiple viable strategies should emerge from player community
+Testing across various skill levels and playstyles
 
-**Learning Curve** Clear skill progression should be evident across player attempts
+**Iterative Refinement**
+
+Regular balance updates based on player feedback and performance data
+
+**Edge Case Testing**
+
+Validation of extreme strategies and unusual gameplay approaches
+
+#### Success Metrics:
+
+**Completion Rates**
+
+60-80% of players should complete Map 1, 40-60% Map 2, 20-40% Map 3, 10-25% Map 4
+
+##### Engagement Retention
+
+Players should feel motivated to attempt multiple runs
+
+**Strategic Diversity**
+
+Multiple viable strategies should emerge from player community
+
+**Learning Curve**
+
+Clear skill progression should be evident across player attempts
 
 ---
 
@@ -4451,155 +7878,275 @@ Difficulty Progression Factors:
 
 City Defense Z's onboarding system introduces players to complex strategic systems through carefully designed progressive tutorials that respect player intelligence while ensuring comprehension of core mechanics.
 
-**Onboarding Philosophy:**
+#### Onboarding Philosophy:
 
-**"Learn by Doing with Guided Discovery"**:
+**"Learn by Doing with Guided Discovery"**
 
-**Interactive Learning** Players learn through actual gameplay rather than passive information consumption
+:
 
-**Progressive Complexity** Systems introduced incrementally, building on previously mastered concepts
+**Interactive Learning**
 
-**Contextual Teaching** Mechanics taught when they become relevant rather than front-loaded
+Players learn through actual gameplay rather than passive information consumption
 
-**Player Agency** Tutorial provides guidance while preserving player choice and experimentation
+**Progressive Complexity**
 
-**Tutorial Structure Framework:**
+Systems introduced incrementally, building on previously mastered concepts
+
+**Contextual Teaching**
+
+Mechanics taught when they become relevant rather than front-loaded
+
+**Player Agency**
+
+Tutorial provides guidance while preserving player choice and experimentation
+
+#### Tutorial Structure Framework:
 
 **Phase 1: Foundation Tutorial (Days 1-3)**First Day Tutorial- **Basic Placement:** Learn building card selection and grid placement mechanics
 
-**Resource Introduction** Understand Resource currency and basic economic concepts
+**Resource Introduction**
 
-**Merge Discovery** Experience first building merge through guided placement
+Understand Resource currency and basic economic concepts
 
-**Day/Night Cycle** Introduction to phase transitions and time management
+**Merge Discovery**
 
-**Victory Condition** Complete first night phase successfully with minimal complexity
+Experience first building merge through guided placement
+
+**Day/Night Cycle**
+
+Introduction to phase transitions and time management
+
+##### Victory Condition
+
+Complete first night phase successfully with minimal complexity
 
 **Second Day Tutorial:**
 
-**Soldier Training** Learn Barracks functionality and soldier deployment
+**Soldier Training**
 
-**Combat Basics** Understand soldier behavior and zombie engagement
+Learn Barracks functionality and soldier deployment
 
-**Resource Collection** Master clicking buildings for resource collection
+**Combat Basics**
 
-**Strategic Timing** Experience 10-second countdown warning and preparation urgency
+Understand soldier behavior and zombie engagement
 
-**Boost Introduction** Collect and use first boost during night phase
+##### Resource Collection
+
+Master clicking buildings for resource collection
+
+**Strategic Timing**
+
+Experience 10-second countdown warning and preparation urgency
+
+**Boost Introduction**
+
+Collect and use first boost during night phase
 
 **Third Day Tutorial:**
 
-**Multiple Resources** Introduction to Ammunition currency and military economics
+**Multiple Resources**
 
-**Wall Placement** Learn defensive structure deployment and tactical positioning
+Introduction to Ammunition currency and military economics
 
-**Soldier Merging** Guided experience with manual soldier merge mechanics
+**Wall Placement**
 
-**Zombie Hole Response** First encounter with dynamic threat system
+Learn defensive structure deployment and tactical positioning
 
-**Planning Depth** More complex preparation phase with multiple simultaneous concerns
+**Soldier Merging**
 
-**Phase 2: System Integration Tutorial (Days 4-7)**
+Guided experience with manual soldier merge mechanics
 
-**Day 4-5: Advanced Building Systems:**
+**Zombie Hole Response**
 
-**Farm Introduction** Learn Food currency and population management
+First encounter with dynamic threat system
 
-**Population Limits** Understand soldier capacity constraints and housing needs
+**Planning Depth**
 
-**Production Chains** Experience interconnected resource generation systems
+More complex preparation phase with multiple simultaneous concerns
 
-**Advanced Merging** Practice spatial planning for optimal building merges
+#### Phase 2: System Integration Tutorial (Days 4-7)
 
-**NPC Introduction** First NPC recruitment choice with guided explanation
+#### Day 4-5: Advanced Building Systems:
+
+**Farm Introduction**
+
+Learn Food currency and population management
+
+**Population Limits**
+
+Understand soldier capacity constraints and housing needs
+
+##### Production Chains
+
+Experience interconnected resource generation systems
+
+**Advanced Merging**
+
+Practice spatial planning for optimal building merges
+
+**NPC Introduction**
+
+First NPC recruitment choice with guided explanation
 
 **Day 6-7: Combat Mastery:**
 
-**Specialized Units** Introduction to Mortar, Machine Gun, and Rocket Launcher
+**Specialized Units**
 
-**Boss Encounters** First boss zombie with guided tactical response
+Introduction to Mortar, Machine Gun, and Rocket Launcher
 
-**Boost Strategy** Advanced boost deployment using AoE targeting system
+**Boss Encounters**
 
-**Emergency Management** Multiple zombie holes requiring rapid response
+First boss zombie with guided tactical response
 
-**Combat Analysis** Post-wave feedback explaining tactical successes and failures
+#### Boost Strategy
+
+Advanced boost deployment using AoE targeting system
+
+#### Emergency Management
+
+Multiple zombie holes requiring rapid response
+
+**Combat Analysis**
+
+Post-wave feedback explaining tactical successes and failures
 
 **Phase 3: Meta Systems Tutorial (Days 8-15)**Research Point Systems- **Laboratory Introduction:** Understanding meta progression currency
 
-**First Upgrade** Guided investment in first permanent upgrade
+**First Upgrade**
 
-**3-Day Offerings** Choice explanation and strategic decision framework
+Guided investment in first permanent upgrade
 
-**Long-term Planning** Balancing immediate needs with permanent advancement
+**3-Day Offerings**
 
-**Upgrade Tree Navigation** Interface tutorial for research point investment
+Choice explanation and strategic decision framework
 
-**Advanced Strategic Systems:**
+**Long-term Planning**
 
-**Expedition Tutorial** First NPC expedition with risk/reward explanation
+Balancing immediate needs with permanent advancement
 
-**Utility Cards** Introduction to Building Relocation and Direct Level-Up cards
+**Upgrade Tree Navigation**
 
-**Map Completion** Understanding story objectives and progression unlocks
+Interface tutorial for research point investment
 
-**Airstrike Unlock** Introduction to aircraft systems after completing tutorial map
+#### Advanced Strategic Systems:
 
-**Strategic Depth** Recognition of multiple viable approaches and playstyles
+**Expedition Tutorial**
 
-**Tutorial Design Principles:**Adaptive Guidance- **Skill Detection:** Tutorial adapts pace based on player performance and comprehension
+First NPC expedition with risk/reward explanation
 
-**Skip Options** Experienced players can accelerate through familiar concepts
+**Utility Cards**
 
-**Replay Accessibility** All tutorial segments available for review at any time
+Introduction to Building Relocation and Direct Level-Up cards
 
-**Help Integration** Contextual help system provides just-in-time information
+**Map Completion**
 
-**Progressive Disclosure** Advanced features hidden until player ready to learn them
+Understanding story objectives and progression unlocks
 
-**Feedback Systems:**
+**Airstrike Unlock**
 
-**Visual Indicators** Clear visual cues highlighting interactive elements and opportunities
+Introduction to aircraft systems after completing tutorial map
 
-**Success Celebration** Positive reinforcement for correct actions and strategic decisions
+**Strategic Depth**
 
-**Mistake Recovery** Gentle guidance when players make suboptimal choices
+Recognition of multiple viable approaches and playstyles
 
-**Progress Tracking** Visual progress indicators showing tutorial completion status
+##### Tutorial Design Principles
 
-**Confidence Building** Structured success experiences building player self-efficacy
+Adaptive Guidance- **Skill Detection:**  Tutorial adapts pace based on player performance and comprehension
+
+**Skip Options**
+
+Experienced players can accelerate through familiar concepts
+
+**Replay Accessibility**
+
+All tutorial segments available for review at any time
+
+**Help Integration**
+
+Contextual help system provides just-in-time information
+
+**Progressive Disclosure**
+
+Advanced features hidden until player ready to learn them
+
+#### Feedback Systems:
+
+**Visual Indicators**
+
+Clear visual cues highlighting interactive elements and opportunities
+
+**Success Celebration**
+
+Positive reinforcement for correct actions and strategic decisions
+
+**Mistake Recovery**
+
+Gentle guidance when players make suboptimal choices
+
+**Progress Tracking**
+
+Visual progress indicators showing tutorial completion status
+
+**Confidence Building**
+
+Structured success experiences building player self-efficacy
 
 **Tutorial Accessibility:**
 
-**Multiple Learning Styles** Visual, auditory, and kinesthetic learning support
+**Multiple Learning Styles**
 
-**Pacing Control** Players control tutorial progression speed
+Visual, auditory, and kinesthetic learning support
 
-**Language Support** Tutorial localized for multiple languages and cultures
+**Pacing Control**
 
-**Disability Accommodation** Tutorial accessible to players with various disabilities
+Players control tutorial progression speed
 
-**Cultural Sensitivity** Tutorial content appropriate for global audience
+**Language Support**
+
+Tutorial localized for multiple languages and cultures
+
+**Disability Accommodation**
+
+Tutorial accessible to players with various disabilities
+
+**Cultural Sensitivity**
+
+Tutorial content appropriate for global audience
 
 ### 11.2 Player Motivation Systems
 
 Comprehensive motivation architecture sustaining player engagement through multiple psychological reward mechanisms and progression systems.
 
-**Motivation Design Framework:**
+#### Motivation Design Framework:
 
-**"Intrinsic Growth with Extrinsic Recognition"**:
+**"Intrinsic Growth with Extrinsic Recognition"**
 
-**Mastery Development** Players motivated by improving strategic skills and tactical execution
+:
 
-**Autonomy Support** Multiple viable strategies preserve player choice and creativity
+**Mastery Development**
 
-**Purpose Connection** Narrative context provides meaning for survival objectives
+Players motivated by improving strategic skills and tactical execution
 
-**Social Recognition** Achievement systems acknowledge player accomplishments
+**Autonomy Support**
 
-**Progress Visibility** Clear advancement tracking maintains motivation
+Multiple viable strategies preserve player choice and creativity
 
-**Achievement & Milestone Systems:**Survival Achievements```
+**Purpose Connection**
+
+Narrative context provides meaning for survival objectives
+
+**Social Recognition**
+
+Achievement systems acknowledge player accomplishments
+
+**Progress Visibility**
+
+Clear advancement tracking maintains motivation
+
+#### Achievement & Milestone Systems
+
+Survival Achievements```
 
 Progression Milestones:
 ├── Survival Streaks
@@ -4626,65 +8173,120 @@ Progression Milestones:
 
 **Daily & Weekly Challenges:**
 
-**Rotating Objectives** Daily challenges providing focused gameplay goals
+**Rotating Objectives**
 
-**Skill Development** Challenges designed to teach specific strategies and techniques
+Daily challenges providing focused gameplay goals
 
-**Reward Integration** Challenge completion provides Research Points and progression bonuses
+**Skill Development**
 
-**Difficulty Scaling** Challenges appropriate for player skill level and progression
+Challenges designed to teach specific strategies and techniques
 
-**Community Events** Periodic community-wide challenges fostering shared experience
+**Reward Integration**
 
-**Progression Feedback Systems:**Visual Progress Communication- **Experience Bars:** Clear visual representation of advancement toward next milestone
+Challenge completion provides Research Points and progression bonuses
 
-**Badge Systems** Visual achievement display in player profile and base interface
+**Difficulty Scaling**
 
-**Progress Celebrations** Satisfying animations and effects for significant accomplishments
+Challenges appropriate for player skill level and progression
 
-**Leaderboard Integration** Optional ranking systems for competitive players
+**Community Events**
 
-**Personal Best Tracking** Historical performance comparison and improvement recognition
+Periodic community-wide challenges fostering shared experience
+
+#### Progression Feedback Systems
+
+Visual Progress Communication- 
+##### Experience Bars:
+
+ Clear visual representation of advancement toward next milestone
+
+#### Badge Systems
+
+Visual achievement display in player profile and base interface
+
+**Progress Celebrations**
+
+Satisfying animations and effects for significant accomplishments
+
+**Leaderboard Integration**
+
+Optional ranking systems for competitive players
+
+**Personal Best Tracking**
+
+Historical performance comparison and improvement recognition
 
 **Emotional Reward Mechanisms:**
 
-**Narrative Payoffs** Story resolution providing emotional satisfaction for persistence
+**Narrative Payoffs**
 
-**Character Relationships** NPC development creating emotional investment in base community
+Story resolution providing emotional satisfaction for persistence
 
-**Base Evolution** Visual progression of base appearance reflecting player investment
+**Character Relationships**
 
-**Difficulty Conquest** Satisfaction of overcoming increasingly challenging scenarios
+NPC development creating emotional investment in base community
 
-**Discovery Rewards** Pleasure of discovering new strategies and optimal techniques
+**Base Evolution**
 
-**Social Motivation Elements:**Community Integration- **Strategy Sharing:** Platforms for players to share successful base designs and strategies
+Visual progression of base appearance reflecting player investment
 
-**Achievement Showcase** Social display of accomplishments and rare achievements
+**Difficulty Conquest**
 
-**Learning Community** Forums and guides facilitating knowledge sharing
+Satisfaction of overcoming increasingly challenging scenarios
 
-**Developer Communication** Regular communication about updates, balance changes, and community feedback
+##### Discovery Rewards
 
-**Player Stories** Highlighting exceptional player accomplishments and creative strategies
+Pleasure of discovering new strategies and optimal techniques
+
+**Social Motivation Elements**
+
+Community Integration- **Strategy Sharing:**  Platforms for players to share successful base designs and strategies
+
+**Achievement Showcase**
+
+Social display of accomplishments and rare achievements
+
+**Learning Community**
+
+Forums and guides facilitating knowledge sharing
+
+**Developer Communication**
+
+Regular communication about updates, balance changes, and community feedback
+
+**Player Stories**
+
+Highlighting exceptional player accomplishments and creative strategies
 
 ### 11.3 Replay Value & Long-term Engagement
 
 Comprehensive systems ensuring sustained player engagement through strategic depth, content variety, and meaningful progression across dozens of hours of gameplay.
 
-**Replay Value Architecture:**
+#### Replay Value Architecture:
 
-**"Infinite Strategic Depth with Evolving Challenges"**:
+**"Infinite Strategic Depth with Evolving Challenges"**
 
-**Emergent Complexity** Simple systems interact to create complex strategic scenarios
+:
 
-**Multiple Solutions** Various approaches remain viable for every challenge
+**Emergent Complexity**
 
-**Meta Evolution** Player understanding evolves, revealing new strategic layers
+Simple systems interact to create complex strategic scenarios
 
-**Content Longevity** Core systems support hundreds of hours of meaningful gameplay
+**Multiple Solutions**
 
-**Strategic Variety Systems:**Build Diversity Framework```
+Various approaches remain viable for every challenge
+
+**Meta Evolution**
+
+Player understanding evolves, revealing new strategic layers
+
+##### Content Longevity
+
+Core systems support hundreds of hours of meaningful gameplay
+
+#### Strategic Variety Systems
+
+Build Diversity Framework```
 
 Viable Strategy Archetypes:
 ├── Economic Focus Builds
@@ -4709,163 +8311,302 @@ Viable Strategy Archetypes:
     └── Creative Builds (Unusual strategy combinations)
 ```
 
-**Content Replayability Factors:**Map Variety & Progression- **Environmental Diversity:** Each map requires different tactical approaches and strategies
+##### Content Replayability Factors
 
-**Narrative Reexperience** Multiple playthroughs reveal different story details and character interactions
+Map Variety & Progression- **Environmental Diversity:**  Each map requires different tactical approaches and strategies
 
-**Difficulty Progression** Maps unlock new challenges requiring evolved strategies
+**Narrative Reexperience**
 
-**Infinite Mode** Unlimited survival mode for testing optimized strategies
+Multiple playthroughs reveal different story details and character interactions
 
-**Seasonal Content** Periodic updates adding new maps, enemies, or mechanics
+**Difficulty Progression**
+
+Maps unlock new challenges requiring evolved strategies
+
+**Infinite Mode**
+
+Unlimited survival mode for testing optimized strategies
+
+##### Seasonal Content
+
+Periodic updates adding new maps, enemies, or mechanics
 
 **NPC Combination Variety:**
 
-**Team Composition** 4 NPC types create 15 different possible base communities
+**Team Composition**
 
-**Specialization Synergies** Different NPC combinations enable different strategic approaches
+4 NPC types create 15 different possible base communities
 
-**Expedition Combinations** Various team compositions for expeditions create unique risk/reward scenarios
+**Specialization Synergies**
 
-**Character Development** Multiple playthroughs develop relationships with different NPCs
+Different NPC combinations enable different strategic approaches
 
-**Loss Recovery** NPC death creates meaningful narrative and strategic consequences
+**Expedition Combinations**
+
+Various team compositions for expeditions create unique risk/reward scenarios
+
+**Character Development**
+
+Multiple playthroughs develop relationships with different NPCs
+
+**Loss Recovery**
+
+NPC death creates meaningful narrative and strategic consequences
 
 **Research Point Investment Paths:**
 
-**Upgrade Tree Variety** 11 major trees with 40+ individual upgrades create vast customization possibilities
+**Upgrade Tree Variety**
 
-**Build Specialization** Different upgrade investments create meaningfully different gameplay experiences
+11 major trees with 40+ individual upgrades create vast customization possibilities
 
-**Progression Goals** Multiple viable upgrade priorities support different long-term strategies
+**Build Specialization**
 
-**Experimentation Rewards** Research system encourages trying different upgrade combinations
+Different upgrade investments create meaningfully different gameplay experiences
 
-**Mastery Unlocks** Advanced upgrades accessible only through dedicated investment
+##### Progression Goals
 
-**Long-term Engagement Mechanics:**Skill Development Progression- **Mechanical Mastery:** Improving at real-time decision making and multitasking
+Multiple viable upgrade priorities support different long-term strategies
 
-**Strategic Understanding** Developing deeper appreciation for system interactions
+##### Experimentation Rewards
 
-**Optimization Challenges** Finding perfect efficiency and minimal waste strategies
+Research system encourages trying different upgrade combinations
 
-**Creative Problem Solving** Adapting to new situations and unexpected challenges
+**Mastery Unlocks**
 
-**Teaching Others** Advanced players mentoring newcomers in community spaces
+Advanced upgrades accessible only through dedicated investment
 
-**Content Evolution Systems:**
+#### Long-term Engagement Mechanics
 
-**Balance Updates** Regular balance adjustments keeping strategies fresh and viable
+Skill Development Progression- **Mechanical Mastery:**  Improving at real-time decision making and multitasking
 
-**New Content Releases** Additional maps, enemies, or mechanics expanding strategic possibilities
+**Strategic Understanding**
 
-**Community Challenges** Developer-created challenges testing player creativity and skill
+Developing deeper appreciation for system interactions
 
-**Seasonal Events** Limited-time content creating urgency and community participation
+**Optimization Challenges**
 
-**Player-Generated Content** Tools or systems allowing player creativity and sharing
+Finding perfect efficiency and minimal waste strategies
 
-**Retention Psychology:**Investment Escalation- **Sunk Cost Engagement:** Research Point investment creates psychological commitment
+**Creative Problem Solving**
 
-**Base Attachment** Emotional investment in developed base and NPC relationships
+Adapting to new situations and unexpected challenges
 
-**Achievement Progress** Partial progress toward long-term goals maintains engagement
+**Teaching Others**
 
-**Skill Pride** Recognition of developed expertise and strategic understanding
+Advanced players mentoring newcomers in community spaces
 
-**Community Status** Social recognition within player community
+#### Content Evolution Systems:
+
+**Balance Updates**
+
+Regular balance adjustments keeping strategies fresh and viable
+
+##### New Content Releases
+
+Additional maps, enemies, or mechanics expanding strategic possibilities
+
+**Community Challenges**
+
+Developer-created challenges testing player creativity and skill
+
+**Seasonal Events**
+
+Limited-time content creating urgency and community participation
+
+##### Player-Generated Content
+
+Tools or systems allowing player creativity and sharing
+
+**Retention Psychology**
+
+Investment Escalation- 
+##### Sunk Cost Engagement:
+
+ Research Point investment creates psychological commitment
+
+**Base Attachment**
+
+Emotional investment in developed base and NPC relationships
+
+**Achievement Progress**
+
+Partial progress toward long-term goals maintains engagement
+
+**Skill Pride**
+
+Recognition of developed expertise and strategic understanding
+
+**Community Status**
+
+Social recognition within player community
 
 **Variety Maintenance:**
 
-**Procedural Elements** Random card draws and enemy compositions prevent repetitive gameplay
+**Procedural Elements**
 
-**Strategic Discovery** New strategy combinations discovered through experimentation
+Random card draws and enemy compositions prevent repetitive gameplay
 
-**Challenge Scaling** Increasing difficulty provides long-term goals and mastery objectives
+**Strategic Discovery**
 
-**Meta Shifts** Balance updates create new optimal strategies and approaches
+New strategy combinations discovered through experimentation
 
-**Personal Goals** Player-defined challenges and objectives extending beyond developer content
+**Challenge Scaling**
+
+Increasing difficulty provides long-term goals and mastery objectives
+
+**Meta Shifts**
+
+Balance updates create new optimal strategies and approaches
+
+##### Personal Goals
+
+Player-defined challenges and objectives extending beyond developer content
 
 ### 11.4 Steam Leaderboards
 
 Competitive ranking system motivating players to push their survival limits through infinite mode gameplay and fostering healthy competition within the Steam community.
 
-**Leaderboard Design Philosophy:**
+#### Leaderboard Design Philosophy:
 
-**"Survival Excellence Recognition"**:
+**"Survival Excellence Recognition"**
 
-**Pure Survival Focus** Leaderboards based solely on days survived, rewarding strategic mastery
+:
 
-**Map-Specific Competition** Each map maintains its own leaderboard encouraging diverse strategic approaches
+**Pure Survival Focus**
 
-**Infinite Mode Motivation** Leaderboards create compelling reasons to continue beyond story objectives
+Leaderboards based solely on days survived, rewarding strategic mastery
 
-**Community Benchmark** Players can compare their performance against global community standards
+**Map-Specific Competition**
 
-**Steam Leaderboard System:**Map-Specific Leaderboards- **Map 1 (Nevada):** Top 10 players + player's current ranking (e.g., "#2323")
+Each map maintains its own leaderboard encouraging diverse strategic approaches
 
-**Map 2 (Urban)** Top 10 players + player's current ranking
+**Infinite Mode Motivation**
 
-**Map 3 (Industrial)** Top 10 players + player's current ranking  
+Leaderboards create compelling reasons to continue beyond story objectives
 
-**Map 4 (Laboratory)** Top 10 players + player's current ranking
+**Community Benchmark**
+
+Players can compare their performance against global community standards
+
+#### Steam Leaderboard System
+
+Map-Specific Leaderboards- **Map 1 (Nevada):**  Top 10 players + player's current ranking (e.g., "#2323")
+
+**Map 2 (Urban)**
+
+Top 10 players + player's current ranking
+
+**Map 3 (Industrial)**
+
+Top 10 players + player's current ranking
+
+**Map 4 (Laboratory)**
+
+Top 10 players + player's current ranking
 
 **Primary Leaderboard Metric:**
 
-**Days Survived** Core ranking metric measuring ultimate survival achievement
+**Days Survived**
 
-**100+ Day Benchmark** Major milestone separating casual survivors from elite strategists
+Core ranking metric measuring ultimate survival achievement
 
-**Infinite Progression** No upper limit, encouraging continuous improvement and optimization
+**100+ Day Benchmark**
 
-**Fair Competition** All players compete under identical game conditions and rules
+Major milestone separating casual survivors from elite strategists
 
-**Leaderboard Display Features:**Top 10 Display- **Rank Position:** Clear numerical ranking (#1, #2, #3, etc.)
+**Infinite Progression**
 
-**Player Name** Steam username display
+No upper limit, encouraging continuous improvement and optimization
 
-**Days Survived** Exact survival count for each top player
+**Fair Competition**
 
-**Visual Hierarchy** Distinctive styling for top 3 positions (Gold, Silver, Bronze themes)
+All players compete under identical game conditions and rules
+
+**Leaderboard Display Features**
+
+Top 10 Display- **Rank Position:**  Clear numerical ranking (#1, #2, #3, etc.)
+
+**Player Name**
+
+Steam username display
+
+**Days Survived**
+
+Exact survival count for each top player
+
+**Visual Hierarchy**
+
+Distinctive styling for top 3 positions (Gold, Silver, Bronze themes)
 
 **Personal Ranking:**
 
-**Current Position** Player's exact rank within global leaderboard (e.g., "#2323")
+**Current Position**
 
-**Days Survived** Player's best survival record on each map
+Player's exact rank within global leaderboard (e.g., "#2323")
 
-**Progress Tracking** Visual indication of improvement over time
+**Days Survived**
 
-**Next Milestone** Shows days needed to reach next significant ranking threshold
+Player's best survival record on each map
 
-**Competitive Motivation Systems:**Ranking Incentives- **Elite Recognition:** Top 10 positions provide significant prestige within community
+**Progress Tracking**
 
-**Personal Bests** Constant motivation to surpass previous survival records
+Visual indication of improvement over time
 
-**Peer Comparison** Understanding of relative skill level within player community
+**Next Milestone**
 
-**Achievement Goals** Clear targets for competitive improvement (Top 1000, Top 100, Top 10)
+Shows days needed to reach next significant ranking threshold
+
+#### Competitive Motivation Systems
+
+Ranking Incentives- **Elite Recognition:**  Top 10 positions provide significant prestige within community
+
+**Personal Bests**
+
+Constant motivation to surpass previous survival records
+
+**Peer Comparison**
+
+Understanding of relative skill level within player community
+
+##### Achievement Goals
+
+Clear targets for competitive improvement (Top 1000, Top 100, Top 10)
 
 **Infinite Mode Integration:**
 
-**Post-Story Motivation** Leaderboards provide compelling reason to continue after map completion
+**Post-Story Motivation**
 
-**Optimization Challenges** Competitive environment encourages discovery of optimal strategies
+Leaderboards provide compelling reason to continue after map completion
 
-**Long-term Engagement** Leaderboard climbing provides months of additional gameplay motivation
+**Optimization Challenges**
 
-**Mastery Demonstration** Top rankings demonstrate complete system mastery and strategic excellence
+Competitive environment encourages discovery of optimal strategies
+
+##### Long-term Engagement
+
+Leaderboard climbing provides months of additional gameplay motivation
+
+**Mastery Demonstration**
+
+Top rankings demonstrate complete system mastery and strategic excellence
 
 **Technical Implementation:**
 
-**Steam Integration** Native Steam leaderboard API for reliable data synchronization
+**Steam Integration**
 
-**Real-time Updates** Leaderboard positions update immediately upon run completion
+Native Steam leaderboard API for reliable data synchronization
 
-**Data Integrity** Secure submission system preventing score manipulation
+**Real-time Updates**
 
-**Performance Optimization** Efficient leaderboard loading and display systems
+Leaderboard positions update immediately upon run completion
+
+**Data Integrity**
+
+Secure submission system preventing score manipulation
+
+**Performance Optimization**
+
+Efficient leaderboard loading and display systems
 
 ---
 
@@ -4877,273 +8618,505 @@ Comprehensive analysis of City Defense Z's target market, player demographics, a
 
 **Primary Target Audience:**
 
-**Core Demographics - Strategy Gaming Enthusiasts (Age 18-35)**:
+#### Core Demographics - Strategy Gaming Enthusiasts (Age 18-35)
 
-**Platform Preference** Primarily PC gamers with Steam library focus
+:
 
-**Gaming Experience** 3+ years of strategy game experience, familiar with tower defense mechanics
+**Platform Preference**
 
-**Session Preferences** 1-3 hour gaming sessions, prefer games with meaningful progression
+Primarily PC gamers with Steam library focus
 
-**Spending Habits** Willing to pay $10-15 for quality strategy games, value content depth over flashy graphics
+##### Gaming Experience
 
-**Motivations** Strategic challenge, mastery development, long-term progression systems
+3+ years of strategy game experience, familiar with tower defense mechanics
 
-**Specific Player Archetypes:**Tower Defense Veterans- **Background:** Players of Bloons TD, Plants vs. Zombies, Kingdom Rush series
+**Session Preferences**
 
-**Expectations** Deep upgrade systems, varied enemy types, strategic placement challenges
+1-3 hour gaming sessions, prefer games with meaningful progression
 
-**Pain Points** Repetitive gameplay, lack of meaningful progression, overly simplistic mechanics
+**Spending Habits**
 
-**City Defense Z Appeal** Merge mechanics add fresh twist to familiar tower defense gameplay
+Willing to pay $10-15 for quality strategy games, value content depth over flashy graphics
+
+**Motivations**
+
+Strategic challenge, mastery development, long-term progression systems
+
+**Specific Player Archetypes**
+
+Tower Defense Veterans- **Background:**  Players of Bloons TD, Plants vs. Zombies, Kingdom Rush series
+
+**Expectations**
+
+Deep upgrade systems, varied enemy types, strategic placement challenges
+
+**Pain Points**
+
+Repetitive gameplay, lack of meaningful progression, overly simplistic mechanics
+
+**City Defense Z Appeal**
+
+Merge mechanics add fresh twist to familiar tower defense gameplay
 
 **Merge Game Migrants:**
 
-**Background** Players transitioning from casual merge games (Merge Dragons, Triple Town)
+**Background**
 
-**Expectations** Satisfying merge mechanics, clear progression feedback, accessible learning curve
+Players transitioning from casual merge games (Merge Dragons, Triple Town)
 
-**Pain Points** Lack of strategic depth, pay-to-win mechanics, limited long-term engagement
+**Expectations**
 
-**City Defense Z Appeal** Strategic merge placement combined with tower defense creates deeper gameplay
+Satisfying merge mechanics, clear progression feedback, accessible learning curve
+
+**Pain Points**
+
+Lack of strategic depth, pay-to-win mechanics, limited long-term engagement
+
+**City Defense Z Appeal**
+
+Strategic merge placement combined with tower defense creates deeper gameplay
 
 **Rogue-lite Enthusiasts:**
 
-**Background** Players of FTL, Risk of Rain, Dead Cells who appreciate meta progression
+**Background**
 
-**Expectations** Meaningful permanent upgrades, challenging gameplay, replay value
+Players of FTL, Risk of Rain, Dead Cells who appreciate meta progression
 
-**Pain Points** Overly punishing difficulty, lack of progression between runs
+**Expectations**
 
-**City Defense Z Appeal** Research point system provides satisfying meta progression with strategic depth
+Meaningful permanent upgrades, challenging gameplay, replay value
+
+**Pain Points**
+
+Overly punishing difficulty, lack of progression between runs
+
+**City Defense Z Appeal**
+
+Research point system provides satisfying meta progression with strategic depth
 
 **Secondary Target Audience:**
 
-**Mobile Strategy Players (Age 25-45)**:
+#### Mobile Strategy Players (Age 25-45)
 
-**Platform Usage** Primarily mobile gaming during commute/breaks
+:
 
-**Session Patterns** 15-45 minute sessions, prefer games with clear stopping points
+**Platform Usage**
 
-**Monetization Tolerance** Comfortable with premium purchases, resistant to pay-to-win mechanics
+Primarily mobile gaming during commute/breaks
 
-**Adaptation Needs** Touch-optimized controls, simplified UI, shorter session structure
+**Session Patterns**
+
+15-45 minute sessions, prefer games with clear stopping points
+
+**Monetization Tolerance**
+
+Comfortable with premium purchases, resistant to pay-to-win mechanics
+
+**Adaptation Needs**
+
+Touch-optimized controls, simplified UI, shorter session structure
 
 **Zombie Theme Enthusiasts:**
 
-**Background** Fans of zombie apocalypse media and games
+**Background**
 
-**Appeal Factors** Post-apocalyptic setting, survival narrative, community building elements
+Fans of zombie apocalypse media and games
 
-**Cross-Genre Interest** May not be traditional strategy players but drawn by theme
+**Appeal Factors**
 
-**Engagement Path** Story-driven progression and NPC relationships provide entry point
+Post-apocalyptic setting, survival narrative, community building elements
 
-**Market Positioning Strategy:**Competitive Differentiation- **Unique Positioning:** "The thinking person's merge game" or "Tower defense with puzzle depth"
+**Cross-Genre Interest**
 
-**Value Proposition** Premium strategy experience without microtransaction pressure
+May not be traditional strategy players but drawn by theme
 
-**Target Market Gap** High-quality tower defense games with meaningful meta progression
+##### Engagement Path
 
-**Steam Market Focus** Leverage Steam's strategy game community and recommendation algorithms
+Story-driven progression and NPC relationships provide entry point
+
+#### Market Positioning Strategy
+
+Competitive Differentiation- **Unique Positioning:**  "The thinking person's merge game" or "Tower defense with puzzle depth"
+
+**Value Proposition**
+
+Premium strategy experience without microtransaction pressure
+
+**Target Market Gap**
+
+High-quality tower defense games with meaningful meta progression
+
+**Steam Market Focus**
+
+Leverage Steam's strategy game community and recommendation algorithms
 
 **Audience Expansion Opportunities:**
 
-**Content Creator Partnerships** Strategy gaming YouTubers and Twitch streamers
+##### Content Creator Partnerships
 
-**Community Building** Discord servers and Reddit communities for strategy sharing
+Strategy gaming YouTubers and Twitch streamers
 
-**Educational Market** Strategy gaming as cognitive skill development
+**Community Building**
 
-**International Markets** Global appeal through universal strategic gameplay
+Discord servers and Reddit communities for strategy sharing
+
+**Educational Market**
+
+Strategy gaming as cognitive skill development
+
+**International Markets**
+
+Global appeal through universal strategic gameplay
 
 ### 12.2 Post-Launch Content Strategy
 
 Comprehensive plan for maintaining player engagement and revenue growth through strategic content updates and community development.
 
-**Post-Launch Strategy Framework:**
+#### Post-Launch Strategy Framework:
 
-**"Sustained Engagement Through Quality Content"**:
+##### "Sustained Engagement Through Quality Content"
 
-**Player-First Approach** Updates based on community feedback and player behavior data
+:
 
-**Strategic Timing** Regular content cadence maintaining player interest
+**Player-First Approach**
 
-**Quality Over Quantity** Focused, polished content additions rather than frequent minor updates
+Updates based on community feedback and player behavior data
 
-**Community Integration** Player feedback directly influencing development priorities
+**Strategic Timing**
 
-**Content Release Timeline:**
+Regular content cadence maintaining player interest
+
+**Quality Over Quantity**
+
+Focused, polished content additions rather than frequent minor updates
+
+**Community Integration**
+
+Player feedback directly influencing development priorities
+
+##### Content Release Timeline:
 
 **Month 1-2 Post-Launch: Stability & Refinement**
 
-**Priority** Bug fixes, balance adjustments, performance optimization
+**Priority**
 
-**Content** Quality-of-life improvements, accessibility enhancements
+Bug fixes, balance adjustments, performance optimization
 
-**Community Focus** Active player support, feedback collection, review response
+##### Content
 
-**Metrics Tracking** Player retention, completion rates, community sentiment
+Quality-of-life improvements, accessibility enhancements
+
+**Community Focus**
+
+Active player support, feedback collection, review response
+
+#### Metrics Tracking
+
+Player retention, completion rates, community sentiment
 
 **Month 3-6: Foundation Expansion**
 
-**New Map Content** Map 5 - "Underground Facility" (Extended narrative conclusion)
+##### New Map Content
 
-**Enemy Expansion** 2-3 new zombie types with unique mechanics
+Map 5 - "Underground Facility" (Extended narrative conclusion)
 
-**Upgrade Trees** Additional research point investment options
+**Enemy Expansion**
 
-**Achievement System** Extended achievement set for long-term players
+2-3 new zombie types with unique mechanics
 
-**Month 6-12: Major Content Updates**
+**Upgrade Trees**
 
-**Seasonal Events** Limited-time challenges with exclusive rewards
+Additional research point investment options
 
-**New Game Modes** Challenge mode with preset scenarios and restrictions
+#### Achievement System
 
-**Advanced Features** Additional NPC types with unique specializations
+Extended achievement set for long-term players
 
-**Community Tools** Screenshot sharing, strategy blueprint system
+##### Month 6-12: Major Content Updates
+
+**Seasonal Events**
+
+Limited-time challenges with exclusive rewards
+
+**New Game Modes**
+
+Challenge mode with preset scenarios and restrictions
+
+**Advanced Features**
+
+Additional NPC types with unique specializations
+
+**Community Tools**
+
+Screenshot sharing, strategy blueprint system
 
 **Year 2+: Long-term Evolution**
 
-**Platform Expansion** Mobile version adaptation and release
+**Platform Expansion**
 
-**Expansion Pack** Major content addition with new storyline and maps
+Mobile version adaptation and release
 
-**Community Events** Player competitions and developer challenges
+**Expansion Pack**
 
-**Technology Updates** Graphics improvements, new platform support
+Major content addition with new storyline and maps
 
-**Content Categories:**Core Gameplay Expansion- **New Maps:** Additional environments with unique tactical challenges
+**Community Events**
 
-**Enemy Variety** Fresh zombie types requiring new strategic approaches
+Player competitions and developer challenges
 
-**Building Types** New structure categories expanding strategic options
+**Technology Updates**
 
-**Upgrade Systems** Extended progression trees for veteran players
+Graphics improvements, new platform support
 
-**Narrative Content:**
+##### Content Categories
 
-**Extended Storylines** Continuation of main narrative beyond vaccine completion
+Core Gameplay Expansion- **New Maps:**  Additional environments with unique tactical challenges
 
-**Character Development** Deeper NPC backstories and relationship systems
+**Enemy Variety**
 
-**World Building** Expanded lore and global apocalypse context
+Fresh zombie types requiring new strategic approaches
 
-**Player Choice** Narrative branching based on player decisions
+##### Building Types
+
+New structure categories expanding strategic options
+
+#### Upgrade Systems
+
+Extended progression trees for veteran players
+
+##### Narrative Content:
+
+**Extended Storylines**
+
+Continuation of main narrative beyond vaccine completion
+
+**Character Development**
+
+Deeper NPC backstories and relationship systems
+
+**World Building**
+
+Expanded lore and global apocalypse context
+
+**Player Choice**
+
+Narrative branching based on player decisions
 
 **Quality of Life Improvements:**
 
-**Interface Enhancements** Based on player feedback and usage data
+**Interface Enhancements**
 
-**Accessibility Features** Continued improvement for diverse player needs
+Based on player feedback and usage data
 
-**Performance Optimization** Ongoing technical improvements
+**Accessibility Features**
 
-**Platform Features** Enhanced Steam integration and mobile optimization
+Continued improvement for diverse player needs
 
-**Community-Driven Content:**Player Engagement Systems- **Strategy Sharing:** Enhanced tools for base design and strategy communication
+**Performance Optimization**
 
-**Community Challenges** Developer-created scenarios testing player creativity
+Ongoing technical improvements
 
-**Leaderboard Expansion** Additional competitive categories and seasonal rankings
+**Platform Features**
 
-**Player Spotlights** Featuring exceptional strategies and achievements
+Enhanced Steam integration and mobile optimization
 
-**Marketing & Viral Content Strategy:**TikTok Campaign Integration- **Viral Content Creation:** "I survived until day 1000" style content showcasing extreme survival achievements
+##### Community-Driven Content
 
-**Influencer Partnerships** Collaborate with gaming TikTokers to create engaging survival challenge content
+Player Engagement Systems- **Strategy Sharing:**  Enhanced tools for base design and strategy communication
 
-**User-Generated Content** Encourage players to share their own survival milestone videos
+**Community Challenges**
 
-**Hashtag Campaigns** #CityDefenseChallenge and #ZombieDefenseZ for organic reach
+Developer-created scenarios testing player creativity
 
-**Content Formats** Quick survival tips, epic zombie wave footage, base design showcases
+**Leaderboard Expansion**
 
-**Monthly Tournament System:**
+Additional competitive categories and seasonal rankings
 
-**Prize Pool** $1000 USD monthly prize for first player to reach day 500
+**Player Spotlights**
 
-**Tournament Structure** Open competition with clear rules and verification system
+Featuring exceptional strategies and achievements
 
-**Live Streaming** Partner with Twitch streamers to broadcast tournament attempts
+#### Marketing & Viral Content Strategy
 
-**Community Building** Monthly tournaments create recurring engagement events
+TikTok Campaign Integration- 
+##### Viral Content Creation:
 
-**Skill Progression** Tournaments motivate players to develop advanced strategies
+ "I survived until day 1000" style content showcasing extreme survival achievements
 
-**Community Integration Campaign:**
+**Influencer Partnerships**
 
-**"Become a Zombie" Contest** Email collection campaign with photo submission
+Collaborate with gaming TikTokers to create engaging survival challenge content
 
-**Winner Integration** Selected participants added as custom zombie models in future updates
+##### User-Generated Content
 
-**Email Marketing** Collected emails used for important game updates and announcements
+Encourage players to share their own survival milestone videos
 
-**Community Gallery** Showcase winner photos and their zombie counterparts
+##### Hashtag Campaigns
 
-**Recurring Events** Monthly or quarterly "Become a Zombie" campaigns
+#CityDefenseChallenge and #ZombieDefenseZ for organic reach
+
+##### Content Formats
+
+Quick survival tips, epic zombie wave footage, base design showcases
+
+#### Monthly Tournament System:
+
+**Prize Pool**
+
+$1000 USD monthly prize for first player to reach day 500
+
+#### Tournament Structure
+
+Open competition with clear rules and verification system
+
+**Live Streaming**
+
+Partner with Twitch streamers to broadcast tournament attempts
+
+**Community Building**
+
+Monthly tournaments create recurring engagement events
+
+**Skill Progression**
+
+Tournaments motivate players to develop advanced strategies
+
+##### Community Integration Campaign:
+
+**"Become a Zombie" Contest**
+
+Email collection campaign with photo submission
+
+**Winner Integration**
+
+Selected participants added as custom zombie models in future updates
+
+**Email Marketing**
+
+Collected emails used for important game updates and announcements
+
+**Community Gallery**
+
+Showcase winner photos and their zombie counterparts
+
+**Recurring Events**
+
+Monthly or quarterly "Become a Zombie" campaigns
 
 **Feedback Integration Loops:**
 
-**Regular Surveys** Quarterly player satisfaction and content preference surveys
+**Regular Surveys**
 
-**Beta Testing** Community involvement in testing new content before release
+Quarterly player satisfaction and content preference surveys
 
-**Developer Communication** Monthly development blogs and community updates
+**Beta Testing**
 
-**Feature Requests** Transparent process for community-suggested improvements
+Community involvement in testing new content before release
 
-**Monetization Strategy (Ethical Framework):**Premium Content Philosophy- **Value-First Approach:** All paid content provides clear value without affecting game balance
+**Developer Communication**
 
-**No Pay-to-Win** Competitive integrity maintained across all content updates
+Monthly development blogs and community updates
 
-**Complete Base Game** Core experience remains fully functional without additional purchases
+**Feature Requests**
 
-**Optional Enhancement** DLC content enhances rather than completes the experience
+Transparent process for community-suggested improvements
+
+#### Monetization Strategy (Ethical Framework)
+
+Premium Content Philosophy- **Value-First Approach:**  All paid content provides clear value without affecting game balance
+
+**No Pay-to-Win**
+
+Competitive integrity maintained across all content updates
+
+**Complete Base Game**
+
+Core experience remains fully functional without additional purchases
+
+**Optional Enhancement**
+
+DLC content enhances rather than completes the experience
 
 **Potential Revenue Streams:**
 
-**Expansion Packs** Major content additions with new campaigns and features
+**Expansion Packs**
 
-**Cosmetic Content** Visual customization options for base and units
+Major content additions with new campaigns and features
 
-**Convenience Features** Optional quality-of-life improvements for dedicated players
+##### Cosmetic Content
 
-**Platform Expansion** Mobile version as separate product with adapted gameplay
+Visual customization options for base and units
 
-**Success Metrics & KPIs:**Player Engagement Metrics- **Monthly Active Users:** Target 70% retention at 1 month, 40% at 6 months
+**Convenience Features**
 
-**Session Length** Average 45-60 minutes per session
+Optional quality-of-life improvements for dedicated players
 
-**Progression Rates** 60% of players complete at least one map
+**Platform Expansion**
 
-**Community Activity** Discord/forum participation, Steam review sentiment
+Mobile version as separate product with adapted gameplay
+
+#### Success Metrics & KPIs
+
+Player Engagement Metrics- 
+##### Monthly Active Users:
+
+ Target 70% retention at 1 month, 40% at 6 months
+
+**Session Length**
+
+Average 45-60 minutes per session
+
+**Progression Rates**
+
+60% of players complete at least one map
+
+**Community Activity**
+
+Discord/forum participation, Steam review sentiment
 
 **Business Performance Indicators:**
 
-**Revenue Targets** Break-even within 6 months, profit sustainability year 1
+**Revenue Targets**
 
-**Sales Metrics** Steam wishlist conversion, regional market performance
+Break-even within 6 months, profit sustainability year 1
 
-**Content Engagement** DLC attachment rates, feature adoption statistics
+#### Sales Metrics
 
-**Market Position** Steam category rankings, competitor analysis
+Steam wishlist conversion, regional market performance
 
-**Marketing ROI** TikTok campaign engagement rates, tournament participation, email conversion rates
+##### Content Engagement
 
-**Viral Metrics** User-generated content creation, social media reach, hashtag performance
+DLC attachment rates, feature adoption statistics
+
+**Market Position**
+
+Steam category rankings, competitor analysis
+
+**Marketing ROI**
+
+TikTok campaign engagement rates, tournament participation, email conversion rates
+
+#### Viral Metrics
+
+User-generated content creation, social media reach, hashtag performance
 
 **Long-term Vision:**
 
-**Franchise Potential** Establish City Defense Z as recognizable strategy game brand
+**Franchise Potential**
 
-**Community Growth** Build dedicated player community supporting long-term engagement
+Establish City Defense Z as recognizable strategy game brand
 
-**Innovation Leadership** Pioneer merge-strategy hybrid genre for future development
+**Community Growth**
 
-**Global Reach** Expand to international markets and diverse gaming platforms
+Build dedicated player community supporting long-term engagement
+
+**Innovation Leadership**
+
+Pioneer merge-strategy hybrid genre for future development
+
+**Global Reach**
+
+Expand to international markets and diverse gaming platforms
 
 ---
 
