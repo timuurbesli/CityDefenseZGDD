@@ -68,21 +68,20 @@ jobs:
         cat > font-settings.md << 'EOF'
         ---
         mainfont: Lexend
+        sansfont: Lexend
+        monofont: Lexend
         ---
 
-        # Sample Title
-        ## Sample Heading 2
-        ### Sample Heading 3
-        #### Sample Heading 4
-
-        Sample text in Lexend font.
+        # Temporary Content
+        This is a temporary file to generate the reference document.
         EOF
         
         # Convert to DOCX with Lexend font
         pandoc font-settings.md \
           -o gdd-template-with-lexend.docx \
           --reference-doc=custom-reference.docx \
-          -V mainfont=Lexend
+          -V mainfont=Lexend \
+          -V sansfont=Lexend
         
         # Use this as the reference doc if user template doesn't exist
         if [ ! -f "gdd-template.docx" ]; then
@@ -91,14 +90,25 @@ jobs:
         
     - name: Convert Markdown to DOCX
       run: |
-        # Create a temporary reference.docx with Lexend font
-        pandoc --print-default-data-file reference.docx > default-reference.docx
-        
-        # Create custom reference doc with Lexend font
-        cat > style-template.yaml << 'EOF'
-        font-family: Lexend
-        reference-doc: default-reference.docx
+        # Create a temporary markdown with font metadata
+        cat > font-settings.md << 'EOF'
+        ---
+        mainfont: Lexend
+        sansfont: Lexend
+        monofont: Lexend
+        ---
+
+        # Temporary Content
+        This is a temporary file to generate the reference document.
         EOF
+
+        # Create a reference doc with Lexend font
+        pandoc font-settings.md \
+          -o temp-reference.docx \
+          --from markdown \
+          --to docx \
+          -V mainfont="Lexend" \
+          -V sansfont="Lexend"
         
         # Convert main GDD files using template if it exists
         if [ -f "gdd-template.docx" ]; then
@@ -109,7 +119,8 @@ jobs:
               --to docx \
               --output "City_Defense_Z_Complete_GDD.docx" \
               --reference-doc="gdd-template.docx" \
-              --defaults=style-template.yaml \
+              -V mainfont="Lexend" \
+              -V sansfont="Lexend" \
               --toc \
               --toc-depth=3 \
               --shift-heading-level-by=0 \
@@ -123,7 +134,8 @@ jobs:
               --to docx \
               --output "City_Defense_Z_Complete_GDD_Skeleton.docx" \
               --reference-doc="gdd-template.docx" \
-              --defaults=style-template.yaml \
+              -V mainfont="Lexend" \
+              -V sansfont="Lexend" \
               --toc \
               --toc-depth=3 \
               --shift-heading-level-by=0 \
@@ -140,7 +152,8 @@ jobs:
                 --to docx \
                 --output "${filename}.docx" \
                 --reference-doc="gdd-template.docx" \
-                --defaults=style-template.yaml \
+                -V mainfont="Lexend" \
+                -V sansfont="Lexend" \
                 --toc \
                 --toc-depth=3 \
                 --shift-heading-level-by=0 \
