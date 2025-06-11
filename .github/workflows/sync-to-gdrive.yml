@@ -24,6 +24,27 @@ jobs:
       run: |
         wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-1-amd64.deb
         sudo dpkg -i pandoc-3.1.9-1-amd64.deb
+
+    - name: Install Lexend font
+      run: |
+        # Create fonts directory if it doesn't exist
+        sudo mkdir -p /usr/share/fonts/truetype/lexend
+        
+        # Download Lexend font family
+        wget -q https://fonts.google.com/download?family=Lexend -O lexend.zip
+        unzip -q lexend.zip -d lexend
+        
+        # Install all Lexend font files
+        sudo mv lexend/*.ttf /usr/share/fonts/truetype/lexend/
+        
+        # Update font cache
+        sudo fc-cache -f -v
+        
+        # Clean up
+        rm -rf lexend lexend.zip
+        
+        # Verify font installation
+        fc-list | grep -i lexend
         
     - name: Install dependencies
       run: |
@@ -52,7 +73,10 @@ jobs:
               --output "City_Defense_Z_Complete_GDD.docx" \
               --reference-doc="gdd-template.docx" \
               --toc \
-              --toc-depth=3
+              --toc-depth=3 \
+              --shift-heading-level-by=0 \
+              --wrap=none \
+              --markdown-headings=atx
           fi
           
           if [ -f "City_Defense_Z_Complete_GDD_Skeleton.md" ]; then
@@ -62,7 +86,10 @@ jobs:
               --output "City_Defense_Z_Complete_GDD_Skeleton.docx" \
               --reference-doc="gdd-template.docx" \
               --toc \
-              --toc-depth=3
+              --toc-depth=3 \
+              --shift-heading-level-by=0 \
+              --wrap=none \
+              --markdown-headings=atx
           fi
           
           # Convert any other .md files in root directory
@@ -75,7 +102,10 @@ jobs:
                 --output "${filename}.docx" \
                 --reference-doc="gdd-template.docx" \
                 --toc \
-                --toc-depth=3
+                --toc-depth=3 \
+                --shift-heading-level-by=0 \
+                --wrap=none \
+                --markdown-headings=atx
             fi
           done
         else
