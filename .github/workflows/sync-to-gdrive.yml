@@ -2,9 +2,10 @@ name: Convert MD to DOCX and Sync to Google Drive
 
 on:
   push:
-    branches: [main, master]
-    paths: ['*.md']
-  workflow_dispatch: # Manual trigger
+    branches: [ main, master ]
+    paths: 
+      - '**.md'
+  workflow_dispatch:
 
 jobs:
   convert-and-sync:
@@ -21,48 +22,232 @@ jobs:
         
     - name: Install Pandoc
       run: |
-        sudo apt-get update
-        sudo apt-get install -y pandoc
+        wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-1-amd64.deb
+        sudo dpkg -i pandoc-3.1.9-1-amd64.deb
         
     - name: Install dependencies
-      run: npm install googleapis dotenv
-      
-    - name: Convert MD to DOCX
       run: |
-        # Convert main GDD with custom styling
-        pandoc City_Defense_Z_Complete_GDD.md \
-          --from markdown \
-          --to docx \
-          --output "City_Defense_Z_Complete_GDD.docx" \
-          --reference-doc=gdd-template.docx \
-          --toc \
-          --toc-depth=3
+        npm init -y
+        npm install googleapis@^128.0.0
+        
+    - name: Convert Markdown to DOCX
+      run: |
+        # Convert main GDD files using template if it exists
+        if [ -f "gdd-template.docx" ]; then
+          echo "Converting with template..."
+          if [ -f "City_Defense_Z_Complete_GDD.md" ]; then
+            pandoc "City_Defense_Z_Complete_GDD.md" \
+              --from markdown \
+              --to docx \
+              --output "City_Defense_Z_Complete_GDD.docx" \
+              --reference-doc="gdd-template.docx" \
+              --toc \
+              --toc-depth=3
+          fi
           
-        # Convert skeleton
-        pandoc City_Defense_Z_Complete_GDD_Skeleton.md \
-          --from markdown \
-          --to docx \
-          --output "City_Defense_Z_Complete_GDD_Skeleton.docx" \
-          --reference-doc=gdd-template.docx \
-          --toc \
-          --toc-depth=3
+          if [ -f "City_Defense_Z_Complete_GDD_Skeleton.md" ]; then
+            pandoc "City_Defense_Z_Complete_GDD_Skeleton.md" \
+              --from markdown \
+              --to docx \
+              --output "City_Defense_Z_Complete_GDD_Skeleton.docx" \
+              --reference-doc="gdd-template.docx" \
+              --toc \
+              --toc-depth=3
+          fi
           
+          # Convert any other .md files in root directory
+          for file in *.md; do
+            if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "setup-gdrive.md" ]; then
+              filename=$(basename "$file" .md)
+              pandoc "$file" \
+                --from markdown \
+                --to docx \
+                --output "${filename}.docx" \
+                --reference-doc="gdd-template.docx" \
+                --toc \
+                --toc-depth=3
+            fi
+          done
+        else
+          echo "No template found, converting without template..."
+          if [ -f "City_Defense_Z_Complete_GDD.md" ]; then
+            pandoc "City_Defense_Z_Complete_GDD.md" \
+              --from markdown \
+              --to docx \
+              --output "City_Defense_Z_Complete_GDD.docx" \
+              --toc \
+              --toc-depth=3
+          fi
+          
+          if [ -f "City_Defense_Z_Complete_GDD_Skeleton.md" ]; then
+            pandoc "City_Defense_Z_Complete_GDD_Skeleton.md" \
+              --from markdown \
+              --to docx \
+              --output "City_Defense_Z_Complete_GDD_Skeleton.docx" \
+              --toc \
+              --toc-depth=3
+          fi
+        fi
+        
+    - name: Create upload script
+      run: |
+        cat > upload-to-gdrive.js << 'EOF'
+        const { google } = require('googleapis');
+        const fs = require('fs');
+        const path = require('path');
+
+        async function uploadToGoogleDrive() {
+          try {
+            // Parse service account credentials
+            const serviceAccount = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
+            
+            // Create JWT client
+            const jwtClient = new google.auth.JWT(
+              serviceAccount.client_email,
+              null,
+              serviceAccount.private_key,
+              ['https://www.googleapis.com/auth/drive']
+            );
+            
+            // Authorize
+            await jwtClient.authorize();
+            
+            // Create drive API instance
+            const drive = google.drive({ version: 'v3', auth: jwtClient });
+            
+            // List of files to upload
+            const filesToUpload = [
+              'City_Defense_Z_Complete_GDD.docx',
+              'City_Defense_Z_Complete_GDD_Skeleton.docx'
+            ];
+            
+            // Add any other generated DOCX files
+            const allFiles = fs.readdirSync('.');
+            allFiles.forEach(file => {
+              if (file.endsWith('.docx') && !filesToUpload.includes(file)) {
+                filesToUpload.push(file);
+              }
+            });
+            
+            const uploadResults = [];
+            
+            for (const fileName of filesToUpload) {
+              if (fs.existsSync(fileName)) {
+                console.log(`Uploading ${fileName}...`);
+                
+                // Check if file already exists in Drive
+                const existingFiles = await drive.files.list({
+                  q: `name='${fileName}' and parents in '${process.env.GOOGLE_DRIVE_FOLDER_ID}'`,
+                  fields: 'files(id, name)'
+                });
+                
+                const fileMetadata = {
+                  name: fileName,
+                  parents: [process.env.GOOGLE_DRIVE_FOLDER_ID]
+                };
+                
+                const media = {
+                  mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                  body: fs.createReadStream(fileName)
+                };
+                
+                let result;
+                if (existingFiles.data.files.length > 0) {
+                  // Update existing file
+                  result = await drive.files.update({
+                    fileId: existingFiles.data.files[0].id,
+                    media: media
+                  });
+                  console.log(`Updated ${fileName} with ID: ${result.data.id}`);
+                } else {
+                  // Create new file
+                  result = await drive.files.create({
+                    resource: fileMetadata,
+                    media: media,
+                    fields: 'id'
+                  });
+                  console.log(`Uploaded ${fileName} with ID: ${result.data.id}`);
+                }
+                
+                uploadResults.push({
+                  fileName: fileName,
+                  fileId: result.data.id,
+                  status: 'success'
+                });
+              } else {
+                console.log(`File ${fileName} not found, skipping...`);
+                uploadResults.push({
+                  fileName: fileName,
+                  status: 'not_found'
+                });
+              }
+            }
+            
+            // Create sync report
+            const syncReport = {
+              timestamp: new Date().toISOString(),
+              results: uploadResults,
+              totalFiles: uploadResults.length,
+              successfulUploads: uploadResults.filter(r => r.status === 'success').length
+            };
+            
+            console.log('Sync Report:', JSON.stringify(syncReport, null, 2));
+            
+            // Upload sync report to Drive
+            const reportMetadata = {
+              name: `sync-report-${new Date().toISOString().split('T')[0]}.json`,
+              parents: [process.env.GOOGLE_DRIVE_FOLDER_ID]
+            };
+            
+            const reportMedia = {
+              mimeType: 'application/json',
+              body: JSON.stringify(syncReport, null, 2)
+            };
+            
+            await drive.files.create({
+              resource: reportMetadata,
+              media: reportMedia,
+              fields: 'id'
+            });
+            
+            console.log('✅ All files synced successfully to Google Drive!');
+            
+          } catch (error) {
+            console.error('❌ Error uploading to Google Drive:', error.message);
+            process.exit(1);
+          }
+        }
+
+        uploadToGoogleDrive();
+        EOF
+        
     - name: Upload to Google Drive
       env:
         GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
         GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
-      run: node scripts/upload-to-gdrive.js
+      run: node upload-to-gdrive.js
       
-    - name: Create release
+    - name: Create Release
+      if: success()
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: gdd-v${{ github.run_number }}
-        release_name: GDD Update v${{ github.run_number }}
+        tag_name: sync-${{ github.run_number }}
+        release_name: GDD Sync ${{ github.run_number }}
         body: |
-          Automated GDD update with DOCX files
-          - Complete GDD: City_Defense_Z_Complete_GDD.docx
-          - Skeleton: City_Defense_Z_Complete_GDD_Skeleton.docx
+          📄 **GDD Files Successfully Synced to Google Drive**
+          
+          **Converted Files:**
+          - City Defense Z Complete GDD → DOCX
+          - City Defense Z GDD Skeleton → DOCX
+          - Additional markdown files → DOCX
+          
+          **Sync Details:**
+          - Date: ${{ github.event.head_commit.timestamp }}
+          - Commit: ${{ github.sha }}
+          - Google Drive Folder: https://drive.google.com/drive/folders/${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+          
+          ✅ All files are now available in your Google Drive folder!
         draft: false
         prerelease: false 
