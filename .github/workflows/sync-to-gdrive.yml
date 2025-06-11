@@ -203,27 +203,46 @@ jobs:
         ---
         EOF
 
-    - name: Detect changed Markdown files
+    - name: Get changed files
       id: changed-files
+      uses: tj-actions/changed-files@v41
+      with:
+        files: |
+          **.md
+        files_ignore: |
+          README.md
+          setup-gdrive.md
+          gdd-template-guide.md
+          template-content.md
+
+    - name: Process changed Markdown files
+      id: process-changed-files
       run: |
-        # Get list of changed .md files in this push
+        # Debug information
+        echo "Event name: ${{ github.event_name }}"
+        echo "Changed files detected by action: ${{ steps.changed-files.outputs.all_changed_files }}"
+        echo "Any changed files?: ${{ steps.changed-files.outputs.any_changed }}"
+        
+        # Get list of changed .md files from the action
         if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
           # For manual triggers, process all .md files
           echo "Manual trigger detected - processing all .md files"
           changed_files=$(find . -maxdepth 1 -name "*.md" -type f | grep -v -E "(README|setup-gdrive|gdd-template-guide|template-content)\.md$" | tr '\n' ' ')
         else
-          # For push events, only process changed .md files
-          echo "Push event detected - processing only changed .md files"
-          changed_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep '\.md$' | grep -v -E "(README|setup-gdrive|gdd-template-guide|template-content)\.md$" | tr '\n' ' ')
+          # For push events, use the changed files from the action
+          echo "Push event detected - using changed files detection"
+          changed_files="${{ steps.changed-files.outputs.all_changed_files }}"
         fi
         
-        echo "Changed .md files: $changed_files"
-        echo "changed_files=$changed_files" >> $GITHUB_OUTPUT
+        echo "Final changed .md files: $changed_files"
         
         # Create array for upload script
         echo "CHANGED_MD_FILES<<EOF" >> $GITHUB_ENV
         echo "$changed_files" >> $GITHUB_ENV
         echo "EOF" >> $GITHUB_ENV
+        
+        # Also set as output for next step
+        echo "changed_files=$changed_files" >> $GITHUB_OUTPUT
 
     - name: Convert Markdown to DOCX
       run: |
@@ -356,7 +375,7 @@ jobs:
         CONVERSION_METHOD="convert_default"
         
         # Get changed files from previous step
-        changed_files="${{ steps.changed-files.outputs.changed_files }}"
+        changed_files="${{ steps.process-changed-files.outputs.changed_files }}"
         
         if [ -z "$changed_files" ] || [ "$changed_files" = " " ]; then
           echo "No .md files changed - skipping conversion"

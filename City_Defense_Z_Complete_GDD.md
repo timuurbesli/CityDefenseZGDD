@@ -14,10 +14,15 @@
 **Core Concept:** Players are tasked with defending a strategic base location against relentless zombie hordes. Each day, they receive random building cards that must be strategically placed on a grid-based map. The unique merge mechanic allows three adjacent buildings of the same type to automatically combine into more powerful structures, creating deep tactical decisions about placement and timing.
 
 **Key Gameplay Pillars:**
+
 - **Strategic Building Placement:** Card-based building system with grid placement
+
 - **Merge & Upgrade Mechanics:** 3-to-1 building evolution system
+
 - **Dynamic Combat:** Real-time zombie waves with interactive boost collection
+
 - **Meta Progression:** Persistent base upgrades and NPC relationships
+
 - **Emergent Threats:** Dynamic zombie hole spawning requiring immediate player intervention
 
 ### 1.2 Target Audience
