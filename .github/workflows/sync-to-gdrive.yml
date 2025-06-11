@@ -327,7 +327,7 @@ jobs:
         
         # Choose conversion method based on preference
         # You can change this to: convert_with_css, convert_with_metadata, convert_default, or convert_professional
-        CONVERSION_METHOD="convert_professional"
+        CONVERSION_METHOD="convert_with_css"
         
         # Convert main GDD files
         if [ -f "City_Defense_Z_Complete_GDD.md" ]; then
