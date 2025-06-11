@@ -27,8 +27,18 @@ jobs:
         
     - name: Install dependencies
       run: |
-        npm init -y
-        npm install googleapis@^128.0.0
+        cat > package.json << 'EOF'
+        {
+          "name": "city-defense-z-gdd",
+          "version": "1.0.0",
+          "description": "Game Design Document automation for City Defense Z",
+          "main": "upload-to-gdrive.js",
+          "dependencies": {
+            "googleapis": "^128.0.0"
+          }
+        }
+        EOF
+        npm install
         
     - name: Convert Markdown to DOCX
       run: |
@@ -57,7 +67,7 @@ jobs:
           
           # Convert any other .md files in root directory
           for file in *.md; do
-            if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "setup-gdrive.md" ]; then
+            if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "setup-gdrive.md" ] && [ "$file" != "gdd-template-guide.md" ] && [ "$file" != "template-content.md" ]; then
               filename=$(basename "$file" .md)
               pandoc "$file" \
                 --from markdown \
