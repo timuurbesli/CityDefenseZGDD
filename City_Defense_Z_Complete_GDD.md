@@ -11,209 +11,94 @@
 
 **City Defense Z** is a rogue-lite, wave-based zombie defense strategy game that combines tactical base building with dynamic combat mechanics. Players must survive increasingly difficult zombie waves while building and upgrading their defenses through an innovative card-based placement system.
 
-**Core Concept:** Players are tasked with defending a strategic base location against relentless zombie hordes. Each day, they receive random building cards that must be strategically placed on a grid-based map. The unique merge mechanic allows three adjacent buildings of the same type to automatically combine into more powerful structures, creating deep tactical decisions about placement and timing.
+**Core Concept:** Players defend a strategic base location against relentless zombie hordes. Each day, they receive random building cards that must be strategically placed on a grid-based map. The unique merge mechanic allows three adjacent buildings of the same type to automatically combine into more powerful structures, creating deep tactical decisions about placement and timing.
 
 **Key Gameplay Pillars:**
-
-- **Strategic Building Placement:** Card-based building system with grid placement
-
-- **Merge & Upgrade Mechanics:** 3-to-1 building evolution system
-
-- **Dynamic Combat:** Real-time zombie waves with interactive boost collection
-
-- **Meta Progression:** Persistent base upgrades and NPC relationships
-
+- **Strategic Building Placement:** Card-based building system with grid placement requiring spatial puzzle solving
+- **Merge & Upgrade Mechanics:** 3-to-1 building evolution system creating exponential power growth
+- **Dynamic Combat:** Real-time zombie waves with interactive boost collection and emergency response
+- **Meta Progression:** Persistent base upgrades and NPC relationships affecting future runs
 - **Emergent Threats:** Dynamic zombie hole spawning requiring immediate player intervention
 
 ### 1.2 Target Audience
 
-**Primary Audience:** 
+| **Audience** | **Demographics** | **Key Games** | **Platform** |
+|--------------|------------------|---------------|--------------|
+| **Primary** | Strategy/TD enthusiasts, 18-35 | Bloons TD, Plants vs. Zombies, FTL | PC (Steam) |
+| **Secondary** | Merge game players, 25-45 | Merge Dragons, Triple Town | Mobile |
+| **Tertiary** | Zombie theme fans, 18-40 | State of Decay, This War of Mine | Cross-platform |
 
-- Strategy and tower defense enthusiasts aged 18-35
-
-- Players who enjoy games like Bloons TD, Plants vs. Zombies, Age of War
-
-- Fans of merge mechanics from games like Merge Dragons, Triple Town
-
-- Rogue-lite enthusiasts who appreciate Risk of Rain, FTL, Dead Cells
-
-**Secondary Audience:** 
-
-- Casual mobile gamers seeking deeper strategic gameplay
-
-- Players transitioning from simple merge games to more complex strategy
-
-- Zombie apocalypse theme enthusiasts
-
-- Players seeking games with meaningful progression systems
-
-**Platform Considerations:** 
-
-- **Primary Platform:** PC (Steam)
-
-- **Secondary Platform:** Mobile (iOS/Android) - with adapted touch controls
-
-- **Potential Future:** Nintendo Switch adaptation
+**Player Appeal & Pain Points:**
+- **Tower Defense Veterans:** Seeking deeper upgrade systems and strategic placement challenges beyond repetitive gameplay
+- **Merge Game Migrants:** Want strategic depth beyond casual merge mechanics without pay-to-win systems
+- **Rogue-lite Enthusiasts:** Appreciate meaningful permanent upgrades and challenging gameplay with replay value
 
 ### 1.3 Platform & Technical Requirements
 
-**Minimum System Requirements (PC):**
+| **Platform** | **Minimum Requirements** | **Recommended Requirements** | **Storage** |
+|--------------|-------------------------|----------------------------|-------------|
+| **PC** | Win10, i3-6100, 4GB RAM, DirectX 11 | Win11, i5-8400, 8GB RAM, GTX 1050 | 2GB / 4GB |
+| **Mobile** | iOS 14/Android 8.0, 3GB RAM | iOS 15/Android 11, 4GB RAM | 1.5GB |
 
-- OS: Windows 10 64-bit / macOS 10.14 / Ubuntu 18.04
+**Platform Strategy:**
+- **Primary Platform:** PC (Steam) with full feature set and keyboard/mouse optimization
+- **Secondary Platform:** Mobile (iOS/Android) with touch-optimized interface and adapted controls
+- **Future Consideration:** Nintendo Switch adaptation potential
 
-- Processor: Intel i3-6100 / AMD FX-6300 equivalent
-
-- Memory: 4 GB RAM
-
-- Graphics: DirectX 11 compatible / OpenGL 3.3
-
-- Storage: 2 GB available space
-
-- Network: Internet connection for cloud saves (optional)
-
-**Recommended System Requirements (PC):**
-
-- OS: Windows 11 64-bit / macOS 12.0 / Ubuntu 20.04+
-
-- Processor: Intel i5-8400 / AMD Ryzen 5 2600 equivalent
-
-- Memory: 8 GB RAM
-
-- Graphics: GTX 1050 / RX 560 equivalent or better
-
-- Storage: 4 GB available space (SSD recommended)
-
-**Mobile Requirements:**
-
-- iOS: iPhone 8 / iOS 14.0 or later
-
-- Android: Android 8.0 (API level 26) / 3GB RAM minimum
-
-- Storage: 1.5 GB available space
-
-### 1.4 Key Features & USPs (Unique Selling Points)
+### 1.4 Key Features & Unique Selling Points
 
 **Innovation Points:**
-
 1. **Hybrid Merge-Defense Mechanics:** First game to successfully combine 3-match merge mechanics with wave-based tower defense
-
 2. **Dynamic Threat System:** Real-time zombie hole spawning requires immediate tactical response during combat
-
 3. **Living Base Ecosystem:** NPCs with persistent relationships, expedition systems, and meaningful base customization
-
 4. **Contextual Boost System:** Strategic consumable management with targeted AoE deployment
 
 **Core Features:**
-
-- **Card-Based Building System:** 6 unique building types with merge evolution paths
-
-- **Multi-Resource Economy:** 5 interconnected resource types (Resource, Ammunition, Research Points, Food, Population)
-
-- **Comprehensive Meta Progression:** 11 major upgrade trees with 40+ persistent improvements
-
-- **Rich NPC System:** 4 specialist NPCs with unique abilities, dialogues, and expedition mechanics
-
-- **Varied Content:** 4 unique maps with progressive difficulty and narrative context
-
-- **Dynamic Combat:** 5 basic zombie types + 4 boss variants with unique mechanics
+- **6 Building Types** with merge evolution paths (Factory, Ammunition, Barracks, Laboratory, House, Farm)
+- **5 Interconnected Resources** (Resource, Ammunition, Research Points, Food, Population)
+- **11 Major Upgrade Trees** with 40+ persistent improvements
+- **4 Specialist NPCs** with unique abilities, dialogues, and expedition mechanics
+- **4 Unique Maps** with progressive difficulty and narrative context
+- **Dynamic Combat** featuring 5 basic zombie types + 4 boss variants
 
 **Competitive Advantages:**
-
 - Deeper strategic depth than traditional merge games
-
 - More accessible than complex 4X strategy games
-
 - Strong narrative framework often missing in tower defense games
-
 - Innovative real-time interaction mechanics during combat phases
 
 ### 1.5 Development Scope
 
-**Development Timeline & History:**
+**Development Timeline:**
 
-- **Initial Development:** November 2023 - March 2024 (4 months)
+| **Phase** | **Duration** | **Status** | **Key Achievements** |
+|-----------|--------------|------------|---------------------|
+| **Initial Development** | Nov 2023 - Mar 2024 | ✅ Complete | Core systems, Steam demo release |
+| **Exploration Phase** | Mar 2024 - Jun 2025 | ✅ Complete | Market research, RTS experimentation |
+| **Current Phase** | Jun 2025 - Sep 2025 | 🔄 Active | Final polish, content completion |
+| **Target Release** | September 2025 | 📅 Planned | Steam launch |
 
-  - Core card-based building system implemented
-
-  - First Steam demo build released (March 2024)
-
-- **Exploration Phase:** March 2024 - June 2025 (15 months)
-
-  - Experimented with RTS variant for second demo
-
-  - Market research and gameplay iteration
-
-- **Current Phase:** June 2025 - September 2025 (3 months to release)
-
-  - Returning to proven card-based system from first demo
-
-  - Final polish, content completion, and release preparation
-
-- **Target Release:** September 2025
+**Development Team (7 members):**
+- **Core Development:** Ercan Karadaş (Developer), Alperen Erdoğan (Developer), Celalcan Ulucan (3D Artist), Hasan Hüseyin Kıdeyş (3D Artist), Timur Beşli (Product Manager)
+- **Leadership:** Zafer Çelik (Lead Developer, part-time), Batuhan Yurtseven (Game Designer, part-time)
 
 **Current Development Status:**
-
-- **Core Systems:** ✅ Completed (first demo validated)
-
-- **Art & Audio:** 🔄 In progress (refinement phase)
-
-- **Content Creation:** 🔄 Final maps, zombies, and balance tuning
-
-- **UI/UX Polish:** 🔄 Based on demo feedback
-
-- **Testing & QA:** 📅 July-August 2025
-
-**Current Development Team:**
-
-- **Core Development Team:**
-
-  - **Ercan Karadaş** - Game Developer
-
-  - **Alperen Erdoğan** - Game Developer  
-
-  - **Celalcan Ulucan** - 3D Artist
-
-  - **Hasan Hüseyin Kıdeyş** - 3D Artist
-
-  - **Timur Beşli** - Product Manager
-
-- **Leadership & Design:**
-
-  - **Zafer Çelik** - Lead Game Developer (part-time, multi-project)
-
-    - Development planning, asset management, coding standards
-
-  - **Batuhan Yurtseven** - Game Designer (part-time, multi-project)
-
-- **Team Adjustments for Military Service:**
-
-  - **August 2025:** Alperen Erdoğan - Military training (1 month)
-
-  - **September 2025:** Ercan Karadaş - Military training (1 month)  
-
-  - **Coverage Plan:** +1 Additional Developer to maintain development pace
-
-**Total Team Size:** 7 members (5 full-time core + 2 part-time leadership)
-
-**Development Advantages:**
-
-- **Proven Core Mechanics:** First demo validated player interest and core gameplay loop
-
-- **Market Feedback:** Steam demo provided real player data and feedback
-
-- **Focused Timeline:** 3-month sprint to release with established foundation
-
-- **Risk Reduction:** Returning to validated concept minimizes development risk
+- **Core Systems:** ✅ Completed and validated through first demo
+- **Art & Audio:** 🔄 In refinement phase based on feedback
+- **Content Creation:** 🔄 Final maps, enemies, and balance tuning
+- **UI/UX Polish:** 🔄 Implementing demo feedback improvements
+- **Testing & QA:** 📅 Scheduled for July-August 2025
 
 **Strategic Advantages:**
+- **Proven Core Mechanics:** First demo validated player interest and core gameplay loop
+- **Market Validation:** Steam demo provided real player data and feedback
+- **Focused Development:** 3-month sprint to release with established foundation
+- **Community Base:** Steam demo created early adopter community for launch
 
-- **Established Community:** Steam demo created early adopter base
-
-- **Proven Concept:** Market validation reduces launch risk
-
-- **Focused Development:** Clear vision based on successful first demo
-
-- **Competitive Timing:** September 2025 release avoids major competitor launches
+**Risk Mitigation:**
+- Returning to validated card-based concept minimizes development risk
+- Team adjustments planned for military service obligations (August-September 2025)
+- Additional developer coverage planned to maintain development pace
 
 ---
 
@@ -1361,7 +1246,7 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 
 - **Functionality:** Move any placed building to different valid grid location
 
-- **Strategic Value:** Correct placement mistakes, optimize merge positioning
+- **Strategic Value:** Correct placement mistakes and optimize merge positioning
 
 - **Use Cases:** Reorganize layout when merge opportunities blocked
 
@@ -1369,9 +1254,9 @@ City Defense Z employs a sophisticated dual-currency economy that balances immed
 
 **Direct Level-Up System:**
 
-- **Functionality:** Instantly upgrade selected building to next level
+- **Functionality:** Instantly upgrade any selected building to the next level
 
-- **Strategic Power:** Bypasses 3-adjacent merge requirement
+- **Strategic Power:** Bypasses the 3-adjacent merge requirement
 
 - **Efficiency Value:** Particularly valuable for high-level building advancement
 
