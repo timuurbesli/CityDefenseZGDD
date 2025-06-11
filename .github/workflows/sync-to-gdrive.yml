@@ -5,6 +5,10 @@ on:
     branches: [ main, master ]
     paths: 
       - '**.md'
+      - '!README.md'
+      - '!setup-gdrive.md'
+      - '!gdd-template-guide.md'
+      - '!template-content.md'
   workflow_dispatch:
 
 jobs:
@@ -20,21 +24,10 @@ jobs:
       with:
         node-version: '18'
         
-    - name: Install Pandoc and Fonts
+    - name: Install Pandoc
       run: |
         wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-1-amd64.deb
         sudo dpkg -i pandoc-3.1.9-1-amd64.deb
-        
-        # Install Google Fonts including Lexend
-        sudo apt-get update
-        sudo apt-get install -y fonts-liberation fonts-dejavu-core
-        
-        # Download and install Lexend font
-        wget -O lexend.zip "https://fonts.google.com/download?family=Lexend"
-        unzip -q lexend.zip -d lexend-fonts/
-        sudo mkdir -p /usr/share/fonts/truetype/lexend
-        sudo cp lexend-fonts/*.ttf /usr/share/fonts/truetype/lexend/ 2>/dev/null || true
-        sudo fc-cache -f -v
         
     - name: Install dependencies
       run: |
@@ -210,6 +203,28 @@ jobs:
         ---
         EOF
 
+    - name: Detect changed Markdown files
+      id: changed-files
+      run: |
+        # Get list of changed .md files in this push
+        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+          # For manual triggers, process all .md files
+          echo "Manual trigger detected - processing all .md files"
+          changed_files=$(find . -maxdepth 1 -name "*.md" -type f | grep -v -E "(README|setup-gdrive|gdd-template-guide|template-content)\.md$" | tr '\n' ' ')
+        else
+          # For push events, only process changed .md files
+          echo "Push event detected - processing only changed .md files"
+          changed_files=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | grep '\.md$' | grep -v -E "(README|setup-gdrive|gdd-template-guide|template-content)\.md$" | tr '\n' ' ')
+        fi
+        
+        echo "Changed .md files: $changed_files"
+        echo "changed_files=$changed_files" >> $GITHUB_OUTPUT
+        
+        # Create array for upload script
+        echo "CHANGED_MD_FILES<<EOF" >> $GITHUB_ENV
+        echo "$changed_files" >> $GITHUB_ENV
+        echo "EOF" >> $GITHUB_ENV
+
     - name: Convert Markdown to DOCX
       run: |
         # Method 1: Using custom CSS (converts to HTML first, then DOCX)
@@ -230,15 +245,13 @@ jobs:
             --metadata-file=metadata.yaml \
             --output "${output_file%.docx}.html"
           
-          # Then convert HTML to DOCX with Lexend font
+          # Then convert HTML to DOCX
           pandoc "${output_file%.docx}.html" \
             --from html \
             --to docx \
             --output "$output_file" \
             --toc \
-            --toc-depth=3 \
-            --variable mainfont="Lexend" \
-            --variable fontsize=11pt
+            --toc-depth=3
         }
         
         # Method 2: Using Pandoc built-in styling with metadata
@@ -342,22 +355,38 @@ jobs:
         # You can change this to: convert_with_css, convert_with_metadata, convert_default, or convert_professional
         CONVERSION_METHOD="convert_default"
         
-        # Convert main GDD files
-        if [ -f "City_Defense_Z_Complete_GDD.md" ]; then
-          $CONVERSION_METHOD "City_Defense_Z_Complete_GDD.md" "City_Defense_Z_Complete_GDD.docx"
-        fi
+        # Get changed files from previous step
+        changed_files="${{ steps.changed-files.outputs.changed_files }}"
         
-        if [ -f "City_Defense_Z_Complete_GDD_Skeleton.md" ]; then
-          $CONVERSION_METHOD "City_Defense_Z_Complete_GDD_Skeleton.md" "City_Defense_Z_Complete_GDD_Skeleton.docx"
+        if [ -z "$changed_files" ] || [ "$changed_files" = " " ]; then
+          echo "No .md files changed - skipping conversion"
+          echo "CONVERTED_FILES=" >> $GITHUB_ENV
+        else
+          converted_files=""
+          echo "Processing changed .md files: $changed_files"
+          
+          # Convert each changed .md file
+          for file in $changed_files; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .md)
+              output_file="${filename}.docx"
+              echo "Converting $file to $output_file..."
+              $CONVERSION_METHOD "$file" "$output_file"
+              
+              if [ -f "$output_file" ]; then
+                converted_files="$converted_files $output_file"
+                echo "✅ Successfully converted: $file -> $output_file"
+              else
+                echo "❌ Failed to convert: $file"
+              fi
+            else
+              echo "⚠️  File not found: $file"
+            fi
+          done
+          
+          echo "CONVERTED_FILES=$converted_files" >> $GITHUB_ENV
+          echo "Converted files: $converted_files"
         fi
-        
-        # Convert any other .md files in root directory
-        for file in *.md; do
-          if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "setup-gdrive.md" ] && [ "$file" != "gdd-template-guide.md" ] && [ "$file" != "template-content.md" ]; then
-            filename=$(basename "$file" .md)
-            $CONVERSION_METHOD "$file" "${filename}.docx"
-          fi
-        done
         
         # Clean up temporary files
         rm -f *.html professional-metadata.yaml
@@ -371,6 +400,10 @@ jobs:
 
         async function uploadToGoogleDrive() {
           try {
+            console.log('🚀 Starting Google Drive upload process...');
+            console.log('Changed MD files:', process.env.CHANGED_MD_FILES || 'None');
+            console.log('Converted files:', process.env.CONVERTED_FILES || 'None');
+            
             // Parse service account credentials
             const serviceAccount = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
             
@@ -388,19 +421,19 @@ jobs:
             // Create drive API instance
             const drive = google.drive({ version: 'v3', auth: jwtClient });
             
-            // List of files to upload
-            const filesToUpload = [
-              'City_Defense_Z_Complete_GDD.docx',
-              'City_Defense_Z_Complete_GDD_Skeleton.docx'
-            ];
+            // Get list of converted files from environment variable
+            const convertedFiles = process.env.CONVERTED_FILES ? 
+              process.env.CONVERTED_FILES.trim().split(' ').filter(f => f.length > 0) : [];
             
-            // Add any other generated DOCX files
-            const allFiles = fs.readdirSync('.');
-            allFiles.forEach(file => {
-              if (file.endsWith('.docx') && !filesToUpload.includes(file)) {
-                filesToUpload.push(file);
-              }
-            });
+            console.log('Converted files from environment:', convertedFiles);
+            
+            if (convertedFiles.length === 0) {
+              console.log('No files were converted - skipping upload');
+              return;
+            }
+            
+            // Only upload the files that were actually converted
+            const filesToUpload = convertedFiles.filter(file => fs.existsSync(file));
             
             const uploadResults = [];
             
@@ -459,6 +492,9 @@ jobs:
             // Create sync report
             const syncReport = {
               timestamp: new Date().toISOString(),
+              changedMdFiles: process.env.CHANGED_MD_FILES ? process.env.CHANGED_MD_FILES.trim().split(' ').filter(f => f.length > 0) : [],
+              convertedFiles: convertedFiles,
+              uploadedFiles: filesToUpload,
               results: uploadResults,
               totalFiles: uploadResults.length,
               successfulUploads: uploadResults.filter(r => r.status === 'success').length

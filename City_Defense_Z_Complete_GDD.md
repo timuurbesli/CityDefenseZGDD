@@ -353,7 +353,7 @@ City Defense Z creates emotional investment through a dynamic NPC system that tr
 
 **Expedition Risk/Reward System:**
 A complex resource management system where players must balance immediate base needs with potential rewards:
-
+ 
 **Expedition Structure:**
 - **Small Expeditions:** 2 days, low reward, high survival rate
 - **Medium Expeditions:** 4 days, medium reward, medium survival rate (unlockable)
