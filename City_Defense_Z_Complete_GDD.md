@@ -198,6 +198,7 @@ Core Development Team-
 - **Celalcan Ulucan** - 3D Artist
 - **Hasan Hüseyin Kıdeyş** - 3D Artist
  
+ 
 - **Timur Beşli** - Product Manager
 
 ##### Leadership & Design
