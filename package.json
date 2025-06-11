@@ -1,0 +1,32 @@
+{
+  "name": "city-defense-z-gdd",
+  "version": "1.0.0",
+  "description": "Game Design Document automation for City Defense Z",
+  "scripts": {
+    "sync": "node scripts/upload-to-gdrive.js",
+    "convert": "npm run convert:complete && npm run convert:skeleton",
+    "convert:complete": "pandoc City_Defense_Z_Complete_GDD.md --from markdown --to docx --output City_Defense_Z_Complete_GDD.docx --reference-doc=gdd-template.docx --toc --toc-depth=3",
+    "convert:skeleton": "pandoc City_Defense_Z_Complete_GDD_Skeleton.md --from markdown --to docx --output City_Defense_Z_Complete_GDD_Skeleton.docx --reference-doc=gdd-template.docx --toc --toc-depth=3",
+    "full-sync": "npm run convert && npm run sync",
+    "setup": "npm install && echo 'Setup complete! Configure your .env file with Google Drive credentials.'"
+  },
+  "dependencies": {
+    "googleapis": "^126.0.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "pandoc": "^0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/city-defense-z-gdd.git"
+  },
+  "keywords": [
+    "game-design",
+    "documentation",
+    "automation",
+    "city-defense-z"
+  ],
+  "author": "City Defense Z Team",
+  "license": "MIT"
+} 

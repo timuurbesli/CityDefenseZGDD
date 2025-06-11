@@ -1,0 +1,68 @@
+name: Convert MD to DOCX and Sync to Google Drive
+
+on:
+  push:
+    branches: [main, master]
+    paths: ['*.md']
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  convert-and-sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install Pandoc
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc
+        
+    - name: Install dependencies
+      run: npm install googleapis dotenv
+      
+    - name: Convert MD to DOCX
+      run: |
+        # Convert main GDD with custom styling
+        pandoc City_Defense_Z_Complete_GDD.md \
+          --from markdown \
+          --to docx \
+          --output "City_Defense_Z_Complete_GDD.docx" \
+          --reference-doc=gdd-template.docx \
+          --toc \
+          --toc-depth=3
+          
+        # Convert skeleton
+        pandoc City_Defense_Z_Complete_GDD_Skeleton.md \
+          --from markdown \
+          --to docx \
+          --output "City_Defense_Z_Complete_GDD_Skeleton.docx" \
+          --reference-doc=gdd-template.docx \
+          --toc \
+          --toc-depth=3
+          
+    - name: Upload to Google Drive
+      env:
+        GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+        GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+      run: node scripts/upload-to-gdrive.js
+      
+    - name: Create release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: gdd-v${{ github.run_number }}
+        release_name: GDD Update v${{ github.run_number }}
+        body: |
+          Automated GDD update with DOCX files
+          - Complete GDD: City_Defense_Z_Complete_GDD.docx
+          - Skeleton: City_Defense_Z_Complete_GDD_Skeleton.docx
+        draft: false
+        prerelease: false 
