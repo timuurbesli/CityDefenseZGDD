@@ -27,19 +27,18 @@ jobs:
 
     - name: Install Lexend font
       run: |
-        # Create fonts directory if it doesn't exist
-        sudo mkdir -p /usr/share/fonts/truetype/lexend
+        # Create fonts directory
+        mkdir -p ~/.fonts
         
-        # Download individual Lexend font files
-        wget -q "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCzsX.ttf" -O "/usr/share/fonts/truetype/lexend/Lexend-Regular.ttf"
-        wget -q "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCwsW.ttf" -O "/usr/share/fonts/truetype/lexend/Lexend-Medium.ttf"
-        wget -q "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCzQW.ttf" -O "/usr/share/fonts/truetype/lexend/Lexend-Bold.ttf"
-        wget -q "https://fonts.gstatic.com/s/lexend/v19/wlptgwvFAVdoq2_F94zlCfv0bz1WCxEW.ttf" -O "/usr/share/fonts/truetype/lexend/Lexend-Light.ttf"
+        # Download Lexend fonts using curl
+        curl -L "https://github.com/googlefonts/lexend/raw/main/fonts/ttf/Lexend-Regular.ttf" -o ~/.fonts/Lexend-Regular.ttf
+        curl -L "https://github.com/googlefonts/lexend/raw/main/fonts/ttf/Lexend-Medium.ttf" -o ~/.fonts/Lexend-Medium.ttf
+        curl -L "https://github.com/googlefonts/lexend/raw/main/fonts/ttf/Lexend-Bold.ttf" -o ~/.fonts/Lexend-Bold.ttf
         
-        # Update font cache
-        sudo fc-cache -f -v
+        # Rebuild font cache
+        fc-cache -f -v
         
-        # Verify font installation
+        # List installed fonts to verify
         fc-list | grep -i lexend
         
     - name: Install dependencies
