@@ -39,65 +39,312 @@ jobs:
         }
         EOF
         npm install
+
+    - name: Create custom CSS styling
+      run: |
+        cat > custom-styles.css << 'EOF'
+        /* Custom CSS for Game Design Document */
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          line-height: 1.6;
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+          color: #333;
+        }
         
+        h1 {
+          color: #2c3e50;
+          border-bottom: 3px solid #3498db;
+          padding-bottom: 10px;
+          font-size: 2.5em;
+          margin-top: 30px;
+        }
+        
+        h2 {
+          color: #34495e;
+          border-left: 4px solid #3498db;
+          padding-left: 15px;
+          font-size: 2em;
+          margin-top: 25px;
+        }
+        
+        h3 {
+          color: #2c3e50;
+          font-size: 1.5em;
+          margin-top: 20px;
+        }
+        
+        h4 {
+          color: #555;
+          font-size: 1.2em;
+          margin-top: 15px;
+        }
+        
+        h5 {
+          color: #666;
+          font-size: 1.1em;
+          margin-top: 10px;
+        }
+        
+        p {
+          margin-bottom: 12px;
+          text-align: justify;
+        }
+        
+        ul, ol {
+          margin-bottom: 15px;
+          padding-left: 25px;
+        }
+        
+        li {
+          margin-bottom: 5px;
+        }
+        
+        blockquote {
+          border-left: 4px solid #bdc3c7;
+          margin: 20px 0;
+          padding: 10px 20px;
+          background-color: #f8f9fa;
+          font-style: italic;
+        }
+        
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 20px 0;
+        }
+        
+        th, td {
+          border: 1px solid #ddd;
+          padding: 12px;
+          text-align: left;
+        }
+        
+        th {
+          background-color: #3498db;
+          color: white;
+          font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+        
+        code {
+          background-color: #f1f2f6;
+          padding: 2px 6px;
+          border-radius: 3px;
+          font-family: 'Courier New', monospace;
+          font-size: 0.9em;
+        }
+        
+        pre {
+          background-color: #2c3e50;
+          color: #ecf0f1;
+          padding: 15px;
+          border-radius: 5px;
+          overflow-x: auto;
+          margin: 15px 0;
+        }
+        
+        pre code {
+          background-color: transparent;
+          color: inherit;
+          padding: 0;
+        }
+        
+        .toc {
+          background-color: #ecf0f1;
+          padding: 20px;
+          border-radius: 5px;
+          margin: 20px 0;
+        }
+        
+        .toc h2 {
+          margin-top: 0;
+          color: #2c3e50;
+        }
+        EOF
+
+    - name: Create Pandoc metadata file
+      run: |
+        cat > metadata.yaml << 'EOF'
+        ---
+        title: "City Defense Z - Complete Game Design Document"
+        subtitle: "Version 1.0 - December 2025"
+        author: "City Defense Z Development Team"
+        date: "December 2025"
+        documentclass: article
+        geometry: margin=1in
+        fontsize: 11pt
+        linestretch: 1.15
+        colorlinks: true
+        linkcolor: blue
+        urlcolor: blue
+        toccolor: black
+        toc: true
+        toc-depth: 3
+        numbersections: true
+        indent: true
+        header-includes:
+          - \usepackage{fancyhdr}
+          - \pagestyle{fancy}
+          - \fancyhead[L]{City Defense Z - Game Design Document}
+          - \fancyhead[R]{\thepage}
+          - \fancyfoot[C]{Confidential - Development Team Only}
+        ---
+        EOF
+
     - name: Convert Markdown to DOCX
       run: |
-        # Convert main GDD files using template if it exists
-        if [ -f "gdd-template.docx" ]; then
-          echo "Converting with template..."
-          if [ -f "City_Defense_Z_Complete_GDD.md" ]; then
-            pandoc "City_Defense_Z_Complete_GDD.md" \
-              --from markdown \
-              --to docx \
-              --output "City_Defense_Z_Complete_GDD.docx" \
-              --reference-doc="gdd-template.docx" \
-              --toc \
-              --toc-depth=3
-          fi
+        # Method 1: Using custom CSS (converts to HTML first, then DOCX)
+        convert_with_css() {
+          local input_file="$1"
+          local output_file="$2"
           
-          if [ -f "City_Defense_Z_Complete_GDD_Skeleton.md" ]; then
-            pandoc "City_Defense_Z_Complete_GDD_Skeleton.md" \
-              --from markdown \
-              --to docx \
-              --output "City_Defense_Z_Complete_GDD_Skeleton.docx" \
-              --reference-doc="gdd-template.docx" \
-              --toc \
-              --toc-depth=3
-          fi
+          echo "Converting $input_file with custom CSS styling..."
           
-          # Convert any other .md files in root directory
-          for file in *.md; do
-            if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "setup-gdrive.md" ] && [ "$file" != "gdd-template-guide.md" ] && [ "$file" != "template-content.md" ]; then
-              filename=$(basename "$file" .md)
-              pandoc "$file" \
-                --from markdown \
-                --to docx \
-                --output "${filename}.docx" \
-                --reference-doc="gdd-template.docx" \
-                --toc \
-                --toc-depth=3
-            fi
-          done
-        else
-          echo "No template found, converting without template..."
-          if [ -f "City_Defense_Z_Complete_GDD.md" ]; then
-            pandoc "City_Defense_Z_Complete_GDD.md" \
-              --from markdown \
-              --to docx \
-              --output "City_Defense_Z_Complete_GDD.docx" \
-              --toc \
-              --toc-depth=3
-          fi
+          # First convert to HTML with CSS
+          pandoc "$input_file" \
+            --from markdown \
+            --to html5 \
+            --css custom-styles.css \
+            --standalone \
+            --toc \
+            --toc-depth=3 \
+            --metadata-file=metadata.yaml \
+            --output "${output_file%.docx}.html"
           
-          if [ -f "City_Defense_Z_Complete_GDD_Skeleton.md" ]; then
-            pandoc "City_Defense_Z_Complete_GDD_Skeleton.md" \
-              --from markdown \
-              --to docx \
-              --output "City_Defense_Z_Complete_GDD_Skeleton.docx" \
-              --toc \
-              --toc-depth=3
-          fi
+          # Then convert HTML to DOCX
+          pandoc "${output_file%.docx}.html" \
+            --from html \
+            --to docx \
+            --output "$output_file" \
+            --toc \
+            --toc-depth=3
+        }
+        
+        # Method 2: Using Pandoc built-in styling with metadata
+        convert_with_metadata() {
+          local input_file="$1"
+          local output_file="$2"
+          
+          echo "Converting $input_file with metadata styling..."
+          
+          pandoc "$input_file" \
+            --from markdown \
+            --to docx \
+            --output "$output_file" \
+            --metadata-file=metadata.yaml \
+            --toc \
+            --toc-depth=3 \
+            --highlight-style=tango \
+            --reference-links \
+            --wrap=auto
+        }
+        
+        # Method 3: Clean default Pandoc conversion
+        convert_default() {
+          local input_file="$1"
+          local output_file="$2"
+          
+          echo "Converting $input_file with default Pandoc styling..."
+          
+          pandoc "$input_file" \
+            --from markdown \
+            --to docx \
+            --output "$output_file" \
+            --toc \
+            --toc-depth=3 \
+            --highlight-style=pygments \
+            --reference-links \
+            --wrap=auto \
+            --variable mainfont="Calibri" \
+            --variable fontsize=11pt
+        }
+        
+        # Method 4: Professional business document style
+        convert_professional() {
+          local input_file="$1"
+          local output_file="$2"
+          
+          echo "Converting $input_file with professional styling..."
+          
+          cat > professional-metadata.yaml << 'EOF'
+        ---
+        title: "City Defense Z - Game Design Document"
+        subtitle: "Complete Design Specification"
+        author: "Development Team"
+        date: "December 2025"
+        abstract: |
+          This document contains the complete game design specification for City Defense Z, 
+          a strategic tower defense game combining merge mechanics with tactical combat.
+        keywords: [game design, tower defense, strategy, documentation]
+        lang: en-US
+        documentclass: report
+        geometry: 
+          - top=1in
+          - bottom=1in
+          - left=1.2in
+          - right=1in
+        fontfamily: charter
+        fontsize: 11pt
+        linestretch: 1.2
+        numbersections: true
+        toc: true
+        toc-depth: 3
+        colorlinks: true
+        linkcolor: NavyBlue
+        urlcolor: NavyBlue
+        header-includes: |
+          \usepackage{fancyhdr}
+          \usepackage{graphicx}
+          \usepackage{xcolor}
+          \pagestyle{fancy}
+          \fancyhf{}
+          \fancyhead[L]{\textcolor{NavyBlue}{\textbf{City Defense Z - GDD}}}
+          \fancyhead[R]{\textcolor{gray}{Page \thepage}}
+          \fancyfoot[C]{\textcolor{gray}{\small Confidential - Internal Use Only}}
+          \renewcommand{\headrulewidth}{0.4pt}
+          \renewcommand{\footrulewidth}{0.4pt}
+        ---
+        EOF
+          
+          pandoc "$input_file" \
+            --from markdown \
+            --to docx \
+            --output "$output_file" \
+            --metadata-file=professional-metadata.yaml \
+            --toc \
+            --toc-depth=3 \
+            --highlight-style=kate \
+            --reference-links
+        }
+        
+        # Choose conversion method based on preference
+        # You can change this to: convert_with_css, convert_with_metadata, convert_default, or convert_professional
+        CONVERSION_METHOD="convert_professional"
+        
+        # Convert main GDD files
+        if [ -f "City_Defense_Z_Complete_GDD.md" ]; then
+          $CONVERSION_METHOD "City_Defense_Z_Complete_GDD.md" "City_Defense_Z_Complete_GDD.docx"
         fi
+        
+        if [ -f "City_Defense_Z_Complete_GDD_Skeleton.md" ]; then
+          $CONVERSION_METHOD "City_Defense_Z_Complete_GDD_Skeleton.md" "City_Defense_Z_Complete_GDD_Skeleton.docx"
+        fi
+        
+        # Convert any other .md files in root directory
+        for file in *.md; do
+          if [ -f "$file" ] && [ "$file" != "README.md" ] && [ "$file" != "setup-gdrive.md" ] && [ "$file" != "gdd-template-guide.md" ] && [ "$file" != "template-content.md" ]; then
+            filename=$(basename "$file" .md)
+            $CONVERSION_METHOD "$file" "${filename}.docx"
+          fi
+        done
+        
+        # Clean up temporary files
+        rm -f *.html professional-metadata.yaml
         
     - name: Create upload script
       run: |
