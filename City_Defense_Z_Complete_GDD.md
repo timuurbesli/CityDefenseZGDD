@@ -106,10 +106,10 @@ Nintendo Switch adaptation
 3. **Living Base Ecosystem:** NPCs with persistent relationships, expedition systems, and meaningful base customization
 4. **Contextual Boost System:** Strategic consumable management with targeted AoE deployment
 
-**Core Features:**
+**Core Features:** 
 
 #### Card-Based Building System
-
+ 
 6 unique building types with merge evolution paths
 
 **Multi-Resource Economy**
@@ -192,11 +192,10 @@ September 2025
 
 **Current Development Team**
 
-Core Development Team- **Ercan Karadaş**  - Game Developer
+Core Development Team- 
+**Ercan Karadaş**  - Game Developer
 
-**Alperen Erdoğan**
-
-- Game Developer
+**Alperen Erdoğan** - Game Developer
 - **Celalcan Ulucan** - 3D Artist
 - **Hasan Hüseyin Kıdeyş** - 3D Artist
 - **Timur Beşli** - Product Manager
