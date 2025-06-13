@@ -217,23 +217,20 @@ Combine identical buildings to create stronger structures, improving city effici
 • **Factory:** Advanced production and manufacturing
 • **Laboratory:** Research generation and meta progression
 
-**⚡ Merge Mechanics:**
+**⚡ Merge Mechanics & Visual Evolution:**
 • **3 Identical Buildings/Soldiers** merge automatically when adjacent
 • **Merge Patterns:** 3 in a row (horizontal/vertical) OR short L-shape
 • **Exponential Power Scaling:** Level 1 → Level 2 → Level 3
-• **Strategic Placement:** Control merge timing and location through positioning
+• **Building Evolution:** Each merge adds new architectural details and technology
+• **Soldier Advancement:** Merged soldiers gain advanced gear, weapons, and equipment
 
 **🎯 Strategic Benefits:**
 • **Enhanced Effectiveness:** Higher level buildings provide exponentially more benefits
 • **Space Efficiency:** Reduce building footprint while increasing output
 • **Creative Gameplay:** Plan layouts for optimal merge opportunities
-• **Risk vs Reward:** Balance immediate placement vs waiting for merge opportunities
+• **Clear Visual Feedback:** Players can instantly see the power level of their units
 
-**🪖 Soldier & Building Merging:**
-• **Automatic Triggering:** Both soldiers and buildings use same auto-merge system
-• **Combat Scaling:** 100% → 250% → 600% effectiveness for soldiers
-• **Building Scaling:** Dramatically increased resource production and efficiency
-• **Tactical Decisions:** Plan placement patterns for maximum merge potential
+
 
 ---
 
