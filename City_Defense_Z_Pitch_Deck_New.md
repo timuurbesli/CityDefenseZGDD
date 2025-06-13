@@ -174,3 +174,31 @@ The goal is to survive each wave with minimal damage or loss and prepare the cit
 
 ---
 
+## Slide 5: Key Features
+
+### TURN-BASED STRATEGY
+Day phase for preparation, night phase for active combat
+
+### MERGE MECHANICS  
+Combine buildings and soldiers for powerful upgrades
+
+### LIVING NPC SPECIALISTS
+4 specialist groups with voice acting, unique personalities and strategic buffs
+
+### ZOMBIE TYPES & BOSSES
+Diverse enemy variety with unique behaviors and challenging boss encounters
+
+### 4 CONNECTED MAPS
+Story-driven missions with clear objectives and purpose
+
+### DEEP META PROGRESSION
+11 upgrade trees with 40+ permanent improvements
+
+### EXPEDITION SYSTEM
+Risk-reward exploration for rare resources and strategic advantages
+
+### LEADERBOARD SYSTEM
+Compete for survival records and achievements with global rankings
+
+---
+
