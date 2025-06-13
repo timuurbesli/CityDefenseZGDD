@@ -105,9 +105,7 @@
 
 **Geliştirme Ekibi (7 üye):**
 
-- **Çekirdek Geliştirme:** Ercan Karadaş (Geliştirici), Alperen Erdoğan (Geliştirici), Celalcan Ulucan (3D Sanatçı), Hasan Hüseyin Kıdeyş (3D Sanatçı), Timur Beşli (Ürün Müdürü)
-
-- **Liderlik:** Zafer Çelik (Baş Geliştirici, yarı zamanlı), Batuhan Yurtseven (Oyun Tasarımcısı, yarı zamanlı)
+- **Çekirdek Geliştirme:** Ercan Karadaş (Geliştirici), Alperen Erdoğan (Geliştirici), Celalcan Ulucan (3D Sanatçı), Hasan Hüseyin Kıdeyş (3D Sanatçı), Timur Beşli (Ürün Müdürü), Zafer Çelik (Baş Geliştirici), Batuhan Yurtseven (Oyun Tasarımcısı)
 
 **Mevcut Geliştirme Durumu:**
 

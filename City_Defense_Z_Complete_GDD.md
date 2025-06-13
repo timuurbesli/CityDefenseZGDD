@@ -105,9 +105,7 @@
 
 **Development Team (7 members):**
 
-- **Core Development:** Ercan Karadaş (Developer), Alperen Erdoğan (Developer), Celalcan Ulucan (3D Artist), Hasan Hüseyin Kıdeyş (3D Artist), Timur Beşli (Product Manager)
-
-- **Leadership:** Zafer Çelik (Lead Developer, part-time), Batuhan Yurtseven (Game Designer, part-time)
+- **Core Development:** Ercan Karadaş (Developer), Alperen Erdoğan (Developer), Celalcan Ulucan (3D Artist), Hasan Hüseyin Kıdeyş (3D Artist), Timur Beşli (Product Manager), Zafer Çelik (Lead Developer), Batuhan Yurtseven (Game Designer)
 
 **Current Development Status:**
 
