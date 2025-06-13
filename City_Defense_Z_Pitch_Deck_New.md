@@ -110,13 +110,9 @@ The goal is to survive each wave with minimal damage or loss and prepare the cit
 
 ## Slide 3: Daytime - Build and Prepare
 
-### STRATEGIC CITY BUILDING
 
-• Build and upgrade your city during the day to prepare vital defenses and military units
 
-• Merge similar buildings to create stronger structures, saving space and boosting defense
 
-• Manage resources wisely and position troops strategically to survive
 
 ### KEY DAYTIME MECHANICS
 
@@ -143,6 +139,38 @@ The goal is to survive each wave with minimal damage or loss and prepare the cit
 • Spend research points on progression trees
 • 11 major upgrade categories available
 • Permanent improvements across all runs
+
+---
+
+## Slide 4: Nighttime - Defend Against
+
+
+
+### KEY NIGHTTIME MECHANICS
+
+**🕳️ Random Zombie Holes:**
+• Zombie holes appear randomly across the map
+• Unpredictable spawning keeps players engaged
+• Immediate threat response required
+• Strategic positioning becomes crucial
+
+**✈️ Airstrike Control:**
+• Manual airstrike deployment system
+• Target specific areas for maximum impact
+• Limited uses require strategic timing
+• Devastating area-of-effect damage
+
+**💊 Zombie Boosters:**
+• Pick up boosters dropped by defeated zombies
+• Temporary combat advantages and buffs
+• Risk-reward collection mechanics
+• Strategic timing for booster activation
+
+**🛡️ Defense Management:**
+• Watch your defenses automatically engage
+• Monitor defense effectiveness in real-time
+• Support struggling defensive positions
+• Coordinate multiple defensive systems
 
 ---
 
