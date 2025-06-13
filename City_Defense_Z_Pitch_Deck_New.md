@@ -230,7 +230,55 @@ Combine identical buildings to create stronger structures, improving city effici
 • **Creative Gameplay:** Plan layouts for optimal merge opportunities
 • **Clear Visual Feedback:** Players can instantly see the power level of their units
 
+---
 
+## Slide 7: Living NPC Specialists
+
+### YOUR BASE, YOUR PEOPLE, YOUR STORY
+
+Choose from 4 distinct specialist groups with unique personalities, voice acting, and strategic advantages that fundamentally change how you play.
+
+### STRATEGIC NPC RECRUITMENT
+
+**🎯 Critical Decision Points:**
+• **2 NPCs approach your base** on certain days
+• **Choose only 1** - limited initial space forces strategic decisions
+• **Strategic alignment** - select NPCs that match your playstyle
+• **Long-term planning** - more NPCs available in extended runs
+
+### 4 SPECIALIST GROUPS
+
+**🌾 Farm Group:**
+• **+100% crop harvest rate** and food production bonuses
+• **Specialization:** Agricultural experts and sustainable farming
+• **Example:** Dr. Maria Rodriguez - Hydroponics Expert
+• **Personality:** Warm, nurturing, passionate about growing food in apocalypse
+
+**⚔️ Military Group:**
+• **+50% fire rate, +50% damage, +50% HP** combat effectiveness
+• **Specialization:** Combat tactics and defensive strategies  
+• **Example:** Sergeant Jake "Bulldog" Thompson - Combat Tactics
+• **Personality:** Authoritative, disciplined, battle-hardened veteran
+
+**🔬 Research Group:**
+• **Laboratory efficiency boosts** and accelerated research generation
+• **Specialization:** Weapons research and technological advancement
+• **Example:** Dr. Sarah Chen - Weapons Research Scientist
+• **Personality:** Brilliant, methodical, slightly eccentric scientist
+
+**🎯 Expedition Group:**
+• **Higher survival rates** and increased exploration rewards
+• **Specialization:** Reconnaissance and resource discovery
+• **Example:** Captain Maya "Scout" Williams - Recon Specialist  
+• **Personality:** Adventurous, resourceful, natural leader
+
+### EXPANDABLE CONTENT SYSTEM
+
+**🔄 Endless Possibilities:**
+• **4 core groups** with unlimited NPC variations within each
+• **Easily expandable** - new specialists can be added continuously
+• **Multiple NPCs per base** in longer survival runs
+• **Unique combinations** create completely different strategic experiences
 
 ---
 
