@@ -282,3 +282,170 @@ Choose from 4 distinct specialist groups with unique personalities, voice acting
 
 ---
 
+## Slide 8: Expedition System
+
+### RISK-REWARD EXPLORATION
+
+Send your NPCs on dangerous missions beyond the base for rare resources, strategic advantages, and game-changing discoveries.
+
+### EXPEDITION MECHANICS
+
+**🎯 Strategic Deployment:**
+• **Send NPCs on missions** during day phase planning
+• **Risk vs Reward decisions** - lose NPCs temporarily or permanently
+• **Expedition specialists** provide +60% exploration speed and +45% rare item discovery
+• **Different mission types** with varying difficulty and reward levels
+
+**⏱️ Mission Duration:**
+• **Multi-day expeditions** require careful planning
+• **NPCs unavailable** while on missions - lose their base buffs temporarily
+• **Faster completion** with expedition group specialists
+• **Strategic timing** around anticipated zombie attacks
+
+### EXPEDITION REWARDS
+
+**💎 Rare Resources:**
+• **Unique building materials** not available through normal gameplay
+• **Advanced weaponry** and military equipment
+• **Research breakthroughs** for accelerated progression
+• **Special utility cards** for strategic advantages
+
+**🗺️ Strategic Intelligence:**
+• **Zombie base locations** for preemptive strikes
+• **Resource cache discoveries** for massive material gains
+• **Environmental advantages** like defensive positions
+• **Future threat warnings** for better preparation
+
+### META PROGRESSION INTEGRATION
+
+**🔬 Expedition Upgrades:**
+• **+20% survival rates** through permanent upgrades
+• **+50% expedition rewards** for increased value
+• **1-day faster completion** for quicker turnaround
+• **Expedition bonuses** amplified through NPC buff tree
+
+---
+
+## Slide 9: 4 Connected Maps
+
+### SURVIVAL WITH PURPOSE
+
+Unlike mindless wave-based games, every map tells a story with clear objectives. Players defend for a reason, not just endless survival.
+
+### MAP PROGRESSION SYSTEM
+
+**🏜️ Desert Outpost (50 Days):**
+• **Starting Map** - Crashed military transport
+• **Mission:** *"Repair our planes to leave, but it will take 50 days"*
+• **Story:** Damaged C-130, zombie outbreak, race against time
+• **Completion:** *"The plane is ready. We can leave whenever you want"*
+
+**🏘️ Suburban Stronghold (75 Days):**
+• **Unlock:** Complete Desert Outpost
+• **Mission:** Clear and fortify gated community
+• **Story:** Intact walls, working power grid, but previous owners remain
+• **Challenge:** Neighborhood cleanup and defensive establishment
+
+**🏭 Industrial Complex (100 Days):**
+• **Unlock:** Complete Suburban Stronghold  
+• **Mission:** Navigate automated production systems
+• **Story:** Functional production lines, active security systems
+• **Risk:** Systems don't discriminate between humans and infected
+
+**🔬 Laboratory (100 Days):**
+• **Unlock:** Complete Industrial Complex
+• **Mission:** *"Develop zombie vaccine in 100 days"*
+• **Story:** Final hope - end the nightmare once and for all
+• **Ultimate Goal:** Create cure for zombie outbreak
+
+### MEANINGFUL OBJECTIVES
+
+**🎯 Story-Driven Defense:**
+• **Clear mission goals** replace endless survival
+• **Progressive difficulty** across connected campaign
+• **Environmental storytelling** through base locations
+• **Optional infinite survival** after story completion for leaderboard competition
+
+---
+
+## Slide 10: Deep Meta Progression
+
+### PERMANENT ADVANCEMENT ACROSS ALL RUNS
+
+Every run contributes to long-term character advancement through 11 major upgrade trees with 40+ permanent improvements.
+
+### ALL 11 UPGRADE TREES
+
+**🏗️ Building Cards Level:** 5 levels - Buildings start at higher base levels
+**🪖 Soldier Level:** 5 levels - +1 to +5 base soldier level  
+**🧱 Wall System:** +60 capacity, increased HP, electrification
+**🌾 Farm System:** +175% harvest, 2-day faster growth, area expansion
+**🔬 Laboratory:** +150% research generation, 1-day faster completion
+**🎯 Expeditions:** +20% survival, +50% rewards, 1-day faster
+**👥 NPC Buffs:** +225% amplification of NPC specialization effects
+**💊 Revive (Premium):** 3 uses per run, burn all zombies on defeat
+**⚔️ Weapons:** Fire rate, reload speed, +50% damage
+**✈️ Airstrikes:** 50% cost reduction, 3-bomb pattern, +50% radius
+**🎲 Card Rerolls:** 4 total rerolls per day
+
+### STRATEGIC PATHS
+
+**🏃 Economic Rush:** Farm + Laboratory upgrades for rapid expansion
+**⚔️ Military Machine:** Weapons + Wall + Airstrike for maximum combat
+**🗺️ Exploration Network:** NPC + Expedition upgrades for discovery optimization
+**🎯 Strategic Mastery:** Reroll + Revive upgrades for ultimate flexibility
+
+### RESEARCH POINT ECONOMY
+
+**📊 Generation Sources:**
+• **Laboratory buildings** during gameplay
+• **Expedition rewards** and map completion bonuses
+• **Strategic investment** in multiple viable progression paths
+• **Persistent benefits** - all upgrades carry across runs permanently
+
+---
+
+## Slide 11: Leaderboard System
+
+### COMPETE FOR SURVIVAL SUPREMACY
+
+Global competition system with leaderboards, tournaments, and achievement recognition that drives long-term engagement and community building.
+
+### COMPETITIVE FEATURES
+
+**🏆 Global Leaderboards:**
+• **Steam leaderboard integration** showcasing top survivors
+• **Separate rankings** for all 4 connected maps
+• **Survival record tracking** - longest days survived per map
+• **Achievement recognition** with Gold/Silver/Bronze rankings
+
+**💰 Monthly Tournaments:**
+• **$1,000 prize pools** for reaching day 500+ survival records
+• **Twitch integration** with live streaming tournaments
+• **Community events** with commentary and viewer engagement
+• **Seasonal competitions** for ultimate bragging rights
+
+### PROGRESSION INCENTIVES
+
+**🎯 Extended Survival Rewards:**
+• **Optional infinite survival** after story completion
+• **Escalating rewards** for risk-taking players who push beyond objectives
+• **Leaderboard fame** for top performers across all maps
+• **Community recognition** through official channels
+
+**📊 Achievement System:**
+• **Day milestones** - 100, 500, 1000+ day survival achievements
+• **Map completion** records and speedrun categories  
+• **Strategic challenges** for different playstyle mastery
+• **Community showcases** featuring exceptional survival stories
+
+### SOCIAL INTEGRATION
+
+**📱 Content Creation Support:**
+• **"I survived day 1000"** viral content opportunities
+• **Player-generated highlights** of epic survival moments
+• **Strategy sharing** through community forums
+• **Developer spotlights** of remarkable achievements and innovative strategies
+
+---
+
