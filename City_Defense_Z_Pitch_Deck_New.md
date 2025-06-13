@@ -202,3 +202,38 @@ Compete for survival records and achievements with global rankings
 
 ---
 
+## Slide 6: Merge System
+
+### REVOLUTIONARY BUILDING COMBINATION
+
+Combine identical buildings to create stronger structures, improving city efficiency and enabling creative strategic gameplay.
+
+### HOW MERGING WORKS
+
+**🏗️ Building Categories:**
+• **House:** Population and civilian infrastructure
+• **Farm:** Food production and resource generation  
+• **Military:** Combat units and defensive structures
+• **Factory:** Advanced production and manufacturing
+• **Laboratory:** Research generation and meta progression
+
+**⚡ Merge Mechanics:**
+• **3 Identical Buildings/Soldiers** merge automatically when adjacent
+• **Merge Patterns:** 3 in a row (horizontal/vertical) OR short L-shape
+• **Exponential Power Scaling:** Level 1 → Level 2 → Level 3
+• **Strategic Placement:** Control merge timing and location through positioning
+
+**🎯 Strategic Benefits:**
+• **Enhanced Effectiveness:** Higher level buildings provide exponentially more benefits
+• **Space Efficiency:** Reduce building footprint while increasing output
+• **Creative Gameplay:** Plan layouts for optimal merge opportunities
+• **Risk vs Reward:** Balance immediate placement vs waiting for merge opportunities
+
+**🪖 Soldier & Building Merging:**
+• **Automatic Triggering:** Both soldiers and buildings use same auto-merge system
+• **Combat Scaling:** 100% → 250% → 600% effectiveness for soldiers
+• **Building Scaling:** Dramatically increased resource production and efficiency
+• **Tactical Decisions:** Plan placement patterns for maximum merge potential
+
+---
+
