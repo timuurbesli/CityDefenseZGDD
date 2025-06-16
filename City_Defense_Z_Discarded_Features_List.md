@@ -4,6 +4,29 @@
 
 ---
 
+## Pricing Impact
+
+**Original Pricing Strategy:** $10 with full feature set  
+**Adjusted Pricing:** $5 - $7.99 maximum due to discarded features
+
+By removing these features for the August launch, the game's value proposition requires a lower price point to match the reduced content scope. The discarded features can justify price increases through major content updates post-launch.
+
+## Early Access Hype Risk
+
+**The Problem:** Early access launches generate high initial hype and player expectations. If core features are missing during this critical period, player disappointment can severely damage the game's reputation and long-term success.
+
+**Reference:** Similar issues occurred with "Eyes of War" where missing features during the hype period led to negative reception despite later improvements.
+
+**Strategic Solution:** Rather than completely removing features, the optimal approach is to:
+- Show all feature concepts to early access players
+- Launch with basic implementations of key systems
+- Clearly communicate the post-launch improvement roadmap
+- Use early access feedback to refine and enhance features
+
+**Risk Mitigation:** This ensures players see the game's full potential during the high-engagement early access period, while allowing time for proper implementation and polish based on real player feedback.
+
+---
+
 ## Features That Can Be Discarded for August Launch
 
 1. **Farm System & Food Economy** - Can be discarded
