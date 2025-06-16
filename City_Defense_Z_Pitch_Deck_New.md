@@ -119,8 +119,8 @@ The goal is to survive each wave with minimal damage or loss and prepare the cit
 **🏗️ Building & Merge System:**
 • Receive random building cards each day
 • Strategic placement on grid system
-• Buildings: 3 identical auto-merge when adjacent
-• Soldiers: Manual merge decisions for concentrated power
+• Merge your buildings to increase production
+• Merge your soldiers to increase army power
 
 **🛡️ Defense Positioning:**
 • Place walls and landmines strategically
