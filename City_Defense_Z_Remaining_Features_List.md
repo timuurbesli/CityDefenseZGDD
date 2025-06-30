@@ -133,8 +133,7 @@ After strategic feature removal to meet the August 2025 deadline, **City Defense
 7. **Map 4: Laboratory** - Final story map with vaccine development
 8. **Additional Zombie Types** - Extended enemy variety beyond basic 5
 9. **Additional Boss Types** - More boss encounters beyond basic 2
-10. **Seasonal Events** - Limited-time challenges and themed content
-11. **Community Features** - Advanced social features and player showcases
+
 
 All discarded features will be reintegrated through major content updates to maintain player engagement and provide ongoing development milestones.
 
