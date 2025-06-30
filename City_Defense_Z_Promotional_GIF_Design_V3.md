@@ -12,14 +12,13 @@
 CITY DEFENSE Z
 ```
 
-**Narrative Text:**
+**Mechanic Description:**
 ```
-The sun sets on humanity's last outpost.
-Each dawn brings hope.
-Each dusk brings terror.
+Experience dynamic day/night cycles that drive gameplay.
+Day Phase: Build, merge, and position defenses.
+Night Phase: Survive increasingly difficult zombie waves.
 
-In this endless cycle of day and night,
-will you be ready when darkness falls?
+Each cycle escalates the challenge.
 ```
 
 **Visual Details:**
@@ -41,15 +40,14 @@ THEY COME WITH THE DARKNESS
 - Dusk: Warning sirens, tension building
 - Night: Massive zombie wave approaching from multiple directions
 
-**Narrative Text:**
+**Mechanic Description:**
 ```
-Every day you prepare.
-Every night they attack.
+Face escalating zombie waves with progressive difficulty.
+Wave System: Enemies increase in number and variety each night.
+Enemy Types: Normal, Runner, and Exploding zombies.
+Boss Encounters: Powerful enemies that require strategic planning.
 
-The waves grow larger.
-The zombies grow stronger.
-Your defenses must evolve faster
-than the nightmare that hunts you.
+Adaptive AI ensures constant challenge progression.
 ```
 
 **Visual Details:**
@@ -72,15 +70,14 @@ THE ENDLESS NIGHT
 - 3 adjacent buildings automatically merging into stronger structures
 - Progressive evolution from basic to advanced defensive structures
 
-**Narrative Text:**
+**Mechanic Description:**
 ```
-From scattered survivors and broken dreams,
-you must build more than walls and weapons.
+Master the strategic merge system.
+Merge Rule: 3 adjacent identical buildings automatically combine.
+Level Progression: Buildings evolve from Level 1 to Level 5.
+Strategic Placement: Plan your grid layout for optimal merging.
 
-Place three structures together and watch
-them merge into something greater.
-Evolution through unity.
-Strength through sacrifice.
+Exponential power growth through smart positioning.
 ```
 
 **Visual Details:**
@@ -104,15 +101,14 @@ FIGHTS FOR TOMORROW
 - Individual soldiers taking defensive positions
 - Personal moments showing soldiers as people, not just units
 
-**Narrative Text:**
+**Mechanic Description:**
 ```
-These aren't just military units.
-They're mothers. Fathers. Children.
-Each one with a story to tell,
-a reason to keep fighting.
+Deploy soldiers across the tactical grid.
+Unit Types: Basic soldiers with upgradeable weapons.
+Positioning System: Strategic placement affects combat effectiveness.
+Individual Control: Each soldier can be manually positioned.
 
-Position them wisely.
-Their lives depend on your decisions.
+Tactical positioning determines defensive success.
 ```
 
 **Visual Details:**
@@ -134,14 +130,14 @@ PREPARE THE BATTLEFIELD
 - Zombie pathfinding and mine triggering at night
 - Chain reaction explosions devastating zombie formations
 
-**Narrative Text:**
+**Mechanic Description:**
 ```
-The wasteland becomes your weapon.
-Every step they take could be their last.
+Control the battlefield with strategic landmine placement.
+Area Denial: Mines block enemy pathfinding and deal damage.
+Chain Reactions: Multiple explosions can trigger simultaneously.
+Strategic Positioning: Create chokepoints and kill zones.
 
-Turn their numbers against them.
-Make every inch of ground
-cost them dearly.
+Transform terrain into defensive advantage.
 ```
 
 **Visual Details:**
@@ -164,16 +160,14 @@ RAIN FIRE FROM ABOVE
 - Massive explosion clearing zombie hordes
 - Base surviving against impossible odds
 
-**Narrative Text:**
+**Mechanic Description:**
 ```
-When the walls are breached,
-when your soldiers fall,
-when hope itself seems lost—
+Call in devastating airstrikes as emergency support.
+Targeting System: Click to designate strike zones.
+Area Damage: Massive explosions clear entire enemy groups.
+Resource Cost: Limited use requires strategic timing.
 
-You still have one final card to play.
-
-Sometimes salvation comes
-from the sky above.
+Ultimate tactical weapon for desperate situations.
 ```
 
 **Visual Details:**
@@ -191,19 +185,14 @@ from the sky above.
 WILL YOU BREAK THE CYCLE?
 ```
 
-**Narrative Text:**
+**Mechanic Description:**
 ```
-Day after day. Night after night.
-Build. Fight. Survive. Repeat.
+Experience the complete gameplay loop.
+Core Cycle: Day preparation → Night defense → Progressive challenge.
+Skill Development: Learn optimal strategies through repetition.
+Escalating Difficulty: Each wave increases complexity and stakes.
 
-Each cycle makes you stronger.
-Each battle teaches you more.
-Each dawn offers new hope.
-
-But the question remains:
-In this endless war between
-light and darkness,
-which side will you choose to be?
+Master all six mechanics to achieve long-term survival.
 ```
 
 **Final Frame:**
@@ -218,12 +207,10 @@ The Cycle Begins
 **Visual:** Sunrise breaking over a thriving, well-defended base that has survived countless nights
 **Developer Quote Style:**
 ```
-"In City Defense Z, every day is a chance to prepare
-for the night ahead. Every decision shapes not just
-your survival, but your humanity.
-
-The cycle never ends.
-But neither does hope."
+"City Defense Z combines strategic building mechanics
+with tactical combat systems. The day/night cycle creates
+natural gameplay rhythm while merge mechanics reward
+smart planning and resource management."
 
 — The Development Team
 ```
