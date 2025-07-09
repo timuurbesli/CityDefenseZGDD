@@ -946,7 +946,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 ### 4.4 Combat System
 
 **Unit Types:** 
-
+ 
 | **Unit Type** | **Function** | **Merge** | **Resource Cost** |
 |---------------|-------------|-----------|------------------|
 | **Basic Soldier** | Primary defense, standard combat | Yes (3→1 enhanced) | Ammunition |
