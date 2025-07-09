@@ -981,7 +981,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 - **Main Base Wall:** 100% → 0% health, destruction = immediate game failure
 
 **Combat Resolution:**
-
+ 
 - **Automatic Engagement:** Units attack zombies within range automatically
 
 - **Damage Calculation:** Based on unit types, levels, upgrade bonuses

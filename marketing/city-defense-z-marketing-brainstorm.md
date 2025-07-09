@@ -106,7 +106,7 @@
 | ID | Season | Timeline | Notes |
 |----|---------|----------|-------|
 | | | | *Long-term concepts for later implementation* |
-
+ 
 ---
 
 ## 📈 Quick Category Overview

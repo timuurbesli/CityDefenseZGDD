@@ -1,16 +1,13 @@
 const { google } = require('googleapis');
 const fs = require('fs');
-const path = require('path');
 
 async function uploadToGoogleDrive() {
   try {
-    // Parse service account credentials from environment
-    const serviceAccountKey = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
+    // Folder ID from environment
     const folderId = process.env.GOOGLE_DRIVE_FOLDER_ID;
 
-    // Initialize Google Drive API
+    // Initialize Google Drive API with ADC (no key)
     const auth = new google.auth.GoogleAuth({
-      credentials: serviceAccountKey,
       scopes: ['https://www.googleapis.com/auth/drive.file']
     });
 
@@ -23,7 +20,7 @@ async function uploadToGoogleDrive() {
         path: './City_Defense_Z_Complete_GDD.docx'
       },
       {
-        name: 'City_Defense_Z_Complete_GDD_Skeleton.docx', 
+        name: 'City_Defense_Z_Complete_GDD_Skeleton.docx',
         path: './City_Defense_Z_Complete_GDD_Skeleton.docx'
       }
     ];
@@ -37,9 +34,9 @@ async function uploadToGoogleDrive() {
       }
 
       try {
-        // Check if file already exists in the folder
+        // Check if file exists
         const existingFiles = await drive.files.list({
-          q: `name='${file.name}' and parents in '${folderId}' and trashed=false`,
+          q: `name='${file.name}' and '${folderId}' in parents and trashed=false`,
           fields: 'files(id, name)'
         });
 
@@ -57,28 +54,23 @@ async function uploadToGoogleDrive() {
           // Update existing file
           const fileId = existingFiles.data.files[0].id;
           console.log(`📝 Updating existing file: ${file.name}`);
-          
           await drive.files.update({
-            fileId: fileId,
-            media: media,
+            fileId,
+            media,
             fields: 'id, name, modifiedTime'
           });
-          
           console.log(`✅ Updated: ${file.name}`);
         } else {
           // Create new file
           console.log(`📄 Creating new file: ${file.name}`);
-          
           const response = await drive.files.create({
             resource: fileMetadata,
-            media: media,
+            media,
             fields: 'id, name, webViewLink'
           });
-          
           console.log(`✅ Created: ${file.name}`);
           console.log(`🔗 Link: ${response.data.webViewLink}`);
         }
-
       } catch (error) {
         console.error(`❌ Error uploading ${file.name}:`, error.message);
       }
@@ -93,8 +85,8 @@ async function uploadToGoogleDrive() {
     };
 
     console.log('📊 Upload Summary:', JSON.stringify(summary, null, 2));
-    
-    // Create summary file in Google Drive
+
+    // Create summary file in Drive
     const summaryMetadata = {
       name: `GDD_Sync_Report_${timestamp.split('T')[0]}.json`,
       parents: [folderId]
@@ -119,11 +111,10 @@ async function uploadToGoogleDrive() {
   }
 }
 
-// Enhanced error handling and logging
+// Handle unhandled promises
 process.on('unhandledRejection', (reason, promise) => {
   console.error('Unhandled Rejection at:', promise, 'reason:', reason);
   process.exit(1);
 });
 
-// Run the upload
-uploadToGoogleDrive(); 
+uploadToGoogleDrive();
