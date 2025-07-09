@@ -987,7 +987,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 - **Damage Calculation:** Based on unit types, levels, upgrade bonuses
 
 - **Strategic Positioning:** Placement decisions critically affect defensive efficiency
-
+ 
 ### 4.5 Wave & Enemy System
 
 **Basic Zombie Types:**

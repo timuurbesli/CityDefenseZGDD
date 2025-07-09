@@ -3,17 +3,22 @@ const fs = require('fs');
 
 async function uploadToGoogleDrive() {
   try {
-    // Folder ID from environment
+    // Get folder ID from environment
     const folderId = process.env.GOOGLE_DRIVE_FOLDER_ID;
+    if (!folderId) {
+      console.error('💥 ERROR: GOOGLE_DRIVE_FOLDER_ID is not set!');
+      process.exit(1);
+    }
+    console.log('📌 Using Google Drive Folder ID:', folderId);
 
-    // Initialize Google Drive API with ADC (no key)
+    // Initialize Google Auth (ADC)
     const auth = new google.auth.GoogleAuth({
       scopes: ['https://www.googleapis.com/auth/drive.file']
     });
 
     const drive = google.drive({ version: 'v3', auth });
 
-    // Files to upload
+    // Files to upload (you can customize this list!)
     const files = [
       {
         name: 'City_Defense_Z_Complete_GDD.docx',
@@ -29,13 +34,13 @@ async function uploadToGoogleDrive() {
 
     for (const file of files) {
       if (!fs.existsSync(file.path)) {
-        console.log(`⚠️  File not found: ${file.path}`);
+        console.log(`⚠️  File not found locally: ${file.path}`);
         continue;
       }
 
       try {
-        // Check if file exists
-        const existingFiles = await drive.files.list({
+        // Check if file already exists in Drive folder
+        const existing = await drive.files.list({
           q: `name='${file.name}' and '${folderId}' in parents and trashed=false`,
           fields: 'files(id, name)'
         });
@@ -50,9 +55,9 @@ async function uploadToGoogleDrive() {
           body: fs.createReadStream(file.path)
         };
 
-        if (existingFiles.data.files.length > 0) {
+        if (existing.data.files.length > 0) {
           // Update existing file
-          const fileId = existingFiles.data.files[0].id;
+          const fileId = existing.data.files[0].id;
           console.log(`📝 Updating existing file: ${file.name}`);
           await drive.files.update({
             fileId,
@@ -71,12 +76,13 @@ async function uploadToGoogleDrive() {
           console.log(`✅ Created: ${file.name}`);
           console.log(`🔗 Link: ${response.data.webViewLink}`);
         }
+
       } catch (error) {
         console.error(`❌ Error uploading ${file.name}:`, error.message);
       }
     }
 
-    // Generate summary report
+    // Create summary report in Drive
     const timestamp = new Date().toISOString();
     const summary = {
       timestamp,
@@ -86,7 +92,6 @@ async function uploadToGoogleDrive() {
 
     console.log('📊 Upload Summary:', JSON.stringify(summary, null, 2));
 
-    // Create summary file in Drive
     const summaryMetadata = {
       name: `GDD_Sync_Report_${timestamp.split('T')[0]}.json`,
       parents: [folderId]
@@ -111,7 +116,7 @@ async function uploadToGoogleDrive() {
   }
 }
 
-// Handle unhandled promises
+// Enhanced error handling
 process.on('unhandledRejection', (reason, promise) => {
   console.error('Unhandled Rejection at:', promise, 'reason:', reason);
   process.exit(1);
