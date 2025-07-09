@@ -96,7 +96,7 @@ Dördüncü gün, sosyal medya hesaplarında garip cümleler paylaşmaya başlad
 İnsanlar önce dalga geçti, sonra endişelendi.
 Polis, sağlık ekipleri, hatta yerel televizyon bile geldi.
 Ama adam sadece bir şey söylemeye devam etti:
-'Duvarı güçlendirmezsem, bu şehir düşer.'
+'Duvarı güçlendirmezsem, bu şehir düşer.' 
 
 Sonra bir gün ortadan kayboldu.
 Bahçede bir tek cümle kalmıştı:

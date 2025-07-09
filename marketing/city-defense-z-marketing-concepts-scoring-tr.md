@@ -9,7 +9,7 @@
 - **Uygulama Kolaylığı**: Mevcut kaynaklarla uygulaması ne kadar kolay?
 - **Hedef Kitle Uyumu**: Oyuncu kitlesinin tercihleriyle ne kadar uyumlu?
 
----
+--- 
 
 ## Orijinal Konsept Puanları
 

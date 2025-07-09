@@ -4,7 +4,7 @@
 *Master concept table with ID numbers for easy reference and development tracking.*
 
 ---
-
+ 
 ## 💡 Master Concept Table
 
 | ID | Category | Concept | Description | Content Potential |

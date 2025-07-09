@@ -10,7 +10,7 @@
 - **Target Audience Fit**: How well does it match gaming audience preferences?
 
 ---
-
+ 
 ## Brainstorm Concepts Scoring
 
 | ID | Category | Concept | Quality | Viral | Volume | Ease | Audience | **Total** | **Rank** |
