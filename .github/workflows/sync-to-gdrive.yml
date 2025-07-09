@@ -1,5 +1,9 @@
 name: Convert MD to DOCX and Sync to Google Drive
 
+permissions:
+  id-token: write
+  contents: read
+
 on:
   push:
     branches: [ main, master ]
