@@ -962,7 +962,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 | **Outpost Tower** | Continuous ranged attacks | 3x3 | Yes | Ammunition |
 | **Defense Wall** | Physical barrier | 1x1 | No | Ammunition |
  
-**Pathfinding & Combat:**
+**Pathfinding & Combatt:**
 
 **Zombie Movement:**
 

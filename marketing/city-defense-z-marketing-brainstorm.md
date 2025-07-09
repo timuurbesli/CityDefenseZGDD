@@ -107,7 +107,7 @@
 |----|---------|----------|-------|
 | | | | *Long-term concepts for later implementation* |
  
----
+--- 
 
 ## 📈 Quick Category Overview
 - **Interactive & Trending**: 6 concepts (C001-C006)

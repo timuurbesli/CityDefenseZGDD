@@ -107,7 +107,7 @@
 
 - **Çekirdek Geliştirme:** Ercan Karadaş (Geliştirici), Alperen Erdoğan (Geliştirici), Celalcan Ulucan (3D Sanatçı), Hasan Hüseyin Kıdeyş (3D Sanatçı), Timur Beşli (Ürün Müdürü), Zafer Çelik (Baş Geliştirici), Batuhan Yurtseven (Oyun Tasarımcısı)
 
-**Mevcut Geliştirme Durumu:**
+**Mevcut Geliştirme Durumuu:**
 
 - **Çekirdek Sistemler:** ✅ İlk demo ile tamamlandı ve doğrulandı
 
