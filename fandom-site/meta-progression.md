@@ -38,23 +38,31 @@ The Research system follows a '''three-tier progression structure''' that reward
 The Research system features '''11 major upgrade trees''' with over 40 individual upgrades available:
 
 === <span style="color:yellow">1. Building Cards Default Level</span> ===
-'''Focus:''' Reduces merge requirements by starting buildings at higher levels
+'''Focus:''' Improves building card level probabilities through RNG enhancement
 
-'''Affects:''' All <span style="color:purple">'''[[Buildings#Building Types & Functions|building types]]'''</span> - Factory, Ammunition, Barracks, Laboratory, and House buildings start at enhanced base levels.
+'''Affects:''' All <span style="color:purple">'''[[Buildings#Building Types & Functions|building types]]'''</span> - Factory, Ammunition, Barracks, Laboratory, and House card probabilities are enhanced based on upgrade level.
 
 {| class="wikitable" style="text-align:center;"
-! Level !! Effect !! Cost
+! Level !! Probability Distribution !! Cost
 |-
-| 1 || Buildings start at +1 base level || [[File:Research_Icon.png|32px]] TBD
+| '''Default''' || L1: 80%, L2: 19%, L3: 1% || —
 |-
-| 2 || Buildings start at +2 base level || [[File:Research_Icon.png|32px]] TBD
+| '''+1''' || L1: 50%, L2: 30%, L3: 15%, L4: 5% || [[File:Research_Icon.png|32px]] TBD
 |-
-| 3 || Buildings start at +3 base level || [[File:Research_Icon.png|32px]] TBD
+| '''+2''' || L1: 25%, L2: 35%, L3: 25%, L4: 12%, L5: 3% || [[File:Research_Icon.png|32px]] TBD
 |-
-| 4 || Buildings start at +4 base level || [[File:Research_Icon.png|32px]] TBD
+| '''+3''' || L1: 10%, L2: 25%, L3: 35%, L4: 25%, L5: 5% || [[File:Research_Icon.png|32px]] TBD
 |-
-| 5 || Buildings start at +5 base level || [[File:Research_Icon.png|32px]] TBD
+| '''+4''' || L1: 5%, L2: 15%, L3: 30%, L4: 35%, L5: 15% || [[File:Research_Icon.png|32px]] TBD
+|-
+| '''+5 (Max)''' || L1: 2%, L2: 8%, L3: 20%, L4: 40%, L5: 30% || [[File:Research_Icon.png|32px]] TBD
 |}
+
+'''Strategic Benefits:'''
+* '''RNG Enhancement''': Each upgrade level dramatically improves odds of higher-level building cards
+* '''Synergy with Rerolls''': Works excellently with <span style="color:purple">'''[[#11. Reroll Cards Upgrade|Reroll Cards Upgrade]]'''</span> for optimal card hunting
+* '''Compound Value''': Higher upgrades unlock access to Level 4 and Level 5 building cards
+* '''Meta Investment''': One of the most impactful early-game research investments
 
 === <span style="color:orange">2. Trained Soldier's Default Level</span> ===
 '''Focus:''' Stronger baseline military forces
@@ -212,6 +220,155 @@ The Research system features '''11 major upgrade trees''' with over 40 individua
 | 4 || +1 reroll count (4 total) || [[File:Research_Icon.png|32px]] TBD
 |}
 
+=== 12. Wall Garrison Upgrade ===
+'''Focus:''' Automated wall defense with mounted [[Combat Units#Machine Gun (Bixi)|Bixi machine guns]]
+
+'''Enhances:''' Defensive walls with permanent machine gun emplacements that provide heavy firepower.
+
+{| class="wikitable" style="text-align:center;"
+! Level !! Effect !! Cost
+|-
+| 1 || Adds 1 bixi to left wall + 1 bixi to right wall || [[File:Research_Icon.png|32px]] TBD
+|-
+| 2 || Adds 2 more bixis (2L + 2R total) || [[File:Research_Icon.png|32px]] TBD
+|-
+| 3 || Adds 2 more bixis (3L + 3R total) || [[File:Research_Icon.png|32px]] TBD
+|-
+| 4 || Adds 2 more bixis (4L + 4R total) || [[File:Research_Icon.png|32px]] TBD
+|-
+| 5 || Adds 2 more bixis (5L + 5R total) || [[File:Research_Icon.png|32px]] TBD
+|}
+
+'''Strategic Benefits:'''
+* '''Permanent Defense:''' Wall-mounted machine guns provide constant heavy firepower
+* '''No Resource Cost:''' Bixi emplacements don't consume ammunition or require maintenance
+* '''Synergy Potential:''' Benefits from Weapons Upgrade and other damage-enhancing effects
+* '''Strategic Positioning:''' Elevated position provides superior firing angles and coverage
+
+==== Visual Placement Guide ====
+'''Key:'''
+* '''W''' = Wall Section
+* '''G''' = Gate
+* '''1-5''' = Bixi Position Number (from gate outwards)
+* '''⟨''' = Bixi Facing Left
+* '''⟩''' = Bixi Facing Right
+
+'''Level 1: 2 Bixis (Positions 1L + 1R)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="width:50px;" |
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨1'''
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''1⟩'''
+| style="width:50px;" |
+|}
+
+'''Level 2: 4 Bixis (Positions 1-2 on each side)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨2'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨1'''
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''1⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''2⟩'''
+|}
+
+'''Level 3: 6 Bixis (Positions 1-3 on each side)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨3'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨2'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨1'''
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''1⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''2⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''3⟩'''
+|}
+
+'''Level 4: 8 Bixis (Positions 1-4 on each side)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨4'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨3'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨2'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨1'''
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''1⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''2⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''3⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''4⟩'''
+|}
+
+'''Level 5 (Max): 10 Bixis (Positions 1-5 on each side)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨5'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨4'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨3'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨2'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''⟨1'''
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''1⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''2⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''3⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''4⟩'''
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''5⟩'''
+|}
+
+'''Notes:'''
+* Bixi machine guns are numbered from the gate outwards (1-5)
+* Gate is centrally positioned for optimal defense coverage
+* Left-side bixis face left to defend against incoming threats
+* Right-side bixis face right to defend against incoming threats
+* Each upgrade level adds one more bixi position on each side
+* Elevated wall position provides enhanced firing range and coverage
+* Bixi emplacements provide superior sustained firepower compared to individual soldiers
+
 == Upgrade Synergies ==
 
 Strategic players can combine upgrade trees for powerful synergistic effects:
@@ -226,13 +383,27 @@ Strategic players can combine upgrade trees for powerful synergistic effects:
 * Maximizes combat effectiveness and defensive capabilities
 * Ideal for aggressive playstyles and difficult maps
 
+=== Defensive Fortress ===
+* '''Wall Garrison + Weapons + Wall upgrades'''
+* Creates an impenetrable defensive line with enhanced firepower
+* Permanent soldiers benefit from all combat upgrades
+* Perfect for defensive playstyles and survival-focused strategies
+
 === Exploration Network ===
 * '''NPC + Expedition upgrades'''
 * Optimizes discovery and resource gathering
 * Enhances long-term strategic options
 
+=== RNG Card System ===
+* '''Building Cards Level + Reroll Cards upgrades'''
+* Building Cards Level improves probability distributions
+* Reroll Cards provides more attempts to get optimal card levels
+* Synergy multiplies the value of both upgrade trees
+* Essential for players who want to optimize their building strategies
+
 === Strategic Mastery ===
-* '''Reroll + Revive upgrades'''
+* '''Reroll + Building Cards Level upgrades'''
+* Perfect synergy: Better card probabilities + more reroll attempts = optimal card hunting
 * Provides ultimate flexibility and safety
 * Allows for experimental builds and risk-taking
 
@@ -240,12 +411,13 @@ Strategic players can combine upgrade trees for powerful synergistic effects:
 
 === Early Game Priorities ===
 # '''Laboratory Upgrade''' - Accelerates all future progression
-# '''Building Cards Level''' - Reduces merge grinding
+# '''Building Cards Level''' - Dramatically improves card RNG and reduces merge grinding
 # '''Farm Upgrade''' - Ensures resource security
 
 === Mid Game Expansion ===
 # '''Soldier Level''' - Strengthens military foundation  
 # '''Wall System''' - Improves defensive capabilities
+# '''Wall Garrison''' - Adds permanent defensive firepower
 # '''Weapons Upgrade''' - Enhances combat effectiveness
 
 === Late Game Mastery ===
@@ -254,16 +426,18 @@ Strategic players can combine upgrade trees for powerful synergistic effects:
 # '''Revive Upgrade''' - Ultimate insurance policy
 
 === Specialized Builds ===
-* '''Turtle Build:''' Wall + Farm + Laboratory focus
+* '''Turtle Build:''' Wall + Wall Garrison + Farm + Laboratory focus
 * '''Rush Build:''' Soldier + Weapons + Airstrike focus  
 * '''Synergy Build:''' NPC + Expedition + Reroll focus
 
 == Tips & Strategies ==
 
 * '''Invest Early:''' Laboratory upgrades pay dividends across all future runs
+* '''RNG Card Mastery:''' Building Cards Level + Reroll Cards combination is extremely powerful
 * '''Balanced Approach:''' Avoid over-specializing in early progression
+* '''Probability Awareness:''' Higher meta upgrades unlock access to Level 4 and Level 5 cards
 * '''Revive Insurance:''' Consider at least Level 1 Revive for difficult content
-* '''Reroll Flexibility:''' Card rerolls enable experimental strategies
+* '''Reroll Strategy:''' Don't waste rerolls early - save them for when you have better card level probabilities
 * '''Synergy Planning:''' Plan upgrade combinations for maximum effectiveness
 
 == Related Systems ==

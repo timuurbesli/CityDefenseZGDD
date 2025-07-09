@@ -32,11 +32,38 @@ Buildings are the backbone of your base economy and defense. Each building gener
 
 * '''Available Buildings''': Factory, Ammunition, Barracks, Laboratory, House
 
+* '''Card Level RNG''': Each card has probability-based levels (see table below)
+
 * '''Reroll System''': 1 reroll/day initially, upgradeable to 4 rerolls/day
 
 * '''Cost Range''': Building cards cost 8-12 Resource each
 
-* '''Strategic Choice''': Plan purchases based on current needs
+* '''Strategic Choice''': Plan purchases based on current needs and RNG luck
+
+=== Card Level Probabilities ===
+Building card levels are determined by RNG based on your '''<span style="color:yellow">[[Meta Progression (Research System)#1. Building Cards Default Level|Building Cards Default Level]]</span>''' meta upgrade:
+
+{| class="wikitable" style="text-align:center;"
+! Meta Upgrade Level !! Level 1 !! Level 2 !! Level 3 !! Level 4 !! Level 5
+|-
+| '''Default (No Upgrade)''' || 80% || 19% || 1% || — || —
+|-
+| '''+1 Upgrade''' || 50% || 30% || 15% || 5% || —
+|-
+| '''+2 Upgrade''' || 25% || 35% || 25% || 12% || 3%
+|-
+| '''+3 Upgrade''' || 10% || 25% || 35% || 25% || 5%
+|-
+| '''+4 Upgrade''' || 5% || 15% || 30% || 35% || 15%
+|-
+| '''+5 Upgrade (Max)''' || 2% || 8% || 20% || 40% || 30%
+|}
+
+'''Strategic Implications:'''
+* '''RNG Excitement''': Higher-level cards feel rewarding when they appear
+* '''Reroll Value''': '''<span style="color:purple">[[Meta Progression (Research System)#11. Reroll Cards Upgrade|Reroll upgrades]]</span>''' become more valuable for chasing better card levels
+* '''Meta Investment''': Building Cards Default Level upgrades significantly improve your odds
+* '''Risk Management''': Players must decide whether to take available cards or gamble on rerolls
 
 === Grid Placement System ===
 

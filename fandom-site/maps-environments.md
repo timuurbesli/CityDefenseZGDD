@@ -22,9 +22,9 @@ City Defense Z's map system rewards '''strategic adaptation''' and '''narrative 
 |-
 | '''1. Nevada''' || Available at start || 50 days || Desert emergency landing site || Plane repair survival scenario
 |-
-| '''2. Urban''' || Complete Map 1 (50 days) || 75 days || Abandoned city setting || Story-specific scenario
+| '''2. Urban''' || Complete Map 1 (50 days) || 75 days || Abandoned city setting || Search for survivors and research data
 |-
-| '''3. Industrial''' || Complete Map 2 (75 days) || TBD days || Industrial/military complex || Story-specific scenario
+| '''3. Industrial''' || Complete Map 2 (75 days) || 90 days || Industrial/military complex || Establish forward operating base
 |-
 | '''4. Laboratory''' || Complete Map 3 || 100 days || Research facility/medical complex || Zombie vaccine development
 |}
@@ -64,7 +64,7 @@ City Defense Z's map system rewards '''strategic adaptation''' and '''narrative 
 ----
 
 === Map 2: Urban ===
-'''Abandoned city survival - urban warfare'''
+'''Abandoned city survival - search and rescue operations'''
 
 [[File:Urban_Map_Overview.png|thumb|Urban Abandoned City]]
 
@@ -72,20 +72,24 @@ City Defense Z's map system rewards '''strategic adaptation''' and '''narrative 
 {| class="wikitable"
 ! Attribute !! Value !! Tactical Impact
 |-
-| '''Terrain Type''' || Abandoned City || Urban warfare environment
+| '''Terrain Type''' || Abandoned City || Urban warfare environment with medical district
 |-
-| '''Survival Duration''' || 75 Days || Increased survival challenge
+| '''Survival Duration''' || 75 Days || Extended survival challenge with rescue operations
 |}
 
 ==== Story Arc ====
-'''Mission Objective:''' TBD
+'''Mission Objective:''' "We need to find any surviving scientists and research data about the outbreak. The city's medical district might have answers, but we need 75 days to thoroughly search and extract survivors."
 
-'''Post-Mission Play:''' Map does not automatically end after mission completion - players can choose to continue indefinitely or proceed to the next map
+'''Story Context:''' After escaping the desert, your team realizes they need expertise to develop a cure. This abandoned city was a major medical research hub before the outbreak, and somewhere in the ruins are survivors with crucial knowledge about the zombie virus.
+
+'''Completion Message:''' "We've found Dr. Sarah Chen and recovered critical research data. Now we know where to find the equipment we need."
+
+'''Post-Mission Play:''' Map does not automatically end after 75 days - players can choose to continue indefinitely or proceed to the next map
 
 ----
 
 === Map 3: Industrial ===
-'''Industrial complex survival - military installation'''
+'''Industrial complex survival - forward operating base establishment'''
 
 [[File:Industrial_Map_Overview.png|thumb|Industrial Military Complex]]
 
@@ -93,15 +97,19 @@ City Defense Z's map system rewards '''strategic adaptation''' and '''narrative 
 {| class="wikitable"
 ! Attribute !! Value !! Tactical Impact
 |-
-| '''Terrain Type''' || Industrial/Military Complex || Structured facility environment
+| '''Terrain Type''' || Industrial/Military Complex || Structured facility with supply route challenges
 |-
-| '''Survival Duration''' || TBD Days || High-tier survival challenge
+| '''Survival Duration''' || 90 Days || High-tier survival challenge with logistics operations
 |}
 
 ==== Story Arc ====
-'''Mission Objective:''' TBD
+'''Mission Objective:''' "We've located the laboratory, but it's been compromised. We need to establish a secure forward operating base and clear supply routes - 90 days to make it operational."
 
-'''Post-Mission Play:''' Map does not automatically end after mission completion - players can choose to continue indefinitely or proceed to the next map
+'''Story Context:''' Dr. Chen's research data has revealed the location of the main laboratory facility, but reconnaissance shows it's overrun and cut off. This abandoned military industrial complex is the perfect staging ground to prepare for the final assault and vaccine development mission.
+
+'''Completion Message:''' "Forward operating base is secured and supply lines established. The laboratory is within reach - time for the final mission."
+
+'''Post-Mission Play:''' Map does not automatically end after 90 days - players can choose to continue indefinitely or proceed to the final laboratory map
 
 ----
 
@@ -155,6 +163,7 @@ City Defense Z's map system rewards '''strategic adaptation''' and '''narrative 
 * '''<span style="color:green">'''[[Buildings]]'''</span>''' - Construction strategies vary by map terrain
 * '''<span style="color:blue">'''[[Resources & Economy Guide]]'''</span>''' - Resource management across extended survival periods
 * '''<span style="color:purple">'''[[Meta Progression (Research System)]]'''</span>''' - Research upgrades essential for later maps
+* '''<span style="color:orange">'''[[World Events System]]'''</span>''' - NPC announcers provide mission progress and atmospheric world updates
 
 ----
 
