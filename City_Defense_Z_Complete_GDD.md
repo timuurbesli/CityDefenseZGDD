@@ -945,7 +945,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 
 ### 4.4 Combat System
 
-**Unit Types:**
+**Unit Types:** 
 
 | **Unit Type** | **Function** | **Merge** | **Resource Cost** |
 |---------------|-------------|-----------|------------------|

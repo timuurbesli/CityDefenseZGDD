@@ -18,7 +18,7 @@ async function uploadToGoogleDrive() {
 
     const drive = google.drive({ version: 'v3', auth });
 
-    // Files to upload (you can customize this list!)
+    // Files to upload
     const files = [
       {
         name: 'City_Defense_Z_Complete_GDD.docx',
