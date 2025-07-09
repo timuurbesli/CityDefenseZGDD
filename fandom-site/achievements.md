@@ -2,7 +2,7 @@
 
 The '''Achievement System''' in City Defense Z rewards mastery across all game systems, from basic survival milestones to advanced tactical accomplishments. Achievements provide both short-term goals for new players and long-term challenges for veterans, with rewards that enhance your progression through [[File:Research_Icon.png|32px]] **Research Points** and other valuable bonuses.
 
-== Achievement Philosophy ==
+== Philosophy ==
 
 City Defense Z's achievements encourage '''diverse gameplay''' and '''progressive mastery''':
 * '''Milestone Progression''' - Clear goals that guide player development
