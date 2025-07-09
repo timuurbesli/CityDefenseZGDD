@@ -3,7 +3,7 @@ name: Convert MD to DOCX and Sync to Google Drive
 on:
   push:
     branches: [ main, master ]
-    paths: 
+    paths:
       - '**.md'
       - '!README.md'
       - '!setup-gdrive.md'
@@ -14,21 +14,21 @@ on:
 jobs:
   convert-and-sync:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-        
+
     - name: Install Pandoc
       run: |
         wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-1-amd64.deb
         sudo dpkg -i pandoc-3.1.9-1-amd64.deb
-        
+
     - name: Install dependencies
       run: |
         cat > package.json << 'EOF'
@@ -44,513 +44,134 @@ jobs:
         EOF
         npm install
 
-    - name: Create custom CSS styling
-      run: |
-        cat > custom-styles.css << 'EOF'
-        /* Import Lexend font from Google Fonts */
-        @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
-        
-        /* Custom CSS for Game Design Document */
-        body {
-          font-family: 'Lexend', 'Segoe UI', system-ui, -apple-system, sans-serif;
-          line-height: 1.6;
-          max-width: 800px;
-          margin: 0 auto;
-          padding: 20px;
-          color: #333;
-        }
-        
-        h1 {
-          color: #2c3e50;
-          border-bottom: 3px solid #3498db;
-          padding-bottom: 10px;
-          font-size: 2.5em;
-          margin-top: 30px;
-        }
-        
-        h2 {
-          color: #34495e;
-          border-left: 4px solid #3498db;
-          padding-left: 15px;
-          font-size: 2em;
-          margin-top: 25px;
-        }
-        
-        h3 {
-          color: #2c3e50;
-          font-size: 1.5em;
-          margin-top: 20px;
-        }
-        
-        h4 {
-          color: #555;
-          font-size: 1.2em;
-          margin-top: 15px;
-        }
-        
-        h5 {
-          color: #666;
-          font-size: 1.1em;
-          margin-top: 10px;
-        }
-        
-        p {
-          margin-bottom: 12px;
-          text-align: justify;
-        }
-        
-        ul, ol {
-          margin-bottom: 15px;
-          padding-left: 25px;
-        }
-        
-        li {
-          margin-bottom: 5px;
-        }
-        
-        blockquote {
-          border-left: 4px solid #bdc3c7;
-          margin: 20px 0;
-          padding: 10px 20px;
-          background-color: #f8f9fa;
-          font-style: italic;
-        }
-        
-        table {
-          width: 100%;
-          border-collapse: collapse;
-          margin: 20px 0;
-        }
-        
-        th, td {
-          border: 1px solid #ddd;
-          padding: 12px;
-          text-align: left;
-        }
-        
-        th {
-          background-color: #3498db;
-          color: white;
-          font-weight: bold;
-        }
-        
-        tr:nth-child(even) {
-          background-color: #f2f2f2;
-        }
-        
-        code {
-          background-color: #f1f2f6;
-          padding: 2px 6px;
-          border-radius: 3px;
-          font-family: 'Courier New', monospace;
-          font-size: 0.9em;
-        }
-        
-        pre {
-          background-color: #2c3e50;
-          color: #ecf0f1;
-          padding: 15px;
-          border-radius: 5px;
-          overflow-x: auto;
-          margin: 15px 0;
-        }
-        
-        pre code {
-          background-color: transparent;
-          color: inherit;
-          padding: 0;
-        }
-        
-        .toc {
-          background-color: #ecf0f1;
-          padding: 20px;
-          border-radius: 5px;
-          margin: 20px 0;
-        }
-        
-        .toc h2 {
-          margin-top: 0;
-          color: #2c3e50;
-        }
-        EOF
-
-    - name: Create Pandoc metadata file
-      run: |
-        cat > metadata.yaml << 'EOF'
-        ---
-        title: "City Defense Z - Complete Game Design Document"
-        subtitle: "Version 1.0 - December 2025"
-        author: "City Defense Z Development Team"
-        date: "December 2025"
-        documentclass: article
-        geometry: margin=1in
-        fontsize: 11pt
-        linestretch: 1.15
-        colorlinks: true
-        linkcolor: blue
-        urlcolor: blue
-        toccolor: black
-        toc: true
-        toc-depth: 3
-        numbersections: true
-        indent: true
-        header-includes:
-          - \usepackage{fancyhdr}
-          - \pagestyle{fancy}
-          - \fancyhead[L]{City Defense Z - Game Design Document}
-          - \fancyhead[R]{\thepage}
-          - \fancyfoot[C]{Confidential - Development Team Only}
-        ---
-        EOF
-
-    - name: Get changed files
-      id: changed-files
-      uses: tj-actions/changed-files@v41
+    - name: Authenticate to Google Cloud
+      uses: google-github-actions/auth@v2
       with:
-        files: |
-          **.md
-        files_ignore: |
-          README.md
-          setup-gdrive.md
-          gdd-template-guide.md
-          template-content.md
+        workload_identity_provider: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+        service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
 
-    - name: Process changed Markdown files
-      id: process-changed-files
-      run: |
-        # Debug information
-        echo "Event name: ${{ github.event_name }}"
-        echo "Changed files detected by action: ${{ steps.changed-files.outputs.all_changed_files }}"
-        echo "Any changed files?: ${{ steps.changed-files.outputs.any_changed }}"
-        
-        # Get list of changed .md files from the action
-        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-          # For manual triggers, process all .md files
-          echo "Manual trigger detected - processing all .md files"
-          changed_files=$(find . -maxdepth 1 -name "*.md" -type f | grep -v -E "(README|setup-gdrive|gdd-template-guide|template-content)\.md$" | tr '\n' ' ')
-        else
-          # For push events, use the changed files from the action
-          echo "Push event detected - using changed files detection"
-          changed_files="${{ steps.changed-files.outputs.all_changed_files }}"
-        fi
-        
-        echo "Final changed .md files: $changed_files"
-        
-        # Create array for upload script
-        echo "CHANGED_MD_FILES<<EOF" >> $GITHUB_ENV
-        echo "$changed_files" >> $GITHUB_ENV
-        echo "EOF" >> $GITHUB_ENV
-        
-        # Also set as output for next step
-        echo "changed_files=$changed_files" >> $GITHUB_OUTPUT
-
-    - name: Convert Markdown to DOCX
-      run: |
-        # Method 1: Using custom CSS (converts to HTML first, then DOCX)
-        convert_with_css() {
-          local input_file="$1"
-          local output_file="$2"
-          
-          echo "Converting $input_file with custom CSS styling..."
-          
-          # First convert to HTML with CSS
-          pandoc "$input_file" \
-            --from markdown \
-            --to html5 \
-            --css custom-styles.css \
-            --standalone \
-            --toc \
-            --toc-depth=3 \
-            --metadata-file=metadata.yaml \
-            --output "${output_file%.docx}.html"
-          
-          # Then convert HTML to DOCX
-          pandoc "${output_file%.docx}.html" \
-            --from html \
-            --to docx \
-            --output "$output_file" \
-            --toc \
-            --toc-depth=3
-        }
-        
-        # Method 2: Using Pandoc built-in styling with metadata
-        convert_with_metadata() {
-          local input_file="$1"
-          local output_file="$2"
-          
-          echo "Converting $input_file with metadata styling..."
-          
-          pandoc "$input_file" \
-            --from markdown \
-            --to docx \
-            --output "$output_file" \
-            --metadata-file=metadata.yaml \
-            --toc \
-            --toc-depth=3 \
-            --highlight-style=tango \
-            --reference-links \
-            --wrap=auto
-        }
-        
-        # Method 3: Clean default Pandoc conversion
-        convert_default() {
-          local input_file="$1"
-          local output_file="$2"
-          
-          echo "Converting $input_file with default Pandoc styling..."
-          
-          pandoc "$input_file" \
-            --from markdown \
-            --to docx \
-            --output "$output_file" \
-            --toc \
-            --toc-depth=3 \
-            --highlight-style=pygments \
-            --reference-links \
-            --wrap=auto \
-            --variable mainfont="Lexend" \
-            --variable fontsize=11pt
-        }
-        
-        # Method 4: Professional business document style
-        convert_professional() {
-          local input_file="$1"
-          local output_file="$2"
-          
-          echo "Converting $input_file with professional styling..."
-          
-          cat > professional-metadata.yaml << 'EOF'
-        ---
-        title: "City Defense Z - Game Design Document"
-        subtitle: "Complete Design Specification"
-        author: "Development Team"
-        date: "December 2025"
-        abstract: |
-          This document contains the complete game design specification for City Defense Z, 
-          a strategic tower defense game combining merge mechanics with tactical combat.
-        keywords: [game design, tower defense, strategy, documentation]
-        lang: en-US
-        documentclass: report
-        geometry: 
-          - top=1in
-          - bottom=1in
-          - left=1.2in
-          - right=1in
-        fontfamily: lexend
-        fontsize: 11pt
-        linestretch: 1.2
-        numbersections: true
-        toc: true
-        toc-depth: 3
-        colorlinks: true
-        linkcolor: NavyBlue
-        urlcolor: NavyBlue
-        header-includes: |
-          \usepackage{fancyhdr}
-          \usepackage{graphicx}
-          \usepackage{xcolor}
-          \pagestyle{fancy}
-          \fancyhf{}
-          \fancyhead[L]{\textcolor{NavyBlue}{\textbf{City Defense Z - GDD}}}
-          \fancyhead[R]{\textcolor{gray}{Page \thepage}}
-          \fancyfoot[C]{\textcolor{gray}{\small Confidential - Internal Use Only}}
-          \renewcommand{\headrulewidth}{0.4pt}
-          \renewcommand{\footrulewidth}{0.4pt}
-        ---
-        EOF
-          
-          pandoc "$input_file" \
-            --from markdown \
-            --to docx \
-            --output "$output_file" \
-            --metadata-file=professional-metadata.yaml \
-            --toc \
-            --toc-depth=3 \
-            --highlight-style=kate \
-            --reference-links
-        }
-        
-        # Choose conversion method based on preference
-        # You can change this to: convert_with_css, convert_with_metadata, convert_default, or convert_professional
-        CONVERSION_METHOD="convert_default"
-        
-        # Get changed files from previous step
-        changed_files="${{ steps.process-changed-files.outputs.changed_files }}"
-        
-        if [ -z "$changed_files" ] || [ "$changed_files" = " " ]; then
-          echo "No .md files changed - skipping conversion"
-          echo "CONVERTED_FILES=" >> $GITHUB_ENV
-        else
-          converted_files=""
-          echo "Processing changed .md files: $changed_files"
-          
-          # Convert each changed .md file
-          for file in $changed_files; do
-            if [ -f "$file" ]; then
-              filename=$(basename "$file" .md)
-              output_file="${filename}.docx"
-              echo "Converting $file to $output_file..."
-              $CONVERSION_METHOD "$file" "$output_file"
-              
-              if [ -f "$output_file" ]; then
-                converted_files="$converted_files $output_file"
-                echo "✅ Successfully converted: $file -> $output_file"
-              else
-                echo "❌ Failed to convert: $file"
-              fi
-            else
-              echo "⚠️  File not found: $file"
-            fi
-          done
-          
-          echo "CONVERTED_FILES=$converted_files" >> $GITHUB_ENV
-          echo "Converted files: $converted_files"
-        fi
-        
-        # Clean up temporary files
-        rm -f *.html professional-metadata.yaml
-        
     - name: Create upload script
       run: |
         cat > upload-to-gdrive.js << 'EOF'
         const { google } = require('googleapis');
         const fs = require('fs');
-        const path = require('path');
 
         async function uploadToGoogleDrive() {
           try {
+            const folderId = process.env.GOOGLE_DRIVE_FOLDER_ID;
+            if (!folderId) {
+              console.error('💥 ERROR: GOOGLE_DRIVE_FOLDER_ID is not set!');
+              process.exit(1);
+            }
+            console.log('📌 Using Google Drive Folder ID:', folderId);
+
+            const auth = new google.auth.GoogleAuth({
+              scopes: ['https://www.googleapis.com/auth/drive.file']
+            });
+            const drive = google.drive({ version: 'v3', auth });
+
+            const convertedFiles = (process.env.CONVERTED_FILES || '')
+              .trim()
+              .split(' ')
+              .filter(f => f.length > 0);
+
             console.log('🚀 Starting Google Drive upload process...');
-            console.log('Changed MD files:', process.env.CHANGED_MD_FILES || 'None');
-            console.log('Converted files:', process.env.CONVERTED_FILES || 'None');
-            
-            // Parse service account credentials
-            const serviceAccount = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
-            
-            // Create JWT client
-            const jwtClient = new google.auth.JWT(
-              serviceAccount.client_email,
-              null,
-              serviceAccount.private_key,
-              ['https://www.googleapis.com/auth/drive']
-            );
-            
-            // Authorize
-            await jwtClient.authorize();
-            
-            // Create drive API instance
-            const drive = google.drive({ version: 'v3', auth: jwtClient });
-            
-            // Get list of converted files from environment variable
-            const convertedFiles = process.env.CONVERTED_FILES ? 
-              process.env.CONVERTED_FILES.trim().split(' ').filter(f => f.length > 0) : [];
-            
-            console.log('Converted files from environment:', convertedFiles);
-            
+            console.log('Converted files:', convertedFiles);
+
             if (convertedFiles.length === 0) {
-              console.log('No files were converted - skipping upload');
+              console.log('⚠️  No converted files to upload. Exiting.');
               return;
             }
-            
-            // Only upload the files that were actually converted
-            const filesToUpload = convertedFiles.filter(file => fs.existsSync(file));
-            
-            const uploadResults = [];
-            
-            for (const fileName of filesToUpload) {
-              if (fs.existsSync(fileName)) {
-                console.log(`Uploading ${fileName}...`);
-                
-                // Check if file already exists in Drive
-                const existingFiles = await drive.files.list({
-                  q: `name='${fileName}' and parents in '${process.env.GOOGLE_DRIVE_FOLDER_ID}'`,
+
+            for (const fileName of convertedFiles) {
+              if (!fs.existsSync(fileName)) {
+                console.log(`⚠️  File not found locally: ${fileName}`);
+                continue;
+              }
+
+              try {
+                const existing = await drive.files.list({
+                  q: `name='${fileName}' and '${folderId}' in parents and trashed=false`,
                   fields: 'files(id, name)'
                 });
-                
+
                 const fileMetadata = {
                   name: fileName,
-                  parents: [process.env.GOOGLE_DRIVE_FOLDER_ID]
+                  parents: [folderId]
                 };
-                
+
                 const media = {
                   mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
                   body: fs.createReadStream(fileName)
                 };
-                
-                let result;
-                if (existingFiles.data.files.length > 0) {
-                  // Update existing file
-                  result = await drive.files.update({
-                    fileId: existingFiles.data.files[0].id,
-                    media: media
+
+                if (existing.data.files.length > 0) {
+                  const fileId = existing.data.files[0].id;
+                  console.log(`📝 Updating existing file: ${fileName}`);
+                  await drive.files.update({
+                    fileId,
+                    media,
+                    fields: 'id, name, modifiedTime'
                   });
-                  console.log(`Updated ${fileName} with ID: ${result.data.id}`);
+                  console.log(`✅ Updated: ${fileName}`);
                 } else {
-                  // Create new file
-                  result = await drive.files.create({
+                  console.log(`📄 Creating new file: ${fileName}`);
+                  const response = await drive.files.create({
                     resource: fileMetadata,
-                    media: media,
-                    fields: 'id'
+                    media,
+                    fields: 'id, name, webViewLink'
                   });
-                  console.log(`Uploaded ${fileName} with ID: ${result.data.id}`);
+                  console.log(`✅ Created: ${fileName}`);
+                  console.log(`🔗 Link: ${response.data.webViewLink}`);
                 }
-                
-                uploadResults.push({
-                  fileName: fileName,
-                  fileId: result.data.id,
-                  status: 'success'
-                });
-              } else {
-                console.log(`File ${fileName} not found, skipping...`);
-                uploadResults.push({
-                  fileName: fileName,
-                  status: 'not_found'
-                });
+              } catch (error) {
+                console.error(`❌ Error uploading ${fileName}:`, error.message);
               }
             }
-            
-            // Create sync report
-            const syncReport = {
-              timestamp: new Date().toISOString(),
-              changedMdFiles: process.env.CHANGED_MD_FILES ? process.env.CHANGED_MD_FILES.trim().split(' ').filter(f => f.length > 0) : [],
-              convertedFiles: convertedFiles,
-              uploadedFiles: filesToUpload,
-              results: uploadResults,
-              totalFiles: uploadResults.length,
-              successfulUploads: uploadResults.filter(r => r.status === 'success').length
+
+            const timestamp = new Date().toISOString();
+            const summary = {
+              timestamp,
+              convertedFiles,
+              status: 'completed'
             };
-            
-            console.log('Sync Report:', JSON.stringify(syncReport, null, 2));
-            
-            // Upload sync report to Drive
-            const reportMetadata = {
-              name: `sync-report-${new Date().toISOString().split('T')[0]}.json`,
-              parents: [process.env.GOOGLE_DRIVE_FOLDER_ID]
+
+            console.log('📊 Upload Summary:', JSON.stringify(summary, null, 2));
+
+            const summaryMetadata = {
+              name: `GDD_Sync_Report_${timestamp.split('T')[0]}.json`,
+              parents: [folderId]
             };
-            
-            const reportMedia = {
+
+            const summaryMedia = {
               mimeType: 'application/json',
-              body: JSON.stringify(syncReport, null, 2)
+              body: Buffer.from(JSON.stringify(summary, null, 2))
             };
-            
+
+            console.log('📄 Creating summary report in Google Drive...');
             await drive.files.create({
-              resource: reportMetadata,
-              media: reportMedia,
-              fields: 'id'
+              resource: summaryMetadata,
+              media: summaryMedia,
+              fields: 'id, name, webViewLink'
             });
-            
-            console.log('✅ All files synced successfully to Google Drive!');
-            
+            console.log('✅ Summary report uploaded successfully!');
+            console.log('🎉 All files successfully synced to Google Drive!');
+
           } catch (error) {
-            console.error('❌ Error uploading to Google Drive:', error.message);
+            console.error('💥 Fatal error in upload process:', error);
             process.exit(1);
           }
         }
 
+        process.on('unhandledRejection', (reason, promise) => {
+          console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+          process.exit(1);
+        });
+
         uploadToGoogleDrive();
         EOF
-        
+
     - name: Upload to Google Drive
+      run: node upload-to-gdrive.js
       env:
-        GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
         GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
-      run: node upload-to-gdrive.js 

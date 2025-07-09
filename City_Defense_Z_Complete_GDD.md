@@ -960,7 +960,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 |---------------|-------------|---------------|-----------|----------|
 | **Landmines** | Single-use explosive | 1x1 | No | Ammunition |
 | **Outpost Tower** | Continuous ranged attacks | 3x3 | Yes | Ammunition |
-| **Defense Wall** | Physical barrier | 1x1 | No | Ammunition |
+| **Defense Wall** | Ph ysical barrier | 1x1 | No | Ammunition |
 
 **Pathfinding & Combat:**
 
