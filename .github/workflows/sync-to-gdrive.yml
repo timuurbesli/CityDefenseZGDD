@@ -54,6 +54,33 @@ jobs:
         workload_identity_provider: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
         service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
 
+    - name: Find all Markdown files to convert
+      id: find-md
+      run: |
+        echo "Finding all .md files except excluded ones..."
+        md_files=$(find . -type f -name "*.md" ! -name "README.md" ! -name "setup-gdrive.md" ! -name "gdd-template-guide.md" ! -name "template-content.md")
+        echo "Found Markdown files:"
+        echo "$md_files"
+        
+        converted_files=""
+        for md in $md_files; do
+          base=$(basename "$md" .md)
+          converted_files="$converted_files ${base}.docx"
+        done
+
+        echo "CONVERTED_FILES=$converted_files" >> $GITHUB_ENV
+        echo "Converted DOCX files will be:"
+        echo "$converted_files"
+
+    - name: Convert all Markdown files to DOCX
+      run: |
+        for md in $(find . -type f -name "*.md" ! -name "README.md" ! -name "setup-gdrive.md" ! -name "gdd-template-guide.md" ! -name "template-content.md"); do
+          base=$(basename "$md" .md)
+          out="${base}.docx"
+          echo "Converting $md to $out..."
+          pandoc "$md" --from markdown --to docx --output "$out" --toc --toc-depth=3
+        done
+
     - name: Create upload script
       run: |
         cat > upload-to-gdrive.js << 'EOF'
@@ -87,9 +114,15 @@ jobs:
               return;
             }
 
+            const uploadResults = [];
+
             for (const fileName of convertedFiles) {
               if (!fs.existsSync(fileName)) {
                 console.log(`⚠️  File not found locally: ${fileName}`);
+                uploadResults.push({
+                  fileName,
+                  status: 'not_found'
+                });
                 continue;
               }
 
@@ -109,10 +142,11 @@ jobs:
                   body: fs.createReadStream(fileName)
                 };
 
+                let result;
                 if (existing.data.files.length > 0) {
                   const fileId = existing.data.files[0].id;
                   console.log(`📝 Updating existing file: ${fileName}`);
-                  await drive.files.update({
+                  result = await drive.files.update({
                     fileId,
                     media,
                     fields: 'id, name, modifiedTime'
@@ -120,16 +154,27 @@ jobs:
                   console.log(`✅ Updated: ${fileName}`);
                 } else {
                   console.log(`📄 Creating new file: ${fileName}`);
-                  const response = await drive.files.create({
+                  result = await drive.files.create({
                     resource: fileMetadata,
                     media,
                     fields: 'id, name, webViewLink'
                   });
                   console.log(`✅ Created: ${fileName}`);
-                  console.log(`🔗 Link: ${response.data.webViewLink}`);
+                  console.log(`🔗 Link: ${result.data.webViewLink}`);
                 }
+
+                uploadResults.push({
+                  fileName,
+                  fileId: result.data.id,
+                  status: 'success'
+                });
               } catch (error) {
                 console.error(`❌ Error uploading ${fileName}:`, error.message);
+                uploadResults.push({
+                  fileName,
+                  status: 'error',
+                  error: error.message
+                });
               }
             }
 
@@ -137,6 +182,7 @@ jobs:
             const summary = {
               timestamp,
               convertedFiles,
+              results: uploadResults,
               status: 'completed'
             };
 

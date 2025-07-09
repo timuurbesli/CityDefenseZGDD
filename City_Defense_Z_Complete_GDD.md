@@ -954,7 +954,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 | **Machine Gun (Bixi)** | High fire rate, anti-swarm | No | Ammunition |
 | **Rocket Launcher** | Heavy damage, anti-armor | No | Ammunition |
 
-**Defensive Structures:**
+**Defensive S tructures:**
 
 | **Structure** | **Function** | **Grid Size** | **Merge** | **Cost** |
 |---------------|-------------|---------------|-----------|----------|
