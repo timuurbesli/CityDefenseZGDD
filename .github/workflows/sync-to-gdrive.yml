@@ -54,32 +54,75 @@ jobs:
         workload_identity_provider: ${{ secrets.GCP_WORKLOAD_IDENTITY_PROVIDER }}
         service_account: ${{ secrets.GCP_SERVICE_ACCOUNT }}
 
-    - name: Find all Markdown files to convert
-      id: find-md
-      run: |
-        echo "Finding all .md files except excluded ones..."
-        md_files=$(find . -type f -name "*.md" ! -name "README.md" ! -name "setup-gdrive.md" ! -name "gdd-template-guide.md" ! -name "template-content.md")
-        echo "Found Markdown files:"
-        echo "$md_files"
-        
-        converted_files=""
-        for md in $md_files; do
-          base=$(basename "$md" .md)
-          converted_files="$converted_files ${base}.docx"
-        done
+    - name: Get changed Markdown files
+      id: changed-files
+      uses: tj-actions/changed-files@v41
+      with:
+        files: |
+          **.md
+        files_ignore: |
+          README.md
+          setup-gdrive.md
+          gdd-template-guide.md
+          template-content.md
 
-        echo "CONVERTED_FILES=$converted_files" >> $GITHUB_ENV
-        echo "Converted DOCX files will be:"
-        echo "$converted_files"
-
-    - name: Convert all Markdown files to DOCX
+    - name: Process changed Markdown files
+      id: process-changed-files
       run: |
-        for md in $(find . -type f -name "*.md" ! -name "README.md" ! -name "setup-gdrive.md" ! -name "gdd-template-guide.md" ! -name "template-content.md"); do
-          base=$(basename "$md" .md)
-          out="${base}.docx"
-          echo "Converting $md to $out..."
-          pandoc "$md" --from markdown --to docx --output "$out" --toc --toc-depth=3
-        done
+        echo "Detected changed .md files: ${{ steps.changed-files.outputs.all_changed_files }}"
+
+        if [ "${{ steps.changed-files.outputs.any_changed }}" = "false" ]; then
+          echo "No .md files changed - skipping conversion."
+          echo "CHANGED_MD_FILES=" >> $GITHUB_ENV
+        else
+          changed_files=""
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            case "$file" in
+              *README.md|*setup-gdrive.md|*gdd-template-guide.md|*template-content.md)
+                echo "Skipping excluded file: $file"
+                ;;
+              *)
+                changed_files="$changed_files $file"
+                ;;
+            esac
+          done
+          
+          changed_files=$(echo "$changed_files" | xargs)
+          echo "Final list of changed .md files: $changed_files"
+
+          echo "CHANGED_MD_FILES=$changed_files" >> $GITHUB_ENV
+          echo "changed_files=$changed_files" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Convert Markdown to DOCX
+      run: |
+        if [ -z "$CHANGED_MD_FILES" ]; then
+          echo "No .md files to convert."
+          echo "CONVERTED_FILES=" >> $GITHUB_ENV
+        else
+          converted_files=""
+          for file in $CHANGED_MD_FILES; do
+            filename=$(basename "$file" .md)
+            output_file="${filename}.docx"
+            echo "Converting $file to $output_file..."
+            pandoc "$file" \
+              --from markdown \
+              --to docx \
+              --output "$output_file" \
+              --toc \
+              --toc-depth=3 \
+              --highlight-style=pygments
+            if [ -f "$output_file" ]; then
+              converted_files="$converted_files $output_file"
+              echo "✅ Converted: $output_file"
+            else
+              echo "❌ Failed to convert: $file"
+            fi
+          done
+
+          converted_files=$(echo "$converted_files" | xargs)
+          echo "CONVERTED_FILES=$converted_files" >> $GITHUB_ENV
+        fi
 
     - name: Create upload script
       run: |
@@ -103,11 +146,8 @@ jobs:
 
             const convertedFiles = (process.env.CONVERTED_FILES || '')
               .trim()
-              .split(' ')
+              .split(/\s+/)
               .filter(f => f.length > 0);
-
-            console.log('🚀 Starting Google Drive upload process...');
-            console.log('Converted files:', convertedFiles);
 
             if (convertedFiles.length === 0) {
               console.log('⚠️  No converted files to upload. Exiting.');
@@ -118,11 +158,8 @@ jobs:
 
             for (const fileName of convertedFiles) {
               if (!fs.existsSync(fileName)) {
-                console.log(`⚠️  File not found locally: ${fileName}`);
-                uploadResults.push({
-                  fileName,
-                  status: 'not_found'
-                });
+                console.warn(`⚠️  File not found locally: ${fileName}`);
+                uploadResults.push({ fileName, status: 'not_found' });
                 continue;
               }
 
@@ -168,6 +205,7 @@ jobs:
                   fileId: result.data.id,
                   status: 'success'
                 });
+
               } catch (error) {
                 console.error(`❌ Error uploading ${fileName}:`, error.message);
                 uploadResults.push({
@@ -198,23 +236,24 @@ jobs:
               body: Buffer.from(JSON.stringify(summary, null, 2))
             };
 
-            console.log('📄 Creating summary report in Google Drive...');
+            console.log('📄 Uploading summary report...');
             await drive.files.create({
               resource: summaryMetadata,
               media: summaryMedia,
               fields: 'id, name, webViewLink'
             });
-            console.log('✅ Summary report uploaded successfully!');
-            console.log('🎉 All files successfully synced to Google Drive!');
+
+            console.log('✅ Summary report uploaded!');
+            console.log('🎉 All files processed successfully!');
 
           } catch (error) {
-            console.error('💥 Fatal error in upload process:', error);
+            console.error('💥 Fatal error:', error.message);
             process.exit(1);
           }
         }
 
-        process.on('unhandledRejection', (reason, promise) => {
-          console.error('Unhandled Rejection at:', promise, 'reason:', reason);
+        process.on('unhandledRejection', (reason) => {
+          console.error('💥 Unhandled Rejection:', reason);
           process.exit(1);
         });
 

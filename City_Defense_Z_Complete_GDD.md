@@ -963,7 +963,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 | **Defense Wall** | Physical barrier | 1x1 | No | Ammunition |
  
 **Pathfinding & Combatt:**
-
+  
 **Zombie Movement:**
 
 - **Direct Approach:** Zombies move straight toward base, attack walls in direct path
