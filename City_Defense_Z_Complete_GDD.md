@@ -955,7 +955,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 | **Rocket Launcher** | Heavy damage, anti-armor | No | Ammunition |
 
 **Defensive S tructures:**
- 
+  
 | **Structure** | **Function** | **Grid Size** | **Merge** | **Cost** |
 |---------------|-------------|---------------|-----------|----------|
 | **Landmines** | Single-use explosive | 1x1 | No | Ammunition |
