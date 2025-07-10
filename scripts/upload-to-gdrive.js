@@ -16,7 +16,7 @@ async function uploadToGoogleDrive() {
 
     // Use ADC (which works in GitHub Actions after google-github-actions/auth@v2)
     const auth = new google.auth.GoogleAuth({
-      scopes: ['https://www.googleapis.com/auth/drive.file']
+      scopes: ['https://www.googleapis.com/auth/drive']
     });
     const drive = google.drive({ version: 'v3', auth });
 
@@ -25,13 +25,19 @@ async function uploadToGoogleDrive() {
     try {
       const folderInfo = await drive.files.get({
         fileId: folderId,
-        fields: 'id, name, mimeType'
+        fields: 'id, name, mimeType, parents',
+        supportsAllDrives: true
       });
       console.log('✅ Folder accessible:', folderInfo.data.name);
+      console.log('📁 Folder type:', folderInfo.data.mimeType);
+      if (folderInfo.data.parents) {
+        console.log('📍 Folder parents:', folderInfo.data.parents);
+      }
     } catch (error) {
       console.error('❌ Cannot access folder:', error.message);
       console.error('🛠️  Please ensure the service account has access to the folder');
       console.error('📧 Service account should be shared with:', process.env.GOOGLE_SERVICE_ACCOUNT || 'service account email');
+      console.error('💡 If folder is in a Shared Drive, add service account to the Shared Drive');
       process.exit(1);
     }
 
@@ -60,7 +66,9 @@ async function uploadToGoogleDrive() {
         console.log(`🔍 Checking for existing file: ${fileName}`);
         const existing = await drive.files.list({
           q: `name='${fileName}' and '${folderId}' in parents and trashed=false`,
-          fields: 'files(id, name)'
+          fields: 'files(id, name)',
+          supportsAllDrives: true,
+          includeItemsFromAllDrives: true
         });
 
         const fileMetadata = {
@@ -80,7 +88,8 @@ async function uploadToGoogleDrive() {
           result = await drive.files.update({
             fileId,
             media,
-            fields: 'id, name, modifiedTime'
+            fields: 'id, name, modifiedTime',
+            supportsAllDrives: true
           });
           console.log(`✅ Updated: ${fileName}`);
         } else {
@@ -88,7 +97,8 @@ async function uploadToGoogleDrive() {
           result = await drive.files.create({
             resource: fileMetadata,
             media,
-            fields: 'id, name, webViewLink'
+            fields: 'id, name, webViewLink',
+            supportsAllDrives: true
           });
           console.log(`✅ Created: ${fileName}`);
           console.log(`🔗 Link: ${result.data.webViewLink}`);
@@ -137,7 +147,8 @@ async function uploadToGoogleDrive() {
       const summaryResult = await drive.files.create({
         resource: summaryMetadata,
         media: summaryMedia,
-        fields: 'id, name, webViewLink'
+        fields: 'id, name, webViewLink',
+        supportsAllDrives: true
       });
       console.log('✅ Summary report uploaded!');
       console.log('🔗 Summary link:', summaryResult.data.webViewLink);
