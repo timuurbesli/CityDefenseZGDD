@@ -934,7 +934,7 @@ Clean, intuitive menu design that emphasizes clarity and thematic consistency wh
 - **Flexible Patterns:** Horizontal, vertical, and L-shaped adjacency all valid
 
 - **Visual Feedback:** Level numbers and merge readiness indicators
-
+ 
 **Strategic Elements:**
 
 - **Spatial Planning:** Control placement for optimal merge opportunities
