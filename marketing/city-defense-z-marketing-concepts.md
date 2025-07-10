@@ -6,9 +6,9 @@ Marketing concepts for TikTok and Instagram content creation. These concepts ser
 ## Content Concepts
 
 ### 1. Dev-log Content
-
-**Strategy**: Create development logs using AI-generated developer voice to overcome team capacity limitations and international strategy challenges.
  
+**Strategy**: Create development logs using AI-generated developer voice to overcome team capacity limitations and international strategy challenges.
+   
 **Approach**:
 - Use ElevenLabs to generate developer voice
 - Create content about in-game development process

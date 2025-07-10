@@ -10,7 +10,7 @@
 - **Hedef Kitle Uyumu**: Oyuncu kitlesinin tercihleriyle ne kadar uyumlu?
 
 --- 
-
+  
 ## Orijinal Konsept Puanları
 
 | Konsept | Kalite/Yaratıcılık | Viral Potansiyel | İçerik Hacmi | Uygulama Kolaylığı | Kitle Uyumu | **Toplam Puan** | **Sıra** |

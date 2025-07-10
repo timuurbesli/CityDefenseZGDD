@@ -9,7 +9,7 @@
 - **Implementation Ease**: How easy is it to implement with current resources?
 - **Target Audience Fit**: How well does it match gaming audience preferences?
 
----
+--- 
  
 ## Brainstorm Concepts Scoring
 

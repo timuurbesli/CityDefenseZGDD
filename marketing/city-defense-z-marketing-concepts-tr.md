@@ -80,13 +80,13 @@ Ekranda 4 tane seçenek. Doğru cevap en son işaretlenecek.
 - Oyun mekaniği ve wishlist CTA'sına bağlama
 
 **Örnek Hikaye**:
-```
+``` 
 "Geçtiğimiz günlerde Polonya'da yaşayan bir adam, bir sabah komşularının şaşkın bakışları 
 eşliğinde evinin çevresine büyükçe bir hendek kazmaya başladı. Gelen geçen soruyor:
 'Napıyorsunuz?'
 Adam sadece tek bir şey söylüyor:
 'Gece gelmeden hazır olmam lazım.'
-
+ 
 İlk gün sadece hendek kazdı.
 İkinci gün, kazdığı hendeğe tahtalardan bir köprü inşa etti.
 Üçüncü gün, bahçesine karton kutulardan kuleler yaptı.

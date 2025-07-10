@@ -3,7 +3,7 @@
 ## 🧠 Yaratıcı Kumkutu
 *Kolay referans ve geliştirme takibi için ID numaralı ana konsept tablosu.*
 
----  
+---   
 
 ## 💡 Ana Konsept Tablosu
 
