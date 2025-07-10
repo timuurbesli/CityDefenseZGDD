@@ -144,6 +144,21 @@ jobs:
             });
             const drive = google.drive({ version: 'v3', auth });
 
+            // Verify folder access before proceeding
+            console.log('🔍 Verifying folder access...');
+            try {
+              const folderInfo = await drive.files.get({
+                fileId: folderId,
+                fields: 'id, name, mimeType'
+              });
+              console.log('✅ Folder accessible:', folderInfo.data.name);
+            } catch (error) {
+              console.error('❌ Cannot access folder:', error.message);
+              console.error('🛠️  Please ensure the service account has access to the folder');
+              console.error('📧 Service account should be shared with:', process.env.GOOGLE_SERVICE_ACCOUNT || 'service account email');
+              process.exit(1);
+            }
+
             const convertedFiles = (process.env.CONVERTED_FILES || '')
               .trim()
               .split(/\s+/)
@@ -164,6 +179,7 @@ jobs:
               }
 
               try {
+                console.log(`🔍 Checking for existing file: ${fileName}`);
                 const existing = await drive.files.list({
                   q: `name='${fileName}' and '${folderId}' in parents and trashed=false`,
                   fields: 'files(id, name)'
@@ -182,7 +198,7 @@ jobs:
                 let result;
                 if (existing.data.files.length > 0) {
                   const fileId = existing.data.files[0].id;
-                  console.log(`📝 Updating existing file: ${fileName}`);
+                  console.log(`📝 Updating existing file: ${fileName} (ID: ${fileId})`);
                   result = await drive.files.update({
                     fileId,
                     media,
@@ -208,6 +224,7 @@ jobs:
 
               } catch (error) {
                 console.error(`❌ Error uploading ${fileName}:`, error.message);
+                console.error('Error details:', error);
                 uploadResults.push({
                   fileName,
                   status: 'error',
@@ -233,21 +250,26 @@ jobs:
 
             const summaryMedia = {
               mimeType: 'application/json',
-              body: JSON.stringify(summary, null, 2)
+              body: Buffer.from(JSON.stringify(summary, null, 2))
             };
 
             console.log('📄 Uploading summary report...');
-            await drive.files.create({
-              resource: summaryMetadata,
-              media: summaryMedia,
-              fields: 'id, name, webViewLink'
-            });
-
-            console.log('✅ Summary report uploaded!');
+            try {
+              const summaryResult = await drive.files.create({
+                resource: summaryMetadata,
+                media: summaryMedia,
+                fields: 'id, name, webViewLink'
+              });
+              console.log('✅ Summary report uploaded!');
+              console.log('🔗 Summary link:', summaryResult.data.webViewLink);
+            } catch (error) {
+              console.error('❌ Error uploading summary report:', error.message);
+            }
             console.log('🎉 All files processed successfully!');
 
           } catch (error) {
             console.error('💥 Fatal error:', error.message);
+            console.error('Full error details:', error);
             process.exit(1);
           }
         }
@@ -264,3 +286,4 @@ jobs:
       run: node upload-to-gdrive.js
       env:
         GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
+        GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}

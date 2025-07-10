@@ -20,6 +20,21 @@ async function uploadToGoogleDrive() {
     });
     const drive = google.drive({ version: 'v3', auth });
 
+    // Verify folder access before proceeding
+    console.log('🔍 Verifying folder access...');
+    try {
+      const folderInfo = await drive.files.get({
+        fileId: folderId,
+        fields: 'id, name, mimeType'
+      });
+      console.log('✅ Folder accessible:', folderInfo.data.name);
+    } catch (error) {
+      console.error('❌ Cannot access folder:', error.message);
+      console.error('🛠️  Please ensure the service account has access to the folder');
+      console.error('📧 Service account should be shared with:', process.env.GOOGLE_SERVICE_ACCOUNT || 'service account email');
+      process.exit(1);
+    }
+
     // Get list of converted .docx files
     const convertedFiles = (process.env.CONVERTED_FILES || '')
       .trim()
@@ -42,6 +57,7 @@ async function uploadToGoogleDrive() {
 
       try {
         // Check if file already exists in Drive
+        console.log(`🔍 Checking for existing file: ${fileName}`);
         const existing = await drive.files.list({
           q: `name='${fileName}' and '${folderId}' in parents and trashed=false`,
           fields: 'files(id, name)'
@@ -60,7 +76,7 @@ async function uploadToGoogleDrive() {
         let result;
         if (existing.data.files.length > 0) {
           const fileId = existing.data.files[0].id;
-          console.log(`📝 Updating existing file: ${fileName}`);
+          console.log(`📝 Updating existing file: ${fileName} (ID: ${fileId})`);
           result = await drive.files.update({
             fileId,
             media,
@@ -86,6 +102,7 @@ async function uploadToGoogleDrive() {
 
       } catch (error) {
         console.error(`❌ Error uploading ${fileName}:`, error.message);
+        console.error('Error details:', error);
         uploadResults.push({
           fileName,
           status: 'error',
@@ -116,17 +133,23 @@ async function uploadToGoogleDrive() {
     };
 
     console.log('📄 Uploading summary report...');
-    await drive.files.create({
-      resource: summaryMetadata,
-      media: summaryMedia,
-      fields: 'id, name, webViewLink'
-    });
+    try {
+      const summaryResult = await drive.files.create({
+        resource: summaryMetadata,
+        media: summaryMedia,
+        fields: 'id, name, webViewLink'
+      });
+      console.log('✅ Summary report uploaded!');
+      console.log('🔗 Summary link:', summaryResult.data.webViewLink);
+    } catch (error) {
+      console.error('❌ Error uploading summary report:', error.message);
+    }
 
-    console.log('✅ Summary report uploaded!');
     console.log('🎉 All files processed successfully!');
 
   } catch (error) {
     console.error('💥 Fatal error:', error.message);
+    console.error('Full error details:', error);
     process.exit(1);
   }
 }
