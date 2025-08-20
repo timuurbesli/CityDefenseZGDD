@@ -67,7 +67,7 @@ Araştırma puanı üretir. Kalıcı yükseltmeler için.
 ⚔️ Kışla (Turuncu)
 Asker üretir. Savunman için gerekli.
 
-[NEXT BUTONU]
+[NEXT BUTONU BİNA YERLEŞTİRMEDEN BASILAMAZ] 
 ```
 
 #### Teknik Notlar:
@@ -127,22 +127,124 @@ Hazırlıkların tamam! Şimdi geceyi başlat.
 
 Zombiler gelecek! Savunman hazır mı?
 
-Gece savaşında:
-• Zombiler dalgalar halinde gelir
-• Askerler otomatik savaşır  
-• Boost'ları toplamayı unutma!
-
 [NEXT BUTONU]
 ```
 
 #### Teknik Notlar:
 - "End Day" butonuna highlight/glow efekti
 - GIF End Day butonuna tıklamayı gösterir
-- Bu adımdan sonra gece savaşı başlar
+- Bu adımdan sonra gece savaşı başlar ve otomatik olarak 5. adıma geçer
 
 ---
 
-### 5. Adım: Game Over Sonrası - Meta Upgrades
+### 5. Adım: Gece Savaşı
+**Konum**: Kamera war grid pozisyonuna odaklanır  
+**Panel Konumu**: Sağ panel güncellenir  
+**Tetikleyici**: Gece başladıktan sonra otomatik  
+**Süre**: 120 saniye gece süresi boyunca
+
+#### Panel İçeriği:
+```
+⚔️ GECE SAVAŞI
+
+Zombiler geldi! Savaş başladı!
+
+⏰ 120 saniye hayatta kal veya tüm zombileri öldür!
+
+Gece savaşında:
+• Zombiler dalgalar halinde gelir
+• Askerler otomatik savaşır  
+• Boost'ları toplamayı unutma!
+
+✈️ HAVA DESTEĞİ:
+Kalabalık zombie bölgelerine hava desteği kullan!
+
+[GIF: Airstrike kullanımı - zombilere hava saldırısı]
+
+• Gecede maksimum 2 hava desteği kullanabilirsin
+• Crowded zombie gruplarına kullan
+• Büyük hasar verir!
+
+[NEXT BUTONU - basılabilir ]
+```
+
+#### Teknik Notlar:
+- Kamera otomatik olarak war grid'e odaklanır
+- Zombiler spawn olmaya başlar
+- NEXT butonu 120 saniye sonra veya tüm zombiler öldükten sonra aktif olur
+- Airstrike kullanımı GIF ile gösterilir
+- Panel gece boyunca açık kalır
+
+---
+
+### 6. Adım: Kaynak Toplama
+**Konum**: Kamera building grid'deki yerleştirilmiş binaya odaklanır  
+**Panel Konumu**: Sağ panel güncellenir  
+**Etkileşim**: Binadan kaynak toplama zorunlu
+
+#### Panel İçeriği:
+```
+💰 KAYNAK TOPLAMA
+
+Gece bitti! Şimdi kaynaklarını topla.
+
+Binalardan kaynak toplamayı öğren:
+
+[GIF: Binaya tıklayarak kaynak toplama]
+
+• Binalar sürekli kaynak üretir
+• Kaynak simgesi belirdiğinde binaya tıkla
+• Kaynakları toplamayı unutma!
+
+⚠️ Bir binadan kaynak toplaman gerekli!
+
+[NEXT BUTONU - İNAKTİF]
+```
+
+#### Teknik Notlar:
+- Kamera yerleştirilmiş bir binaya odaklanır
+- Oyuncu binaya tıklayarak kaynak toplamak zorunda
+- NEXT butonu kaynak toplanana kadar inaktif
+- Kaynak toplama animasyonu vurgulanır
+
+---
+
+### 7. Adım: Çiftlik Yönetimi
+**Konum**: Kamera farm alanına odaklanır  
+**Panel Konumu**: Sağ panel güncellenir  
+**Etkileşim**: Mahsul toplama zorunlu
+
+#### Panel İçeriği:
+```
+🌾 ÇİFTLİK YÖNETİMİ
+
+Son adım! Çiftlik alanını öğren.
+
+Yiyecek kaynağın çok önemli:
+
+[GIF: Mahsullara tıklayarak yiyecek toplama]
+
+• Mahsullere tıklayarak yiyecek topla
+• Yiyecek olmadan AÇLIK debuff'ı alırsın!
+• AÇLIK askerlerin hasarını azaltır
+
+⚠️ Savaş yeteneğin etkilenir, dikkatli ol!
+
+Mahsullardan yiyecek toplaman gerekli:
+
+[NEXT BUTONU - İNAKTİF]
+```
+
+#### Teknik Notlar:
+- Kamera farm alanına odaklanır
+- Oyuncu mahsullara tıklayarak yiyecek toplamak zorunda
+- NEXT butonu yiyecek toplanana kadar inaktif
+- HUNGER debuff'ının önemi vurgulanır
+- Bu son tutorial adımı
+
+---
+
+### 8. Adım: Game Over Sonrası - Meta Upgrades
 **Tetikleyici**: İlk kez Game Over ekranı görüldüğünde  
 **Konum**: Game Over ekranında  
 **Panel Konumu**: Sağ panel açılır
@@ -176,7 +278,7 @@ Her ölümde daha güçlü ol!
 
 ---
 
-### 6. Adım: Ana Menü - Permanent Upgrades
+### 9. Adım: Ana Menü - Permanent Upgrades
 **Tetikleyici**: Ana menüye dönüş sonrası  
 **Konum**: Save slots ekranında  
 **Panel Konumu**: Sağ panel açılır
