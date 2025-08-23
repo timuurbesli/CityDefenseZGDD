@@ -5,7 +5,7 @@
 Soft onboarding system for City Defense Z. Step-by-step player introduction through a sliding panel from the right side of the screen.
 
 ---
-
+ 
 ## STEP 1
 **step_1_title: Camera Movement**
 
