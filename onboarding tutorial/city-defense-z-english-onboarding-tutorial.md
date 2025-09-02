@@ -161,40 +161,94 @@ step_8_description_6: You must collect food from crops to continue.
 ---
 
 ## STEP 9
-**step_9_title: Meta Upgrades**
+**step_9_title: Time Management**
 
-step_9_description_1: Don't worry! Death is part of learning.
+step_9_description_1: We are all set for now, you learned the basics.
 
-step_9_description_2: Click "Continue to Meta Upgrades" button:
+step_9_description_2: Use your time wisely during the day:
 
-[Photo Reference: step (9).png]
-[GIF: Clicking meta upgrades button]
+[GIF: Time running out - day timer counting down]
 
-step_9_description_3: Spend your research points here:
-
-step_9_description_4: Permanent upgrades
-step_9_description_5: Stronger buildings
-step_9_description_6: Better soldiers
-step_9_description_7: New abilities
-
-step_9_description_8: Get stronger with each death!
+step_9_description_3: Night comes automatically unless you click "End Day" button, so plan carefully!
 
 ---
 
 ## STEP 10
-**step_10_title: Permanent Upgrades**
+**step_10_title: Meta Upgrades**
 
-step_10_description_1: One more bonus tip!
+step_10_description_1: Don't worry! Death is part of learning.
 
-step_10_description_2: See the "Permanent Upgrades" button next to save slots:
+step_10_description_2: Click "Continue to Meta Upgrades" button:
+
+[Photo Reference: step (9).png]
+[GIF: Clicking meta upgrades button]
+
+step_10_description_3: Spend your research points here:
+
+step_10_description_4: Permanent upgrades
+step_10_description_5: Stronger buildings
+step_10_description_6: Better soldiers
+step_10_description_7: New abilities
+
+step_10_description_8: Get stronger with each death!
+
+---
+
+## STEP 11
+**step_11_title: Permanent Upgrades**
+
+step_11_description_1: One more bonus tip!
+
+step_11_description_2: See the "Permanent Upgrades" button next to save slots:
 
 [Photo Reference: step (10).png]
 [GIF: Showing permanent upgrades button]
 
-step_10_description_3: You can access permanent upgrades from here too:
+step_11_description_3: You can access permanent upgrades from here too:
 
-step_10_description_4: In-game meta upgrades
-step_10_description_5: Main menu permanent upgrades
-step_10_description_6: Both are the same system!
+step_11_description_4: In-game meta upgrades
+step_11_description_5: Main menu permanent upgrades
+step_11_description_6: Both are the same system!
 
-step_10_description_7: You're ready now! Good luck, commander!
+step_11_description_7: You're ready now! Good luck, commander!
+
+---
+
+## MAP 1 MISSION FOCUS
+**map_1_mission_title: Survive and Repair**
+
+map_1_mission_description_1: Captain, our plane is broken - we need to fix it
+
+map_1_mission_description_2: Survive 30 days until plane repair
+
+---
+
+## MERGESTEP
+**mergestep_title: Building Merge Mechanics**
+
+mergestep_description_1: Advanced building system! Place 3 LV-1 buildings adjacent → Automatic merge to LV-2
+
+[GIF: Building merge patterns - horizontal, vertical, and L-shaped merges]
+
+mergestep_description_2: Merge patterns: Horizontal, Vertical, and L-shaped
+
+mergestep_description_3: Rule: The last-placed building becomes the merged building location
+
+mergestep_tip: Plan your building placement carefully - merges can create powerful combinations!
+
+---
+
+## BOOSTERSTEP
+**boosterstep_title: Booster Collection**
+
+boosterstep_description_1: During night battles, zombies sometimes drop boosters!
+
+boosterstep_description_2: 3 types of boosters: Damage Buff, Fire Rate Buff, and Shield Buff
+
+boosterstep_description_3: Boosters disappear in 5 seconds if not collected - be quick!
+
+[GIF: Zombies dropping boosters and player collecting them quickly]
+
+boosterstep_description_4: Use collected boosters from the right side booster panel
+
+

@@ -35,7 +35,7 @@ The Research system follows a '''three-tier progression structure''' that reward
 
 == Upgrade Trees ==
 
-The Research system features '''8 major upgrade trees''' with multiple sub-categories and over 40 individual upgrades available:
+The Research system features '''10 major upgrade trees''' with multiple sub-categories and over 50 individual upgrades available:
 
 === <span style="color:yellow">1. Buildings</span> ===
 '''Focus:''' Improves building card level probabilities through RNG enhancement
@@ -148,21 +148,109 @@ The Research system features '''8 major upgrade trees''' with multiple sub-categ
 The Combat tree features three specialized sub-categories for comprehensive military enhancement:
 
 ==== Training ====
-'''Description:''' Enhances the default effectiveness and level of all trained soldiers.
+'''Description:''' Enhances soldier level probabilities through RNG improvement when placing soldiers into combat positions.
 
+'''Affects:''' All soldier types - improves the chances of spawning higher-level soldiers when deployed to the battlefield grid.
+
+==== Soldier Level Progression - Detailed RNG Enhancement ====
+
+'''Basic Training (Level 1 Upgrade)'''
 {| class="wikitable" style="text-align:center;"
-! Level !! Name !! Effect !! Cost
+! Soldier Level !! Before (Default) !! After (Basic) !! Change
 |-
-| 1 || Basic Training || +1 Default Soldier Level || [[File:Research_Icon.png|32px]] '''75 RP'''
+|| '''L1''' || 70% || 50% || <span style="color:orange;">⬇️ -20%</span>
 |-
-| 2 || Advanced Training || +2 Default Soldier Level || [[File:Research_Icon.png|32px]] '''125 RP'''
+|| '''L2''' || 25% || 35% || <span style="color:green;">⬆️ +10%</span>
 |-
-| 3 || Elite Training || +3 Default Soldier Level || [[File:Research_Icon.png|32px]] '''175 RP'''
+|| '''L3''' || 5% || 12% || <span style="color:green;">⬆️ +7%</span>
 |-
-| 4 || Special Forces || +4 Default Soldier Level || [[File:Research_Icon.png|32px]] '''250 RP'''
+|| '''L4''' || 0% || 3% || <span style="color:gold;">✨ NEW</span>
 |-
-| 5 || Legendary Warriors || +5 Default Soldier Level || [[File:Research_Icon.png|32px]] '''350 RP'''
+|| '''L5''' || 0% || 0% || <span style="color:gray;">➡️ Same</span>
 |}
+
+'''Advanced Training (Level 2 Upgrade)'''
+{| class="wikitable" style="text-align:center;"
+! Soldier Level !! Before (Basic) !! After (Advanced) !! Change
+|-
+|| '''L1''' || 50% || 30% || <span style="color:orange;">⬇️ -20%</span>
+|-
+|| '''L2''' || 35% || 40% || <span style="color:green;">⬆️ +5%</span>
+|-
+|| '''L3''' || 12% || 22% || <span style="color:green;">⬆️ +10%</span>
+|-
+|| '''L4''' || 3% || 7% || <span style="color:green;">⬆️ +4%</span>
+|-
+|| '''L5''' || 0% || 1% || <span style="color:gold;">✨ NEW</span>
+|}
+
+'''Elite Training (Level 3 Upgrade)'''
+{| class="wikitable" style="text-align:center;"
+! Soldier Level !! Before (Advanced) !! After (Elite) !! Change
+|-
+|| '''L1''' || 30% || 15% || <span style="color:orange;">⬇️ -15%</span>
+|-
+|| '''L2''' || 40% || 35% || <span style="color:orange;">⬇️ -5%</span>
+|-
+|| '''L3''' || 22% || 35% || <span style="color:green;">⬆️ +13%</span>
+|-
+|| '''L4''' || 7% || 12% || <span style="color:green;">⬆️ +5%</span>
+|-
+|| '''L5''' || 1% || 3% || <span style="color:green;">⬆️ +2%</span>
+|}
+
+'''Special Forces (Level 4 Upgrade)'''
+{| class="wikitable" style="text-align:center;"
+! Soldier Level !! Before (Elite) !! After (Special Forces) !! Change
+|-
+|| '''L1''' || 15% || 8% || <span style="color:orange;">⬇️ -7%</span>
+|-
+|| '''L2''' || 35% || 25% || <span style="color:orange;">⬇️ -10%</span>
+|-
+|| '''L3''' || 35% || 40% || <span style="color:green;">⬆️ +5%</span>
+|-
+|| '''L4''' || 12% || 20% || <span style="color:green;">⬆️ +8%</span>
+|-
+|| '''L5''' || 3% || 7% || <span style="color:green;">⬆️ +4%</span>
+|}
+
+'''Legendary Warriors (Level 5 Upgrade - Maximum)'''
+{| class="wikitable" style="text-align:center;"
+! Soldier Level !! Before (Special Forces) !! After (Legendary) !! Change
+|-
+|| '''L1''' || 8% || 3% || <span style="color:orange;">⬇️ -5%</span>
+|-
+|| '''L2''' || 25% || 12% || <span style="color:orange;">⬇️ -13%</span>
+|-
+|| '''L3''' || 40% || 30% || <span style="color:orange;">⬇️ -10%</span>
+|-
+|| '''L4''' || 20% || 35% || <span style="color:green;">⬆️ +15%</span>
+|-
+|| '''L5''' || 7% || 20% || <span style="color:green;">⬆️ +13%</span>
+|}
+
+==== Cumulative Training Progression Summary ====
+{| class="wikitable" style="text-align:center;"
+! Training Stage !! L1 Soldiers !! L2 Soldiers !! L3 Soldiers !! L4 Soldiers !! L5 Soldiers !! Status !! Cost
+|-
+|| '''Default''' || 70% || 25% || 5% || 0% || 0% || <span style="color:red;">Basic</span> || -
+|-
+|| '''Basic Training''' || 50% || 35% || 12% || 3% || 0% || <span style="color:orange;">Improved</span> || [[File:Research_Icon.png|32px]] '''75 RP'''
+|-
+|| '''Advanced Training''' || 30% || 40% || 22% || 7% || 1% || <span style="color:yellow;">Advanced</span> || [[File:Research_Icon.png|32px]] '''125 RP'''
+|-
+|| '''Elite Training''' || 15% || 35% || 35% || 12% || 3% || <span style="color:lightblue;">Superior</span> || [[File:Research_Icon.png|32px]] '''175 RP'''
+|-
+|| '''Special Forces''' || 8% || 25% || 40% || 20% || 7% || <span style="color:purple;">Elite</span> || [[File:Research_Icon.png|32px]] '''250 RP'''
+|-
+|| '''Legendary Warriors''' || 3% || 12% || 30% || 35% || 20% || <span style="color:gold;">Maximum</span> || [[File:Research_Icon.png|32px]] '''350 RP'''
+|}
+
+'''Strategic Benefits:'''
+* '''RNG Enhancement''': Each upgrade level dramatically improves odds of higher-level soldiers when deployed
+* '''Progressive Unlocking''': Higher upgrades unlock access to Level 4 and Level 5 elite soldiers
+* '''Tactical Advantage''': Higher-level soldiers provide superior combat effectiveness and special abilities
+* '''Meta Investment''': Permanent upgrade that enhances all future military deployments
 
 ==== Weapons ====
 '''Description:''' Enhances combat effectiveness through improved fire rate, reload speed, and damage.
@@ -190,7 +278,43 @@ The Combat tree features three specialized sub-categories for comprehensive mili
 | 3 || Wide Bombardment || +50% airstrike radius || [[File:Research_Icon.png|32px]] '''300 RP'''
 |}
 
-=== <span style="color:gray">3. Walls</span> ===
+=== <span style="color:darkgreen">3. Military Arsenal</span> ===
+'''Focus:''' Unlocking advanced combat units and defensive structures
+
+The Military Arsenal tree unlocks powerful combat units and defensive structures that are not available by default. Players start with only '''Basic Soldiers''' and '''Landmines''', and must research to unlock additional military options.
+
+==== Heavy Weapons ====
+'''Description:''' Unlocks specialized heavy weapons for advanced tactical options.
+
+{| class="wikitable" style="text-align:center;"
+! Level !! Name !! Effect !! Cost
+|-
+| 1 || Machine Gun Arsenal || Unlocks '''Machine Gun (Bixi)''' || [[File:Research_Icon.png|32px]] '''150 RP'''
+|-
+| 2 || Rocket Arsenal || Unlocks '''Rocket Launcher''' || [[File:Research_Icon.png|32px]] '''200 RP'''
+|-
+| 3 || Artillery Arsenal || Unlocks '''Mortar''' || [[File:Research_Icon.png|32px]] '''250 RP'''
+|}
+
+==== Defensive Structures ====
+'''Description:''' Unlocks advanced defensive structures for enhanced base protection.
+
+{| class="wikitable" style="text-align:center;"
+! Level !! Name !! Effect !! Cost
+|-
+| 1 || Wall Engineering || Unlocks '''Defense Walls''' || [[File:Research_Icon.png|32px]] '''100 RP'''
+|-
+| 2 || Tower Engineering || Unlocks '''Outpost Towers''' || [[File:Research_Icon.png|32px]] '''175 RP'''
+|}
+
+'''Strategic Benefits:'''
+* '''Progressive Unlocking''': Players must strategically choose which military options to unlock first
+* '''Tactical Diversity''': Each unlock provides new strategic options for different enemy types
+* '''Resource Investment''': High research costs require careful planning and prioritization
+* '''Meta Progression''': Permanent unlocks that enhance all future runs
+* '''Strategic Depth''': Creates meaningful choices in military development path
+
+=== <span style="color:gray">4. Walls</span> ===
 '''Focus:''' Defensive fortification with capacity, durability, and offensive capabilities
 
 The Walls tree provides comprehensive defensive enhancements across three specialized areas:
@@ -244,7 +368,7 @@ The Walls tree provides comprehensive defensive enhancements across three specia
 | 4 || Explosive Walls || Area damage when destroyed || [[File:Research_Icon.png|32px]] '''400 RP'''
 |}
 
-=== <span style="color:red">4. Farm</span> ===
+=== <span style="color:red">5. Farm</span> ===
 '''Focus:''' [[File:FoodIcon.png|32px]] Food security and agricultural efficiency
 
 The Farm tree enhances the <span style="color:red">'''[[Buildings#Farm System (Default Building)|Farm System]]'''</span> across three key areas:
@@ -300,7 +424,7 @@ The Farm tree enhances the <span style="color:red">'''[[Buildings#Farm System (D
 
 '''Total Yield Bonus:''' +250% harvest yield
 
-=== <span style="color:blue">5. Laboratory</span> ===
+=== <span style="color:blue">6. Laboratory</span> ===
 '''Focus:''' Meta progression acceleration
 
 The Laboratory tree enhances <span style="color:blue">'''[[Buildings#Laboratory Buildings (Blue)|Laboratory Buildings]]'''</span> with two specialized upgrade paths:
@@ -339,7 +463,7 @@ The Laboratory tree enhances <span style="color:blue">'''[[Buildings#Laboratory 
 
 '''Total Speed Bonus:''' 10 days faster completion
 
-=== 6. Support ===
+=== 7. Support ===
 '''Focus:''' Expedition and NPC system enhancement
 
 The Support tree provides two specialized enhancement paths:
@@ -372,7 +496,7 @@ The Support tree provides two specialized enhancement paths:
 
 '''Total NPC Bonus:''' +225% buff amplification
 
-=== 7. Revive ===
+=== 8. Revive ===
 '''Focus:''' Ultimate safety net (Most expensive upgrade tree)
 
 ==== Phoenix ====
@@ -390,7 +514,7 @@ The Support tree provides two specialized enhancement paths:
 
 '''Revive Effect:''' Burn all standing zombies, respawn base with 30% HP
 
-=== 8. Reroll Cards ===
+=== 9. Reroll Cards ===
 '''Focus:''' Strategic flexibility in building selection
 
 ==== Cards ====
@@ -408,9 +532,160 @@ The Support tree provides two specialized enhancement paths:
 | 4 || Maximum Rerolls || +1 reroll count (4 total) || [[File:Research_Icon.png|32px]] '''250 RP'''
 |}
 
+=== <span style="color:darkblue">10. Wall Garrison</span> ===
+'''Focus:''' Automated wall defense with mounted [[Combat Units#Machine Gun (Bixi)|Bixi machine guns]]
 
+'''Enhances:''' Defensive walls with permanent machine gun emplacements that provide heavy firepower.
+
+{| class="wikitable" style="text-align:center;"
+! Level !! Name !! Effect !! Cost
+|-
+| 1 || Basic Garrison || Adds 1 bixi to left wall + 1 bixi to right wall || [[File:Research_Icon.png|32px]] '''150 RP'''
+|-
+| 2 || Enhanced Garrison || Adds 2 more bixis (2L + 2R total) || [[File:Research_Icon.png|32px]] '''250 RP'''
+|-
+| 3 || Advanced Garrison || Adds 2 more bixis (3L + 3R total) || [[File:Research_Icon.png|32px]] '''350 RP'''
+|-
+| 4 || Superior Garrison || Adds 2 more bixis (4L + 4R total) || [[File:Research_Icon.png|32px]] '''450 RP'''
+|-
+| 5 || Master Garrison || Adds 2 more bixis (5L + 5R total) || [[File:Research_Icon.png|32px]] '''550 RP'''
+|}
+
+'''Total Garrison Bonus:''' 5 bixis on left wall + 5 bixis on right wall
+
+'''Strategic Benefits:'''
+* '''Permanent Defense''': Wall-mounted machine guns provide constant heavy firepower
+* '''No Resource Cost''': Bixi emplacements don't consume ammunition or require maintenance
+* '''Synergy Potential''': Benefits from <span style="color:orange">'''[[#2. Combat|Combat Upgrades]]'''</span> and other damage-enhancing effects
+* '''Strategic Positioning''': Elevated position provides superior firing angles and coverage
+* '''Automated Coverage''': Machine guns automatically engage enemies without player micro-management
+* '''Defensive Synergy''': Works excellently with <span style="color:gray">'''[[#4. Walls|Wall Upgrades]]'''</span> for comprehensive fortification
+
+==== Visual Placement Guide ====
+'''Key:'''
+* '''W''' = Wall Section
+* '''G''' = Gate
+* '''1-5''' = Bixi Position Number (from gate outwards)
+* '''[[File:Bixi_Left.png|32px]]''' = Bixi Facing Left
+* '''[[File:Bixi_Right.png|32px]]''' = Bixi Facing Right
+
+'''Level 1: 2 Bixis (Positions 1L + 1R)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="width:50px;" |
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="width:50px;" |
+|}
+
+'''Level 2: 4 Bixis (Positions 1-2 on each side)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+|}
+
+'''Level 3: 6 Bixis (Positions 1-3 on each side)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+|}
+
+'''Level 4: 8 Bixis (Positions 1-4 on each side)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+|}
+
+'''Level 5 (Max): 10 Bixis (Positions 1-5 on each side)'''
+{| class="wikitable" style="text-align:center; border-collapse:collapse;"
+| style="width:50px;" |
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#ff0000; color:#fff; border:2px solid #333; width:80px; height:50px;" |'''G'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+| style="background-color:#666; color:#fff; border:2px solid #333; width:50px; height:50px;" |'''W'''
+|-
+| style="width:50px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Left.png|32px]]
+| style="width:80px;" |
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+| style="background-color:#4a4a4a; color:#fff; border:2px solid #333; width:50px; height:50px;" |[[File:Bixi_Right.png|32px]]
+|}
+
+'''Notes:'''
+* Bixi machine guns are numbered from the gate outwards (1-5)
+* Gate is centrally positioned for optimal defense coverage
+* Left-side bixis face left to defend against incoming threats
+* Right-side bixis face right to defend against incoming threats
+* Each upgrade level adds one more bixi position on each side
+* Elevated wall position provides enhanced firing range and coverage
+* Bixi emplacements provide superior sustained firepower compared to individual soldiers
 
 [[Category:Game Systems]]
 [[Category:Progression]]
 [[Category:Research]]
-[[Category:Meta Game]] 
+[[Category:Meta Game]]

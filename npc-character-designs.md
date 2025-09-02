@@ -193,18 +193,7 @@ Slender woman in her early 30s wearing dark, form-fitting tactical gear designed
 
 ---
 
-### 8. "Compass" Jake Harrison
-**Group:** Expedition Group  
-**Avatar:** [Compass_Jake_Avatar.png]  
-**Main Buff:** +50% expedition speed (expeditions complete faster)  
-**Expedition Power:** 75  
 
-**Dialogues:**
-1. *"I know every safe route, hidden cache, and danger zone within a hundred miles. The wasteland's my backyard."*
-2. *"The wasteland's not empty… It's full of stories if you know where to look."*
-3. *"A good map isn't just lines on paper, it's lives saved and resources found."*
-4. *"Every expedition teaches you something new about surviving out there. And I'm STILL learning."*
-5. *"Navigation isn't about knowing where you are… It's about knowing where you're going. Big difference."*
 
 **3D Model Description:** 
 Tall, lean man in his late 30s with weathered features and sun-bleached brown hair. Wears a long desert coat over practical expedition gear. Has a compass pendant, binoculars around his neck, and a walking stick with carved distance markers. Expression is steady and experienced.
@@ -258,4 +247,119 @@ Tall, lean man in his late 30s with weathered features and sun-bleached brown ha
 
 **Animation Considerations:** NPCs should have idle animations reflecting their specializations (Elena tending plants, Kane checking defenses, Kim analyzing data, Shadow scanning for threats).
 
-**Expansion Potential:** Each group can support additional character archetypes while maintaining thematic consistency and mechanical balance. 
+**Expansion Potential:** Each group can support additional character archetypes while maintaining thematic consistency and mechanical balance.
+
+---
+
+## 👥 Civilian Population - Background Voices
+*Focus: Ambient city life, vulnerability, and human element*
+
+### Female Civilian Voice Profile
+**Voice Type:** Soft, uncertain female voice with nervous undertones  
+**Age Range:** 25-45 years old  
+**Tone:** Humble, worried, grateful but fragile  
+
+**Sample Dialogues:**
+
+**Serious Dialogues (70%):**
+1. *"Thank you for keeping us safe... I don't know what we'd do without you."*
+2. *"The children are asking when this will all be over... I wish I had an answer."*
+3. *"Is it... is it safe to go outside today? I need to check on my neighbor."*
+4. *"We're running low on medicine again... but I don't want to be a burden."*
+5. *"I keep having nightmares about them getting through the walls..."*
+6. *"Every day we survive feels like a miracle. Thank you for giving us hope."*
+7. *"My sister was bitten last week... we had to... I can't even say it."*
+8. *"The baby won't stop crying at night. I'm afraid they'll hear us."*
+9. *"I used to be a teacher... now I just try to keep the kids from seeing the bodies."*
+10. *"Food's getting scarce again. Maybe we should consider... rationing more."*
+
+**Funny Dialogues (30%):**
+11. *"You know what I miss most? Pizza delivery! I mean, zombies deliver themselves now, but it's not the same taste!"*
+12. *"My husband turned into a zombie last month... honestly, he's more helpful around the house now!"*
+13. *"The zombies keep trying to use the doorbell! Like, guys, just come in, you're already dead!"*
+14. *"I saw a zombie wearing a 'World's Best Mom' t-shirt today. Well, at least she's still committed to the role!"*
+15. *"The good news? No more awkward small talk with neighbors. The bad news? They're all trying to eat my face."*
+16. *"I tried teaching my kids zombie safety... turns out 'stop, drop, and roll' doesn't work for bites!"*
+17. *"My mother-in-law visited last week. Couldn't tell if she was infected or just her usual charming self!"*
+18. *"The zombies broke into our wine cellar... now they're drunk AND undead. Great combination!"*
+19. *"I miss traffic jams! Now the only thing blocking roads are shambling hordes of the undead."*
+20. *"Dating apps are weird now. Everyone's profile says 'Looking for brains' and they actually mean it!"*
+
+**ElevenLabs Voice Design:**
+- **Voice Type:** Sweet, gentle female voice with caring undertones
+- **Age Range:** 25-45 years old
+- **Tone:** Humble, hopeful, grateful with quiet strength
+- **Walkie-Talkie Effects:** The audio should include clean digital radio compression with light background static that sounds like quality communication equipment, subtle signal modulation with clear voice transmission, and warm ambient shelter sounds including soft conversations and peaceful daily activities. The transmission should feel like it's coming from a well-maintained community radio system with stable signal strength and occasional gentle static fade that adds character without disrupting clarity.
+- **Voice Characteristics:** Gentle speech with natural pauses, voice carries warmth despite circumstances, speaks with quiet confidence and genuine appreciation, occasional soft sighs that show resilience rather than despair
+
+---
+
+### Male Civilian Voice Profile
+**Voice Type:** Tired, humble male voice with defeated undertones  
+**Age Range:** 30-50 years old  
+**Tone:** Weary, respectful, trying to stay strong but clearly struggling  
+
+**Sample Dialogues:**
+
+**Serious Dialogues (70%):**
+1. *"I used to fix cars before... all this. Now I just try to fix whatever breaks around here."*
+2. *"My family's counting on me to stay strong, but some days... it's harder than others."*
+3. *"You folks are the real heroes. I just try to do my part and stay out of the way."*
+4. *"Lost my job, my house, everything... but we're still breathing. That's something, right?"*
+5. *"The kids look up to you defenders. Gives them something to believe in."*
+6. *"I know I'm not much help in a fight, but if there's anything I can do..."*
+7. *"Been three weeks since we lost contact with the outside world... feels like three years."*
+8. *"My back's killing me from sleeping on concrete, but at least I'm still sleeping."*
+9. *"Used to complain about my boss... now I'd give anything to hear him yell at me again."*
+10. *"The wife keeps asking if we'll ever go home... I don't have the heart to tell her."*
+
+**Funny Dialogues (30%):**
+11. *"Well, the good news is I finally lost those 20 pounds I wanted to! The bad news is it was mostly muscle and hope."*
+12. *"My neighbors used to complain about my lawn... now they're literally eating it. And each other."*
+13. *"I always said my job was soul-crushing... turns out zombie apocalypse is way worse for workplace morale!"*
+14. *"The wife's been asking me to take out the trash for weeks. Problem is, the trash keeps trying to bite us!"*
+15. *"Remember when our biggest worry was the WiFi going down? Now I'd kill for a decent internet connection... well, maybe not kill."*
+16. *"My teenage son finally cleaned his room! Course, it was to make space for zombie-proofing, but still counts!"*
+17. *"Gas prices don't matter anymore when every car trip might be your last! Silver lining, right?"*
+18. *"I used to hate Monday mornings... now every morning feels like Monday morning, but with more screaming."*
+19. *"The zombies keep knocking on our door like Jehovah's Witnesses... except they actually want to convert us!"*
+20. *"My mother-in-law always said I'd never amount to anything... joke's on her, nobody's amounting to anything now!"*
+
+**ElevenLabs Voice Design:**
+- **Voice Type:** Warm, humble male voice with caring undertones
+- **Age Range:** 30-50 years old
+- **Tone:** Humble, steady, grateful with quiet determination
+- **Walkie-Talkie Effects:** Clean digital radio compression with light background static that sounds like quality communication equipment, subtle signal modulation with clear voice transmission, and warm ambient shelter sounds including soft conversations and peaceful daily activities. The transmission should feel like it's coming from a well-maintained community radio system with stable signal strength and occasional gentle static fade that adds character without disrupting clarity.
+- **Voice Characteristics:** Steady speech with natural pauses, voice carries warmth and reliability despite circumstances, speaks with humble gratitude and quiet confidence, occasional thoughtful sighs that show resilience rather than defeat
+
+---
+
+## Civilian Voice Implementation Guidelines
+
+### Contrast with Specialist NPCs
+- **Specialists:** Confident, skilled, radio-transmitted, authoritative
+- **Civilians:** Uncertain, vulnerable, face-to-face, humble
+
+### Emotional Range
+- **Gratitude:** Genuine appreciation for protection
+- **Fear:** Underlying anxiety about survival
+- **Hope:** Fragile optimism kept alive by defenders
+- **Weariness:** Exhaustion from constant stress
+
+### Usage Context
+- **Ambient Dialogue:** Background conversations as player moves through city
+- **Resource Requests:** Humble appeals for help or supplies
+- **Status Updates:** Worried reports about civilian needs
+- **Appreciation:** Thank you messages after successful defenses
+
+### Audio Direction
+- **No Radio Effects:** Direct, intimate communication
+- **Natural Acoustics:** Indoor shelter environments
+- **Emotional Authenticity:** Voices should feel genuinely human and vulnerable
+- **Contrast Dynamics:** Weak civilian voices make specialist NPCs feel more heroic
+
+### Recording Notes
+- **Multiple Takes:** Record several variations for each dialogue type
+- **Emotional Subtlety:** Avoid over-acting; keep vulnerability realistic
+- **Age Variation:** Create slight variations for different age ranges within profiles
+- **Background Integration:** Voices should blend naturally with ambient city sounds 
